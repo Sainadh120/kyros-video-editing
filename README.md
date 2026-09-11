@@ -216,6 +216,13 @@ projects/<slug>/out/<slug>-kyros.mp4      -> Kyros accounts
 projects/<slug>/out/<slug>-partner.mp4    -> the doctor's clinic
 ```
 
+And back it up. Media is not in git — until this runs, the only copy of the
+clip, the AI files and the cuts is this disk:
+
+```bash
+python3 scripts/reels.py push <slug>      # to the R2 bucket; see docs/MEDIA.md
+```
+
 ---
 
 # Part 2 — the rules the pipeline works by
@@ -878,7 +885,13 @@ python3 scripts/reels.py build  <slug>          brief -> captions_data.json
 python3 scripts/reels.py stage  <slug>          swap this clip into the studio
 python3 scripts/reels.py render <slug> [kyros|partner]   render a cut (or both)
 python3 scripts/reels.py verify <slug>          check them with numbers
+python3 scripts/reels.py push   <slug|all>      back up clip, AI files, audio, cuts to R2
+python3 scripts/reels.py pull   <slug|all>      bring them back — a fresh clone has no media
 ```
+
+Git holds code, briefs and measurements; clips, AI files, audio and renders are
+ignored and live in the R2 bucket instead (`docs/MEDIA.md`). Push adds and
+never deletes; pull fills in what's missing and never overwrites.
 
 Every `render` keeps the previous cut in `out/versions/` as `…-vN.mp4`, so a new
 version never destroys the one you were comparing against.

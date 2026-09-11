@@ -29,6 +29,7 @@ before the next video, not after.**
 | `tests/test_register.py` | non-repetition, legacy history, pins, extensibility | 11 |
 | `tests/test_delivery.py` | staging, renders, provenance, compliance, opt-in | 26 + 5 skipped |
 | `tests/test_visuals.py` | supporting visuals: off-by-default, timing budgets, cache, approval + lint, failure, metadata, placement, staging, verify, toolkit command, graphics | 104 + 1 slow |
+| `tests/test_media.py` | media out of git: what is backed up, push only adds, pull never overwrites, real rclone round trip, `.gitignore` | 37 |
 
 ---
 
@@ -254,6 +255,26 @@ spoke on that beat ("two or three" = 2 and 3; "10 ,000" = 10000).
 asked, leaves no file, and the build ships that beat as footage. A missing
 Modal endpoint fails fast and names the variable. The toolkit is always called
 with `--cloud modal`; there is no other provider to fall back to.
+
+---
+
+## Media
+
+**The reel behind it.** On 2026-09-11 every inbox clip was deleted from disk by
+another session; git was the only copy. The same day the repo's history stood
+at 2.6 GB, with source clips up to 365 MB — GitHub refuses anything over
+100 MB, so nothing could be pushed.
+
+**Git holds no media.** Clips, AI files, audio, previews and the studio's
+staged copies are ignored; `brand/` artwork, briefs, measurements and AI
+sidecars are not. A test fails if any media outside `brand/` is tracked.
+
+**Push only adds; pull never overwrites.** Push is `rclone copy` followed by a
+file-by-file `rclone check` — never `sync`, never a delete — so a clip deleted
+on disk survives in the bucket. Pull is `copy --ignore-existing`, so a fresh
+re-render is never replaced by the older backed-up cut. Previews, drafts in
+`out/versions/` and `--overlays` layers stay local. The round trip is tested
+against a real rclone with a folder standing in for the bucket.
 
 ---
 

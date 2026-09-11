@@ -14,6 +14,11 @@
              [--approve all|v1,v2] [--reject v3]
              [--generate [--only v1,v2] [--retry]]   through the toolkit on Modal
              [--preview]                             contact sheet of what was generated
+    reels.py push <slug|all>     back up the clip, AI files, audio and cuts to R2
+    reels.py pull <slug|all>     bring them back (fresh clone, another machine)
+
+Media is not in git. `push` after every render; until then the only copy of the
+clip and the cuts is this disk. Setup and the rules are in docs/MEDIA.md.
 
 `prep` also scans the raw clip for anything already burned into it (graphics,
 lower-thirds, on-screen text), derives the caption palette from the measured
@@ -294,6 +299,7 @@ def cmd_render(slug, overlays=False, only=None):
         print(f"\ndone. Post {out}/{slug}-{only}.mp4")
     else:
         print(f"\ndone. Post {out/f'{slug}-kyros.mp4'} and {out/f'{slug}-partner.mp4'}")
+    print(f"Back it up — media is not in git: python3 scripts/reels.py push {slug}")
     return 0
 
 
@@ -379,6 +385,9 @@ def main():
         return cmd_render(slug, "--overlays" in sys.argv, only)
     if cmd == "visuals":
         return cmd_visuals(slug, sys.argv[3:])
+    if cmd in ("push", "pull"):
+        import media
+        return getattr(media, cmd)(slug, PROJECTS)
     if cmd not in fns:
         print(__doc__); return 2
     return fns[cmd](slug) or 0

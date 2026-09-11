@@ -212,6 +212,18 @@ decodable, long enough, has metadata), proves each visual is actually in the
 render, and saves a frame per visual to `out/previews/`. Open those frames.
 It cannot judge whether a picture is good or shows what she said — you can.
 
+Then back it up — media is not in git, so until this runs the clip, the AI
+files and the cuts exist only on this disk:
+
+```bash
+python3 scripts/reels.py push <slug>
+```
+
+It copies to the R2 bucket and checks every file; it never deletes anything
+there. On a fresh clone or a missing clip, `pull <slug>` fills in what's
+missing and never overwrites. Never `git add` media — `.gitignore` blocks it
+and `check` fails if any is tracked. Setup: `Reels/docs/MEDIA.md`.
+
 ## Step 7 — Compliance: check the wording, not the doctor
 
 Two things Niranjan has settled, so don't re-raise them:
@@ -244,3 +256,4 @@ What still needs a read, because it's about wording rather than facts — see
   prompts, safety, Modal, cost, cache, failure
 - `Reels/README.md` — the commands, and what's shared vs per-clip
 - `Reels/docs/VISUALS.md` — toolkit + Modal setup, environment, storage
+- `Reels/docs/MEDIA.md` — where media lives (R2 via rclone), push / pull
