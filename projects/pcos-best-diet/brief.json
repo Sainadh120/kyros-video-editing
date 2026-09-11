@@ -1,0 +1,259 @@
+{
+  "slug": "pcos-best-diet",
+  "clip": "inbox/pcos-best-diet.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "_palette_note": "No palette block: palette.py measures wall #E6BE9B and saree #BAB64C and derives the rotation. Register proposal accepted: light ground (last 2 ran dark), forest card, neutral lead, forest palette lead, classicPress pairing.",
+  "question": {
+    "preset": "forest",
+    "scrimOpacity": 0.6,
+    "_presetNote": "register.py: last clip ran 'ink' -> this takes 'forest' (the Kyros green, cream + amber type).",
+    "_scrimNote": "Niranjan: the doctor stays visible while she speaks the question. 0.60 is the lowest APCA-measured value clearing the 45 Lc floor for both type colours against this footage under the text band (worst-case 5th percentile: cream lead 72.4, amber key 46.4); 0.55 fails the amber at 42.7. Forest's darker ground needs more veil than the ink card did on its clip.",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          6,
+          7,
+          8
+        ],
+        "lines": [
+          "DIET FOR PCOS?"
+        ]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "_beat": "4.5-8.1s  top clear until 8.9s -> the hero beat, big on the bare wall",
+      "lead": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "key": [
+        19,
+        20
+      ],
+      "lines": [
+        "BALANCED MEAL"
+      ],
+      "tone": "keyAlt"
+    },
+    {
+      "_beat": "8.7-15.2s  plate graphic up from 8.9s with the '50% VEGETABLES' label -> low, and the label already says it",
+      "lead": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "key": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "lines": [
+        "50% FIBER",
+        "VEGETABLES"
+      ],
+      "skip": true,
+      "_skipWhy": "graphic reads '50% VEGETABLES' with the labelled plate"
+    },
+    {
+      "_beat": "16.1-19.3s  graphic holds the top -> low. The '25% CARBOHYDRATES' label only appears ~20s, after this beat ends, so no duplication yet",
+      "lead": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "key": [
+        46,
+        47,
+        48
+      ],
+      "lines": [
+        "GOOD CARBS"
+      ]
+    },
+    {
+      "_beat": "19.3-22.3s  her examples — the graphic names the category, not the foods",
+      "lead": [
+        49
+      ],
+      "key": [
+        50,
+        51
+      ],
+      "lines": [
+        "WHOLE GRAINS"
+      ]
+    },
+    {
+      "_beat": "22.3-26.3s  payload-only list",
+      "lead": [
+        52
+      ],
+      "key": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "lines": [
+        "BROWN RICE",
+        "MILLETS, OATS"
+      ]
+    },
+    {
+      "_beat": "26.3-29.0s  SKIPPED — and a discrepancy: she says '20%', her own graphic reads '25% PROTEIN'. Captioning either number over the other is a visible contradiction; the graphic carries it.",
+      "lead": [
+        60
+      ],
+      "key": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "lines": [
+        "PROTEIN"
+      ],
+      "skip": true,
+      "_skipWhy": "graphic reads '25% PROTEIN'; she says 20% — raised to Niranjan rather than captioned over"
+    },
+    {
+      "_beat": "29.0-33.0s  her examples again — additive over the label",
+      "lead": [
+        67
+      ],
+      "key": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "lines": [
+        "EGGS, PANEER,",
+        "MILK, CHICKEN"
+      ]
+    },
+    {
+      "_beat": "33.0-34.9s  graphic clears 33.7s but this beat's life crosses it -> low",
+      "lead": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "key": [
+        79,
+        80
+      ],
+      "lines": [
+        "HEALTHY FATS"
+      ]
+    },
+    {
+      "_beat": "34.9-37.4s  top CLEAR 33.7-37.7s -> closing hero on the bare wall",
+      "lead": [
+        81
+      ],
+      "key": [
+        82,
+        83
+      ],
+      "lines": [
+        "NUTS & GHEE"
+      ]
+    }
+  ],
+  "layout": {
+    "_comment": "Panel geometry is DERIVED, not set: build measures the chin and fades the panel in below it. Light ground this time — sleep-cycle's register.",
+    "bottomZone": {
+      "top": 1470,
+      "height": 380,
+      "paddingX": 48,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "ground": "light",
+      "opacity": 0.82,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      },
+      "key": {
+        "bottomMinSize": 96,
+        "bottomMaxOneLine": 210,
+        "bottomMaxMultiLine": 168
+      },
+      "lead": {
+        "bottomAnswerSize": 56
+      }
+    }
+  },
+  "style": {
+    "_comment": "register.py proposal: light scrim (last 2 ran dark/none), forest card (last ran ink), neutral lead, forest palette lead, classicPress pairing (warmEditorial + heritage ran last 2), maskWipeFast. Dark type on the light panel — the sleep-cycle look, opposite polarity to the previous reel.",
+    "typePairing": "classicPress",
+    "textPosition": "hero beats on the bare wall (4.5-8.4s and 34.9s onward), everything else low on the light panel under the plate graphic",
+    "revealMechanic": "maskWipeFast pinned clip-wide",
+    "payloadTreatment": "stacked caps, NO stroke, NO ladder rule; neutral lead against the rotation colour (the two-colour pairing)",
+    "accent": "rotation led by forest on the light ground; palette.py derives and APCA-checks the rest",
+    "leadStyle": "neutral",
+    "paletteLead": "forest",
+    "zoomBlankTop": true,
+    "zoomScale": 1.35
+  },
+  "openFlags": [
+    "DISCREPANCY: at 26.3s she says 'Another 20% should be of protein' but her own burned-in graphic reads '25% PROTEIN' (50+25+25=100). Beat 6 is skipped so neither number is captioned; raised to Niranjan in the report rather than reworded or contradicted on screen."
+  ],
+  "_resolved": [
+    "Transcript: 'So doctor, what is the best diet for PCOS?' — balanced meal / 50% vegetables / 25% carbs (whole grains, brown rice, millets, oats) / protein (eggs, paneer, milk, curd, chicken) / healthy fats (nuts, ghee). 37.7s, 87 words.",
+    "Burned-in graphic: plate fills progressively 8.9-33.7s — 50% VEGETABLES label ~12s, 25% CARBOHYDRATES ~20s, 25% PROTEIN ~27s. Beats whose words the label literally states are skipped (restraint rule, pcos-sleep-cycle precedent); her food examples are kept because the graphic never names them.",
+    "Registration number: not shown on screen. No cure/guarantee language in this take — no compliance flags.",
+    "Saree band bimodal (black mic centre) as always for this doctor; light scrim at 0.82 is the sleep-cycle-proven treatment for it."
+  ]
+}

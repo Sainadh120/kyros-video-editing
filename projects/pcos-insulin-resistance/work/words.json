@@ -1,0 +1,310 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Does",
+      "start": 0.0,
+      "end": 0.28,
+      "score": 0.418917179107666,
+      "startFrame": 0,
+      "endFrame": 8
+    },
+    {
+      "word": "every",
+      "start": 0.28,
+      "end": 0.68,
+      "score": 0.9616299867630005,
+      "startFrame": 8,
+      "endFrame": 20
+    },
+    {
+      "word": "woman",
+      "start": 0.68,
+      "end": 0.92,
+      "score": 0.8306178450584412,
+      "startFrame": 20,
+      "endFrame": 28
+    },
+    {
+      "word": "with",
+      "start": 0.92,
+      "end": 1.26,
+      "score": 0.9932977557182312,
+      "startFrame": 28,
+      "endFrame": 38
+    },
+    {
+      "word": "PCOS",
+      "start": 1.26,
+      "end": 1.66,
+      "score": 0.939790278673172,
+      "startFrame": 38,
+      "endFrame": 50
+    },
+    {
+      "word": "have",
+      "start": 1.66,
+      "end": 2.14,
+      "score": 0.9711507558822632,
+      "startFrame": 50,
+      "endFrame": 64
+    },
+    {
+      "word": "insulin",
+      "start": 2.14,
+      "end": 2.56,
+      "score": 0.9982605576515198,
+      "startFrame": 64,
+      "endFrame": 77
+    },
+    {
+      "word": "resistance?",
+      "start": 2.56,
+      "end": 3.08,
+      "score": 0.9942786693572998,
+      "startFrame": 77,
+      "endFrame": 92
+    },
+    {
+      "word": "Majority",
+      "start": 4.46,
+      "end": 4.52,
+      "score": 0.9282894134521484,
+      "startFrame": 134,
+      "endFrame": 136
+    },
+    {
+      "word": "of",
+      "start": 4.52,
+      "end": 4.92,
+      "score": 0.9942114949226379,
+      "startFrame": 136,
+      "endFrame": 148
+    },
+    {
+      "word": "women",
+      "start": 4.92,
+      "end": 5.18,
+      "score": 0.9407850503921509,
+      "startFrame": 148,
+      "endFrame": 155
+    },
+    {
+      "word": "with",
+      "start": 5.18,
+      "end": 5.44,
+      "score": 0.9965304732322693,
+      "startFrame": 155,
+      "endFrame": 163
+    },
+    {
+      "word": "PCOS",
+      "start": 5.44,
+      "end": 5.96,
+      "score": 0.9867952167987823,
+      "startFrame": 163,
+      "endFrame": 179
+    },
+    {
+      "word": "has",
+      "start": 5.96,
+      "end": 6.42,
+      "score": 0.8486472964286804,
+      "startFrame": 179,
+      "endFrame": 193
+    },
+    {
+      "word": "insulin",
+      "start": 6.42,
+      "end": 6.8,
+      "score": 0.9989823698997498,
+      "startFrame": 193,
+      "endFrame": 204
+    },
+    {
+      "word": "resistance",
+      "start": 6.8,
+      "end": 7.2,
+      "score": 0.9689081311225891,
+      "startFrame": 204,
+      "endFrame": 216
+    },
+    {
+      "word": "that",
+      "start": 7.2,
+      "end": 7.68,
+      "score": 0.6028464436531067,
+      "startFrame": 216,
+      "endFrame": 230
+    },
+    {
+      "word": "is",
+      "start": 7.68,
+      "end": 7.88,
+      "score": 0.9970999956130981,
+      "startFrame": 230,
+      "endFrame": 236
+    },
+    {
+      "word": "around",
+      "start": 7.88,
+      "end": 8.12,
+      "score": 0.9670497179031372,
+      "startFrame": 236,
+      "endFrame": 244
+    },
+    {
+      "word": "65",
+      "start": 8.12,
+      "end": 8.6,
+      "score": 0.9954180717468262,
+      "startFrame": 244,
+      "endFrame": 258
+    },
+    {
+      "word": "to",
+      "start": 8.6,
+      "end": 8.92,
+      "score": 0.6137966513633728,
+      "startFrame": 258,
+      "endFrame": 268
+    },
+    {
+      "word": "70",
+      "start": 8.92,
+      "end": 9.44,
+      "score": 0.9927575588226318,
+      "startFrame": 268,
+      "endFrame": 283
+    },
+    {
+      "word": "percent.",
+      "start": 9.44,
+      "end": 9.82,
+      "score": 0.5213235020637512,
+      "startFrame": 283,
+      "endFrame": 295
+    },
+    {
+      "word": "So,",
+      "start": 10.68,
+      "end": 10.76,
+      "score": 0.9652579426765442,
+      "startFrame": 320,
+      "endFrame": 323
+    },
+    {
+      "word": "that's",
+      "start": 10.8,
+      "end": 11.4,
+      "score": 0.9633102118968964,
+      "startFrame": 324,
+      "endFrame": 342
+    },
+    {
+      "word": "why",
+      "start": 11.4,
+      "end": 11.6,
+      "score": 0.9986991882324219,
+      "startFrame": 342,
+      "endFrame": 348
+    },
+    {
+      "word": "one",
+      "start": 11.6,
+      "end": 12.0,
+      "score": 0.9773449897766113,
+      "startFrame": 348,
+      "endFrame": 360
+    },
+    {
+      "word": "must",
+      "start": 12.0,
+      "end": 12.26,
+      "score": 0.9841206669807434,
+      "startFrame": 360,
+      "endFrame": 368
+    },
+    {
+      "word": "address",
+      "start": 12.26,
+      "end": 12.62,
+      "score": 0.9926705360412598,
+      "startFrame": 368,
+      "endFrame": 379
+    },
+    {
+      "word": "this",
+      "start": 12.62,
+      "end": 12.82,
+      "score": 0.8826181888580322,
+      "startFrame": 379,
+      "endFrame": 385
+    },
+    {
+      "word": "insulin",
+      "start": 12.82,
+      "end": 13.18,
+      "score": 0.9987686276435852,
+      "startFrame": 385,
+      "endFrame": 395
+    },
+    {
+      "word": "resistance",
+      "start": 13.18,
+      "end": 13.64,
+      "score": 0.9981118440628052,
+      "startFrame": 395,
+      "endFrame": 409
+    },
+    {
+      "word": "before",
+      "start": 13.64,
+      "end": 14.08,
+      "score": 0.9927951693534851,
+      "startFrame": 409,
+      "endFrame": 422
+    },
+    {
+      "word": "starting",
+      "start": 14.08,
+      "end": 14.56,
+      "score": 0.9980593323707581,
+      "startFrame": 422,
+      "endFrame": 437
+    },
+    {
+      "word": "a",
+      "start": 14.56,
+      "end": 14.7,
+      "score": 0.8747026324272156,
+      "startFrame": 437,
+      "endFrame": 441
+    },
+    {
+      "word": "treatment",
+      "start": 14.7,
+      "end": 15.06,
+      "score": 0.9988741278648376,
+      "startFrame": 441,
+      "endFrame": 452
+    },
+    {
+      "word": "of",
+      "start": 15.06,
+      "end": 15.54,
+      "score": 0.9955046772956848,
+      "startFrame": 452,
+      "endFrame": 466
+    },
+    {
+      "word": "PCOS.",
+      "start": 15.54,
+      "end": 16.04,
+      "score": 0.9886298775672913,
+      "startFrame": 466,
+      "endFrame": 481
+    }
+  ]
+}

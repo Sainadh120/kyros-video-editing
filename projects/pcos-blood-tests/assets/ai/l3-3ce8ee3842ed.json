@@ -1,0 +1,52 @@
+{
+  "assetId": "l3-3ce8ee3842ed",
+  "file": "l3-3ce8ee3842ed.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Unlabelled blood sample tubes standing in a laboratory centrifuge with its lid open, a gloved hand about to close it, bright clean laboratory in warm morning light, square composition, realistic documentary photograph, true-to-life colour, clean unmarked surfaces.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1659625039,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "3ce8ee3842ed24019dfc666a2bbb86f4501bdbc540be87d873ec4454f86c60f2",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Unlabelled blood sample tubes standing in a laboratory centrifuge with its lid open, a gloved hand about to close it, bright clean laboratory in warm morning light, square composition, realistic documentary photograph, true-to-life colour, clean unmarked surfaces.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1659625039,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l3"
+  ],
+  "sourceBeats": [
+    10
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "listBuild",
+  "why": "'cholesterol test'",
+  "says": "HPA1C and sugar blood test done cholesterol test",
+  "createdAt": "2026-09-11T18:51:00",
+  "elapsedSec": 11.5,
+  "costEstimateUsd": 0.003518,
+  "costBasis": "estimate: 11.5s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,55 @@
+{
+  "assetId": "h1-73e166213cc0",
+  "file": "h1-73e166213cc0.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "A gloved hand slowly lowers a small bare glass blood sample tube with a red cap into a plain grey plastic rack of round holes on a clean laboratory bench, warm golden morning light coming from a window behind. The tube is smooth and transparent with no sticker. The camera holds at bench height and pushes in slowly as the tube settles into place. Shallow depth of field, softly blurred background, calm open space in the middle of the frame. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 1343935125,
+  "numFrames": 113,
+  "fps": 24,
+  "input": null,
+  "requestHash": "73e166213cc02837587065990ba2d00a701fa06e54275995280c362c92135b51",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "A gloved hand slowly lowers a small bare glass blood sample tube with a red cap into a plain grey plastic rack of round holes on a clean laboratory bench, warm golden morning light coming from a window behind. The tube is smooth and transparent with no sticker. The camera holds at bench height and pushes in slowly as the tube settles into place. Shallow depth of field, softly blurred background, calm open space in the middle of the frame. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 1343935125,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 113,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "hookBackdrop",
+  "why": "the question is 'what blood tests' — open on the act itself, moving from frame 1, instead of a blank card",
+  "says": "Ma 'am, what blood tests are needed for PCOS?",
+  "createdAt": "2026-09-11T18:56:30",
+  "elapsedSec": 199.73,
+  "costEstimateUsd": 0.138616,
+  "costBasis": "estimate: 199.7s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 4.708333,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

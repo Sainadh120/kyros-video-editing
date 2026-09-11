@@ -1,0 +1,26 @@
+studio/node_modules
+
+# Media stays out of git: source clips, renders, AI pictures, previews, audio
+# and the studio's staged copies. Git keeps code, briefs, measurements and each
+# AI asset's metadata sidecar (prompt, seed, model, hash) — see docs/VISUALS.md.
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.m4a
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.webp
+studio/public/
+
+# The one exception: small brand source artwork a fresh clone needs to build.
+!brand/**/*.png
+!brand/**/*.mp4
+
+# Local junk
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,79 @@
+{
+  "measured": {
+    "wall": "#E6BE9B",
+    "saree": "#B6B548"
+  },
+  "scene": {
+    "wall": "#E6BE9B",
+    "wallShadow": "#B89270"
+  },
+  "zones": {
+    "top": {
+      "bg": "#E6BE9B",
+      "rotation": [
+        {
+          "name": "deep chocolate",
+          "hex": "#3A2416",
+          "dark": true
+        },
+        {
+          "name": "bronze",
+          "hex": "#7A4E1C",
+          "dark": true
+        },
+        {
+          "name": "forest",
+          "hex": "#103D2C",
+          "dark": true
+        },
+        {
+          "name": "espresso",
+          "hex": "#2A1B10",
+          "dark": true
+        }
+      ],
+      "accent": {
+        "name": "rust",
+        "hex": "#9E3B16",
+        "dark": true
+      }
+    },
+    "bottom": {
+      "bg": "#B6B548",
+      "rotation": [
+        {
+          "name": "cream",
+          "hex": "#F5EAD2",
+          "dark": false
+        },
+        {
+          "name": "deep chocolate",
+          "hex": "#3A2416",
+          "dark": true
+        },
+        {
+          "name": "cream yellow",
+          "hex": "#F1E2A2",
+          "dark": false
+        },
+        {
+          "name": "bronze",
+          "hex": "#7A4E1C",
+          "dark": true
+        }
+      ],
+      "accent": {
+        "name": "caramel",
+        "hex": "#8A5A2A",
+        "dark": true
+      }
+    }
+  },
+  "onDark": {
+    "scrim": "#120C08",
+    "lead": "#FFF6E8",
+    "key": "#F4CE87",
+    "keyAlt": "#E8A33C",
+    "muted": "#C9B39A"
+  }
+}

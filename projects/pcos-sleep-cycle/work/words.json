@@ -1,0 +1,494 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Does",
+      "start": 0.0,
+      "end": 0.32,
+      "score": 0.7043116092681885,
+      "startFrame": 0,
+      "endFrame": 10
+    },
+    {
+      "word": "poor",
+      "start": 0.32,
+      "end": 0.64,
+      "score": 0.6821487545967102,
+      "startFrame": 10,
+      "endFrame": 19
+    },
+    {
+      "word": "sleep",
+      "start": 0.64,
+      "end": 0.98,
+      "score": 0.9946354031562805,
+      "startFrame": 19,
+      "endFrame": 29
+    },
+    {
+      "word": "worsen",
+      "start": 0.98,
+      "end": 1.48,
+      "score": 0.8736112117767334,
+      "startFrame": 29,
+      "endFrame": 44
+    },
+    {
+      "word": "PCOS?",
+      "start": 1.48,
+      "end": 2.36,
+      "score": 0.9501381516456604,
+      "startFrame": 44,
+      "endFrame": 71
+    },
+    {
+      "word": "Yes,",
+      "start": 3.1,
+      "end": 3.28,
+      "score": 0.9260272979736328,
+      "startFrame": 93,
+      "endFrame": 98
+    },
+    {
+      "word": "sleep",
+      "start": 3.9,
+      "end": 3.94,
+      "score": 0.9558467864990234,
+      "startFrame": 117,
+      "endFrame": 118
+    },
+    {
+      "word": "is",
+      "start": 3.94,
+      "end": 4.16,
+      "score": 0.997420072555542,
+      "startFrame": 118,
+      "endFrame": 125
+    },
+    {
+      "word": "very",
+      "start": 4.16,
+      "end": 4.52,
+      "score": 0.986542820930481,
+      "startFrame": 125,
+      "endFrame": 136
+    },
+    {
+      "word": "important",
+      "start": 4.52,
+      "end": 5.0,
+      "score": 0.9966385364532471,
+      "startFrame": 136,
+      "endFrame": 150
+    },
+    {
+      "word": "for",
+      "start": 5.0,
+      "end": 5.42,
+      "score": 0.991635799407959,
+      "startFrame": 150,
+      "endFrame": 163
+    },
+    {
+      "word": "the",
+      "start": 5.42,
+      "end": 5.66,
+      "score": 0.969496488571167,
+      "startFrame": 163,
+      "endFrame": 170
+    },
+    {
+      "word": "hormones.",
+      "start": 5.66,
+      "end": 6.06,
+      "score": 0.9958535432815552,
+      "startFrame": 170,
+      "endFrame": 182
+    },
+    {
+      "word": "Any",
+      "start": 6.66,
+      "end": 6.9,
+      "score": 0.9806081056594849,
+      "startFrame": 200,
+      "endFrame": 207
+    },
+    {
+      "word": "woman",
+      "start": 6.9,
+      "end": 7.26,
+      "score": 0.7644544839859009,
+      "startFrame": 207,
+      "endFrame": 218
+    },
+    {
+      "word": "should",
+      "start": 7.26,
+      "end": 7.78,
+      "score": 0.9959589838981628,
+      "startFrame": 218,
+      "endFrame": 233
+    },
+    {
+      "word": "sleep",
+      "start": 7.78,
+      "end": 8.26,
+      "score": 0.9985151886940002,
+      "startFrame": 233,
+      "endFrame": 248
+    },
+    {
+      "word": "properly",
+      "start": 8.26,
+      "end": 8.76,
+      "score": 0.9943133592605591,
+      "startFrame": 248,
+      "endFrame": 263
+    },
+    {
+      "word": "in",
+      "start": 8.76,
+      "end": 9.3,
+      "score": 0.9581462740898132,
+      "startFrame": 263,
+      "endFrame": 279
+    },
+    {
+      "word": "order",
+      "start": 9.3,
+      "end": 9.46,
+      "score": 0.9968065023422241,
+      "startFrame": 279,
+      "endFrame": 284
+    },
+    {
+      "word": "to",
+      "start": 9.46,
+      "end": 9.82,
+      "score": 0.9974550604820251,
+      "startFrame": 284,
+      "endFrame": 295
+    },
+    {
+      "word": "keep",
+      "start": 9.82,
+      "end": 10.04,
+      "score": 0.998100221157074,
+      "startFrame": 295,
+      "endFrame": 301
+    },
+    {
+      "word": "their",
+      "start": 10.04,
+      "end": 10.26,
+      "score": 0.939483642578125,
+      "startFrame": 301,
+      "endFrame": 308
+    },
+    {
+      "word": "hormones",
+      "start": 10.26,
+      "end": 10.66,
+      "score": 0.9835467338562012,
+      "startFrame": 308,
+      "endFrame": 320
+    },
+    {
+      "word": "under",
+      "start": 10.66,
+      "end": 11.08,
+      "score": 0.9989810585975647,
+      "startFrame": 320,
+      "endFrame": 332
+    },
+    {
+      "word": "control.",
+      "start": 11.08,
+      "end": 11.58,
+      "score": 0.9960780739784241,
+      "startFrame": 332,
+      "endFrame": 347
+    },
+    {
+      "word": "So,",
+      "start": 12.52,
+      "end": 12.62,
+      "score": 0.9564775228500366,
+      "startFrame": 376,
+      "endFrame": 379
+    },
+    {
+      "word": "if",
+      "start": 13.12,
+      "end": 13.5,
+      "score": 0.9262902736663818,
+      "startFrame": 394,
+      "endFrame": 405
+    },
+    {
+      "word": "the",
+      "start": 13.5,
+      "end": 13.64,
+      "score": 0.9402481317520142,
+      "startFrame": 405,
+      "endFrame": 409
+    },
+    {
+      "word": "sleep",
+      "start": 13.64,
+      "end": 13.94,
+      "score": 0.9979598522186279,
+      "startFrame": 409,
+      "endFrame": 418
+    },
+    {
+      "word": "is",
+      "start": 13.94,
+      "end": 14.18,
+      "score": 0.9984071850776672,
+      "startFrame": 418,
+      "endFrame": 425
+    },
+    {
+      "word": "irregular,",
+      "start": 14.18,
+      "end": 14.74,
+      "score": 0.997077226638794,
+      "startFrame": 425,
+      "endFrame": 442
+    },
+    {
+      "word": "one",
+      "start": 15.1,
+      "end": 15.38,
+      "score": 0.9805089235305786,
+      "startFrame": 453,
+      "endFrame": 461
+    },
+    {
+      "word": "develops",
+      "start": 15.38,
+      "end": 15.96,
+      "score": 0.9939090013504028,
+      "startFrame": 461,
+      "endFrame": 479
+    },
+    {
+      "word": "insulin",
+      "start": 15.96,
+      "end": 16.4,
+      "score": 0.9986819624900818,
+      "startFrame": 479,
+      "endFrame": 492
+    },
+    {
+      "word": "resistance",
+      "start": 16.4,
+      "end": 16.96,
+      "score": 0.9938583970069885,
+      "startFrame": 492,
+      "endFrame": 509
+    },
+    {
+      "word": "and",
+      "start": 16.96,
+      "end": 17.66,
+      "score": 0.7627958655357361,
+      "startFrame": 509,
+      "endFrame": 530
+    },
+    {
+      "word": "it",
+      "start": 17.66,
+      "end": 17.8,
+      "score": 0.9583795666694641,
+      "startFrame": 530,
+      "endFrame": 534
+    },
+    {
+      "word": "also",
+      "start": 17.8,
+      "end": 18.12,
+      "score": 0.9926447868347168,
+      "startFrame": 534,
+      "endFrame": 544
+    },
+    {
+      "word": "alters",
+      "start": 18.12,
+      "end": 18.58,
+      "score": 0.996425211429596,
+      "startFrame": 544,
+      "endFrame": 557
+    },
+    {
+      "word": "the",
+      "start": 18.58,
+      "end": 18.86,
+      "score": 0.9960018992424011,
+      "startFrame": 557,
+      "endFrame": 566
+    },
+    {
+      "word": "hunger",
+      "start": 18.86,
+      "end": 19.16,
+      "score": 0.9984716773033142,
+      "startFrame": 566,
+      "endFrame": 575
+    },
+    {
+      "word": "hormone",
+      "start": 19.16,
+      "end": 19.62,
+      "score": 0.9468914866447449,
+      "startFrame": 575,
+      "endFrame": 589
+    },
+    {
+      "word": "so",
+      "start": 19.62,
+      "end": 19.94,
+      "score": 0.45311233401298523,
+      "startFrame": 589,
+      "endFrame": 598
+    },
+    {
+      "word": "the",
+      "start": 19.94,
+      "end": 20.12,
+      "score": 0.9307776093482971,
+      "startFrame": 598,
+      "endFrame": 604
+    },
+    {
+      "word": "woman",
+      "start": 20.12,
+      "end": 20.38,
+      "score": 0.5903315544128418,
+      "startFrame": 604,
+      "endFrame": 611
+    },
+    {
+      "word": "will",
+      "start": 20.38,
+      "end": 20.62,
+      "score": 0.996727466583252,
+      "startFrame": 611,
+      "endFrame": 619
+    },
+    {
+      "word": "have",
+      "start": 20.62,
+      "end": 20.92,
+      "score": 0.9984496831893921,
+      "startFrame": 619,
+      "endFrame": 628
+    },
+    {
+      "word": "the",
+      "start": 20.92,
+      "end": 21.08,
+      "score": 0.9201852083206177,
+      "startFrame": 628,
+      "endFrame": 632
+    },
+    {
+      "word": "excessive",
+      "start": 21.08,
+      "end": 21.42,
+      "score": 0.9777852296829224,
+      "startFrame": 632,
+      "endFrame": 643
+    },
+    {
+      "word": "sugar",
+      "start": 21.42,
+      "end": 21.9,
+      "score": 0.9976498484611511,
+      "startFrame": 643,
+      "endFrame": 657
+    },
+    {
+      "word": "cravings,",
+      "start": 21.9,
+      "end": 22.34,
+      "score": 0.9968663454055786,
+      "startFrame": 657,
+      "endFrame": 670
+    },
+    {
+      "word": "excess",
+      "start": 23.0,
+      "end": 23.22,
+      "score": 0.9785456657409668,
+      "startFrame": 690,
+      "endFrame": 697
+    },
+    {
+      "word": "hunger.",
+      "start": 23.22,
+      "end": 23.78,
+      "score": 0.9984410405158997,
+      "startFrame": 697,
+      "endFrame": 713
+    },
+    {
+      "word": "So,",
+      "start": 24.24,
+      "end": 24.46,
+      "score": 0.9851356148719788,
+      "startFrame": 727,
+      "endFrame": 734
+    },
+    {
+      "word": "it",
+      "start": 24.48,
+      "end": 24.72,
+      "score": 0.9973601698875427,
+      "startFrame": 734,
+      "endFrame": 742
+    },
+    {
+      "word": "worsens",
+      "start": 24.72,
+      "end": 25.2,
+      "score": 0.9861862063407898,
+      "startFrame": 742,
+      "endFrame": 756
+    },
+    {
+      "word": "the",
+      "start": 25.2,
+      "end": 25.42,
+      "score": 0.9953573346138,
+      "startFrame": 756,
+      "endFrame": 763
+    },
+    {
+      "word": "symptoms",
+      "start": 25.42,
+      "end": 25.74,
+      "score": 0.9910750389099121,
+      "startFrame": 763,
+      "endFrame": 772
+    },
+    {
+      "word": "of",
+      "start": 25.74,
+      "end": 26.0,
+      "score": 0.999187171459198,
+      "startFrame": 772,
+      "endFrame": 780
+    },
+    {
+      "word": "PCOS.",
+      "start": 26.0,
+      "end": 26.52,
+      "score": 0.9856510162353516,
+      "startFrame": 780,
+      "endFrame": 796
+    }
+  ]
+}

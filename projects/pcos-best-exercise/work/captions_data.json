@@ -1,0 +1,2403 @@
+{
+  "zoom": null,
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1472,
+    "videoFrames": 1382,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-best-exercise",
+    "style": {
+      "_comment": "register.py proposals, pending Niranjan's OK: dark scrim (last two ran light, none), ink card, match lead, brick palette lead, warmEditorial pairing, maskWipeFast reveal.",
+      "typePairing": "warmEditorial",
+      "revealStyle": "maskWipeFast",
+      "leadStyle": "match",
+      "paletteLead": "brick",
+      "textPosition": "top on the bare wall (the take has no burned-in graphics); beats under a wall card drop low onto the dark scrim",
+      "payloadTreatment": "stacked caps, no stroke",
+      "accent": "rotation led by brick; palette.py derives and APCA-checks the rest"
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#E6BE9B",
+        "wallShadow": "#B89270"
+      },
+      "onLight": {
+        "lead": "#604C40",
+        "key": "#3A2416",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#120C08",
+        "lead": "#FFF6E8",
+        "key": "#F4CE87",
+        "keyAlt": "#E8A33C",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#B5F28C",
+        "key": "#9BE564",
+        "keyAlt": "#FFB01F"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "Fraunces",
+        "weight": 500,
+        "lineHeight": 1.2,
+        "letterSpacing": -0.3,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 44,
+        "googleFontsModule": "Fraunces",
+        "style": "italic",
+        "weights": [
+          500,
+          600
+        ]
+      },
+      "key": {
+        "fontFamily": "BarlowCondensed",
+        "weight": 800,
+        "lineHeight": 0.94,
+        "letterSpacing": -0.4,
+        "advanceEm": 0.46,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 70,
+        "bottomMaxOneLine": 140,
+        "bottomMaxMultiLine": 108,
+        "googleFontsModule": "BarlowCondensed",
+        "style": "normal",
+        "weights": [
+          800
+        ]
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      },
+      "stroke": {
+        "color": null,
+        "keyEm": 0.105,
+        "leadEm": 0.075,
+        "shadow": "0 8px 26px rgba(0,0,0,0.40)"
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1150,
+      "height": 430,
+      "paddingX": 84,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "color": "#100500",
+      "opacity": 0.8,
+      "top": 1160,
+      "ground": "dark",
+      "feather": 90
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 1386,
+      "holdFrames": 57,
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    }
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/Downloads/Personal/Kyros_Project/Reels/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": []
+  },
+  "fixtures": {
+    "plateFromFrame": 214,
+    "logoFromFrame": 133,
+    "logoHideWindows": [
+      [
+        577,
+        672
+      ],
+      [
+        835,
+        998
+      ]
+    ]
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 1382,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 1472
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 1382,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 1412
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "card": {
+        "bg": "#0C0A07",
+        "opacity": 0.985,
+        "lead": "#FFF6E8",
+        "key": "#FFB01F",
+        "texture": "vignette",
+        "dark": true
+      },
+      "scrimOpacity": 0.985,
+      "exitFrame": 98,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "lead",
+          "words": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "appearFrame": 0,
+          "text": "What is the best"
+        },
+        {
+          "style": "key",
+          "words": [
+            4,
+            5,
+            6
+          ],
+          "lines": [
+            "EXERCISE",
+            "FOR PCOS?"
+          ],
+          "appearFrame": 30,
+          "text": "exercise for PCOS?",
+          "size": 204
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 109,
+      "toFrame": 1382,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "top",
+          "leadWords": [
+            7,
+            8,
+            9
+          ],
+          "leadText": "So, there is",
+          "leadSize": 70,
+          "leadColor": "#3A2416",
+          "leadDark": true,
+          "keyWords": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "keyLines": [
+            "NO SINGLE",
+            "BEST EXERCISE"
+          ],
+          "keySize": 157,
+          "keyColor": "#3A2416",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 109,
+          "toFrame": 226,
+          "keyFromFrame": 122,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-2",
+          "zone": "top",
+          "leadWords": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "leadText": "the best thing is we should",
+          "leadSize": 70,
+          "leadColor": "#7A4E1C",
+          "leadDark": true,
+          "keyWords": [
+            23
+          ],
+          "keyLines": [
+            "COMBINE"
+          ],
+          "keySize": 240,
+          "keyColor": "#7A4E1C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 226,
+          "toFrame": 285,
+          "keyFromFrame": 269,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-4",
+          "zone": "top",
+          "leadWords": [
+            30,
+            31,
+            32
+          ],
+          "leadText": "What I recommend",
+          "leadSize": 70,
+          "leadColor": "#103D2C",
+          "leadDark": true,
+          "keyWords": [
+            37,
+            38
+          ],
+          "keyLines": [
+            "ACTIVE DAILY"
+          ],
+          "keySize": 170,
+          "keyColor": "#103D2C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 430,
+          "toFrame": 577,
+          "keyFromFrame": 509,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-5",
+          "zone": "top",
+          "leadWords": [
+            44,
+            45
+          ],
+          "leadText": "at least",
+          "leadSize": 70,
+          "leadColor": "#2A1B10",
+          "leadDark": true,
+          "keyWords": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "keyLines": [
+            "8\u201310,000 STEPS",
+            "PER DAY"
+          ],
+          "keySize": 145,
+          "keyColor": "#2A1B10",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 577,
+          "toFrame": 660,
+          "keyFromFrame": 586,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-6",
+          "zone": "bottom",
+          "leadWords": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "leadText": "do resistance training or",
+          "leadSize": 44,
+          "leadColor": "#9BE564",
+          "leadDark": false,
+          "keyWords": [
+            57,
+            58
+          ],
+          "keyLines": [
+            "STRENGTH",
+            "TRAINING"
+          ],
+          "keySize": 108,
+          "keyColor": "#9BE564",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 660,
+          "toFrame": 729,
+          "keyFromFrame": 706,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-7",
+          "zone": "bottom",
+          "leadWords": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "leadText": "gym or yoga at least weekly",
+          "leadSize": 44,
+          "leadColor": "#FFF6E8",
+          "leadDark": false,
+          "keyWords": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "keyLines": [
+            "2\u20133 TIMES",
+            "A WEEK"
+          ],
+          "keySize": 108,
+          "keyColor": "#FFF6E8",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 729,
+          "toFrame": 835,
+          "keyFromFrame": 801,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-8",
+          "zone": "top",
+          "leadWords": [
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "leadText": "and cardiovascular exercise moderate intensity exercise like",
+          "leadSize": 70,
+          "leadColor": "#3A2416",
+          "leadDark": true,
+          "keyWords": [
+            76,
+            77,
+            78,
+            79
+          ],
+          "keyLines": [
+            "SWIMMING \u00b7 RUNNING",
+            "JOGGING \u00b7 CYCLING"
+          ],
+          "keySize": 113,
+          "keyColor": "#3A2416",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 835,
+          "toFrame": 1044,
+          "keyFromFrame": 973,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-9",
+          "zone": "top",
+          "leadWords": [
+            80,
+            81,
+            82
+          ],
+          "leadText": "of at least",
+          "leadSize": 70,
+          "leadColor": "#7A4E1C",
+          "leadDark": true,
+          "keyWords": [
+            83,
+            84,
+            85,
+            86
+          ],
+          "keyLines": [
+            "150 MINUTES",
+            "A WEEK"
+          ],
+          "keySize": 178,
+          "keyColor": "#7A4E1C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 1044,
+          "toFrame": 1129,
+          "keyFromFrame": 1060,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-10",
+          "zone": "top",
+          "leadWords": [
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "leadText": "also for the mental stability in order to",
+          "leadSize": 70,
+          "leadColor": "#103D2C",
+          "leadDark": true,
+          "keyWords": [
+            96,
+            97
+          ],
+          "keyLines": [
+            "REDUCE STRESS"
+          ],
+          "keySize": 157,
+          "keyColor": "#103D2C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 1129,
+          "toFrame": 1244,
+          "keyFromFrame": 1216,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-11",
+          "zone": "top",
+          "leadWords": [
+            98,
+            99,
+            100,
+            101
+          ],
+          "leadText": "one must also follow",
+          "leadSize": 70,
+          "leadColor": "#2A1B10",
+          "leadDark": true,
+          "keyWords": [
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "keyLines": [
+            "MEDITATION",
+            "2\u20133 TIMES A WEEK"
+          ],
+          "keySize": 127,
+          "keyColor": "#2A1B10",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 1244,
+          "toFrame": 1375,
+          "keyFromFrame": 1291,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "What",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 8
+      },
+      {
+        "index": 1,
+        "text": "is",
+        "startFrame": 8,
+        "activeFromFrame": 8,
+        "activeToFrame": 15
+      },
+      {
+        "index": 2,
+        "text": "the",
+        "startFrame": 15,
+        "activeFromFrame": 15,
+        "activeToFrame": 20
+      },
+      {
+        "index": 3,
+        "text": "best",
+        "startFrame": 20,
+        "activeFromFrame": 20,
+        "activeToFrame": 30
+      },
+      {
+        "index": 4,
+        "text": "exercise",
+        "startFrame": 30,
+        "activeFromFrame": 30,
+        "activeToFrame": 46
+      },
+      {
+        "index": 5,
+        "text": "for",
+        "startFrame": 46,
+        "activeFromFrame": 46,
+        "activeToFrame": 56
+      },
+      {
+        "index": 6,
+        "text": "PCOS?",
+        "startFrame": 56,
+        "activeFromFrame": 56,
+        "activeToFrame": 109
+      },
+      {
+        "index": 7,
+        "text": "So,",
+        "startFrame": 109,
+        "activeFromFrame": 109,
+        "activeToFrame": 115
+      },
+      {
+        "index": 8,
+        "text": "there",
+        "startFrame": 115,
+        "activeFromFrame": 115,
+        "activeToFrame": 118
+      },
+      {
+        "index": 9,
+        "text": "is",
+        "startFrame": 118,
+        "activeFromFrame": 118,
+        "activeToFrame": 122
+      },
+      {
+        "index": 10,
+        "text": "no",
+        "startFrame": 122,
+        "activeFromFrame": 122,
+        "activeToFrame": 128
+      },
+      {
+        "index": 11,
+        "text": "single",
+        "startFrame": 128,
+        "activeFromFrame": 128,
+        "activeToFrame": 142
+      },
+      {
+        "index": 12,
+        "text": "best",
+        "startFrame": 142,
+        "activeFromFrame": 142,
+        "activeToFrame": 151
+      },
+      {
+        "index": 13,
+        "text": "exercise,",
+        "startFrame": 151,
+        "activeFromFrame": 151,
+        "activeToFrame": 172
+      },
+      {
+        "index": 14,
+        "text": "but",
+        "startFrame": 172,
+        "activeFromFrame": 172,
+        "activeToFrame": 176
+      },
+      {
+        "index": 15,
+        "text": "for",
+        "startFrame": 176,
+        "activeFromFrame": 176,
+        "activeToFrame": 197
+      },
+      {
+        "index": 16,
+        "text": "PCOS,",
+        "startFrame": 197,
+        "activeFromFrame": 197,
+        "activeToFrame": 226
+      },
+      {
+        "index": 17,
+        "text": "the",
+        "startFrame": 226,
+        "activeFromFrame": 226,
+        "activeToFrame": 233
+      },
+      {
+        "index": 18,
+        "text": "best",
+        "startFrame": 233,
+        "activeFromFrame": 233,
+        "activeToFrame": 241
+      },
+      {
+        "index": 19,
+        "text": "thing",
+        "startFrame": 241,
+        "activeFromFrame": 241,
+        "activeToFrame": 250
+      },
+      {
+        "index": 20,
+        "text": "is",
+        "startFrame": 250,
+        "activeFromFrame": 250,
+        "activeToFrame": 257
+      },
+      {
+        "index": 21,
+        "text": "we",
+        "startFrame": 257,
+        "activeFromFrame": 257,
+        "activeToFrame": 263
+      },
+      {
+        "index": 22,
+        "text": "should",
+        "startFrame": 263,
+        "activeFromFrame": 263,
+        "activeToFrame": 269
+      },
+      {
+        "index": 23,
+        "text": "combine",
+        "startFrame": 269,
+        "activeFromFrame": 269,
+        "activeToFrame": 285
+      },
+      {
+        "index": 24,
+        "text": "daily",
+        "startFrame": 285,
+        "activeFromFrame": 285,
+        "activeToFrame": 317
+      },
+      {
+        "index": 25,
+        "text": "movement,",
+        "startFrame": 317,
+        "activeFromFrame": 317,
+        "activeToFrame": 356
+      },
+      {
+        "index": 26,
+        "text": "cardiovascular",
+        "startFrame": 356,
+        "activeFromFrame": 356,
+        "activeToFrame": 367
+      },
+      {
+        "index": 27,
+        "text": "exercise,",
+        "startFrame": 367,
+        "activeFromFrame": 367,
+        "activeToFrame": 401
+      },
+      {
+        "index": 28,
+        "text": "strength",
+        "startFrame": 401,
+        "activeFromFrame": 401,
+        "activeToFrame": 412
+      },
+      {
+        "index": 29,
+        "text": "training.",
+        "startFrame": 412,
+        "activeFromFrame": 412,
+        "activeToFrame": 430
+      },
+      {
+        "index": 30,
+        "text": "What",
+        "startFrame": 430,
+        "activeFromFrame": 430,
+        "activeToFrame": 435
+      },
+      {
+        "index": 31,
+        "text": "I",
+        "startFrame": 435,
+        "activeFromFrame": 435,
+        "activeToFrame": 446
+      },
+      {
+        "index": 32,
+        "text": "recommend",
+        "startFrame": 446,
+        "activeFromFrame": 446,
+        "activeToFrame": 458
+      },
+      {
+        "index": 33,
+        "text": "is",
+        "startFrame": 458,
+        "activeFromFrame": 458,
+        "activeToFrame": 469
+      },
+      {
+        "index": 34,
+        "text": "one",
+        "startFrame": 469,
+        "activeFromFrame": 469,
+        "activeToFrame": 488
+      },
+      {
+        "index": 35,
+        "text": "should",
+        "startFrame": 488,
+        "activeFromFrame": 488,
+        "activeToFrame": 496
+      },
+      {
+        "index": 36,
+        "text": "be",
+        "startFrame": 496,
+        "activeFromFrame": 496,
+        "activeToFrame": 509
+      },
+      {
+        "index": 37,
+        "text": "active",
+        "startFrame": 509,
+        "activeFromFrame": 509,
+        "activeToFrame": 524
+      },
+      {
+        "index": 38,
+        "text": "daily",
+        "startFrame": 524,
+        "activeFromFrame": 524,
+        "activeToFrame": 535
+      },
+      {
+        "index": 39,
+        "text": "so",
+        "startFrame": 535,
+        "activeFromFrame": 535,
+        "activeToFrame": 552
+      },
+      {
+        "index": 40,
+        "text": "that",
+        "startFrame": 552,
+        "activeFromFrame": 552,
+        "activeToFrame": 558
+      },
+      {
+        "index": 41,
+        "text": "they",
+        "startFrame": 558,
+        "activeFromFrame": 558,
+        "activeToFrame": 565
+      },
+      {
+        "index": 42,
+        "text": "can",
+        "startFrame": 565,
+        "activeFromFrame": 565,
+        "activeToFrame": 569
+      },
+      {
+        "index": 43,
+        "text": "have",
+        "startFrame": 569,
+        "activeFromFrame": 569,
+        "activeToFrame": 577
+      },
+      {
+        "index": 44,
+        "text": "at",
+        "startFrame": 577,
+        "activeFromFrame": 577,
+        "activeToFrame": 581
+      },
+      {
+        "index": 45,
+        "text": "least",
+        "startFrame": 581,
+        "activeFromFrame": 581,
+        "activeToFrame": 586
+      },
+      {
+        "index": 46,
+        "text": "8",
+        "startFrame": 586,
+        "activeFromFrame": 586,
+        "activeToFrame": 596
+      },
+      {
+        "index": 47,
+        "text": "to",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 601
+      },
+      {
+        "index": 48,
+        "text": "10",
+        "startFrame": 601,
+        "activeFromFrame": 601,
+        "activeToFrame": 607
+      },
+      {
+        "index": 49,
+        "text": ",000",
+        "startFrame": 607,
+        "activeFromFrame": 607,
+        "activeToFrame": 617
+      },
+      {
+        "index": 50,
+        "text": "steps",
+        "startFrame": 617,
+        "activeFromFrame": 617,
+        "activeToFrame": 625
+      },
+      {
+        "index": 51,
+        "text": "per",
+        "startFrame": 625,
+        "activeFromFrame": 625,
+        "activeToFrame": 634
+      },
+      {
+        "index": 52,
+        "text": "day,",
+        "startFrame": 634,
+        "activeFromFrame": 634,
+        "activeToFrame": 660
+      },
+      {
+        "index": 53,
+        "text": "do",
+        "startFrame": 660,
+        "activeFromFrame": 660,
+        "activeToFrame": 668
+      },
+      {
+        "index": 54,
+        "text": "resistance",
+        "startFrame": 668,
+        "activeFromFrame": 668,
+        "activeToFrame": 683
+      },
+      {
+        "index": 55,
+        "text": "training",
+        "startFrame": 683,
+        "activeFromFrame": 683,
+        "activeToFrame": 698
+      },
+      {
+        "index": 56,
+        "text": "or",
+        "startFrame": 698,
+        "activeFromFrame": 698,
+        "activeToFrame": 706
+      },
+      {
+        "index": 57,
+        "text": "strength",
+        "startFrame": 706,
+        "activeFromFrame": 706,
+        "activeToFrame": 715
+      },
+      {
+        "index": 58,
+        "text": "training",
+        "startFrame": 715,
+        "activeFromFrame": 715,
+        "activeToFrame": 729
+      },
+      {
+        "index": 59,
+        "text": "gym",
+        "startFrame": 729,
+        "activeFromFrame": 729,
+        "activeToFrame": 753
+      },
+      {
+        "index": 60,
+        "text": "or",
+        "startFrame": 753,
+        "activeFromFrame": 753,
+        "activeToFrame": 763
+      },
+      {
+        "index": 61,
+        "text": "yoga",
+        "startFrame": 763,
+        "activeFromFrame": 763,
+        "activeToFrame": 775
+      },
+      {
+        "index": 62,
+        "text": "at",
+        "startFrame": 775,
+        "activeFromFrame": 775,
+        "activeToFrame": 782
+      },
+      {
+        "index": 63,
+        "text": "least",
+        "startFrame": 782,
+        "activeFromFrame": 782,
+        "activeToFrame": 790
+      },
+      {
+        "index": 64,
+        "text": "weekly",
+        "startFrame": 790,
+        "activeFromFrame": 790,
+        "activeToFrame": 801
+      },
+      {
+        "index": 65,
+        "text": "two",
+        "startFrame": 801,
+        "activeFromFrame": 801,
+        "activeToFrame": 811
+      },
+      {
+        "index": 66,
+        "text": "or",
+        "startFrame": 811,
+        "activeFromFrame": 811,
+        "activeToFrame": 815
+      },
+      {
+        "index": 67,
+        "text": "three",
+        "startFrame": 815,
+        "activeFromFrame": 815,
+        "activeToFrame": 822
+      },
+      {
+        "index": 68,
+        "text": "times",
+        "startFrame": 822,
+        "activeFromFrame": 822,
+        "activeToFrame": 835
+      },
+      {
+        "index": 69,
+        "text": "and",
+        "startFrame": 835,
+        "activeFromFrame": 835,
+        "activeToFrame": 869
+      },
+      {
+        "index": 70,
+        "text": "cardiovascular",
+        "startFrame": 869,
+        "activeFromFrame": 869,
+        "activeToFrame": 892
+      },
+      {
+        "index": 71,
+        "text": "exercise",
+        "startFrame": 892,
+        "activeFromFrame": 892,
+        "activeToFrame": 913
+      },
+      {
+        "index": 72,
+        "text": "moderate",
+        "startFrame": 913,
+        "activeFromFrame": 913,
+        "activeToFrame": 925
+      },
+      {
+        "index": 73,
+        "text": "intensity",
+        "startFrame": 925,
+        "activeFromFrame": 925,
+        "activeToFrame": 951
+      },
+      {
+        "index": 74,
+        "text": "exercise",
+        "startFrame": 951,
+        "activeFromFrame": 951,
+        "activeToFrame": 964
+      },
+      {
+        "index": 75,
+        "text": "like",
+        "startFrame": 964,
+        "activeFromFrame": 964,
+        "activeToFrame": 973
+      },
+      {
+        "index": 76,
+        "text": "swimming",
+        "startFrame": 973,
+        "activeFromFrame": 973,
+        "activeToFrame": 987
+      },
+      {
+        "index": 77,
+        "text": "running",
+        "startFrame": 987,
+        "activeFromFrame": 987,
+        "activeToFrame": 1008
+      },
+      {
+        "index": 78,
+        "text": "jogging",
+        "startFrame": 1008,
+        "activeFromFrame": 1008,
+        "activeToFrame": 1024
+      },
+      {
+        "index": 79,
+        "text": "cycling",
+        "startFrame": 1024,
+        "activeFromFrame": 1024,
+        "activeToFrame": 1044
+      },
+      {
+        "index": 80,
+        "text": "of",
+        "startFrame": 1044,
+        "activeFromFrame": 1044,
+        "activeToFrame": 1051
+      },
+      {
+        "index": 81,
+        "text": "at",
+        "startFrame": 1051,
+        "activeFromFrame": 1051,
+        "activeToFrame": 1055
+      },
+      {
+        "index": 82,
+        "text": "least",
+        "startFrame": 1055,
+        "activeFromFrame": 1055,
+        "activeToFrame": 1060
+      },
+      {
+        "index": 83,
+        "text": "150",
+        "startFrame": 1060,
+        "activeFromFrame": 1060,
+        "activeToFrame": 1074
+      },
+      {
+        "index": 84,
+        "text": "minutes",
+        "startFrame": 1074,
+        "activeFromFrame": 1074,
+        "activeToFrame": 1085
+      },
+      {
+        "index": 85,
+        "text": "per",
+        "startFrame": 1085,
+        "activeFromFrame": 1085,
+        "activeToFrame": 1095
+      },
+      {
+        "index": 86,
+        "text": "week",
+        "startFrame": 1095,
+        "activeFromFrame": 1095,
+        "activeToFrame": 1103
+      },
+      {
+        "index": 87,
+        "text": "and",
+        "startFrame": 1103,
+        "activeFromFrame": 1103,
+        "activeToFrame": 1129
+      },
+      {
+        "index": 88,
+        "text": "also",
+        "startFrame": 1129,
+        "activeFromFrame": 1129,
+        "activeToFrame": 1143
+      },
+      {
+        "index": 89,
+        "text": "for",
+        "startFrame": 1143,
+        "activeFromFrame": 1143,
+        "activeToFrame": 1151
+      },
+      {
+        "index": 90,
+        "text": "the",
+        "startFrame": 1151,
+        "activeFromFrame": 1151,
+        "activeToFrame": 1159
+      },
+      {
+        "index": 91,
+        "text": "mental",
+        "startFrame": 1159,
+        "activeFromFrame": 1159,
+        "activeToFrame": 1175
+      },
+      {
+        "index": 92,
+        "text": "stability",
+        "startFrame": 1175,
+        "activeFromFrame": 1175,
+        "activeToFrame": 1192
+      },
+      {
+        "index": 93,
+        "text": "in",
+        "startFrame": 1192,
+        "activeFromFrame": 1192,
+        "activeToFrame": 1205
+      },
+      {
+        "index": 94,
+        "text": "order",
+        "startFrame": 1205,
+        "activeFromFrame": 1205,
+        "activeToFrame": 1210
+      },
+      {
+        "index": 95,
+        "text": "to",
+        "startFrame": 1210,
+        "activeFromFrame": 1210,
+        "activeToFrame": 1216
+      },
+      {
+        "index": 96,
+        "text": "reduce",
+        "startFrame": 1216,
+        "activeFromFrame": 1216,
+        "activeToFrame": 1225
+      },
+      {
+        "index": 97,
+        "text": "stress",
+        "startFrame": 1225,
+        "activeFromFrame": 1225,
+        "activeToFrame": 1244
+      },
+      {
+        "index": 98,
+        "text": "one",
+        "startFrame": 1244,
+        "activeFromFrame": 1244,
+        "activeToFrame": 1264
+      },
+      {
+        "index": 99,
+        "text": "must",
+        "startFrame": 1264,
+        "activeFromFrame": 1264,
+        "activeToFrame": 1271
+      },
+      {
+        "index": 100,
+        "text": "also",
+        "startFrame": 1271,
+        "activeFromFrame": 1271,
+        "activeToFrame": 1282
+      },
+      {
+        "index": 101,
+        "text": "follow",
+        "startFrame": 1282,
+        "activeFromFrame": 1282,
+        "activeToFrame": 1291
+      },
+      {
+        "index": 102,
+        "text": "meditation",
+        "startFrame": 1291,
+        "activeFromFrame": 1291,
+        "activeToFrame": 1307
+      },
+      {
+        "index": 103,
+        "text": "at",
+        "startFrame": 1307,
+        "activeFromFrame": 1307,
+        "activeToFrame": 1331
+      },
+      {
+        "index": 104,
+        "text": "least",
+        "startFrame": 1331,
+        "activeFromFrame": 1331,
+        "activeToFrame": 1336
+      },
+      {
+        "index": 105,
+        "text": "two",
+        "startFrame": 1336,
+        "activeFromFrame": 1336,
+        "activeToFrame": 1348
+      },
+      {
+        "index": 106,
+        "text": "or",
+        "startFrame": 1348,
+        "activeFromFrame": 1348,
+        "activeToFrame": 1352
+      },
+      {
+        "index": 107,
+        "text": "three",
+        "startFrame": 1352,
+        "activeFromFrame": 1352,
+        "activeToFrame": 1358
+      },
+      {
+        "index": 108,
+        "text": "times",
+        "startFrame": 1358,
+        "activeFromFrame": 1358,
+        "activeToFrame": 1366
+      },
+      {
+        "index": 109,
+        "text": "per",
+        "startFrame": 1366,
+        "activeFromFrame": 1366,
+        "activeToFrame": 1373
+      },
+      {
+        "index": 110,
+        "text": "week.",
+        "startFrame": 1373,
+        "activeFromFrame": 1373,
+        "activeToFrame": 1390
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "What",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 8
+      },
+      {
+        "index": 1,
+        "text": "is",
+        "startFrame": 8,
+        "activeFromFrame": 8,
+        "activeToFrame": 15
+      },
+      {
+        "index": 2,
+        "text": "the",
+        "startFrame": 15,
+        "activeFromFrame": 15,
+        "activeToFrame": 20
+      },
+      {
+        "index": 3,
+        "text": "best",
+        "startFrame": 20,
+        "activeFromFrame": 20,
+        "activeToFrame": 30
+      },
+      {
+        "index": 4,
+        "text": "exercise",
+        "startFrame": 30,
+        "activeFromFrame": 30,
+        "activeToFrame": 46
+      },
+      {
+        "index": 5,
+        "text": "for",
+        "startFrame": 46,
+        "activeFromFrame": 46,
+        "activeToFrame": 56
+      },
+      {
+        "index": 6,
+        "text": "PCOS?",
+        "startFrame": 56,
+        "activeFromFrame": 56,
+        "activeToFrame": 109
+      },
+      {
+        "index": 7,
+        "text": "So,",
+        "startFrame": 109,
+        "activeFromFrame": 109,
+        "activeToFrame": 115
+      },
+      {
+        "index": 8,
+        "text": "there",
+        "startFrame": 115,
+        "activeFromFrame": 115,
+        "activeToFrame": 118
+      },
+      {
+        "index": 9,
+        "text": "is",
+        "startFrame": 118,
+        "activeFromFrame": 118,
+        "activeToFrame": 122
+      },
+      {
+        "index": 10,
+        "text": "no",
+        "startFrame": 122,
+        "activeFromFrame": 122,
+        "activeToFrame": 128
+      },
+      {
+        "index": 11,
+        "text": "single",
+        "startFrame": 128,
+        "activeFromFrame": 128,
+        "activeToFrame": 142
+      },
+      {
+        "index": 12,
+        "text": "best",
+        "startFrame": 142,
+        "activeFromFrame": 142,
+        "activeToFrame": 151
+      },
+      {
+        "index": 13,
+        "text": "exercise,",
+        "startFrame": 151,
+        "activeFromFrame": 151,
+        "activeToFrame": 172
+      },
+      {
+        "index": 14,
+        "text": "but",
+        "startFrame": 172,
+        "activeFromFrame": 172,
+        "activeToFrame": 176
+      },
+      {
+        "index": 15,
+        "text": "for",
+        "startFrame": 176,
+        "activeFromFrame": 176,
+        "activeToFrame": 197
+      },
+      {
+        "index": 16,
+        "text": "PCOS,",
+        "startFrame": 197,
+        "activeFromFrame": 197,
+        "activeToFrame": 226
+      },
+      {
+        "index": 17,
+        "text": "the",
+        "startFrame": 226,
+        "activeFromFrame": 226,
+        "activeToFrame": 233
+      },
+      {
+        "index": 18,
+        "text": "best",
+        "startFrame": 233,
+        "activeFromFrame": 233,
+        "activeToFrame": 241
+      },
+      {
+        "index": 19,
+        "text": "thing",
+        "startFrame": 241,
+        "activeFromFrame": 241,
+        "activeToFrame": 250
+      },
+      {
+        "index": 20,
+        "text": "is",
+        "startFrame": 250,
+        "activeFromFrame": 250,
+        "activeToFrame": 257
+      },
+      {
+        "index": 21,
+        "text": "we",
+        "startFrame": 257,
+        "activeFromFrame": 257,
+        "activeToFrame": 263
+      },
+      {
+        "index": 22,
+        "text": "should",
+        "startFrame": 263,
+        "activeFromFrame": 263,
+        "activeToFrame": 269
+      },
+      {
+        "index": 23,
+        "text": "combine",
+        "startFrame": 269,
+        "activeFromFrame": 269,
+        "activeToFrame": 285
+      },
+      {
+        "index": 24,
+        "text": "daily",
+        "startFrame": 285,
+        "activeFromFrame": 285,
+        "activeToFrame": 317
+      },
+      {
+        "index": 25,
+        "text": "movement,",
+        "startFrame": 317,
+        "activeFromFrame": 317,
+        "activeToFrame": 356
+      },
+      {
+        "index": 26,
+        "text": "cardiovascular",
+        "startFrame": 356,
+        "activeFromFrame": 356,
+        "activeToFrame": 367
+      },
+      {
+        "index": 27,
+        "text": "exercise,",
+        "startFrame": 367,
+        "activeFromFrame": 367,
+        "activeToFrame": 401
+      },
+      {
+        "index": 28,
+        "text": "strength",
+        "startFrame": 401,
+        "activeFromFrame": 401,
+        "activeToFrame": 412
+      },
+      {
+        "index": 29,
+        "text": "training.",
+        "startFrame": 412,
+        "activeFromFrame": 412,
+        "activeToFrame": 430
+      },
+      {
+        "index": 30,
+        "text": "What",
+        "startFrame": 430,
+        "activeFromFrame": 430,
+        "activeToFrame": 435
+      },
+      {
+        "index": 31,
+        "text": "I",
+        "startFrame": 435,
+        "activeFromFrame": 435,
+        "activeToFrame": 446
+      },
+      {
+        "index": 32,
+        "text": "recommend",
+        "startFrame": 446,
+        "activeFromFrame": 446,
+        "activeToFrame": 458
+      },
+      {
+        "index": 33,
+        "text": "is",
+        "startFrame": 458,
+        "activeFromFrame": 458,
+        "activeToFrame": 469
+      },
+      {
+        "index": 34,
+        "text": "one",
+        "startFrame": 469,
+        "activeFromFrame": 469,
+        "activeToFrame": 488
+      },
+      {
+        "index": 35,
+        "text": "should",
+        "startFrame": 488,
+        "activeFromFrame": 488,
+        "activeToFrame": 496
+      },
+      {
+        "index": 36,
+        "text": "be",
+        "startFrame": 496,
+        "activeFromFrame": 496,
+        "activeToFrame": 509
+      },
+      {
+        "index": 37,
+        "text": "active",
+        "startFrame": 509,
+        "activeFromFrame": 509,
+        "activeToFrame": 524
+      },
+      {
+        "index": 38,
+        "text": "daily",
+        "startFrame": 524,
+        "activeFromFrame": 524,
+        "activeToFrame": 535
+      },
+      {
+        "index": 39,
+        "text": "so",
+        "startFrame": 535,
+        "activeFromFrame": 535,
+        "activeToFrame": 552
+      },
+      {
+        "index": 40,
+        "text": "that",
+        "startFrame": 552,
+        "activeFromFrame": 552,
+        "activeToFrame": 558
+      },
+      {
+        "index": 41,
+        "text": "they",
+        "startFrame": 558,
+        "activeFromFrame": 558,
+        "activeToFrame": 565
+      },
+      {
+        "index": 42,
+        "text": "can",
+        "startFrame": 565,
+        "activeFromFrame": 565,
+        "activeToFrame": 569
+      },
+      {
+        "index": 43,
+        "text": "have",
+        "startFrame": 569,
+        "activeFromFrame": 569,
+        "activeToFrame": 577
+      },
+      {
+        "index": 44,
+        "text": "at",
+        "startFrame": 577,
+        "activeFromFrame": 577,
+        "activeToFrame": 581
+      },
+      {
+        "index": 45,
+        "text": "least",
+        "startFrame": 581,
+        "activeFromFrame": 581,
+        "activeToFrame": 586
+      },
+      {
+        "index": 46,
+        "text": "8",
+        "startFrame": 586,
+        "activeFromFrame": 586,
+        "activeToFrame": 596
+      },
+      {
+        "index": 47,
+        "text": "to",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 601
+      },
+      {
+        "index": 48,
+        "text": "10",
+        "startFrame": 601,
+        "activeFromFrame": 601,
+        "activeToFrame": 607
+      },
+      {
+        "index": 49,
+        "text": ",000",
+        "startFrame": 607,
+        "activeFromFrame": 607,
+        "activeToFrame": 617
+      },
+      {
+        "index": 50,
+        "text": "steps",
+        "startFrame": 617,
+        "activeFromFrame": 617,
+        "activeToFrame": 625
+      },
+      {
+        "index": 51,
+        "text": "per",
+        "startFrame": 625,
+        "activeFromFrame": 625,
+        "activeToFrame": 634
+      },
+      {
+        "index": 52,
+        "text": "day,",
+        "startFrame": 634,
+        "activeFromFrame": 634,
+        "activeToFrame": 660
+      },
+      {
+        "index": 53,
+        "text": "do",
+        "startFrame": 660,
+        "activeFromFrame": 660,
+        "activeToFrame": 668
+      },
+      {
+        "index": 54,
+        "text": "resistance",
+        "startFrame": 668,
+        "activeFromFrame": 668,
+        "activeToFrame": 683
+      },
+      {
+        "index": 55,
+        "text": "training",
+        "startFrame": 683,
+        "activeFromFrame": 683,
+        "activeToFrame": 698
+      },
+      {
+        "index": 56,
+        "text": "or",
+        "startFrame": 698,
+        "activeFromFrame": 698,
+        "activeToFrame": 706
+      },
+      {
+        "index": 57,
+        "text": "strength",
+        "startFrame": 706,
+        "activeFromFrame": 706,
+        "activeToFrame": 715
+      },
+      {
+        "index": 58,
+        "text": "training",
+        "startFrame": 715,
+        "activeFromFrame": 715,
+        "activeToFrame": 729
+      },
+      {
+        "index": 59,
+        "text": "gym",
+        "startFrame": 729,
+        "activeFromFrame": 729,
+        "activeToFrame": 753
+      },
+      {
+        "index": 60,
+        "text": "or",
+        "startFrame": 753,
+        "activeFromFrame": 753,
+        "activeToFrame": 763
+      },
+      {
+        "index": 61,
+        "text": "yoga",
+        "startFrame": 763,
+        "activeFromFrame": 763,
+        "activeToFrame": 775
+      },
+      {
+        "index": 62,
+        "text": "at",
+        "startFrame": 775,
+        "activeFromFrame": 775,
+        "activeToFrame": 782
+      },
+      {
+        "index": 63,
+        "text": "least",
+        "startFrame": 782,
+        "activeFromFrame": 782,
+        "activeToFrame": 790
+      },
+      {
+        "index": 64,
+        "text": "weekly",
+        "startFrame": 790,
+        "activeFromFrame": 790,
+        "activeToFrame": 801
+      },
+      {
+        "index": 65,
+        "text": "two",
+        "startFrame": 801,
+        "activeFromFrame": 801,
+        "activeToFrame": 811
+      },
+      {
+        "index": 66,
+        "text": "or",
+        "startFrame": 811,
+        "activeFromFrame": 811,
+        "activeToFrame": 815
+      },
+      {
+        "index": 67,
+        "text": "three",
+        "startFrame": 815,
+        "activeFromFrame": 815,
+        "activeToFrame": 822
+      },
+      {
+        "index": 68,
+        "text": "times",
+        "startFrame": 822,
+        "activeFromFrame": 822,
+        "activeToFrame": 835
+      },
+      {
+        "index": 69,
+        "text": "and",
+        "startFrame": 835,
+        "activeFromFrame": 835,
+        "activeToFrame": 869
+      },
+      {
+        "index": 70,
+        "text": "cardiovascular",
+        "startFrame": 869,
+        "activeFromFrame": 869,
+        "activeToFrame": 892
+      },
+      {
+        "index": 71,
+        "text": "exercise",
+        "startFrame": 892,
+        "activeFromFrame": 892,
+        "activeToFrame": 913
+      },
+      {
+        "index": 72,
+        "text": "moderate",
+        "startFrame": 913,
+        "activeFromFrame": 913,
+        "activeToFrame": 925
+      },
+      {
+        "index": 73,
+        "text": "intensity",
+        "startFrame": 925,
+        "activeFromFrame": 925,
+        "activeToFrame": 951
+      },
+      {
+        "index": 74,
+        "text": "exercise",
+        "startFrame": 951,
+        "activeFromFrame": 951,
+        "activeToFrame": 964
+      },
+      {
+        "index": 75,
+        "text": "like",
+        "startFrame": 964,
+        "activeFromFrame": 964,
+        "activeToFrame": 973
+      },
+      {
+        "index": 76,
+        "text": "swimming",
+        "startFrame": 973,
+        "activeFromFrame": 973,
+        "activeToFrame": 987
+      },
+      {
+        "index": 77,
+        "text": "running",
+        "startFrame": 987,
+        "activeFromFrame": 987,
+        "activeToFrame": 1008
+      },
+      {
+        "index": 78,
+        "text": "jogging",
+        "startFrame": 1008,
+        "activeFromFrame": 1008,
+        "activeToFrame": 1024
+      },
+      {
+        "index": 79,
+        "text": "cycling",
+        "startFrame": 1024,
+        "activeFromFrame": 1024,
+        "activeToFrame": 1044
+      },
+      {
+        "index": 80,
+        "text": "of",
+        "startFrame": 1044,
+        "activeFromFrame": 1044,
+        "activeToFrame": 1051
+      },
+      {
+        "index": 81,
+        "text": "at",
+        "startFrame": 1051,
+        "activeFromFrame": 1051,
+        "activeToFrame": 1055
+      },
+      {
+        "index": 82,
+        "text": "least",
+        "startFrame": 1055,
+        "activeFromFrame": 1055,
+        "activeToFrame": 1060
+      },
+      {
+        "index": 83,
+        "text": "150",
+        "startFrame": 1060,
+        "activeFromFrame": 1060,
+        "activeToFrame": 1074
+      },
+      {
+        "index": 84,
+        "text": "minutes",
+        "startFrame": 1074,
+        "activeFromFrame": 1074,
+        "activeToFrame": 1085
+      },
+      {
+        "index": 85,
+        "text": "per",
+        "startFrame": 1085,
+        "activeFromFrame": 1085,
+        "activeToFrame": 1095
+      },
+      {
+        "index": 86,
+        "text": "week",
+        "startFrame": 1095,
+        "activeFromFrame": 1095,
+        "activeToFrame": 1103
+      },
+      {
+        "index": 87,
+        "text": "and",
+        "startFrame": 1103,
+        "activeFromFrame": 1103,
+        "activeToFrame": 1129
+      },
+      {
+        "index": 88,
+        "text": "also",
+        "startFrame": 1129,
+        "activeFromFrame": 1129,
+        "activeToFrame": 1143
+      },
+      {
+        "index": 89,
+        "text": "for",
+        "startFrame": 1143,
+        "activeFromFrame": 1143,
+        "activeToFrame": 1151
+      },
+      {
+        "index": 90,
+        "text": "the",
+        "startFrame": 1151,
+        "activeFromFrame": 1151,
+        "activeToFrame": 1159
+      },
+      {
+        "index": 91,
+        "text": "mental",
+        "startFrame": 1159,
+        "activeFromFrame": 1159,
+        "activeToFrame": 1175
+      },
+      {
+        "index": 92,
+        "text": "stability",
+        "startFrame": 1175,
+        "activeFromFrame": 1175,
+        "activeToFrame": 1192
+      },
+      {
+        "index": 93,
+        "text": "in",
+        "startFrame": 1192,
+        "activeFromFrame": 1192,
+        "activeToFrame": 1205
+      },
+      {
+        "index": 94,
+        "text": "order",
+        "startFrame": 1205,
+        "activeFromFrame": 1205,
+        "activeToFrame": 1210
+      },
+      {
+        "index": 95,
+        "text": "to",
+        "startFrame": 1210,
+        "activeFromFrame": 1210,
+        "activeToFrame": 1216
+      },
+      {
+        "index": 96,
+        "text": "reduce",
+        "startFrame": 1216,
+        "activeFromFrame": 1216,
+        "activeToFrame": 1225
+      },
+      {
+        "index": 97,
+        "text": "stress",
+        "startFrame": 1225,
+        "activeFromFrame": 1225,
+        "activeToFrame": 1244
+      },
+      {
+        "index": 98,
+        "text": "one",
+        "startFrame": 1244,
+        "activeFromFrame": 1244,
+        "activeToFrame": 1264
+      },
+      {
+        "index": 99,
+        "text": "must",
+        "startFrame": 1264,
+        "activeFromFrame": 1264,
+        "activeToFrame": 1271
+      },
+      {
+        "index": 100,
+        "text": "also",
+        "startFrame": 1271,
+        "activeFromFrame": 1271,
+        "activeToFrame": 1282
+      },
+      {
+        "index": 101,
+        "text": "follow",
+        "startFrame": 1282,
+        "activeFromFrame": 1282,
+        "activeToFrame": 1291
+      },
+      {
+        "index": 102,
+        "text": "meditation",
+        "startFrame": 1291,
+        "activeFromFrame": 1291,
+        "activeToFrame": 1307
+      },
+      {
+        "index": 103,
+        "text": "at",
+        "startFrame": 1307,
+        "activeFromFrame": 1307,
+        "activeToFrame": 1331
+      },
+      {
+        "index": 104,
+        "text": "least",
+        "startFrame": 1331,
+        "activeFromFrame": 1331,
+        "activeToFrame": 1336
+      },
+      {
+        "index": 105,
+        "text": "two",
+        "startFrame": 1336,
+        "activeFromFrame": 1336,
+        "activeToFrame": 1348
+      },
+      {
+        "index": 106,
+        "text": "or",
+        "startFrame": 1348,
+        "activeFromFrame": 1348,
+        "activeToFrame": 1352
+      },
+      {
+        "index": 107,
+        "text": "three",
+        "startFrame": 1352,
+        "activeFromFrame": 1352,
+        "activeToFrame": 1358
+      },
+      {
+        "index": 108,
+        "text": "times",
+        "startFrame": 1358,
+        "activeFromFrame": 1358,
+        "activeToFrame": 1366
+      },
+      {
+        "index": 109,
+        "text": "per",
+        "startFrame": 1366,
+        "activeFromFrame": 1366,
+        "activeToFrame": 1373
+      },
+      {
+        "index": 110,
+        "text": "week.",
+        "startFrame": 1373,
+        "activeFromFrame": 1373,
+        "activeToFrame": 1390
+      }
+    ]
+  },
+  "visuals": {
+    "style": "naturalLight",
+    "bubbleShape": "circle",
+    "items": [
+      {
+        "id": "v1",
+        "beat": 3,
+        "treatment": "inset",
+        "mode": "graphic",
+        "kind": "graphic",
+        "fromFrame": 294,
+        "toFrame": 421,
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "DAILY MOVEMENT",
+            "CARDIO",
+            "STRENGTH"
+          ],
+          "ground": "#FAEADB",
+          "groundOpacity": 0.94,
+          "ink": "#3A2416",
+          "accent": "#9E3B16",
+          "text": "#604C40",
+          "texture": "grain",
+          "itemFrames": [
+            306,
+            356,
+            401
+          ]
+        },
+        "src": null,
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12
+      },
+      {
+        "id": "v2",
+        "beat": 5,
+        "treatment": "doctorBubble",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 577,
+        "toFrame": 660,
+        "motion": "pushIn",
+        "src": "ai/v2-67938a00a8fe.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1066,
+            "r": 275
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "captionWashes": [
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.682,
+            "fromFrame": 577,
+            "toFrame": 660,
+            "zone": "top",
+            "rect": [
+              0,
+              210,
+              1080,
+              812
+            ]
+          }
+        ]
+      },
+      {
+        "id": "v3",
+        "beat": null,
+        "treatment": "inset",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 669,
+        "toFrame": 825,
+        "motion": "panLeft",
+        "aspect": "16:9",
+        "src": "ai/v3-7decc0546305.png",
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.08,
+          "to": 1.08,
+          "x0": 0.025,
+          "x1": -0.025
+        }
+      },
+      {
+        "id": "v4",
+        "beat": 8,
+        "treatment": "doctorBubble",
+        "mode": "video",
+        "kind": "video",
+        "fromFrame": 835,
+        "toFrame": 986,
+        "src": "ai/v4-6beb55afb7c6.mp4",
+        "fadeFrames": 12,
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1066,
+            "r": 275
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "captionWashes": [
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.447,
+            "fromFrame": 835,
+            "toFrame": 986,
+            "zone": "top",
+            "rect": [
+              0,
+              241,
+              1080,
+              781
+            ]
+          }
+        ]
+      },
+      {
+        "id": "v5",
+        "beat": 10,
+        "treatment": "doctorBubble",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 1129,
+        "toFrame": 1244,
+        "motion": "pullOut",
+        "src": "ai/v5-c37fc2c68290.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.07,
+          "to": 1.0,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1066,
+            "r": 275
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "captionWashes": [
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.494,
+            "fromFrame": 1129,
+            "toFrame": 1244,
+            "zone": "top",
+            "rect": [
+              0,
+              274,
+              1080,
+              748
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

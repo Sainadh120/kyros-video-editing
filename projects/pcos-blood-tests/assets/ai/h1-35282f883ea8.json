@@ -1,0 +1,55 @@
+{
+  "assetId": "h1-35282f883ea8",
+  "file": "h1-35282f883ea8.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "A gloved hand gently places a small unlabelled blood sample tube into a white rack on a clean laboratory bench, warm golden morning light falling across the bench from a window. The camera holds close at bench height and pushes in slowly as the tube settles into place. Shallow depth of field, the background softly blurred, calm open space in the middle of the frame. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 69024342,
+  "numFrames": 121,
+  "fps": 24,
+  "input": null,
+  "requestHash": "35282f883ea87c88b6f97dc1f8983b2181520573a4a361755ac189883789d4b1",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "A gloved hand gently places a small unlabelled blood sample tube into a white rack on a clean laboratory bench, warm golden morning light falling across the bench from a window. The camera holds close at bench height and pushes in slowly as the tube settles into place. Shallow depth of field, the background softly blurred, calm open space in the middle of the frame. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 69024342,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 121,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "hookBackdrop",
+  "why": "the question is 'what blood tests' — open on the act itself, moving from frame 1, instead of a blank card",
+  "says": "",
+  "createdAt": "2026-09-11T18:50:00",
+  "elapsedSec": 192.09,
+  "costEstimateUsd": 0.133313,
+  "costBasis": "estimate: 192.1s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 5.041667,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

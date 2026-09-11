@@ -1,0 +1,1584 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1193,
+    "videoFrames": 1103,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-muscle",
+    "style": {
+      "_comment": "Colour flips polarity with the ground: the forest/brick/rust that reads on a pale wall scores 2-19 Lc on a dark scrim, so the rotation uses their light-flipped counterparts instead. Four beats carry no caption at all \u2014 the burned-in graphic already names those benefits.",
+      "typePairing": "PlayfairDisplay Italic / Anton",
+      "textPosition": "low and large, on its own scrim below the microphone and hands (band 1470-1850) \u2014 the footage keeps the top band busy for 23 of 37s",
+      "revealMechanic": "per-line stagger rise + settle behind a mask, no ghost preview",
+      "payloadTreatment": "stacked caps at 116-168px, NO stroke, NO ladder rule; lead carries the SAME colour as the payload so only one tone is on screen at a time",
+      "accent": "vivid rotation on the forest scrim \u2014 spring green #9BE564 / warm white #FFF6E8 / coral #FF8F70 / mint #5FE3C0, with the Kyros saffron #FFB01F held back for the closing takeaway",
+      "leadStyle": "match",
+      "_leadNote": "One colour this reel: lead and payload share the tone, separated by size and italic. pcos-sleep-cycle runs the two-colour pairing instead \u2014 rotate them."
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#E9C2A0",
+        "wallShadow": "#BB9675"
+      },
+      "onLight": {
+        "lead": "#604C40",
+        "key": "#3A2416",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#120C08",
+        "lead": "#FFF6E8",
+        "key": "#F4CE87",
+        "keyAlt": "#E8A33C",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#B5F28C",
+        "key": "#9BE564",
+        "keyAlt": "#FFB01F"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "PlayfairDisplay",
+        "weight": 500,
+        "lineHeight": 1.18,
+        "letterSpacing": -0.5,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 56
+      },
+      "key": {
+        "fontFamily": "Anton",
+        "weight": 400,
+        "lineHeight": 0.92,
+        "letterSpacing": -1.0,
+        "advanceEm": 0.47,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 96,
+        "bottomMaxOneLine": 210,
+        "bottomMaxMultiLine": 168
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      },
+      "stroke": {
+        "color": null,
+        "keyEm": 0.105,
+        "leadEm": 0.075,
+        "shadow": "0 8px 26px rgba(0,0,0,0.40)"
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1470,
+      "height": 380,
+      "paddingX": 48,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "color": "#100500",
+      "opacity": 0.8,
+      "top": 1330,
+      "ground": "dark",
+      "feather": 240
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 308,
+      "holdFrames": 57,
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    },
+    "_comment": "Panel geometry is DERIVED, not set: build measures the chin and fades the panel in below it, reaching solid by the time the payload starts. A 12px cut read as a bar across the frame; a 420px wash climbed her face. The feather is whatever distance the clip actually leaves between the two."
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/Downloads/Personal/Kyros_Project/Reels/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": [
+      "COMPLIANCE: at 26.8-28.1s she says 'it almost cures the pathophysiology of the PCOS'. Niranjan chose to keep it exactly as spoken; 'almost cures' appears only in the small italic lead of beat 8, never as a large payload word. Schedule J cure-claim language is therefore never set large on screen."
+    ]
+  },
+  "fixtures": {
+    "plateFromFrame": 248,
+    "logoFromFrame": 137,
+    "logoHideWindows": []
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 1103,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 1193
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 1103,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 1133
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "card": {
+        "bg": "#0C0A07",
+        "opacity": 0.985,
+        "lead": "#FFF6E8",
+        "key": "#FFB01F",
+        "texture": "vignette",
+        "dark": true
+      },
+      "scrimOpacity": 0.985,
+      "exitFrame": 102,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "lead",
+          "words": [
+            0,
+            1
+          ],
+          "appearFrame": 0,
+          "text": "Why is"
+        },
+        {
+          "style": "key",
+          "words": [
+            2
+          ],
+          "lines": [
+            "MUSCLE"
+          ],
+          "appearFrame": 30,
+          "text": "muscle",
+          "size": 266
+        },
+        {
+          "style": "lead",
+          "words": [
+            3,
+            4
+          ],
+          "appearFrame": 30,
+          "text": "important in"
+        },
+        {
+          "style": "key",
+          "words": [
+            5
+          ],
+          "lines": [
+            "PCOS?"
+          ],
+          "appearFrame": 52,
+          "text": "PCOS?",
+          "size": 266
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 113,
+      "toFrame": 1103,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "bottom",
+          "leadWords": [
+            6,
+            7,
+            8
+          ],
+          "leadText": "Muscle is the",
+          "leadSize": 56,
+          "leadColor": "#9BE564",
+          "leadDark": false,
+          "keyWords": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "keyLines": [
+            "LARGEST ORGAN FOR",
+            "GLUCOSE DISPOSAL"
+          ],
+          "keySize": 123,
+          "keyColor": "#9BE564",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 113,
+          "toFrame": 213,
+          "keyFromFrame": 125,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-2",
+          "zone": "bottom",
+          "leadWords": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "leadText": "In a woman building muscle, maintaining",
+          "leadSize": 56,
+          "leadColor": "#FFF6E8",
+          "leadDark": false,
+          "keyWords": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "keyLines": [
+            "MUSCLE MASS",
+            "IS VERY IMPORTANT"
+          ],
+          "keySize": 123,
+          "keyColor": "#FFF6E8",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 213,
+          "toFrame": 342,
+          "keyFromFrame": 287,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-3",
+          "zone": "bottom",
+          "leadWords": [
+            25,
+            26
+          ],
+          "leadText": "because muscle",
+          "leadSize": 56,
+          "leadColor": "#FFA8B6",
+          "leadDark": false,
+          "keyWords": [
+            27,
+            28,
+            29
+          ],
+          "keyLines": [
+            "REDUCES INSULIN",
+            "RESISTANCE"
+          ],
+          "keySize": 139,
+          "keyColor": "#FFA8B6",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 342,
+          "toFrame": 457,
+          "keyFromFrame": 379,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-8",
+          "zone": "bottom",
+          "leadWords": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "leadText": "So thereby it almost cures the",
+          "leadSize": 56,
+          "leadColor": "#5FE3C0",
+          "leadDark": false,
+          "keyWords": [
+            60,
+            61,
+            62,
+            63
+          ],
+          "keyLines": [
+            "PATHOPHYSIOLOGY",
+            "OF PCOS"
+          ],
+          "keySize": 139,
+          "keyColor": "#5FE3C0",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 779,
+          "toFrame": 929,
+          "keyFromFrame": 857,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-9",
+          "zone": "bottom",
+          "leadWords": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "leadText": "So every woman with PCOS should always focus on",
+          "leadSize": 56,
+          "leadColor": "#FFB01F",
+          "leadDark": false,
+          "keyWords": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "keyLines": [
+            "BUILDING &",
+            "MAINTAINING MUSCLE"
+          ],
+          "keySize": 116,
+          "keyColor": "#FFB01F",
+          "keyDark": false,
+          "tone": "keyAlt",
+          "fromFrame": 929,
+          "toFrame": 1096,
+          "keyFromFrame": 1016,
+          "listIndex": null,
+          "listTotal": null
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "Why",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 10
+      },
+      {
+        "index": 1,
+        "text": "is",
+        "startFrame": 10,
+        "activeFromFrame": 10,
+        "activeToFrame": 30
+      },
+      {
+        "index": 2,
+        "text": "muscle",
+        "startFrame": 30,
+        "activeFromFrame": 30,
+        "activeToFrame": 30
+      },
+      {
+        "index": 3,
+        "text": "important",
+        "startFrame": 30,
+        "activeFromFrame": 30,
+        "activeToFrame": 43
+      },
+      {
+        "index": 4,
+        "text": "in",
+        "startFrame": 43,
+        "activeFromFrame": 43,
+        "activeToFrame": 52
+      },
+      {
+        "index": 5,
+        "text": "PCOS?",
+        "startFrame": 52,
+        "activeFromFrame": 52,
+        "activeToFrame": 113
+      },
+      {
+        "index": 6,
+        "text": "Muscle",
+        "startFrame": 113,
+        "activeFromFrame": 113,
+        "activeToFrame": 113
+      },
+      {
+        "index": 7,
+        "text": "is",
+        "startFrame": 113,
+        "activeFromFrame": 113,
+        "activeToFrame": 120
+      },
+      {
+        "index": 8,
+        "text": "the",
+        "startFrame": 120,
+        "activeFromFrame": 120,
+        "activeToFrame": 125
+      },
+      {
+        "index": 9,
+        "text": "largest",
+        "startFrame": 125,
+        "activeFromFrame": 125,
+        "activeToFrame": 138
+      },
+      {
+        "index": 10,
+        "text": "organ",
+        "startFrame": 138,
+        "activeFromFrame": 138,
+        "activeToFrame": 154
+      },
+      {
+        "index": 11,
+        "text": "for",
+        "startFrame": 154,
+        "activeFromFrame": 154,
+        "activeToFrame": 163
+      },
+      {
+        "index": 12,
+        "text": "glucose",
+        "startFrame": 163,
+        "activeFromFrame": 163,
+        "activeToFrame": 175
+      },
+      {
+        "index": 13,
+        "text": "disposal.",
+        "startFrame": 175,
+        "activeFromFrame": 175,
+        "activeToFrame": 213
+      },
+      {
+        "index": 14,
+        "text": "In",
+        "startFrame": 213,
+        "activeFromFrame": 213,
+        "activeToFrame": 216
+      },
+      {
+        "index": 15,
+        "text": "a",
+        "startFrame": 216,
+        "activeFromFrame": 216,
+        "activeToFrame": 221
+      },
+      {
+        "index": 16,
+        "text": "woman",
+        "startFrame": 221,
+        "activeFromFrame": 221,
+        "activeToFrame": 229
+      },
+      {
+        "index": 17,
+        "text": "building",
+        "startFrame": 229,
+        "activeFromFrame": 229,
+        "activeToFrame": 253
+      },
+      {
+        "index": 18,
+        "text": "muscle,",
+        "startFrame": 253,
+        "activeFromFrame": 253,
+        "activeToFrame": 278
+      },
+      {
+        "index": 19,
+        "text": "maintaining",
+        "startFrame": 278,
+        "activeFromFrame": 278,
+        "activeToFrame": 287
+      },
+      {
+        "index": 20,
+        "text": "muscle",
+        "startFrame": 287,
+        "activeFromFrame": 287,
+        "activeToFrame": 301
+      },
+      {
+        "index": 21,
+        "text": "mass",
+        "startFrame": 301,
+        "activeFromFrame": 301,
+        "activeToFrame": 308
+      },
+      {
+        "index": 22,
+        "text": "is",
+        "startFrame": 308,
+        "activeFromFrame": 308,
+        "activeToFrame": 316
+      },
+      {
+        "index": 23,
+        "text": "very",
+        "startFrame": 316,
+        "activeFromFrame": 316,
+        "activeToFrame": 326
+      },
+      {
+        "index": 24,
+        "text": "important",
+        "startFrame": 326,
+        "activeFromFrame": 326,
+        "activeToFrame": 342
+      },
+      {
+        "index": 25,
+        "text": "because",
+        "startFrame": 342,
+        "activeFromFrame": 342,
+        "activeToFrame": 364
+      },
+      {
+        "index": 26,
+        "text": "muscle",
+        "startFrame": 364,
+        "activeFromFrame": 364,
+        "activeToFrame": 379
+      },
+      {
+        "index": 27,
+        "text": "reduces",
+        "startFrame": 379,
+        "activeFromFrame": 379,
+        "activeToFrame": 397
+      },
+      {
+        "index": 28,
+        "text": "insulin",
+        "startFrame": 397,
+        "activeFromFrame": 397,
+        "activeToFrame": 412
+      },
+      {
+        "index": 29,
+        "text": "resistance,",
+        "startFrame": 412,
+        "activeFromFrame": 412,
+        "activeToFrame": 457
+      },
+      {
+        "index": 30,
+        "text": "it",
+        "startFrame": 457,
+        "activeFromFrame": 457,
+        "activeToFrame": 460
+      },
+      {
+        "index": 31,
+        "text": "improves",
+        "startFrame": 460,
+        "activeFromFrame": 460,
+        "activeToFrame": 472
+      },
+      {
+        "index": 32,
+        "text": "metabolic",
+        "startFrame": 472,
+        "activeFromFrame": 472,
+        "activeToFrame": 487
+      },
+      {
+        "index": 33,
+        "text": "rate,",
+        "startFrame": 487,
+        "activeFromFrame": 487,
+        "activeToFrame": 512
+      },
+      {
+        "index": 34,
+        "text": "it",
+        "startFrame": 512,
+        "activeFromFrame": 512,
+        "activeToFrame": 518
+      },
+      {
+        "index": 35,
+        "text": "decreases",
+        "startFrame": 518,
+        "activeFromFrame": 518,
+        "activeToFrame": 535
+      },
+      {
+        "index": 36,
+        "text": "visceral",
+        "startFrame": 535,
+        "activeFromFrame": 535,
+        "activeToFrame": 551
+      },
+      {
+        "index": 37,
+        "text": "fat,",
+        "startFrame": 551,
+        "activeFromFrame": 551,
+        "activeToFrame": 572
+      },
+      {
+        "index": 38,
+        "text": "it",
+        "startFrame": 572,
+        "activeFromFrame": 572,
+        "activeToFrame": 580
+      },
+      {
+        "index": 39,
+        "text": "maintains",
+        "startFrame": 580,
+        "activeFromFrame": 580,
+        "activeToFrame": 597
+      },
+      {
+        "index": 40,
+        "text": "good",
+        "startFrame": 597,
+        "activeFromFrame": 597,
+        "activeToFrame": 617
+      },
+      {
+        "index": 41,
+        "text": "bone",
+        "startFrame": 617,
+        "activeFromFrame": 617,
+        "activeToFrame": 628
+      },
+      {
+        "index": 42,
+        "text": "health,",
+        "startFrame": 628,
+        "activeFromFrame": 628,
+        "activeToFrame": 644
+      },
+      {
+        "index": 43,
+        "text": "it",
+        "startFrame": 644,
+        "activeFromFrame": 644,
+        "activeToFrame": 649
+      },
+      {
+        "index": 44,
+        "text": "is",
+        "startFrame": 649,
+        "activeFromFrame": 649,
+        "activeToFrame": 653
+      },
+      {
+        "index": 45,
+        "text": "important",
+        "startFrame": 653,
+        "activeFromFrame": 653,
+        "activeToFrame": 667
+      },
+      {
+        "index": 46,
+        "text": "for",
+        "startFrame": 667,
+        "activeFromFrame": 667,
+        "activeToFrame": 679
+      },
+      {
+        "index": 47,
+        "text": "the",
+        "startFrame": 679,
+        "activeFromFrame": 679,
+        "activeToFrame": 690
+      },
+      {
+        "index": 48,
+        "text": "stability",
+        "startFrame": 690,
+        "activeFromFrame": 690,
+        "activeToFrame": 712
+      },
+      {
+        "index": 49,
+        "text": "and",
+        "startFrame": 712,
+        "activeFromFrame": 712,
+        "activeToFrame": 725
+      },
+      {
+        "index": 50,
+        "text": "balance",
+        "startFrame": 725,
+        "activeFromFrame": 725,
+        "activeToFrame": 739
+      },
+      {
+        "index": 51,
+        "text": "of",
+        "startFrame": 739,
+        "activeFromFrame": 739,
+        "activeToFrame": 747
+      },
+      {
+        "index": 52,
+        "text": "the",
+        "startFrame": 747,
+        "activeFromFrame": 747,
+        "activeToFrame": 752
+      },
+      {
+        "index": 53,
+        "text": "body.",
+        "startFrame": 752,
+        "activeFromFrame": 752,
+        "activeToFrame": 779
+      },
+      {
+        "index": 54,
+        "text": "So",
+        "startFrame": 779,
+        "activeFromFrame": 779,
+        "activeToFrame": 779
+      },
+      {
+        "index": 55,
+        "text": "thereby",
+        "startFrame": 779,
+        "activeFromFrame": 779,
+        "activeToFrame": 792
+      },
+      {
+        "index": 56,
+        "text": "it",
+        "startFrame": 792,
+        "activeFromFrame": 792,
+        "activeToFrame": 805
+      },
+      {
+        "index": 57,
+        "text": "almost",
+        "startFrame": 805,
+        "activeFromFrame": 805,
+        "activeToFrame": 826
+      },
+      {
+        "index": 58,
+        "text": "cures",
+        "startFrame": 826,
+        "activeFromFrame": 826,
+        "activeToFrame": 842
+      },
+      {
+        "index": 59,
+        "text": "the",
+        "startFrame": 842,
+        "activeFromFrame": 842,
+        "activeToFrame": 857
+      },
+      {
+        "index": 60,
+        "text": "pathophysiology",
+        "startFrame": 857,
+        "activeFromFrame": 857,
+        "activeToFrame": 886
+      },
+      {
+        "index": 61,
+        "text": "of",
+        "startFrame": 886,
+        "activeFromFrame": 886,
+        "activeToFrame": 893
+      },
+      {
+        "index": 62,
+        "text": "the",
+        "startFrame": 893,
+        "activeFromFrame": 893,
+        "activeToFrame": 898
+      },
+      {
+        "index": 63,
+        "text": "PCOS.",
+        "startFrame": 898,
+        "activeFromFrame": 898,
+        "activeToFrame": 929
+      },
+      {
+        "index": 64,
+        "text": "So",
+        "startFrame": 929,
+        "activeFromFrame": 929,
+        "activeToFrame": 930
+      },
+      {
+        "index": 65,
+        "text": "every",
+        "startFrame": 930,
+        "activeFromFrame": 930,
+        "activeToFrame": 942
+      },
+      {
+        "index": 66,
+        "text": "woman",
+        "startFrame": 942,
+        "activeFromFrame": 942,
+        "activeToFrame": 952
+      },
+      {
+        "index": 67,
+        "text": "with",
+        "startFrame": 952,
+        "activeFromFrame": 952,
+        "activeToFrame": 959
+      },
+      {
+        "index": 68,
+        "text": "PCOS",
+        "startFrame": 959,
+        "activeFromFrame": 959,
+        "activeToFrame": 974
+      },
+      {
+        "index": 69,
+        "text": "should",
+        "startFrame": 974,
+        "activeFromFrame": 974,
+        "activeToFrame": 984
+      },
+      {
+        "index": 70,
+        "text": "always",
+        "startFrame": 984,
+        "activeFromFrame": 984,
+        "activeToFrame": 995
+      },
+      {
+        "index": 71,
+        "text": "focus",
+        "startFrame": 995,
+        "activeFromFrame": 995,
+        "activeToFrame": 1004
+      },
+      {
+        "index": 72,
+        "text": "on",
+        "startFrame": 1004,
+        "activeFromFrame": 1004,
+        "activeToFrame": 1016
+      },
+      {
+        "index": 73,
+        "text": "building",
+        "startFrame": 1016,
+        "activeFromFrame": 1016,
+        "activeToFrame": 1027
+      },
+      {
+        "index": 74,
+        "text": "and",
+        "startFrame": 1027,
+        "activeFromFrame": 1027,
+        "activeToFrame": 1037
+      },
+      {
+        "index": 75,
+        "text": "maintaining",
+        "startFrame": 1037,
+        "activeFromFrame": 1037,
+        "activeToFrame": 1051
+      },
+      {
+        "index": 76,
+        "text": "muscle",
+        "startFrame": 1051,
+        "activeFromFrame": 1051,
+        "activeToFrame": 1063
+      },
+      {
+        "index": 77,
+        "text": "in",
+        "startFrame": 1063,
+        "activeFromFrame": 1063,
+        "activeToFrame": 1072
+      },
+      {
+        "index": 78,
+        "text": "the",
+        "startFrame": 1072,
+        "activeFromFrame": 1072,
+        "activeToFrame": 1076
+      },
+      {
+        "index": 79,
+        "text": "body.",
+        "startFrame": 1076,
+        "activeFromFrame": 1076,
+        "activeToFrame": 1096
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "Why",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 10
+      },
+      {
+        "index": 1,
+        "text": "is",
+        "startFrame": 10,
+        "activeFromFrame": 10,
+        "activeToFrame": 30
+      },
+      {
+        "index": 2,
+        "text": "muscle",
+        "startFrame": 30,
+        "activeFromFrame": 30,
+        "activeToFrame": 30
+      },
+      {
+        "index": 3,
+        "text": "important",
+        "startFrame": 30,
+        "activeFromFrame": 30,
+        "activeToFrame": 43
+      },
+      {
+        "index": 4,
+        "text": "in",
+        "startFrame": 43,
+        "activeFromFrame": 43,
+        "activeToFrame": 52
+      },
+      {
+        "index": 5,
+        "text": "PCOS?",
+        "startFrame": 52,
+        "activeFromFrame": 52,
+        "activeToFrame": 113
+      },
+      {
+        "index": 6,
+        "text": "Muscle",
+        "startFrame": 113,
+        "activeFromFrame": 113,
+        "activeToFrame": 113
+      },
+      {
+        "index": 7,
+        "text": "is",
+        "startFrame": 113,
+        "activeFromFrame": 113,
+        "activeToFrame": 120
+      },
+      {
+        "index": 8,
+        "text": "the",
+        "startFrame": 120,
+        "activeFromFrame": 120,
+        "activeToFrame": 125
+      },
+      {
+        "index": 9,
+        "text": "largest",
+        "startFrame": 125,
+        "activeFromFrame": 125,
+        "activeToFrame": 138
+      },
+      {
+        "index": 10,
+        "text": "organ",
+        "startFrame": 138,
+        "activeFromFrame": 138,
+        "activeToFrame": 154
+      },
+      {
+        "index": 11,
+        "text": "for",
+        "startFrame": 154,
+        "activeFromFrame": 154,
+        "activeToFrame": 163
+      },
+      {
+        "index": 12,
+        "text": "glucose",
+        "startFrame": 163,
+        "activeFromFrame": 163,
+        "activeToFrame": 175
+      },
+      {
+        "index": 13,
+        "text": "disposal.",
+        "startFrame": 175,
+        "activeFromFrame": 175,
+        "activeToFrame": 213
+      },
+      {
+        "index": 14,
+        "text": "In",
+        "startFrame": 213,
+        "activeFromFrame": 213,
+        "activeToFrame": 216
+      },
+      {
+        "index": 15,
+        "text": "a",
+        "startFrame": 216,
+        "activeFromFrame": 216,
+        "activeToFrame": 221
+      },
+      {
+        "index": 16,
+        "text": "woman",
+        "startFrame": 221,
+        "activeFromFrame": 221,
+        "activeToFrame": 229
+      },
+      {
+        "index": 17,
+        "text": "building",
+        "startFrame": 229,
+        "activeFromFrame": 229,
+        "activeToFrame": 253
+      },
+      {
+        "index": 18,
+        "text": "muscle,",
+        "startFrame": 253,
+        "activeFromFrame": 253,
+        "activeToFrame": 278
+      },
+      {
+        "index": 19,
+        "text": "maintaining",
+        "startFrame": 278,
+        "activeFromFrame": 278,
+        "activeToFrame": 287
+      },
+      {
+        "index": 20,
+        "text": "muscle",
+        "startFrame": 287,
+        "activeFromFrame": 287,
+        "activeToFrame": 301
+      },
+      {
+        "index": 21,
+        "text": "mass",
+        "startFrame": 301,
+        "activeFromFrame": 301,
+        "activeToFrame": 308
+      },
+      {
+        "index": 22,
+        "text": "is",
+        "startFrame": 308,
+        "activeFromFrame": 308,
+        "activeToFrame": 316
+      },
+      {
+        "index": 23,
+        "text": "very",
+        "startFrame": 316,
+        "activeFromFrame": 316,
+        "activeToFrame": 326
+      },
+      {
+        "index": 24,
+        "text": "important",
+        "startFrame": 326,
+        "activeFromFrame": 326,
+        "activeToFrame": 342
+      },
+      {
+        "index": 25,
+        "text": "because",
+        "startFrame": 342,
+        "activeFromFrame": 342,
+        "activeToFrame": 364
+      },
+      {
+        "index": 26,
+        "text": "muscle",
+        "startFrame": 364,
+        "activeFromFrame": 364,
+        "activeToFrame": 379
+      },
+      {
+        "index": 27,
+        "text": "reduces",
+        "startFrame": 379,
+        "activeFromFrame": 379,
+        "activeToFrame": 397
+      },
+      {
+        "index": 28,
+        "text": "insulin",
+        "startFrame": 397,
+        "activeFromFrame": 397,
+        "activeToFrame": 412
+      },
+      {
+        "index": 29,
+        "text": "resistance,",
+        "startFrame": 412,
+        "activeFromFrame": 412,
+        "activeToFrame": 457
+      },
+      {
+        "index": 30,
+        "text": "it",
+        "startFrame": 457,
+        "activeFromFrame": 457,
+        "activeToFrame": 460
+      },
+      {
+        "index": 31,
+        "text": "improves",
+        "startFrame": 460,
+        "activeFromFrame": 460,
+        "activeToFrame": 472
+      },
+      {
+        "index": 32,
+        "text": "metabolic",
+        "startFrame": 472,
+        "activeFromFrame": 472,
+        "activeToFrame": 487
+      },
+      {
+        "index": 33,
+        "text": "rate,",
+        "startFrame": 487,
+        "activeFromFrame": 487,
+        "activeToFrame": 512
+      },
+      {
+        "index": 34,
+        "text": "it",
+        "startFrame": 512,
+        "activeFromFrame": 512,
+        "activeToFrame": 518
+      },
+      {
+        "index": 35,
+        "text": "decreases",
+        "startFrame": 518,
+        "activeFromFrame": 518,
+        "activeToFrame": 535
+      },
+      {
+        "index": 36,
+        "text": "visceral",
+        "startFrame": 535,
+        "activeFromFrame": 535,
+        "activeToFrame": 551
+      },
+      {
+        "index": 37,
+        "text": "fat,",
+        "startFrame": 551,
+        "activeFromFrame": 551,
+        "activeToFrame": 572
+      },
+      {
+        "index": 38,
+        "text": "it",
+        "startFrame": 572,
+        "activeFromFrame": 572,
+        "activeToFrame": 580
+      },
+      {
+        "index": 39,
+        "text": "maintains",
+        "startFrame": 580,
+        "activeFromFrame": 580,
+        "activeToFrame": 597
+      },
+      {
+        "index": 40,
+        "text": "good",
+        "startFrame": 597,
+        "activeFromFrame": 597,
+        "activeToFrame": 617
+      },
+      {
+        "index": 41,
+        "text": "bone",
+        "startFrame": 617,
+        "activeFromFrame": 617,
+        "activeToFrame": 628
+      },
+      {
+        "index": 42,
+        "text": "health,",
+        "startFrame": 628,
+        "activeFromFrame": 628,
+        "activeToFrame": 644
+      },
+      {
+        "index": 43,
+        "text": "it",
+        "startFrame": 644,
+        "activeFromFrame": 644,
+        "activeToFrame": 649
+      },
+      {
+        "index": 44,
+        "text": "is",
+        "startFrame": 649,
+        "activeFromFrame": 649,
+        "activeToFrame": 653
+      },
+      {
+        "index": 45,
+        "text": "important",
+        "startFrame": 653,
+        "activeFromFrame": 653,
+        "activeToFrame": 667
+      },
+      {
+        "index": 46,
+        "text": "for",
+        "startFrame": 667,
+        "activeFromFrame": 667,
+        "activeToFrame": 679
+      },
+      {
+        "index": 47,
+        "text": "the",
+        "startFrame": 679,
+        "activeFromFrame": 679,
+        "activeToFrame": 690
+      },
+      {
+        "index": 48,
+        "text": "stability",
+        "startFrame": 690,
+        "activeFromFrame": 690,
+        "activeToFrame": 712
+      },
+      {
+        "index": 49,
+        "text": "and",
+        "startFrame": 712,
+        "activeFromFrame": 712,
+        "activeToFrame": 725
+      },
+      {
+        "index": 50,
+        "text": "balance",
+        "startFrame": 725,
+        "activeFromFrame": 725,
+        "activeToFrame": 739
+      },
+      {
+        "index": 51,
+        "text": "of",
+        "startFrame": 739,
+        "activeFromFrame": 739,
+        "activeToFrame": 747
+      },
+      {
+        "index": 52,
+        "text": "the",
+        "startFrame": 747,
+        "activeFromFrame": 747,
+        "activeToFrame": 752
+      },
+      {
+        "index": 53,
+        "text": "body.",
+        "startFrame": 752,
+        "activeFromFrame": 752,
+        "activeToFrame": 779
+      },
+      {
+        "index": 54,
+        "text": "So",
+        "startFrame": 779,
+        "activeFromFrame": 779,
+        "activeToFrame": 779
+      },
+      {
+        "index": 55,
+        "text": "thereby",
+        "startFrame": 779,
+        "activeFromFrame": 779,
+        "activeToFrame": 792
+      },
+      {
+        "index": 56,
+        "text": "it",
+        "startFrame": 792,
+        "activeFromFrame": 792,
+        "activeToFrame": 805
+      },
+      {
+        "index": 57,
+        "text": "almost",
+        "startFrame": 805,
+        "activeFromFrame": 805,
+        "activeToFrame": 826
+      },
+      {
+        "index": 58,
+        "text": "cures",
+        "startFrame": 826,
+        "activeFromFrame": 826,
+        "activeToFrame": 842
+      },
+      {
+        "index": 59,
+        "text": "the",
+        "startFrame": 842,
+        "activeFromFrame": 842,
+        "activeToFrame": 857
+      },
+      {
+        "index": 60,
+        "text": "pathophysiology",
+        "startFrame": 857,
+        "activeFromFrame": 857,
+        "activeToFrame": 886
+      },
+      {
+        "index": 61,
+        "text": "of",
+        "startFrame": 886,
+        "activeFromFrame": 886,
+        "activeToFrame": 893
+      },
+      {
+        "index": 62,
+        "text": "the",
+        "startFrame": 893,
+        "activeFromFrame": 893,
+        "activeToFrame": 898
+      },
+      {
+        "index": 63,
+        "text": "PCOS.",
+        "startFrame": 898,
+        "activeFromFrame": 898,
+        "activeToFrame": 929
+      },
+      {
+        "index": 64,
+        "text": "So",
+        "startFrame": 929,
+        "activeFromFrame": 929,
+        "activeToFrame": 930
+      },
+      {
+        "index": 65,
+        "text": "every",
+        "startFrame": 930,
+        "activeFromFrame": 930,
+        "activeToFrame": 942
+      },
+      {
+        "index": 66,
+        "text": "woman",
+        "startFrame": 942,
+        "activeFromFrame": 942,
+        "activeToFrame": 952
+      },
+      {
+        "index": 67,
+        "text": "with",
+        "startFrame": 952,
+        "activeFromFrame": 952,
+        "activeToFrame": 959
+      },
+      {
+        "index": 68,
+        "text": "PCOS",
+        "startFrame": 959,
+        "activeFromFrame": 959,
+        "activeToFrame": 974
+      },
+      {
+        "index": 69,
+        "text": "should",
+        "startFrame": 974,
+        "activeFromFrame": 974,
+        "activeToFrame": 984
+      },
+      {
+        "index": 70,
+        "text": "always",
+        "startFrame": 984,
+        "activeFromFrame": 984,
+        "activeToFrame": 995
+      },
+      {
+        "index": 71,
+        "text": "focus",
+        "startFrame": 995,
+        "activeFromFrame": 995,
+        "activeToFrame": 1004
+      },
+      {
+        "index": 72,
+        "text": "on",
+        "startFrame": 1004,
+        "activeFromFrame": 1004,
+        "activeToFrame": 1016
+      },
+      {
+        "index": 73,
+        "text": "building",
+        "startFrame": 1016,
+        "activeFromFrame": 1016,
+        "activeToFrame": 1027
+      },
+      {
+        "index": 74,
+        "text": "and",
+        "startFrame": 1027,
+        "activeFromFrame": 1027,
+        "activeToFrame": 1037
+      },
+      {
+        "index": 75,
+        "text": "maintaining",
+        "startFrame": 1037,
+        "activeFromFrame": 1037,
+        "activeToFrame": 1051
+      },
+      {
+        "index": 76,
+        "text": "muscle",
+        "startFrame": 1051,
+        "activeFromFrame": 1051,
+        "activeToFrame": 1063
+      },
+      {
+        "index": 77,
+        "text": "in",
+        "startFrame": 1063,
+        "activeFromFrame": 1063,
+        "activeToFrame": 1072
+      },
+      {
+        "index": 78,
+        "text": "the",
+        "startFrame": 1072,
+        "activeFromFrame": 1072,
+        "activeToFrame": 1076
+      },
+      {
+        "index": 79,
+        "text": "body.",
+        "startFrame": 1076,
+        "activeFromFrame": 1076,
+        "activeToFrame": 1096
+      }
+    ]
+  }
+}

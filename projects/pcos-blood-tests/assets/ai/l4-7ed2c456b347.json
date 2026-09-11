@@ -1,0 +1,52 @@
+{
+  "assetId": "l4-7ed2c456b347",
+  "file": "l4-7ed2c456b347.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman's bare feet standing on a white bathroom weighing scale on a light wooden floor, seen from above at an angle, the scale's display out of frame, soft morning window light, square composition, realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 541321423,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "7ed2c456b347c30b30fd66e66784f8224e9d827da5bea674483cc172c099dc3f",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman's bare feet standing on a white bathroom weighing scale on a light wooden floor, seen from above at an angle, the scale's display out of frame, soft morning window light, square composition, realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 541321423,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l4"
+  ],
+  "sourceBeats": [
+    11
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "listBuild",
+  "why": "'BMI' — weight, shown literally, nothing read off",
+  "says": "BMI and waist circumference measurement is also important.",
+  "createdAt": "2026-09-11T18:51:08",
+  "elapsedSec": 8.56,
+  "costEstimateUsd": 0.002621,
+  "costBasis": "estimate: 8.6s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

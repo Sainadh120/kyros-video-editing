@@ -1,0 +1,878 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Ma",
+      "start": 0.7600000000000025,
+      "end": 1.04,
+      "score": 0.42921850085258484,
+      "startFrame": 23,
+      "endFrame": 31
+    },
+    {
+      "word": "'am,",
+      "start": 1.04,
+      "end": 1.16,
+      "score": 0.9680452048778534,
+      "startFrame": 31,
+      "endFrame": 35
+    },
+    {
+      "word": "what",
+      "start": 1.3,
+      "end": 1.44,
+      "score": 0.9186714887619019,
+      "startFrame": 39,
+      "endFrame": 43
+    },
+    {
+      "word": "blood",
+      "start": 1.44,
+      "end": 1.74,
+      "score": 0.9886426329612732,
+      "startFrame": 43,
+      "endFrame": 52
+    },
+    {
+      "word": "tests",
+      "start": 1.74,
+      "end": 1.98,
+      "score": 0.9762138724327087,
+      "startFrame": 52,
+      "endFrame": 59
+    },
+    {
+      "word": "are",
+      "start": 1.98,
+      "end": 2.18,
+      "score": 0.9870617985725403,
+      "startFrame": 59,
+      "endFrame": 65
+    },
+    {
+      "word": "needed",
+      "start": 2.18,
+      "end": 2.36,
+      "score": 0.9957635402679443,
+      "startFrame": 65,
+      "endFrame": 71
+    },
+    {
+      "word": "for",
+      "start": 2.36,
+      "end": 2.64,
+      "score": 0.9909437298774719,
+      "startFrame": 71,
+      "endFrame": 79
+    },
+    {
+      "word": "PCOS?",
+      "start": 2.64,
+      "end": 3.3,
+      "score": 0.974846214056015,
+      "startFrame": 79,
+      "endFrame": 99
+    },
+    {
+      "word": "See,",
+      "start": 4.26,
+      "end": 4.34,
+      "score": 0.5607357025146484,
+      "startFrame": 128,
+      "endFrame": 130
+    },
+    {
+      "word": "any",
+      "start": 4.68,
+      "end": 4.7,
+      "score": 0.9812225699424744,
+      "startFrame": 140,
+      "endFrame": 141
+    },
+    {
+      "word": "woman,",
+      "start": 4.7,
+      "end": 5.1,
+      "score": 0.917690098285675,
+      "startFrame": 141,
+      "endFrame": 153
+    },
+    {
+      "word": "if",
+      "start": 5.3,
+      "end": 5.4,
+      "score": 0.9723533391952515,
+      "startFrame": 159,
+      "endFrame": 162
+    },
+    {
+      "word": "she",
+      "start": 5.4,
+      "end": 5.6,
+      "score": 0.994331955909729,
+      "startFrame": 162,
+      "endFrame": 168
+    },
+    {
+      "word": "comes",
+      "start": 5.6,
+      "end": 5.86,
+      "score": 0.9806466102600098,
+      "startFrame": 168,
+      "endFrame": 176
+    },
+    {
+      "word": "with",
+      "start": 5.86,
+      "end": 6.14,
+      "score": 0.9884618520736694,
+      "startFrame": 176,
+      "endFrame": 184
+    },
+    {
+      "word": "PCOS,",
+      "start": 6.14,
+      "end": 6.74,
+      "score": 0.9800737500190735,
+      "startFrame": 184,
+      "endFrame": 202
+    },
+    {
+      "word": "she",
+      "start": 7.24,
+      "end": 7.34,
+      "score": 0.9518540501594543,
+      "startFrame": 217,
+      "endFrame": 220
+    },
+    {
+      "word": "should",
+      "start": 7.34,
+      "end": 7.54,
+      "score": 0.9965624213218689,
+      "startFrame": 220,
+      "endFrame": 226
+    },
+    {
+      "word": "undergo",
+      "start": 7.54,
+      "end": 7.92,
+      "score": 0.9978419542312622,
+      "startFrame": 226,
+      "endFrame": 238
+    },
+    {
+      "word": "both",
+      "start": 7.92,
+      "end": 8.22,
+      "score": 0.9748470783233643,
+      "startFrame": 238,
+      "endFrame": 247
+    },
+    {
+      "word": "metabolic",
+      "start": 8.22,
+      "end": 8.76,
+      "score": 0.9907445311546326,
+      "startFrame": 247,
+      "endFrame": 263
+    },
+    {
+      "word": "test",
+      "start": 8.76,
+      "end": 9.22,
+      "score": 0.515272319316864,
+      "startFrame": 263,
+      "endFrame": 277
+    },
+    {
+      "word": "and",
+      "start": 9.22,
+      "end": 9.6,
+      "score": 0.9355705380439758,
+      "startFrame": 277,
+      "endFrame": 288
+    },
+    {
+      "word": "also",
+      "start": 9.6,
+      "end": 9.86,
+      "score": 0.9901268482208252,
+      "startFrame": 288,
+      "endFrame": 296
+    },
+    {
+      "word": "hormonal",
+      "start": 9.86,
+      "end": 10.32,
+      "score": 0.7658892869949341,
+      "startFrame": 296,
+      "endFrame": 310
+    },
+    {
+      "word": "test.",
+      "start": 10.32,
+      "end": 10.68,
+      "score": 0.8893719911575317,
+      "startFrame": 310,
+      "endFrame": 320
+    },
+    {
+      "word": "There",
+      "start": 11.14,
+      "end": 11.18,
+      "score": 0.9846781492233276,
+      "startFrame": 334,
+      "endFrame": 335
+    },
+    {
+      "word": "are",
+      "start": 11.18,
+      "end": 11.34,
+      "score": 0.995307981967926,
+      "startFrame": 335,
+      "endFrame": 340
+    },
+    {
+      "word": "two",
+      "start": 11.34,
+      "end": 11.48,
+      "score": 0.9159653186798096,
+      "startFrame": 340,
+      "endFrame": 344
+    },
+    {
+      "word": "kinds",
+      "start": 11.48,
+      "end": 11.74,
+      "score": 0.9904870390892029,
+      "startFrame": 344,
+      "endFrame": 352
+    },
+    {
+      "word": "of",
+      "start": 11.74,
+      "end": 11.96,
+      "score": 0.9975104331970215,
+      "startFrame": 352,
+      "endFrame": 359
+    },
+    {
+      "word": "PCOS,",
+      "start": 11.96,
+      "end": 12.46,
+      "score": 0.989544689655304,
+      "startFrame": 359,
+      "endFrame": 374
+    },
+    {
+      "word": "primary",
+      "start": 12.72,
+      "end": 12.9,
+      "score": 0.8224329352378845,
+      "startFrame": 382,
+      "endFrame": 387
+    },
+    {
+      "word": "PCOS",
+      "start": 12.9,
+      "end": 13.46,
+      "score": 0.9862554371356964,
+      "startFrame": 387,
+      "endFrame": 404
+    },
+    {
+      "word": "and",
+      "start": 13.46,
+      "end": 13.7,
+      "score": 0.941826343536377,
+      "startFrame": 404,
+      "endFrame": 411
+    },
+    {
+      "word": "secondary",
+      "start": 13.7,
+      "end": 14.08,
+      "score": 0.9970842003822327,
+      "startFrame": 411,
+      "endFrame": 422
+    },
+    {
+      "word": "PCOS.",
+      "start": 14.08,
+      "end": 14.64,
+      "score": 0.990960031747818,
+      "startFrame": 422,
+      "endFrame": 439
+    },
+    {
+      "word": "So,",
+      "start": 15.22,
+      "end": 15.3,
+      "score": 0.9800990223884583,
+      "startFrame": 457,
+      "endFrame": 459
+    },
+    {
+      "word": "in",
+      "start": 15.36,
+      "end": 15.42,
+      "score": 0.9910632371902466,
+      "startFrame": 461,
+      "endFrame": 463
+    },
+    {
+      "word": "secondary",
+      "start": 15.42,
+      "end": 15.78,
+      "score": 0.9942305088043213,
+      "startFrame": 463,
+      "endFrame": 473
+    },
+    {
+      "word": "PCOS,",
+      "start": 15.78,
+      "end": 16.36,
+      "score": 0.9919982254505157,
+      "startFrame": 473,
+      "endFrame": 491
+    },
+    {
+      "word": "patients",
+      "start": 16.56,
+      "end": 16.7,
+      "score": 0.4004872441291809,
+      "startFrame": 497,
+      "endFrame": 501
+    },
+    {
+      "word": "will",
+      "start": 16.7,
+      "end": 17.02,
+      "score": 0.9849409461021423,
+      "startFrame": 501,
+      "endFrame": 511
+    },
+    {
+      "word": "develop",
+      "start": 17.02,
+      "end": 17.34,
+      "score": 0.9974629878997803,
+      "startFrame": 511,
+      "endFrame": 520
+    },
+    {
+      "word": "all",
+      "start": 17.34,
+      "end": 17.66,
+      "score": 0.9825022220611572,
+      "startFrame": 520,
+      "endFrame": 530
+    },
+    {
+      "word": "these",
+      "start": 17.66,
+      "end": 17.82,
+      "score": 0.9151287078857422,
+      "startFrame": 530,
+      "endFrame": 535
+    },
+    {
+      "word": "ovarian",
+      "start": 17.82,
+      "end": 18.22,
+      "score": 0.8408312201499939,
+      "startFrame": 535,
+      "endFrame": 547
+    },
+    {
+      "word": "cysts",
+      "start": 18.22,
+      "end": 18.6,
+      "score": 0.644885778427124,
+      "startFrame": 547,
+      "endFrame": 558
+    },
+    {
+      "word": "and",
+      "start": 18.6,
+      "end": 18.76,
+      "score": 0.9674038290977478,
+      "startFrame": 558,
+      "endFrame": 563
+    },
+    {
+      "word": "menstrual",
+      "start": 18.76,
+      "end": 19.04,
+      "score": 0.4131571054458618,
+      "startFrame": 563,
+      "endFrame": 571
+    },
+    {
+      "word": "irrititis",
+      "start": 19.04,
+      "end": 19.56,
+      "score": 0.22116652131080627,
+      "startFrame": 571,
+      "endFrame": 587
+    },
+    {
+      "word": "secondary",
+      "start": 19.56,
+      "end": 19.98,
+      "score": 0.829027533531189,
+      "startFrame": 587,
+      "endFrame": 599
+    },
+    {
+      "word": "to",
+      "start": 19.98,
+      "end": 20.22,
+      "score": 0.9953901767730713,
+      "startFrame": 599,
+      "endFrame": 607
+    },
+    {
+      "word": "some",
+      "start": 20.22,
+      "end": 20.42,
+      "score": 0.9899084568023682,
+      "startFrame": 607,
+      "endFrame": 613
+    },
+    {
+      "word": "hormone",
+      "start": 20.42,
+      "end": 20.78,
+      "score": 0.990665078163147,
+      "startFrame": 613,
+      "endFrame": 623
+    },
+    {
+      "word": "problems",
+      "start": 20.78,
+      "end": 21.18,
+      "score": 0.9812451601028442,
+      "startFrame": 623,
+      "endFrame": 635
+    },
+    {
+      "word": "like",
+      "start": 21.18,
+      "end": 21.42,
+      "score": 0.9116973876953125,
+      "startFrame": 635,
+      "endFrame": 643
+    },
+    {
+      "word": "thyroid",
+      "start": 21.42,
+      "end": 21.82,
+      "score": 0.9764046669006348,
+      "startFrame": 643,
+      "endFrame": 655
+    },
+    {
+      "word": "and",
+      "start": 21.82,
+      "end": 22.04,
+      "score": 0.9876753091812134,
+      "startFrame": 655,
+      "endFrame": 661
+    },
+    {
+      "word": "prolactin.",
+      "start": 22.04,
+      "end": 22.58,
+      "score": 0.972857137521108,
+      "startFrame": 661,
+      "endFrame": 677
+    },
+    {
+      "word": "And",
+      "start": 23.16,
+      "end": 23.32,
+      "score": 0.9583561420440674,
+      "startFrame": 695,
+      "endFrame": 700
+    },
+    {
+      "word": "in",
+      "start": 23.32,
+      "end": 23.52,
+      "score": 0.8989461660385132,
+      "startFrame": 700,
+      "endFrame": 706
+    },
+    {
+      "word": "some",
+      "start": 23.52,
+      "end": 23.76,
+      "score": 0.9954538345336914,
+      "startFrame": 706,
+      "endFrame": 713
+    },
+    {
+      "word": "patients",
+      "start": 23.76,
+      "end": 24.04,
+      "score": 0.9626262187957764,
+      "startFrame": 713,
+      "endFrame": 721
+    },
+    {
+      "word": "who",
+      "start": 24.04,
+      "end": 24.3,
+      "score": 0.9500859379768372,
+      "startFrame": 721,
+      "endFrame": 729
+    },
+    {
+      "word": "have",
+      "start": 24.3,
+      "end": 24.48,
+      "score": 0.9943481087684631,
+      "startFrame": 729,
+      "endFrame": 734
+    },
+    {
+      "word": "excessive",
+      "start": 24.48,
+      "end": 24.88,
+      "score": 0.9442703723907471,
+      "startFrame": 734,
+      "endFrame": 746
+    },
+    {
+      "word": "facial",
+      "start": 24.88,
+      "end": 25.28,
+      "score": 0.9963317513465881,
+      "startFrame": 746,
+      "endFrame": 758
+    },
+    {
+      "word": "hair",
+      "start": 25.28,
+      "end": 25.52,
+      "score": 0.4241439402103424,
+      "startFrame": 758,
+      "endFrame": 766
+    },
+    {
+      "word": "there",
+      "start": 25.52,
+      "end": 25.7,
+      "score": 0.3421452045440674,
+      "startFrame": 766,
+      "endFrame": 771
+    },
+    {
+      "word": "are",
+      "start": 25.7,
+      "end": 25.82,
+      "score": 0.9705790281295776,
+      "startFrame": 771,
+      "endFrame": 775
+    },
+    {
+      "word": "few",
+      "start": 25.82,
+      "end": 26.04,
+      "score": 0.8943758606910706,
+      "startFrame": 775,
+      "endFrame": 781
+    },
+    {
+      "word": "other",
+      "start": 26.04,
+      "end": 26.36,
+      "score": 0.9918604493141174,
+      "startFrame": 781,
+      "endFrame": 791
+    },
+    {
+      "word": "hormone",
+      "start": 26.36,
+      "end": 26.7,
+      "score": 0.9646347761154175,
+      "startFrame": 791,
+      "endFrame": 801
+    },
+    {
+      "word": "tests",
+      "start": 26.7,
+      "end": 26.96,
+      "score": 0.6631814241409302,
+      "startFrame": 801,
+      "endFrame": 809
+    },
+    {
+      "word": "also",
+      "start": 26.96,
+      "end": 27.36,
+      "score": 0.9717035889625549,
+      "startFrame": 809,
+      "endFrame": 821
+    },
+    {
+      "word": "they",
+      "start": 27.36,
+      "end": 28.18,
+      "score": 0.731738805770874,
+      "startFrame": 821,
+      "endFrame": 845
+    },
+    {
+      "word": "should",
+      "start": 28.18,
+      "end": 28.34,
+      "score": 0.999202311038971,
+      "startFrame": 845,
+      "endFrame": 850
+    },
+    {
+      "word": "undergo",
+      "start": 28.34,
+      "end": 28.68,
+      "score": 0.993126630783081,
+      "startFrame": 850,
+      "endFrame": 860
+    },
+    {
+      "word": "and",
+      "start": 28.68,
+      "end": 29.4,
+      "score": 0.513144850730896,
+      "startFrame": 860,
+      "endFrame": 882
+    },
+    {
+      "word": "very",
+      "start": 29.4,
+      "end": 29.74,
+      "score": 0.9932970404624939,
+      "startFrame": 882,
+      "endFrame": 892
+    },
+    {
+      "word": "importantly",
+      "start": 29.74,
+      "end": 30.24,
+      "score": 0.9972739815711975,
+      "startFrame": 892,
+      "endFrame": 907
+    },
+    {
+      "word": "since",
+      "start": 30.24,
+      "end": 30.66,
+      "score": 0.9572170376777649,
+      "startFrame": 907,
+      "endFrame": 920
+    },
+    {
+      "word": "PCOS",
+      "start": 30.66,
+      "end": 31.18,
+      "score": 0.8942555487155914,
+      "startFrame": 920,
+      "endFrame": 935
+    },
+    {
+      "word": "patient",
+      "start": 31.18,
+      "end": 31.48,
+      "score": 0.8631784319877625,
+      "startFrame": 935,
+      "endFrame": 944
+    },
+    {
+      "word": "has",
+      "start": 31.48,
+      "end": 31.82,
+      "score": 0.996696949005127,
+      "startFrame": 944,
+      "endFrame": 955
+    },
+    {
+      "word": "insulin",
+      "start": 31.82,
+      "end": 32.16,
+      "score": 0.9986612796783447,
+      "startFrame": 955,
+      "endFrame": 965
+    },
+    {
+      "word": "resistance",
+      "start": 32.16,
+      "end": 32.68,
+      "score": 0.9940168857574463,
+      "startFrame": 965,
+      "endFrame": 980
+    },
+    {
+      "word": "one",
+      "start": 32.68,
+      "end": 33.12,
+      "score": 0.8925194144248962,
+      "startFrame": 980,
+      "endFrame": 994
+    },
+    {
+      "word": "must",
+      "start": 33.12,
+      "end": 33.46,
+      "score": 0.9986571073532104,
+      "startFrame": 994,
+      "endFrame": 1004
+    },
+    {
+      "word": "get",
+      "start": 33.46,
+      "end": 34.08,
+      "score": 0.97209632396698,
+      "startFrame": 1004,
+      "endFrame": 1022
+    },
+    {
+      "word": "their",
+      "start": 34.08,
+      "end": 34.36,
+      "score": 0.9825399518013,
+      "startFrame": 1022,
+      "endFrame": 1031
+    },
+    {
+      "word": "HPA1C",
+      "start": 34.36,
+      "end": 35.34,
+      "score": 0.7678422927856445,
+      "startFrame": 1031,
+      "endFrame": 1060
+    },
+    {
+      "word": "and",
+      "start": 35.34,
+      "end": 35.84,
+      "score": 0.9839668869972229,
+      "startFrame": 1060,
+      "endFrame": 1075
+    },
+    {
+      "word": "sugar",
+      "start": 35.84,
+      "end": 36.22,
+      "score": 0.9724658131599426,
+      "startFrame": 1075,
+      "endFrame": 1087
+    },
+    {
+      "word": "blood",
+      "start": 36.22,
+      "end": 36.92,
+      "score": 0.9052854180335999,
+      "startFrame": 1087,
+      "endFrame": 1108
+    },
+    {
+      "word": "test",
+      "start": 36.92,
+      "end": 37.16,
+      "score": 0.5563834309577942,
+      "startFrame": 1108,
+      "endFrame": 1115
+    },
+    {
+      "word": "done",
+      "start": 37.16,
+      "end": 37.56,
+      "score": 0.9867404103279114,
+      "startFrame": 1115,
+      "endFrame": 1127
+    },
+    {
+      "word": "cholesterol",
+      "start": 37.56,
+      "end": 38.34,
+      "score": 0.762544572353363,
+      "startFrame": 1127,
+      "endFrame": 1150
+    },
+    {
+      "word": "test",
+      "start": 38.34,
+      "end": 38.98,
+      "score": 0.9658678770065308,
+      "startFrame": 1150,
+      "endFrame": 1169
+    },
+    {
+      "word": "BMI",
+      "start": 39.760000000000005,
+      "end": 40.52,
+      "score": 0.8250045776367188,
+      "startFrame": 1193,
+      "endFrame": 1216
+    },
+    {
+      "word": "and",
+      "start": 40.52,
+      "end": 41.28,
+      "score": 0.9916903972625732,
+      "startFrame": 1216,
+      "endFrame": 1238
+    },
+    {
+      "word": "waist",
+      "start": 41.28,
+      "end": 41.46,
+      "score": 0.4976012706756592,
+      "startFrame": 1238,
+      "endFrame": 1244
+    },
+    {
+      "word": "circumference",
+      "start": 41.46,
+      "end": 42.1,
+      "score": 0.9903286099433899,
+      "startFrame": 1244,
+      "endFrame": 1263
+    },
+    {
+      "word": "measurement",
+      "start": 42.1,
+      "end": 42.54,
+      "score": 0.9957081079483032,
+      "startFrame": 1263,
+      "endFrame": 1276
+    },
+    {
+      "word": "is",
+      "start": 42.54,
+      "end": 42.84,
+      "score": 0.997092604637146,
+      "startFrame": 1276,
+      "endFrame": 1285
+    },
+    {
+      "word": "also",
+      "start": 42.84,
+      "end": 43.08,
+      "score": 0.9987794756889343,
+      "startFrame": 1285,
+      "endFrame": 1292
+    },
+    {
+      "word": "important.",
+      "start": 43.08,
+      "end": 43.6,
+      "score": 0.9977877140045166,
+      "startFrame": 1292,
+      "endFrame": 1308
+    }
+  ]
+}

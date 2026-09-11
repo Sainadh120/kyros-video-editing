@@ -1,0 +1,353 @@
+{
+  "slug": "pcos-best-exercise",
+  "clip": "inbox/pcos-best-exercise.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "_clipNote": "Trimmed at 46.06s (end of 'per week.'): the delivered file ran on into a different take ('our carbohydrates come.', 46.06-47.62s). Original kept untouched at ~/Downloads/best exercise for PCOS.mp4.",
+  "question": {
+    "preset": "ink",
+    "_presetNote": "register.py proposal: last clip ran 'forest', so this takes 'ink'.",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          4,
+          5,
+          6
+        ],
+        "lines": [
+          "EXERCISE",
+          "FOR PCOS?"
+        ]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "_beat": "1  3.6-7.5s  the nuance line — her face carries it",
+      "lead": [
+        7,
+        8,
+        9
+      ],
+      "key": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "lines": [
+        "NO SINGLE",
+        "BEST EXERCISE"
+      ]
+    },
+    {
+      "_beat": "2  7.5-9.5s",
+      "lead": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "key": [
+        23
+      ],
+      "lines": [
+        "COMBINE"
+      ]
+    },
+    {
+      "_beat": "3  9.5-14.3s  the list — the checklist card (v1) carries it, so no caption",
+      "lead": [],
+      "key": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "lines": [
+        "DAILY MOVEMENT",
+        "CARDIO",
+        "STRENGTH"
+      ],
+      "skip": true,
+      "_skipWhy": "the checklist card on the wall names all three as she says them"
+    },
+    {
+      "_beat": "4  14.3-19.2s  her own recommendation — her face",
+      "lead": [
+        30,
+        31,
+        32
+      ],
+      "key": [
+        37,
+        38
+      ],
+      "lines": [
+        "ACTIVE DAILY"
+      ]
+    },
+    {
+      "_beat": "5  19.2-22.0s",
+      "lead": [
+        44,
+        45
+      ],
+      "key": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "lines": [
+        "8–10,000 STEPS",
+        "PER DAY"
+      ]
+    },
+    {
+      "_beat": "6  22.0-24.3s",
+      "lead": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "key": [
+        57,
+        58
+      ],
+      "lines": [
+        "STRENGTH",
+        "TRAINING"
+      ]
+    },
+    {
+      "_beat": "7  24.3-27.8s",
+      "lead": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "key": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "lines": [
+        "2–3 TIMES",
+        "A WEEK"
+      ]
+    },
+    {
+      "_beat": "8  27.8-34.8s",
+      "lead": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "key": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "lines": [
+        "SWIMMING · RUNNING",
+        "JOGGING · CYCLING"
+      ]
+    },
+    {
+      "_beat": "9  34.8-37.6s",
+      "lead": [
+        80,
+        81,
+        82
+      ],
+      "key": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "lines": [
+        "150 MINUTES",
+        "A WEEK"
+      ]
+    },
+    {
+      "_beat": "10  37.6-41.5s",
+      "lead": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "key": [
+        96,
+        97
+      ],
+      "lines": [
+        "REDUCE STRESS"
+      ]
+    },
+    {
+      "_beat": "11  41.5-46.0s  the close — her face",
+      "lead": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "key": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "lines": [
+        "MEDITATION",
+        "2–3 TIMES A WEEK"
+      ]
+    }
+  ],
+  "layout": {
+    "captionScrim": {
+      "enabled": true,
+      "ground": "dark",
+      "opacity": 0.8,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "style": {
+    "_comment": "register.py proposals, pending Niranjan's OK: dark scrim (last two ran light, none), ink card, match lead, brick palette lead, warmEditorial pairing, maskWipeFast reveal.",
+    "typePairing": "warmEditorial",
+    "revealStyle": "maskWipeFast",
+    "leadStyle": "match",
+    "paletteLead": "brick",
+    "textPosition": "top on the bare wall (the take has no burned-in graphics); beats under a wall card drop low onto the dark scrim",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "rotation led by brick; palette.py derives and APCA-checks the rest"
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "full",
+    "style": "naturalLight",
+    "bubbleShape": "circle",
+    "beats": [
+      {
+        "id": "v1",
+        "beat": 3,
+        "mode": "graphic",
+        "treatment": "inset",
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "DAILY MOVEMENT",
+            "CARDIO",
+            "STRENGTH"
+          ]
+        },
+        "status": "approved",
+        "_why": "she lists the three parts of the answer; each ticks in as she says it. Free, exact, her words."
+      },
+      {
+        "id": "v2",
+        "beat": 5,
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pushIn",
+        "prompt": "A woman in her early thirties in a navy t-shirt, grey track pants and white running shoes walks briskly along a tree-lined walking track in a Hyderabad park at sunrise, seen side-on from a slight distance, mid-stride, right of centre. Vertical 9:16 frame with soft open morning sky in the upper third and a quiet stretch of track in the lower left. Shot on a 35mm lens at eye level, warm golden light, candid documentary photograph, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "'8 to 10,000 steps per day' — daily walking, shown literally; the caption carries her number",
+        "approvedHash": "67938a00a8feb7fdd767054014d2e633ca5044d720603499528f6c4e81ea84ab"
+      },
+      {
+        "id": "v3",
+        "at": [
+          22.0,
+          27.8
+        ],
+        "mode": "image",
+        "treatment": "inset",
+        "aspect": "16:9",
+        "motion": "panLeft",
+        "prompt": "A woman in her thirties in a fitted black t-shirt and black track pants stands tall in a clean neighbourhood gym in Hyderabad, feet hip-width apart, holding a light dumbbell in each hand and curling them up toward her shoulders, elbows close to her sides, calm focused expression, seen from the front at a slight angle, centred in a wide 16:9 frame. Racks and mirrors softly out of focus behind her. Natural window light from the left, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour, plain unmarked equipment.",
+        "status": "approved",
+        "_why": "'resistance training or strength training, gym' — a card on the wall while she stays full-frame and says how often",
+        "_rejected": [
+          "v3-ab13ce47dafd.png: odd plank-lunge pose, not a real exercise; '15' printed on the dumbbell"
+        ],
+        "approvedHash": "7decc0546305d89792c6bb8b550f4429b204524f49c319f86c5c54efcd3fba4a"
+      },
+      {
+        "id": "v4",
+        "beat": 8,
+        "mode": "video",
+        "treatment": "doctorBubble",
+        "prompt": "Clear turquoise water in an outdoor community pool in the morning. A woman in a dark swimsuit and swim cap glides forward doing an easy, steady freestyle stroke, her arms rising and entering the water in a calm rhythm. The camera tracks slowly alongside at water level, keeping the swimmer in the lower right of the frame, with bright calm water and open sky in the upper third. Sunlight ripples across the pool floor. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+        "status": "approved",
+        "_why": "'swimming, running, jogging, cycling' — swimming is the first she names and motion is the point",
+        "approvedHash": "6beb55afb7c60c7da920497054862cf5a1f7e5f4d5c014cd8ab51edfb69264f1"
+      },
+      {
+        "id": "v5",
+        "beat": 10,
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pullOut",
+        "prompt": "A woman in her thirties in a soft cotton kurta sits cross-legged on a mat beside a sunlit window in a calm Hyderabad apartment, eyes closed, shoulders relaxed, hands resting on her knees, breathing out slowly. Vertical 9:16 frame, subject right of centre, plain warm wall in the upper third. Soft morning window light, shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "'for mental stability, to reduce stress' — a real, quiet moment of the meditation she then names",
+        "approvedHash": "c37fc2c68290ed068dea2b63ad9c65b1ce6aeb12f0b0c79dbc22bd0df6ce233b"
+      }
+    ]
+  },
+  "openFlags": [],
+  "_resolved": [
+    "Transcript read: 'What is the best exercise for PCOS?' — no single best; combine daily movement, cardio, strength; 8–10,000 steps a day; strength training (gym or yoga) 2–3× a week; moderate cardio (swimming, running, jogging, cycling) 150 min a week; meditation 2–3× a week for stress. 46.1s, 111 words. Pending Niranjan's confirmation.",
+    "No burned-in graphics anywhere in the take — the wall above her head is free canvas the whole time.",
+    "No compliance flags in her wording: no cure/reverse/guarantee language."
+  ]
+}

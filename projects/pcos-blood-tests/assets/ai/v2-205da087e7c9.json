@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-205da087e7c9",
+  "file": "v2-205da087e7c9.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Educational 3D medical illustration of a human ovary with several small fluid-filled follicles along its surface, soft translucent tissue in warm peach and rose tones, gently lit against a clean deep green background, centred in a vertical 9:16 frame with calm empty space in the upper third, clearly an anatomical model with clean unmarked surfaces.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 623934111,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "205da087e7c96826802edb479cb09864198b69e7ce1b89b7490de72a03a617da",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Educational 3D medical illustration of a human ovary with several small fluid-filled follicles along its surface, soft translucent tissue in warm peach and rose tones, gently lit against a clean deep green background, centred in a vertical 9:16 frame with calm empty space in the upper third, clearly an anatomical model with clean unmarked surfaces.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 623934111,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "doctorBubble",
+  "why": "'patients will develop all these ovarian cysts' — one thing named, one clear educational picture",
+  "says": "patients will develop all these ovarian cysts",
+  "createdAt": "2026-09-11T18:50:32",
+  "elapsedSec": 31.75,
+  "costEstimateUsd": 0.009714,
+  "costBasis": "estimate: 31.7s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

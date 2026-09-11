@@ -1,0 +1,470 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Is",
+      "start": 0.8199999999999994,
+      "end": 1.5,
+      "score": 0.5388867855072021,
+      "startFrame": 25,
+      "endFrame": 45
+    },
+    {
+      "word": "walking",
+      "start": 1.5,
+      "end": 1.74,
+      "score": 0.9284396171569824,
+      "startFrame": 45,
+      "endFrame": 52
+    },
+    {
+      "word": "enough",
+      "start": 1.74,
+      "end": 2.2,
+      "score": 0.9869149327278137,
+      "startFrame": 52,
+      "endFrame": 66
+    },
+    {
+      "word": "for",
+      "start": 2.2,
+      "end": 2.94,
+      "score": 0.9822414517402649,
+      "startFrame": 66,
+      "endFrame": 88
+    },
+    {
+      "word": "a",
+      "start": 2.94,
+      "end": 3.04,
+      "score": 0.8936592936515808,
+      "startFrame": 88,
+      "endFrame": 91
+    },
+    {
+      "word": "woman",
+      "start": 3.04,
+      "end": 3.22,
+      "score": 0.9419041872024536,
+      "startFrame": 91,
+      "endFrame": 97
+    },
+    {
+      "word": "with",
+      "start": 3.22,
+      "end": 3.48,
+      "score": 0.9934717416763306,
+      "startFrame": 97,
+      "endFrame": 104
+    },
+    {
+      "word": "PCOS?",
+      "start": 3.48,
+      "end": 3.96,
+      "score": 0.9702872335910797,
+      "startFrame": 104,
+      "endFrame": 119
+    },
+    {
+      "word": "Walking",
+      "start": 4.96,
+      "end": 5.22,
+      "score": 0.9839164614677429,
+      "startFrame": 149,
+      "endFrame": 157
+    },
+    {
+      "word": "is",
+      "start": 5.22,
+      "end": 5.52,
+      "score": 0.9943498969078064,
+      "startFrame": 157,
+      "endFrame": 166
+    },
+    {
+      "word": "an",
+      "start": 5.52,
+      "end": 5.66,
+      "score": 0.9919272661209106,
+      "startFrame": 166,
+      "endFrame": 170
+    },
+    {
+      "word": "excellent",
+      "start": 5.66,
+      "end": 6.14,
+      "score": 0.9985342025756836,
+      "startFrame": 170,
+      "endFrame": 184
+    },
+    {
+      "word": "form",
+      "start": 6.14,
+      "end": 6.48,
+      "score": 0.9947885274887085,
+      "startFrame": 184,
+      "endFrame": 194
+    },
+    {
+      "word": "of",
+      "start": 6.48,
+      "end": 6.66,
+      "score": 0.9942858815193176,
+      "startFrame": 194,
+      "endFrame": 200
+    },
+    {
+      "word": "exercise",
+      "start": 6.66,
+      "end": 7.2,
+      "score": 0.9926511645317078,
+      "startFrame": 200,
+      "endFrame": 216
+    },
+    {
+      "word": "especially",
+      "start": 7.2,
+      "end": 7.8,
+      "score": 0.3995118737220764,
+      "startFrame": 216,
+      "endFrame": 234
+    },
+    {
+      "word": "for",
+      "start": 7.8,
+      "end": 8.34,
+      "score": 0.9905630350112915,
+      "startFrame": 234,
+      "endFrame": 250
+    },
+    {
+      "word": "the",
+      "start": 8.34,
+      "end": 8.52,
+      "score": 0.790835440158844,
+      "startFrame": 250,
+      "endFrame": 256
+    },
+    {
+      "word": "beginners",
+      "start": 8.52,
+      "end": 8.86,
+      "score": 0.981461226940155,
+      "startFrame": 256,
+      "endFrame": 266
+    },
+    {
+      "word": "and",
+      "start": 8.86,
+      "end": 9.54,
+      "score": 0.8097555637359619,
+      "startFrame": 266,
+      "endFrame": 286
+    },
+    {
+      "word": "it",
+      "start": 9.54,
+      "end": 9.66,
+      "score": 0.9906230568885803,
+      "startFrame": 286,
+      "endFrame": 290
+    },
+    {
+      "word": "is",
+      "start": 9.66,
+      "end": 9.78,
+      "score": 0.9958488941192627,
+      "startFrame": 290,
+      "endFrame": 293
+    },
+    {
+      "word": "very",
+      "start": 9.78,
+      "end": 10.06,
+      "score": 0.9965648055076599,
+      "startFrame": 293,
+      "endFrame": 302
+    },
+    {
+      "word": "simple",
+      "start": 10.06,
+      "end": 10.52,
+      "score": 0.99774569272995,
+      "startFrame": 302,
+      "endFrame": 316
+    },
+    {
+      "word": "also",
+      "start": 10.52,
+      "end": 11.02,
+      "score": 0.9924302697181702,
+      "startFrame": 316,
+      "endFrame": 331
+    },
+    {
+      "word": "but",
+      "start": 11.5,
+      "end": 11.84,
+      "score": 0.49961262941360474,
+      "startFrame": 345,
+      "endFrame": 355
+    },
+    {
+      "word": "it",
+      "start": 11.84,
+      "end": 12.24,
+      "score": 0.983274519443512,
+      "startFrame": 355,
+      "endFrame": 367
+    },
+    {
+      "word": "is",
+      "start": 12.24,
+      "end": 12.42,
+      "score": 0.9934731125831604,
+      "startFrame": 367,
+      "endFrame": 373
+    },
+    {
+      "word": "not",
+      "start": 12.42,
+      "end": 12.74,
+      "score": 0.9955958724021912,
+      "startFrame": 373,
+      "endFrame": 382
+    },
+    {
+      "word": "enough",
+      "start": 12.74,
+      "end": 13.2,
+      "score": 0.997639536857605,
+      "startFrame": 382,
+      "endFrame": 396
+    },
+    {
+      "word": "for",
+      "start": 13.2,
+      "end": 13.72,
+      "score": 0.9913076758384705,
+      "startFrame": 396,
+      "endFrame": 412
+    },
+    {
+      "word": "treatment",
+      "start": 13.72,
+      "end": 14.14,
+      "score": 0.9781196117401123,
+      "startFrame": 412,
+      "endFrame": 424
+    },
+    {
+      "word": "of",
+      "start": 14.14,
+      "end": 14.42,
+      "score": 0.9955577254295349,
+      "startFrame": 424,
+      "endFrame": 433
+    },
+    {
+      "word": "PCOS.",
+      "start": 14.42,
+      "end": 15.0,
+      "score": 0.9846530854701996,
+      "startFrame": 433,
+      "endFrame": 450
+    },
+    {
+      "word": "Along",
+      "start": 15.64,
+      "end": 15.8,
+      "score": 0.9929019808769226,
+      "startFrame": 469,
+      "endFrame": 474
+    },
+    {
+      "word": "with",
+      "start": 15.8,
+      "end": 16.02,
+      "score": 0.9968459010124207,
+      "startFrame": 474,
+      "endFrame": 481
+    },
+    {
+      "word": "walking,",
+      "start": 16.02,
+      "end": 16.52,
+      "score": 0.9892081618309021,
+      "startFrame": 481,
+      "endFrame": 496
+    },
+    {
+      "word": "one",
+      "start": 16.78,
+      "end": 16.98,
+      "score": 0.9917504191398621,
+      "startFrame": 503,
+      "endFrame": 509
+    },
+    {
+      "word": "must",
+      "start": 16.98,
+      "end": 17.2,
+      "score": 0.9837254881858826,
+      "startFrame": 509,
+      "endFrame": 516
+    },
+    {
+      "word": "also",
+      "start": 17.2,
+      "end": 17.64,
+      "score": 0.9930155277252197,
+      "startFrame": 516,
+      "endFrame": 529
+    },
+    {
+      "word": "do",
+      "start": 17.64,
+      "end": 17.8,
+      "score": 0.9951436519622803,
+      "startFrame": 529,
+      "endFrame": 534
+    },
+    {
+      "word": "the",
+      "start": 17.8,
+      "end": 17.96,
+      "score": 0.987273097038269,
+      "startFrame": 534,
+      "endFrame": 539
+    },
+    {
+      "word": "resistance",
+      "start": 17.96,
+      "end": 18.32,
+      "score": 0.9875126481056213,
+      "startFrame": 539,
+      "endFrame": 550
+    },
+    {
+      "word": "training",
+      "start": 18.32,
+      "end": 18.9,
+      "score": 0.9955581426620483,
+      "startFrame": 550,
+      "endFrame": 567
+    },
+    {
+      "word": "twice",
+      "start": 18.9,
+      "end": 19.36,
+      "score": 0.9943262934684753,
+      "startFrame": 567,
+      "endFrame": 581
+    },
+    {
+      "word": "or",
+      "start": 19.36,
+      "end": 19.74,
+      "score": 0.9948126077651978,
+      "startFrame": 581,
+      "endFrame": 592
+    },
+    {
+      "word": "thrice",
+      "start": 19.74,
+      "end": 20.12,
+      "score": 0.975475400686264,
+      "startFrame": 592,
+      "endFrame": 604
+    },
+    {
+      "word": "a",
+      "start": 20.12,
+      "end": 20.26,
+      "score": 0.8984418511390686,
+      "startFrame": 604,
+      "endFrame": 608
+    },
+    {
+      "word": "week",
+      "start": 20.26,
+      "end": 20.48,
+      "score": 0.9994825124740601,
+      "startFrame": 608,
+      "endFrame": 614
+    },
+    {
+      "word": "in",
+      "start": 20.48,
+      "end": 21.04,
+      "score": 0.930715024471283,
+      "startFrame": 614,
+      "endFrame": 631
+    },
+    {
+      "word": "order",
+      "start": 21.04,
+      "end": 21.2,
+      "score": 0.9946916699409485,
+      "startFrame": 631,
+      "endFrame": 636
+    },
+    {
+      "word": "to",
+      "start": 21.2,
+      "end": 21.48,
+      "score": 0.9988001585006714,
+      "startFrame": 636,
+      "endFrame": 644
+    },
+    {
+      "word": "reverse",
+      "start": 21.48,
+      "end": 21.82,
+      "score": 0.9987842440605164,
+      "startFrame": 644,
+      "endFrame": 655
+    },
+    {
+      "word": "the",
+      "start": 21.82,
+      "end": 22.0,
+      "score": 0.99517422914505,
+      "startFrame": 655,
+      "endFrame": 660
+    },
+    {
+      "word": "pathophysiology",
+      "start": 22.0,
+      "end": 22.76,
+      "score": 0.9956326683362325,
+      "startFrame": 660,
+      "endFrame": 683
+    },
+    {
+      "word": "of",
+      "start": 22.76,
+      "end": 23.04,
+      "score": 0.9987572431564331,
+      "startFrame": 683,
+      "endFrame": 691
+    },
+    {
+      "word": "the",
+      "start": 23.04,
+      "end": 23.18,
+      "score": 0.9677107334136963,
+      "startFrame": 691,
+      "endFrame": 695
+    },
+    {
+      "word": "PCOS.",
+      "start": 23.18,
+      "end": 23.66,
+      "score": 0.9889706969261169,
+      "startFrame": 695,
+      "endFrame": 710
+    }
+  ]
+}

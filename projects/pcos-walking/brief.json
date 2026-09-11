@@ -1,0 +1,82 @@
+{
+  "slug": "pcos-walking",
+  "clip": "inbox/pcos-walking.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+
+  "_palette_note": "No palette here on purpose: scripts/palette.py measures the wall + saree and derives an APCA-checked elegant multi-colour mix (chocolate / white / dark red / a cool tone) automatically, different per beat. Add a 'palette' block or a per-chunk 'keyColor'/'leadColor' only to override.",
+
+  "question": {
+    "scrimOpacity": 0.94,
+    "rows": [
+      { "style": "lead", "words": [0] },
+      { "style": "key", "words": [1], "lines": ["WALKING"] },
+      { "style": "lead", "words": [2, 3, 4, 5, 6] },
+      { "style": "key", "words": [7], "lines": ["PCOS?"] }
+    ]
+  },
+
+  "chunks": [
+    {
+      "_beat": "5.0-7.2s WALKING graphic is up top -> caption low",
+      "lead": [8, 9, 10],
+      "key": [11, 12, 13, 14],
+      "lines": ["EXCELLENT", "EXERCISE"]    },
+    {
+      "_beat": "7.3-9.5s top blank -> caption big, up top",
+      "lead": [15],
+      "key": [16, 17, 18],
+      "lines": ["FOR BEGINNERS"]    },
+    {
+      "_beat": "9.5-11.5s top blank -> caption big, up top",
+      "lead": [19, 20, 21, 22],
+      "key": [23, 24],
+      "lines": ["SIMPLE"],
+      "tone": "keyAlt"    },
+    {
+      "_beat": "11.5-15.6s NOT ENOUGH graphic arrives up top -> caption low",
+      "lead": [25, 26, 27],
+      "key": [28, 29, 30, 31, 32, 33],
+      "lines": ["NOT ENOUGH FOR", "TREATMENT OF PCOS"]    },
+    {
+      "_beat": "15.6-18.9s resistance graphic up top -> caption low",
+      "lead": [34, 35, 36, 37, 38, 39, 40, 41],
+      "key": [42, 43],
+      "lines": ["RESISTANCE", "TRAINING"]    },
+    {
+      "_beat": "18.9-20.5s resistance/schedule graphic up top -> caption low",
+      "lead": [],
+      "key": [44, 45, 46, 47, 48],
+      "lines": ["2–3 TIMES", "A WEEK"],
+      "tone": "keyAlt"    },
+    {
+      "_beat": "20.5s+ graphic up top -> caption low. 'reverse' stays in the small lead, spoken as she said it.",
+      "lead": [49, 50, 51, 52, 53],
+      "key": [54, 55, 56, 57],
+      "lines": ["PATHOPHYSIOLOGY", "OF PCOS"]    }
+  ],
+
+  "layout": {
+    "bottomZone": { "top": 1352, "height": 264, "paddingX": 84, "align": "center" },
+    "captionScrim": { "enabled": false },
+    "doctorPlate": { "appearFrame": 220, "holdFrames": 104 }
+  },
+
+  "style": {
+    "_comment": "varied from pcos-insulin-resistance: same Playfair/Anton pairing, but text position is now DYNAMIC (follows the baked-in top-half graphics), a bottom scrim carries the low captions, and the doctor card lands at the bottom during the blank-top window.",
+    "typePairing": "PlayfairDisplay Italic / Anton",
+    "textPosition": "dynamic: big at top over blank wall; drops low, near the bottom, while a top-half graphic plays",
+    "revealMechanic": "clip-path mask wipe + ghost, spring punch",
+    "payloadTreatment": "stacked caps; white straight on the parrot-green saree when low (no scrim, faint letter-shadow), forest/rust on wall when high",
+    "accent": "forest primary, rust for stats; white for low captions"
+  },
+
+  "openFlags": [
+    "COMPLIANCE: she says 'reverse the pathophysiology of PCOS'. Niranjan chose to keep it exactly as spoken; 'reverse' appears only in the small italic lead of the final chunk, not promoted to a large payload word."
+  ],
+  "_resolved": [
+    "Registration number: not shown on screen. Handled at consultation.",
+    "Text placement follows the source footage's baked-in top-half graphics: blank -> big text up top; graphic -> low text on a scrim.",
+    "Doctor title card kept at its usual bottom position, timed to the blank-top window (~7.4-11s) so it never clashes with the low captions."
+  ]
+}

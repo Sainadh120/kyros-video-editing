@@ -1,0 +1,10 @@
+{
+  "id": "aster-ramesh",
+  "name": "Aster Ramesh Hospitals",
+  "logo": "logo.png",
+  "logoInBody": false,
+  "outroKind": "logo-card",
+  "outroSeconds": 1.0,
+  "outroBackground": "#FFFFFF",
+  "outroLogoWidth": 760
+}

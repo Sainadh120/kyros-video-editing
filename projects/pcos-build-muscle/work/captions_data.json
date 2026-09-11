@@ -1,0 +1,1806 @@
+{
+  "zoom": null,
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1206,
+    "videoFrames": 1116,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-build-muscle",
+    "style": {
+      "_comment": "register.py proposal accepted by Niranjan: dark scrim (last 2 ran light, none), ink card (last ran paper), match lead, brick palette lead, warmEditorial pairing (heritage ran four reels), maskWipeFast reveal (never run). Vivid light type on the dark scrim \u2014 never cream-only.",
+      "typePairing": "warmEditorial",
+      "textPosition": "low on the dark scrim over the saree/mic band; the hero beat (15.3-16.9s) goes big on the bare wall in the 13.9-18.3s clear window if the solver grants it",
+      "revealMechanic": "maskWipeFast pinned clip-wide",
+      "payloadTreatment": "stacked caps, NO stroke, NO ladder rule; lead shares the payload's colour (match) so only one tone is on screen at a time",
+      "accent": "rotation led by brick on the dark ground (brick's light-flip); palette.py derives and APCA-checks the rest",
+      "leadStyle": "match",
+      "paletteLead": "brick"
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#E6BE9D",
+        "wallShadow": "#B89272"
+      },
+      "onLight": {
+        "lead": "#604C40",
+        "key": "#3A2416",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#120C08",
+        "lead": "#FFF6E8",
+        "key": "#F4CE87",
+        "keyAlt": "#E8A33C",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#B5F28C",
+        "key": "#9BE564",
+        "keyAlt": "#FFB01F"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "Fraunces",
+        "weight": 500,
+        "lineHeight": 1.2,
+        "letterSpacing": -0.3,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 56,
+        "googleFontsModule": "Fraunces",
+        "style": "italic",
+        "weights": [
+          500,
+          600
+        ]
+      },
+      "key": {
+        "fontFamily": "BarlowCondensed",
+        "weight": 800,
+        "lineHeight": 0.94,
+        "letterSpacing": -0.4,
+        "advanceEm": 0.46,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 96,
+        "bottomMaxOneLine": 210,
+        "bottomMaxMultiLine": 168,
+        "googleFontsModule": "BarlowCondensed",
+        "style": "normal",
+        "weights": [
+          800
+        ]
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      },
+      "stroke": {
+        "color": null,
+        "keyEm": 0.105,
+        "leadEm": 0.075,
+        "shadow": "0 8px 26px rgba(0,0,0,0.40)"
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1470,
+      "height": 380,
+      "paddingX": 48,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "color": "#100500",
+      "opacity": 0.8,
+      "top": 1340,
+      "ground": "dark",
+      "feather": 230
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 308,
+      "holdFrames": 57,
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    },
+    "_comment": "Panel geometry is DERIVED, not set: build measures the chin and fades the panel in below it, reaching solid by the time the payload starts. Same doctor, same framing as pcos-muscle."
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/Downloads/Personal/Kyros_Project/Reels/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": []
+  },
+  "fixtures": {
+    "plateFromFrame": 140,
+    "logoFromFrame": 116,
+    "logoHideWindows": []
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 1116,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 1206
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 1116,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 1146
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "card": {
+        "bg": "#0C0A07",
+        "opacity": 0.55,
+        "lead": "#FFF6E8",
+        "key": "#FFB01F",
+        "texture": "vignette",
+        "dark": true
+      },
+      "scrimOpacity": 0.55,
+      "exitFrame": 81,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "lead",
+          "words": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "appearFrame": 0,
+          "text": "How can a woman"
+        },
+        {
+          "style": "key",
+          "words": [
+            4,
+            5
+          ],
+          "lines": [
+            "BUILD MUSCLE?"
+          ],
+          "appearFrame": 31,
+          "text": "build muscle?",
+          "size": 157
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 92,
+      "toFrame": 1116,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "bottom",
+          "leadWords": [
+            11,
+            12,
+            13
+          ],
+          "leadText": "women will face",
+          "leadSize": 56,
+          "leadColor": "#9BE564",
+          "leadDark": false,
+          "keyWords": [
+            15,
+            16,
+            17
+          ],
+          "keyLines": [
+            "LOT OF MYTHS"
+          ],
+          "keySize": 178,
+          "keyColor": "#9BE564",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 140,
+          "toFrame": 378,
+          "keyFromFrame": 227,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-2",
+          "zone": "bottom",
+          "leadWords": [
+            27,
+            28
+          ],
+          "leadText": "metabolic issue,",
+          "leadSize": 56,
+          "leadColor": "#FFF6E8",
+          "leadDark": false,
+          "keyWords": [
+            30,
+            31
+          ],
+          "keyLines": [
+            "PCOS WOMEN"
+          ],
+          "keySize": 210,
+          "keyColor": "#FFF6E8",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 378,
+          "toFrame": 459,
+          "keyFromFrame": 422,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-3",
+          "zone": "bottom",
+          "leadWords": [
+            32
+          ],
+          "leadText": "should",
+          "leadSize": 56,
+          "leadColor": "#FFB01F",
+          "leadDark": false,
+          "keyWords": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "keyLines": [
+            "BUILD & MAINTAIN",
+            "MUSCLE"
+          ],
+          "keySize": 133,
+          "keyColor": "#FFB01F",
+          "keyDark": false,
+          "tone": "keyAlt",
+          "fromFrame": 459,
+          "toFrame": 542,
+          "keyFromFrame": 466,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-4",
+          "zone": "bottom",
+          "leadWords": [
+            40,
+            41
+          ],
+          "leadText": "take adequate",
+          "leadSize": 56,
+          "leadColor": "#FFA8B6",
+          "leadDark": false,
+          "keyWords": [
+            42
+          ],
+          "keyLines": [
+            "PROTEIN"
+          ],
+          "keySize": 210,
+          "keyColor": "#FFA8B6",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 542,
+          "toFrame": 605,
+          "keyFromFrame": 570,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-5",
+          "zone": "bottom",
+          "leadWords": [],
+          "leadText": "",
+          "leadSize": 56,
+          "leadColor": "#5FE3C0",
+          "leadDark": false,
+          "keyWords": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "keyLines": [
+            "1.2\u20131.4 G/KG"
+          ],
+          "keySize": 178,
+          "keyColor": "#5FE3C0",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 605,
+          "toFrame": 737,
+          "keyFromFrame": 605,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-6",
+          "zone": "bottom",
+          "leadWords": [
+            58,
+            59,
+            60
+          ],
+          "leadText": "they should do",
+          "leadSize": 56,
+          "leadColor": "#9BE564",
+          "leadDark": false,
+          "keyWords": [
+            61,
+            62
+          ],
+          "keyLines": [
+            "RESISTANCE",
+            "TRAINING"
+          ],
+          "keySize": 168,
+          "keyColor": "#9BE564",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 737,
+          "toFrame": 805,
+          "keyFromFrame": 776,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-7",
+          "zone": "bottom",
+          "leadWords": [],
+          "leadText": "",
+          "leadSize": 56,
+          "leadColor": "#FFF6E8",
+          "leadDark": false,
+          "keyWords": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "keyLines": [
+            "TWICE A WEEK"
+          ],
+          "keySize": 178,
+          "keyColor": "#FFF6E8",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 805,
+          "toFrame": 870,
+          "keyFromFrame": 805,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-8",
+          "zone": "bottom",
+          "leadWords": [
+            69,
+            70,
+            71
+          ],
+          "leadText": "very important is",
+          "leadSize": 56,
+          "leadColor": "#FFA8B6",
+          "leadDark": false,
+          "keyWords": [
+            77,
+            78
+          ],
+          "keyLines": [
+            "NO",
+            "CRASH DIETS"
+          ],
+          "keySize": 168,
+          "keyColor": "#FFA8B6",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 870,
+          "toFrame": 959,
+          "keyFromFrame": 941,
+          "listIndex": null,
+          "listTotal": null
+        },
+        {
+          "id": "chunk-9",
+          "zone": "bottom",
+          "leadWords": [
+            79
+          ],
+          "leadText": "because",
+          "leadSize": 56,
+          "leadColor": "#5FE3C0",
+          "leadDark": false,
+          "keyWords": [
+            82,
+            83,
+            84,
+            85,
+            86
+          ],
+          "keyLines": [
+            "WILL DAMAGE",
+            "EXISTING MUSCLE"
+          ],
+          "keySize": 142,
+          "keyColor": "#5FE3C0",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 959,
+          "toFrame": 1109,
+          "keyFromFrame": 997,
+          "listIndex": null,
+          "listTotal": null
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "How",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 14
+      },
+      {
+        "index": 1,
+        "text": "can",
+        "startFrame": 14,
+        "activeFromFrame": 14,
+        "activeToFrame": 22
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "startFrame": 22,
+        "activeFromFrame": 22,
+        "activeToFrame": 26
+      },
+      {
+        "index": 3,
+        "text": "woman",
+        "startFrame": 26,
+        "activeFromFrame": 26,
+        "activeToFrame": 31
+      },
+      {
+        "index": 4,
+        "text": "build",
+        "startFrame": 31,
+        "activeFromFrame": 31,
+        "activeToFrame": 46
+      },
+      {
+        "index": 5,
+        "text": "muscle?",
+        "startFrame": 46,
+        "activeFromFrame": 46,
+        "activeToFrame": 92
+      },
+      {
+        "index": 6,
+        "text": "So",
+        "startFrame": 92,
+        "activeFromFrame": 92,
+        "activeToFrame": 92
+      },
+      {
+        "index": 7,
+        "text": "in",
+        "startFrame": 92,
+        "activeFromFrame": 92,
+        "activeToFrame": 99
+      },
+      {
+        "index": 8,
+        "text": "any",
+        "startFrame": 99,
+        "activeFromFrame": 99,
+        "activeToFrame": 110
+      },
+      {
+        "index": 9,
+        "text": "woman,",
+        "startFrame": 110,
+        "activeFromFrame": 110,
+        "activeToFrame": 131
+      },
+      {
+        "index": 10,
+        "text": "usually",
+        "startFrame": 131,
+        "activeFromFrame": 131,
+        "activeToFrame": 140
+      },
+      {
+        "index": 11,
+        "text": "women",
+        "startFrame": 140,
+        "activeFromFrame": 140,
+        "activeToFrame": 175
+      },
+      {
+        "index": 12,
+        "text": "will",
+        "startFrame": 175,
+        "activeFromFrame": 175,
+        "activeToFrame": 198
+      },
+      {
+        "index": 13,
+        "text": "face",
+        "startFrame": 198,
+        "activeFromFrame": 198,
+        "activeToFrame": 212
+      },
+      {
+        "index": 14,
+        "text": "a",
+        "startFrame": 212,
+        "activeFromFrame": 212,
+        "activeToFrame": 227
+      },
+      {
+        "index": 15,
+        "text": "lot",
+        "startFrame": 227,
+        "activeFromFrame": 227,
+        "activeToFrame": 235
+      },
+      {
+        "index": 16,
+        "text": "of",
+        "startFrame": 235,
+        "activeFromFrame": 235,
+        "activeToFrame": 244
+      },
+      {
+        "index": 17,
+        "text": "myths",
+        "startFrame": 244,
+        "activeFromFrame": 244,
+        "activeToFrame": 257
+      },
+      {
+        "index": 18,
+        "text": "when",
+        "startFrame": 257,
+        "activeFromFrame": 257,
+        "activeToFrame": 274
+      },
+      {
+        "index": 19,
+        "text": "it",
+        "startFrame": 274,
+        "activeFromFrame": 274,
+        "activeToFrame": 287
+      },
+      {
+        "index": 20,
+        "text": "comes",
+        "startFrame": 287,
+        "activeFromFrame": 287,
+        "activeToFrame": 295
+      },
+      {
+        "index": 21,
+        "text": "to",
+        "startFrame": 295,
+        "activeFromFrame": 295,
+        "activeToFrame": 301
+      },
+      {
+        "index": 22,
+        "text": "the",
+        "startFrame": 301,
+        "activeFromFrame": 301,
+        "activeToFrame": 307
+      },
+      {
+        "index": 23,
+        "text": "muscle",
+        "startFrame": 307,
+        "activeFromFrame": 307,
+        "activeToFrame": 313
+      },
+      {
+        "index": 24,
+        "text": "building.",
+        "startFrame": 313,
+        "activeFromFrame": 313,
+        "activeToFrame": 340
+      },
+      {
+        "index": 25,
+        "text": "But",
+        "startFrame": 340,
+        "activeFromFrame": 340,
+        "activeToFrame": 350
+      },
+      {
+        "index": 26,
+        "text": "any",
+        "startFrame": 350,
+        "activeFromFrame": 350,
+        "activeToFrame": 378
+      },
+      {
+        "index": 27,
+        "text": "metabolic",
+        "startFrame": 378,
+        "activeFromFrame": 378,
+        "activeToFrame": 391
+      },
+      {
+        "index": 28,
+        "text": "issue,",
+        "startFrame": 391,
+        "activeFromFrame": 391,
+        "activeToFrame": 409
+      },
+      {
+        "index": 29,
+        "text": "especially",
+        "startFrame": 409,
+        "activeFromFrame": 409,
+        "activeToFrame": 422
+      },
+      {
+        "index": 30,
+        "text": "PCOS",
+        "startFrame": 422,
+        "activeFromFrame": 422,
+        "activeToFrame": 440
+      },
+      {
+        "index": 31,
+        "text": "women,",
+        "startFrame": 440,
+        "activeFromFrame": 440,
+        "activeToFrame": 459
+      },
+      {
+        "index": 32,
+        "text": "should",
+        "startFrame": 459,
+        "activeFromFrame": 459,
+        "activeToFrame": 466
+      },
+      {
+        "index": 33,
+        "text": "build",
+        "startFrame": 466,
+        "activeFromFrame": 466,
+        "activeToFrame": 477
+      },
+      {
+        "index": 34,
+        "text": "and",
+        "startFrame": 477,
+        "activeFromFrame": 477,
+        "activeToFrame": 485
+      },
+      {
+        "index": 35,
+        "text": "maintain",
+        "startFrame": 485,
+        "activeFromFrame": 485,
+        "activeToFrame": 497
+      },
+      {
+        "index": 36,
+        "text": "muscle.",
+        "startFrame": 497,
+        "activeFromFrame": 497,
+        "activeToFrame": 522
+      },
+      {
+        "index": 37,
+        "text": "So",
+        "startFrame": 522,
+        "activeFromFrame": 522,
+        "activeToFrame": 527
+      },
+      {
+        "index": 38,
+        "text": "one",
+        "startFrame": 527,
+        "activeFromFrame": 527,
+        "activeToFrame": 536
+      },
+      {
+        "index": 39,
+        "text": "must",
+        "startFrame": 536,
+        "activeFromFrame": 536,
+        "activeToFrame": 542
+      },
+      {
+        "index": 40,
+        "text": "take",
+        "startFrame": 542,
+        "activeFromFrame": 542,
+        "activeToFrame": 552
+      },
+      {
+        "index": 41,
+        "text": "adequate",
+        "startFrame": 552,
+        "activeFromFrame": 552,
+        "activeToFrame": 570
+      },
+      {
+        "index": 42,
+        "text": "protein",
+        "startFrame": 570,
+        "activeFromFrame": 570,
+        "activeToFrame": 586
+      },
+      {
+        "index": 43,
+        "text": "of",
+        "startFrame": 586,
+        "activeFromFrame": 586,
+        "activeToFrame": 596
+      },
+      {
+        "index": 44,
+        "text": "around",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 605
+      },
+      {
+        "index": 45,
+        "text": "1",
+        "startFrame": 605,
+        "activeFromFrame": 605,
+        "activeToFrame": 615
+      },
+      {
+        "index": 46,
+        "text": ".2",
+        "startFrame": 615,
+        "activeFromFrame": 615,
+        "activeToFrame": 628
+      },
+      {
+        "index": 47,
+        "text": "to",
+        "startFrame": 628,
+        "activeFromFrame": 628,
+        "activeToFrame": 631
+      },
+      {
+        "index": 48,
+        "text": "1",
+        "startFrame": 631,
+        "activeFromFrame": 631,
+        "activeToFrame": 638
+      },
+      {
+        "index": 49,
+        "text": ".4",
+        "startFrame": 638,
+        "activeFromFrame": 638,
+        "activeToFrame": 652
+      },
+      {
+        "index": 50,
+        "text": "gram",
+        "startFrame": 652,
+        "activeFromFrame": 652,
+        "activeToFrame": 659
+      },
+      {
+        "index": 51,
+        "text": "per",
+        "startFrame": 659,
+        "activeFromFrame": 659,
+        "activeToFrame": 671
+      },
+      {
+        "index": 52,
+        "text": "kg",
+        "startFrame": 671,
+        "activeFromFrame": 671,
+        "activeToFrame": 679
+      },
+      {
+        "index": 53,
+        "text": "per",
+        "startFrame": 679,
+        "activeFromFrame": 679,
+        "activeToFrame": 688
+      },
+      {
+        "index": 54,
+        "text": "week,",
+        "startFrame": 688,
+        "activeFromFrame": 688,
+        "activeToFrame": 701
+      },
+      {
+        "index": 55,
+        "text": "especially",
+        "startFrame": 701,
+        "activeFromFrame": 701,
+        "activeToFrame": 710
+      },
+      {
+        "index": 56,
+        "text": "active",
+        "startFrame": 710,
+        "activeFromFrame": 710,
+        "activeToFrame": 727
+      },
+      {
+        "index": 57,
+        "text": "women.",
+        "startFrame": 727,
+        "activeFromFrame": 727,
+        "activeToFrame": 737
+      },
+      {
+        "index": 58,
+        "text": "they",
+        "startFrame": 737,
+        "activeFromFrame": 737,
+        "activeToFrame": 764
+      },
+      {
+        "index": 59,
+        "text": "should",
+        "startFrame": 764,
+        "activeFromFrame": 764,
+        "activeToFrame": 769
+      },
+      {
+        "index": 60,
+        "text": "do",
+        "startFrame": 769,
+        "activeFromFrame": 769,
+        "activeToFrame": 776
+      },
+      {
+        "index": 61,
+        "text": "resistance",
+        "startFrame": 776,
+        "activeFromFrame": 776,
+        "activeToFrame": 787
+      },
+      {
+        "index": 62,
+        "text": "training",
+        "startFrame": 787,
+        "activeFromFrame": 787,
+        "activeToFrame": 805
+      },
+      {
+        "index": 63,
+        "text": "twice",
+        "startFrame": 805,
+        "activeFromFrame": 805,
+        "activeToFrame": 815
+      },
+      {
+        "index": 64,
+        "text": "or",
+        "startFrame": 815,
+        "activeFromFrame": 815,
+        "activeToFrame": 829
+      },
+      {
+        "index": 65,
+        "text": "twice",
+        "startFrame": 829,
+        "activeFromFrame": 829,
+        "activeToFrame": 843
+      },
+      {
+        "index": 66,
+        "text": "a",
+        "startFrame": 843,
+        "activeFromFrame": 843,
+        "activeToFrame": 848
+      },
+      {
+        "index": 67,
+        "text": "week",
+        "startFrame": 848,
+        "activeFromFrame": 848,
+        "activeToFrame": 856
+      },
+      {
+        "index": 68,
+        "text": "and",
+        "startFrame": 856,
+        "activeFromFrame": 856,
+        "activeToFrame": 870
+      },
+      {
+        "index": 69,
+        "text": "very",
+        "startFrame": 870,
+        "activeFromFrame": 870,
+        "activeToFrame": 880
+      },
+      {
+        "index": 70,
+        "text": "important",
+        "startFrame": 880,
+        "activeFromFrame": 880,
+        "activeToFrame": 893
+      },
+      {
+        "index": 71,
+        "text": "is",
+        "startFrame": 893,
+        "activeFromFrame": 893,
+        "activeToFrame": 902
+      },
+      {
+        "index": 72,
+        "text": "they",
+        "startFrame": 902,
+        "activeFromFrame": 902,
+        "activeToFrame": 907
+      },
+      {
+        "index": 73,
+        "text": "should",
+        "startFrame": 907,
+        "activeFromFrame": 907,
+        "activeToFrame": 913
+      },
+      {
+        "index": 74,
+        "text": "not",
+        "startFrame": 913,
+        "activeFromFrame": 913,
+        "activeToFrame": 924
+      },
+      {
+        "index": 75,
+        "text": "do",
+        "startFrame": 924,
+        "activeFromFrame": 924,
+        "activeToFrame": 931
+      },
+      {
+        "index": 76,
+        "text": "any",
+        "startFrame": 931,
+        "activeFromFrame": 931,
+        "activeToFrame": 941
+      },
+      {
+        "index": 77,
+        "text": "crash",
+        "startFrame": 941,
+        "activeFromFrame": 941,
+        "activeToFrame": 951
+      },
+      {
+        "index": 78,
+        "text": "diets",
+        "startFrame": 951,
+        "activeFromFrame": 951,
+        "activeToFrame": 959
+      },
+      {
+        "index": 79,
+        "text": "because",
+        "startFrame": 959,
+        "activeFromFrame": 959,
+        "activeToFrame": 972
+      },
+      {
+        "index": 80,
+        "text": "crash",
+        "startFrame": 972,
+        "activeFromFrame": 972,
+        "activeToFrame": 984
+      },
+      {
+        "index": 81,
+        "text": "diets",
+        "startFrame": 984,
+        "activeFromFrame": 984,
+        "activeToFrame": 997
+      },
+      {
+        "index": 82,
+        "text": "will",
+        "startFrame": 997,
+        "activeFromFrame": 997,
+        "activeToFrame": 1021
+      },
+      {
+        "index": 83,
+        "text": "damage",
+        "startFrame": 1021,
+        "activeFromFrame": 1021,
+        "activeToFrame": 1050
+      },
+      {
+        "index": 84,
+        "text": "already",
+        "startFrame": 1050,
+        "activeFromFrame": 1050,
+        "activeToFrame": 1067
+      },
+      {
+        "index": 85,
+        "text": "existing",
+        "startFrame": 1067,
+        "activeFromFrame": 1067,
+        "activeToFrame": 1082
+      },
+      {
+        "index": 86,
+        "text": "muscle",
+        "startFrame": 1082,
+        "activeFromFrame": 1082,
+        "activeToFrame": 1090
+      },
+      {
+        "index": 87,
+        "text": "in",
+        "startFrame": 1090,
+        "activeFromFrame": 1090,
+        "activeToFrame": 1097
+      },
+      {
+        "index": 88,
+        "text": "the",
+        "startFrame": 1097,
+        "activeFromFrame": 1097,
+        "activeToFrame": 1100
+      },
+      {
+        "index": 89,
+        "text": "body",
+        "startFrame": 1100,
+        "activeFromFrame": 1100,
+        "activeToFrame": 1120
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "How",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 14
+      },
+      {
+        "index": 1,
+        "text": "can",
+        "startFrame": 14,
+        "activeFromFrame": 14,
+        "activeToFrame": 22
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "startFrame": 22,
+        "activeFromFrame": 22,
+        "activeToFrame": 26
+      },
+      {
+        "index": 3,
+        "text": "woman",
+        "startFrame": 26,
+        "activeFromFrame": 26,
+        "activeToFrame": 31
+      },
+      {
+        "index": 4,
+        "text": "build",
+        "startFrame": 31,
+        "activeFromFrame": 31,
+        "activeToFrame": 46
+      },
+      {
+        "index": 5,
+        "text": "muscle?",
+        "startFrame": 46,
+        "activeFromFrame": 46,
+        "activeToFrame": 92
+      },
+      {
+        "index": 6,
+        "text": "So",
+        "startFrame": 92,
+        "activeFromFrame": 92,
+        "activeToFrame": 92
+      },
+      {
+        "index": 7,
+        "text": "in",
+        "startFrame": 92,
+        "activeFromFrame": 92,
+        "activeToFrame": 99
+      },
+      {
+        "index": 8,
+        "text": "any",
+        "startFrame": 99,
+        "activeFromFrame": 99,
+        "activeToFrame": 110
+      },
+      {
+        "index": 9,
+        "text": "woman,",
+        "startFrame": 110,
+        "activeFromFrame": 110,
+        "activeToFrame": 131
+      },
+      {
+        "index": 10,
+        "text": "usually",
+        "startFrame": 131,
+        "activeFromFrame": 131,
+        "activeToFrame": 140
+      },
+      {
+        "index": 11,
+        "text": "women",
+        "startFrame": 140,
+        "activeFromFrame": 140,
+        "activeToFrame": 175
+      },
+      {
+        "index": 12,
+        "text": "will",
+        "startFrame": 175,
+        "activeFromFrame": 175,
+        "activeToFrame": 198
+      },
+      {
+        "index": 13,
+        "text": "face",
+        "startFrame": 198,
+        "activeFromFrame": 198,
+        "activeToFrame": 212
+      },
+      {
+        "index": 14,
+        "text": "a",
+        "startFrame": 212,
+        "activeFromFrame": 212,
+        "activeToFrame": 227
+      },
+      {
+        "index": 15,
+        "text": "lot",
+        "startFrame": 227,
+        "activeFromFrame": 227,
+        "activeToFrame": 235
+      },
+      {
+        "index": 16,
+        "text": "of",
+        "startFrame": 235,
+        "activeFromFrame": 235,
+        "activeToFrame": 244
+      },
+      {
+        "index": 17,
+        "text": "myths",
+        "startFrame": 244,
+        "activeFromFrame": 244,
+        "activeToFrame": 257
+      },
+      {
+        "index": 18,
+        "text": "when",
+        "startFrame": 257,
+        "activeFromFrame": 257,
+        "activeToFrame": 274
+      },
+      {
+        "index": 19,
+        "text": "it",
+        "startFrame": 274,
+        "activeFromFrame": 274,
+        "activeToFrame": 287
+      },
+      {
+        "index": 20,
+        "text": "comes",
+        "startFrame": 287,
+        "activeFromFrame": 287,
+        "activeToFrame": 295
+      },
+      {
+        "index": 21,
+        "text": "to",
+        "startFrame": 295,
+        "activeFromFrame": 295,
+        "activeToFrame": 301
+      },
+      {
+        "index": 22,
+        "text": "the",
+        "startFrame": 301,
+        "activeFromFrame": 301,
+        "activeToFrame": 307
+      },
+      {
+        "index": 23,
+        "text": "muscle",
+        "startFrame": 307,
+        "activeFromFrame": 307,
+        "activeToFrame": 313
+      },
+      {
+        "index": 24,
+        "text": "building.",
+        "startFrame": 313,
+        "activeFromFrame": 313,
+        "activeToFrame": 340
+      },
+      {
+        "index": 25,
+        "text": "But",
+        "startFrame": 340,
+        "activeFromFrame": 340,
+        "activeToFrame": 350
+      },
+      {
+        "index": 26,
+        "text": "any",
+        "startFrame": 350,
+        "activeFromFrame": 350,
+        "activeToFrame": 378
+      },
+      {
+        "index": 27,
+        "text": "metabolic",
+        "startFrame": 378,
+        "activeFromFrame": 378,
+        "activeToFrame": 391
+      },
+      {
+        "index": 28,
+        "text": "issue,",
+        "startFrame": 391,
+        "activeFromFrame": 391,
+        "activeToFrame": 409
+      },
+      {
+        "index": 29,
+        "text": "especially",
+        "startFrame": 409,
+        "activeFromFrame": 409,
+        "activeToFrame": 422
+      },
+      {
+        "index": 30,
+        "text": "PCOS",
+        "startFrame": 422,
+        "activeFromFrame": 422,
+        "activeToFrame": 440
+      },
+      {
+        "index": 31,
+        "text": "women,",
+        "startFrame": 440,
+        "activeFromFrame": 440,
+        "activeToFrame": 459
+      },
+      {
+        "index": 32,
+        "text": "should",
+        "startFrame": 459,
+        "activeFromFrame": 459,
+        "activeToFrame": 466
+      },
+      {
+        "index": 33,
+        "text": "build",
+        "startFrame": 466,
+        "activeFromFrame": 466,
+        "activeToFrame": 477
+      },
+      {
+        "index": 34,
+        "text": "and",
+        "startFrame": 477,
+        "activeFromFrame": 477,
+        "activeToFrame": 485
+      },
+      {
+        "index": 35,
+        "text": "maintain",
+        "startFrame": 485,
+        "activeFromFrame": 485,
+        "activeToFrame": 497
+      },
+      {
+        "index": 36,
+        "text": "muscle.",
+        "startFrame": 497,
+        "activeFromFrame": 497,
+        "activeToFrame": 522
+      },
+      {
+        "index": 37,
+        "text": "So",
+        "startFrame": 522,
+        "activeFromFrame": 522,
+        "activeToFrame": 527
+      },
+      {
+        "index": 38,
+        "text": "one",
+        "startFrame": 527,
+        "activeFromFrame": 527,
+        "activeToFrame": 536
+      },
+      {
+        "index": 39,
+        "text": "must",
+        "startFrame": 536,
+        "activeFromFrame": 536,
+        "activeToFrame": 542
+      },
+      {
+        "index": 40,
+        "text": "take",
+        "startFrame": 542,
+        "activeFromFrame": 542,
+        "activeToFrame": 552
+      },
+      {
+        "index": 41,
+        "text": "adequate",
+        "startFrame": 552,
+        "activeFromFrame": 552,
+        "activeToFrame": 570
+      },
+      {
+        "index": 42,
+        "text": "protein",
+        "startFrame": 570,
+        "activeFromFrame": 570,
+        "activeToFrame": 586
+      },
+      {
+        "index": 43,
+        "text": "of",
+        "startFrame": 586,
+        "activeFromFrame": 586,
+        "activeToFrame": 596
+      },
+      {
+        "index": 44,
+        "text": "around",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 605
+      },
+      {
+        "index": 45,
+        "text": "1",
+        "startFrame": 605,
+        "activeFromFrame": 605,
+        "activeToFrame": 615
+      },
+      {
+        "index": 46,
+        "text": ".2",
+        "startFrame": 615,
+        "activeFromFrame": 615,
+        "activeToFrame": 628
+      },
+      {
+        "index": 47,
+        "text": "to",
+        "startFrame": 628,
+        "activeFromFrame": 628,
+        "activeToFrame": 631
+      },
+      {
+        "index": 48,
+        "text": "1",
+        "startFrame": 631,
+        "activeFromFrame": 631,
+        "activeToFrame": 638
+      },
+      {
+        "index": 49,
+        "text": ".4",
+        "startFrame": 638,
+        "activeFromFrame": 638,
+        "activeToFrame": 652
+      },
+      {
+        "index": 50,
+        "text": "gram",
+        "startFrame": 652,
+        "activeFromFrame": 652,
+        "activeToFrame": 659
+      },
+      {
+        "index": 51,
+        "text": "per",
+        "startFrame": 659,
+        "activeFromFrame": 659,
+        "activeToFrame": 671
+      },
+      {
+        "index": 52,
+        "text": "kg",
+        "startFrame": 671,
+        "activeFromFrame": 671,
+        "activeToFrame": 679
+      },
+      {
+        "index": 53,
+        "text": "per",
+        "startFrame": 679,
+        "activeFromFrame": 679,
+        "activeToFrame": 688
+      },
+      {
+        "index": 54,
+        "text": "week,",
+        "startFrame": 688,
+        "activeFromFrame": 688,
+        "activeToFrame": 701
+      },
+      {
+        "index": 55,
+        "text": "especially",
+        "startFrame": 701,
+        "activeFromFrame": 701,
+        "activeToFrame": 710
+      },
+      {
+        "index": 56,
+        "text": "active",
+        "startFrame": 710,
+        "activeFromFrame": 710,
+        "activeToFrame": 727
+      },
+      {
+        "index": 57,
+        "text": "women.",
+        "startFrame": 727,
+        "activeFromFrame": 727,
+        "activeToFrame": 737
+      },
+      {
+        "index": 58,
+        "text": "they",
+        "startFrame": 737,
+        "activeFromFrame": 737,
+        "activeToFrame": 764
+      },
+      {
+        "index": 59,
+        "text": "should",
+        "startFrame": 764,
+        "activeFromFrame": 764,
+        "activeToFrame": 769
+      },
+      {
+        "index": 60,
+        "text": "do",
+        "startFrame": 769,
+        "activeFromFrame": 769,
+        "activeToFrame": 776
+      },
+      {
+        "index": 61,
+        "text": "resistance",
+        "startFrame": 776,
+        "activeFromFrame": 776,
+        "activeToFrame": 787
+      },
+      {
+        "index": 62,
+        "text": "training",
+        "startFrame": 787,
+        "activeFromFrame": 787,
+        "activeToFrame": 805
+      },
+      {
+        "index": 63,
+        "text": "twice",
+        "startFrame": 805,
+        "activeFromFrame": 805,
+        "activeToFrame": 815
+      },
+      {
+        "index": 64,
+        "text": "or",
+        "startFrame": 815,
+        "activeFromFrame": 815,
+        "activeToFrame": 829
+      },
+      {
+        "index": 65,
+        "text": "twice",
+        "startFrame": 829,
+        "activeFromFrame": 829,
+        "activeToFrame": 843
+      },
+      {
+        "index": 66,
+        "text": "a",
+        "startFrame": 843,
+        "activeFromFrame": 843,
+        "activeToFrame": 848
+      },
+      {
+        "index": 67,
+        "text": "week",
+        "startFrame": 848,
+        "activeFromFrame": 848,
+        "activeToFrame": 856
+      },
+      {
+        "index": 68,
+        "text": "and",
+        "startFrame": 856,
+        "activeFromFrame": 856,
+        "activeToFrame": 870
+      },
+      {
+        "index": 69,
+        "text": "very",
+        "startFrame": 870,
+        "activeFromFrame": 870,
+        "activeToFrame": 880
+      },
+      {
+        "index": 70,
+        "text": "important",
+        "startFrame": 880,
+        "activeFromFrame": 880,
+        "activeToFrame": 893
+      },
+      {
+        "index": 71,
+        "text": "is",
+        "startFrame": 893,
+        "activeFromFrame": 893,
+        "activeToFrame": 902
+      },
+      {
+        "index": 72,
+        "text": "they",
+        "startFrame": 902,
+        "activeFromFrame": 902,
+        "activeToFrame": 907
+      },
+      {
+        "index": 73,
+        "text": "should",
+        "startFrame": 907,
+        "activeFromFrame": 907,
+        "activeToFrame": 913
+      },
+      {
+        "index": 74,
+        "text": "not",
+        "startFrame": 913,
+        "activeFromFrame": 913,
+        "activeToFrame": 924
+      },
+      {
+        "index": 75,
+        "text": "do",
+        "startFrame": 924,
+        "activeFromFrame": 924,
+        "activeToFrame": 931
+      },
+      {
+        "index": 76,
+        "text": "any",
+        "startFrame": 931,
+        "activeFromFrame": 931,
+        "activeToFrame": 941
+      },
+      {
+        "index": 77,
+        "text": "crash",
+        "startFrame": 941,
+        "activeFromFrame": 941,
+        "activeToFrame": 951
+      },
+      {
+        "index": 78,
+        "text": "diets",
+        "startFrame": 951,
+        "activeFromFrame": 951,
+        "activeToFrame": 959
+      },
+      {
+        "index": 79,
+        "text": "because",
+        "startFrame": 959,
+        "activeFromFrame": 959,
+        "activeToFrame": 972
+      },
+      {
+        "index": 80,
+        "text": "crash",
+        "startFrame": 972,
+        "activeFromFrame": 972,
+        "activeToFrame": 984
+      },
+      {
+        "index": 81,
+        "text": "diets",
+        "startFrame": 984,
+        "activeFromFrame": 984,
+        "activeToFrame": 997
+      },
+      {
+        "index": 82,
+        "text": "will",
+        "startFrame": 997,
+        "activeFromFrame": 997,
+        "activeToFrame": 1021
+      },
+      {
+        "index": 83,
+        "text": "damage",
+        "startFrame": 1021,
+        "activeFromFrame": 1021,
+        "activeToFrame": 1050
+      },
+      {
+        "index": 84,
+        "text": "already",
+        "startFrame": 1050,
+        "activeFromFrame": 1050,
+        "activeToFrame": 1067
+      },
+      {
+        "index": 85,
+        "text": "existing",
+        "startFrame": 1067,
+        "activeFromFrame": 1067,
+        "activeToFrame": 1082
+      },
+      {
+        "index": 86,
+        "text": "muscle",
+        "startFrame": 1082,
+        "activeFromFrame": 1082,
+        "activeToFrame": 1090
+      },
+      {
+        "index": 87,
+        "text": "in",
+        "startFrame": 1090,
+        "activeFromFrame": 1090,
+        "activeToFrame": 1097
+      },
+      {
+        "index": 88,
+        "text": "the",
+        "startFrame": 1097,
+        "activeFromFrame": 1097,
+        "activeToFrame": 1100
+      },
+      {
+        "index": 89,
+        "text": "body",
+        "startFrame": 1100,
+        "activeFromFrame": 1100,
+        "activeToFrame": 1120
+      }
+    ]
+  }
+}

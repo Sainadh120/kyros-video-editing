@@ -1,0 +1,894 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "What",
+      "start": 0.0,
+      "end": 0.28,
+      "score": 0.6958409547805786,
+      "startFrame": 0,
+      "endFrame": 8
+    },
+    {
+      "word": "is",
+      "start": 0.28,
+      "end": 0.5,
+      "score": 0.9679713249206543,
+      "startFrame": 8,
+      "endFrame": 15
+    },
+    {
+      "word": "the",
+      "start": 0.5,
+      "end": 0.68,
+      "score": 0.9836910963058472,
+      "startFrame": 15,
+      "endFrame": 20
+    },
+    {
+      "word": "best",
+      "start": 0.68,
+      "end": 1.0,
+      "score": 0.984865665435791,
+      "startFrame": 20,
+      "endFrame": 30
+    },
+    {
+      "word": "exercise",
+      "start": 1.0,
+      "end": 1.54,
+      "score": 0.9886150360107422,
+      "startFrame": 30,
+      "endFrame": 46
+    },
+    {
+      "word": "for",
+      "start": 1.54,
+      "end": 1.88,
+      "score": 0.98150634765625,
+      "startFrame": 46,
+      "endFrame": 56
+    },
+    {
+      "word": "PCOS?",
+      "start": 1.88,
+      "end": 2.34,
+      "score": 0.8802548050880432,
+      "startFrame": 56,
+      "endFrame": 70
+    },
+    {
+      "word": "So,",
+      "start": 3.62,
+      "end": 3.62,
+      "score": 0.5385423898696899,
+      "startFrame": 109,
+      "endFrame": 109
+    },
+    {
+      "word": "there",
+      "start": 3.84,
+      "end": 3.94,
+      "score": 0.9730520844459534,
+      "startFrame": 115,
+      "endFrame": 118
+    },
+    {
+      "word": "is",
+      "start": 3.94,
+      "end": 4.08,
+      "score": 0.9754887223243713,
+      "startFrame": 118,
+      "endFrame": 122
+    },
+    {
+      "word": "no",
+      "start": 4.08,
+      "end": 4.28,
+      "score": 0.9920917749404907,
+      "startFrame": 122,
+      "endFrame": 128
+    },
+    {
+      "word": "single",
+      "start": 4.28,
+      "end": 4.74,
+      "score": 0.9898235201835632,
+      "startFrame": 128,
+      "endFrame": 142
+    },
+    {
+      "word": "best",
+      "start": 4.74,
+      "end": 5.02,
+      "score": 0.9804983139038086,
+      "startFrame": 142,
+      "endFrame": 151
+    },
+    {
+      "word": "exercise,",
+      "start": 5.02,
+      "end": 5.5,
+      "score": 0.996239185333252,
+      "startFrame": 151,
+      "endFrame": 165
+    },
+    {
+      "word": "but",
+      "start": 5.74,
+      "end": 5.88,
+      "score": 0.9745494723320007,
+      "startFrame": 172,
+      "endFrame": 176
+    },
+    {
+      "word": "for",
+      "start": 5.88,
+      "end": 6.56,
+      "score": 0.9236049652099609,
+      "startFrame": 176,
+      "endFrame": 197
+    },
+    {
+      "word": "PCOS,",
+      "start": 6.56,
+      "end": 7.1,
+      "score": 0.9816171526908875,
+      "startFrame": 197,
+      "endFrame": 213
+    },
+    {
+      "word": "the",
+      "start": 7.52,
+      "end": 7.76,
+      "score": 0.9753689765930176,
+      "startFrame": 226,
+      "endFrame": 233
+    },
+    {
+      "word": "best",
+      "start": 7.76,
+      "end": 8.04,
+      "score": 0.9985215067863464,
+      "startFrame": 233,
+      "endFrame": 241
+    },
+    {
+      "word": "thing",
+      "start": 8.04,
+      "end": 8.34,
+      "score": 0.9933285713195801,
+      "startFrame": 241,
+      "endFrame": 250
+    },
+    {
+      "word": "is",
+      "start": 8.34,
+      "end": 8.56,
+      "score": 0.9875990152359009,
+      "startFrame": 250,
+      "endFrame": 257
+    },
+    {
+      "word": "we",
+      "start": 8.56,
+      "end": 8.76,
+      "score": 0.8703356385231018,
+      "startFrame": 257,
+      "endFrame": 263
+    },
+    {
+      "word": "should",
+      "start": 8.76,
+      "end": 8.98,
+      "score": 0.9947577118873596,
+      "startFrame": 263,
+      "endFrame": 269
+    },
+    {
+      "word": "combine",
+      "start": 8.98,
+      "end": 9.5,
+      "score": 0.9928779006004333,
+      "startFrame": 269,
+      "endFrame": 285
+    },
+    {
+      "word": "daily",
+      "start": 9.5,
+      "end": 10.58,
+      "score": 0.9792753458023071,
+      "startFrame": 285,
+      "endFrame": 317
+    },
+    {
+      "word": "movement,",
+      "start": 10.58,
+      "end": 11.22,
+      "score": 0.9351339340209961,
+      "startFrame": 317,
+      "endFrame": 337
+    },
+    {
+      "word": "cardiovascular",
+      "start": 11.86,
+      "end": 12.24,
+      "score": 0.9663073420524597,
+      "startFrame": 356,
+      "endFrame": 367
+    },
+    {
+      "word": "exercise,",
+      "start": 12.24,
+      "end": 13.06,
+      "score": 0.9865275025367737,
+      "startFrame": 367,
+      "endFrame": 392
+    },
+    {
+      "word": "strength",
+      "start": 13.38,
+      "end": 13.74,
+      "score": 0.8413965106010437,
+      "startFrame": 401,
+      "endFrame": 412
+    },
+    {
+      "word": "training.",
+      "start": 13.74,
+      "end": 14.12,
+      "score": 0.9939309358596802,
+      "startFrame": 412,
+      "endFrame": 424
+    },
+    {
+      "word": "What",
+      "start": 14.32,
+      "end": 14.5,
+      "score": 0.987295925617218,
+      "startFrame": 430,
+      "endFrame": 435
+    },
+    {
+      "word": "I",
+      "start": 14.5,
+      "end": 14.86,
+      "score": 0.991287887096405,
+      "startFrame": 435,
+      "endFrame": 446
+    },
+    {
+      "word": "recommend",
+      "start": 14.86,
+      "end": 15.26,
+      "score": 0.9953857064247131,
+      "startFrame": 446,
+      "endFrame": 458
+    },
+    {
+      "word": "is",
+      "start": 15.26,
+      "end": 15.62,
+      "score": 0.987464189529419,
+      "startFrame": 458,
+      "endFrame": 469
+    },
+    {
+      "word": "one",
+      "start": 15.62,
+      "end": 16.28,
+      "score": 0.5832134485244751,
+      "startFrame": 469,
+      "endFrame": 488
+    },
+    {
+      "word": "should",
+      "start": 16.28,
+      "end": 16.54,
+      "score": 0.9955833554267883,
+      "startFrame": 488,
+      "endFrame": 496
+    },
+    {
+      "word": "be",
+      "start": 16.54,
+      "end": 16.98,
+      "score": 0.9955925345420837,
+      "startFrame": 496,
+      "endFrame": 509
+    },
+    {
+      "word": "active",
+      "start": 16.98,
+      "end": 17.46,
+      "score": 0.9969791173934937,
+      "startFrame": 509,
+      "endFrame": 524
+    },
+    {
+      "word": "daily",
+      "start": 17.46,
+      "end": 17.84,
+      "score": 0.9992403984069824,
+      "startFrame": 524,
+      "endFrame": 535
+    },
+    {
+      "word": "so",
+      "start": 17.84,
+      "end": 18.4,
+      "score": 0.7539551258087158,
+      "startFrame": 535,
+      "endFrame": 552
+    },
+    {
+      "word": "that",
+      "start": 18.4,
+      "end": 18.6,
+      "score": 0.9915167093276978,
+      "startFrame": 552,
+      "endFrame": 558
+    },
+    {
+      "word": "they",
+      "start": 18.6,
+      "end": 18.82,
+      "score": 0.9978579878807068,
+      "startFrame": 558,
+      "endFrame": 565
+    },
+    {
+      "word": "can",
+      "start": 18.82,
+      "end": 18.98,
+      "score": 0.994521975517273,
+      "startFrame": 565,
+      "endFrame": 569
+    },
+    {
+      "word": "have",
+      "start": 18.98,
+      "end": 19.22,
+      "score": 0.9987220168113708,
+      "startFrame": 569,
+      "endFrame": 577
+    },
+    {
+      "word": "at",
+      "start": 19.22,
+      "end": 19.36,
+      "score": 0.9892336130142212,
+      "startFrame": 577,
+      "endFrame": 581
+    },
+    {
+      "word": "least",
+      "start": 19.36,
+      "end": 19.52,
+      "score": 0.9943450689315796,
+      "startFrame": 581,
+      "endFrame": 586
+    },
+    {
+      "word": "8",
+      "start": 19.52,
+      "end": 19.86,
+      "score": 0.5260301232337952,
+      "startFrame": 586,
+      "endFrame": 596
+    },
+    {
+      "word": "to",
+      "start": 19.86,
+      "end": 20.04,
+      "score": 0.61274254322052,
+      "startFrame": 596,
+      "endFrame": 601
+    },
+    {
+      "word": "10",
+      "start": 20.04,
+      "end": 20.24,
+      "score": 0.9728186130523682,
+      "startFrame": 601,
+      "endFrame": 607
+    },
+    {
+      "word": ",000",
+      "start": 20.24,
+      "end": 20.56,
+      "score": 0.9082343876361847,
+      "startFrame": 607,
+      "endFrame": 617
+    },
+    {
+      "word": "steps",
+      "start": 20.56,
+      "end": 20.84,
+      "score": 0.9983643889427185,
+      "startFrame": 617,
+      "endFrame": 625
+    },
+    {
+      "word": "per",
+      "start": 20.84,
+      "end": 21.14,
+      "score": 0.9915536046028137,
+      "startFrame": 625,
+      "endFrame": 634
+    },
+    {
+      "word": "day,",
+      "start": 21.14,
+      "end": 21.3,
+      "score": 0.9991841912269592,
+      "startFrame": 634,
+      "endFrame": 639
+    },
+    {
+      "word": "do",
+      "start": 22.0,
+      "end": 22.26,
+      "score": 0.9856314659118652,
+      "startFrame": 660,
+      "endFrame": 668
+    },
+    {
+      "word": "resistance",
+      "start": 22.26,
+      "end": 22.76,
+      "score": 0.9739612936973572,
+      "startFrame": 668,
+      "endFrame": 683
+    },
+    {
+      "word": "training",
+      "start": 22.76,
+      "end": 23.26,
+      "score": 0.99709153175354,
+      "startFrame": 683,
+      "endFrame": 698
+    },
+    {
+      "word": "or",
+      "start": 23.26,
+      "end": 23.52,
+      "score": 0.9484862685203552,
+      "startFrame": 698,
+      "endFrame": 706
+    },
+    {
+      "word": "strength",
+      "start": 23.52,
+      "end": 23.84,
+      "score": 0.6907166838645935,
+      "startFrame": 706,
+      "endFrame": 715
+    },
+    {
+      "word": "training",
+      "start": 23.84,
+      "end": 24.3,
+      "score": 0.989913821220398,
+      "startFrame": 715,
+      "endFrame": 729
+    },
+    {
+      "word": "gym",
+      "start": 24.3,
+      "end": 25.1,
+      "score": 0.3187573552131653,
+      "startFrame": 729,
+      "endFrame": 753
+    },
+    {
+      "word": "or",
+      "start": 25.1,
+      "end": 25.44,
+      "score": 0.9631469249725342,
+      "startFrame": 753,
+      "endFrame": 763
+    },
+    {
+      "word": "yoga",
+      "start": 25.44,
+      "end": 25.84,
+      "score": 0.9516780376434326,
+      "startFrame": 763,
+      "endFrame": 775
+    },
+    {
+      "word": "at",
+      "start": 25.84,
+      "end": 26.06,
+      "score": 0.9424688220024109,
+      "startFrame": 775,
+      "endFrame": 782
+    },
+    {
+      "word": "least",
+      "start": 26.06,
+      "end": 26.34,
+      "score": 0.9715431928634644,
+      "startFrame": 782,
+      "endFrame": 790
+    },
+    {
+      "word": "weekly",
+      "start": 26.34,
+      "end": 26.7,
+      "score": 0.6024237871170044,
+      "startFrame": 790,
+      "endFrame": 801
+    },
+    {
+      "word": "two",
+      "start": 26.7,
+      "end": 27.04,
+      "score": 0.7069597244262695,
+      "startFrame": 801,
+      "endFrame": 811
+    },
+    {
+      "word": "or",
+      "start": 27.04,
+      "end": 27.16,
+      "score": 0.9907140731811523,
+      "startFrame": 811,
+      "endFrame": 815
+    },
+    {
+      "word": "three",
+      "start": 27.16,
+      "end": 27.4,
+      "score": 0.9963646531105042,
+      "startFrame": 815,
+      "endFrame": 822
+    },
+    {
+      "word": "times",
+      "start": 27.4,
+      "end": 27.84,
+      "score": 0.9965277314186096,
+      "startFrame": 822,
+      "endFrame": 835
+    },
+    {
+      "word": "and",
+      "start": 27.84,
+      "end": 28.98,
+      "score": 0.7089376449584961,
+      "startFrame": 835,
+      "endFrame": 869
+    },
+    {
+      "word": "cardiovascular",
+      "start": 28.98,
+      "end": 29.74,
+      "score": 0.6507419943809509,
+      "startFrame": 869,
+      "endFrame": 892
+    },
+    {
+      "word": "exercise",
+      "start": 29.74,
+      "end": 30.44,
+      "score": 0.9264640808105469,
+      "startFrame": 892,
+      "endFrame": 913
+    },
+    {
+      "word": "moderate",
+      "start": 30.44,
+      "end": 30.82,
+      "score": 0.555173933506012,
+      "startFrame": 913,
+      "endFrame": 925
+    },
+    {
+      "word": "intensity",
+      "start": 30.82,
+      "end": 31.7,
+      "score": 0.8024880290031433,
+      "startFrame": 925,
+      "endFrame": 951
+    },
+    {
+      "word": "exercise",
+      "start": 31.7,
+      "end": 32.12,
+      "score": 0.9947988986968994,
+      "startFrame": 951,
+      "endFrame": 964
+    },
+    {
+      "word": "like",
+      "start": 32.12,
+      "end": 32.42,
+      "score": 0.9787434935569763,
+      "startFrame": 964,
+      "endFrame": 973
+    },
+    {
+      "word": "swimming",
+      "start": 32.42,
+      "end": 32.9,
+      "score": 0.9913713932037354,
+      "startFrame": 973,
+      "endFrame": 987
+    },
+    {
+      "word": "running",
+      "start": 32.9,
+      "end": 33.6,
+      "score": 0.6814906597137451,
+      "startFrame": 987,
+      "endFrame": 1008
+    },
+    {
+      "word": "jogging",
+      "start": 33.6,
+      "end": 34.14,
+      "score": 0.9844540357589722,
+      "startFrame": 1008,
+      "endFrame": 1024
+    },
+    {
+      "word": "cycling",
+      "start": 34.14,
+      "end": 34.8,
+      "score": 0.9927748441696167,
+      "startFrame": 1024,
+      "endFrame": 1044
+    },
+    {
+      "word": "of",
+      "start": 34.8,
+      "end": 35.02,
+      "score": 0.976783275604248,
+      "startFrame": 1044,
+      "endFrame": 1051
+    },
+    {
+      "word": "at",
+      "start": 35.02,
+      "end": 35.18,
+      "score": 0.9980618357658386,
+      "startFrame": 1051,
+      "endFrame": 1055
+    },
+    {
+      "word": "least",
+      "start": 35.18,
+      "end": 35.32,
+      "score": 0.9930676221847534,
+      "startFrame": 1055,
+      "endFrame": 1060
+    },
+    {
+      "word": "150",
+      "start": 35.32,
+      "end": 35.8,
+      "score": 0.9372899532318115,
+      "startFrame": 1060,
+      "endFrame": 1074
+    },
+    {
+      "word": "minutes",
+      "start": 35.8,
+      "end": 36.18,
+      "score": 0.9894474744796753,
+      "startFrame": 1074,
+      "endFrame": 1085
+    },
+    {
+      "word": "per",
+      "start": 36.18,
+      "end": 36.5,
+      "score": 0.9969666600227356,
+      "startFrame": 1085,
+      "endFrame": 1095
+    },
+    {
+      "word": "week",
+      "start": 36.5,
+      "end": 36.78,
+      "score": 0.9994000196456909,
+      "startFrame": 1095,
+      "endFrame": 1103
+    },
+    {
+      "word": "and",
+      "start": 36.78,
+      "end": 37.64,
+      "score": 0.9624133110046387,
+      "startFrame": 1103,
+      "endFrame": 1129
+    },
+    {
+      "word": "also",
+      "start": 37.64,
+      "end": 38.1,
+      "score": 0.9496859312057495,
+      "startFrame": 1129,
+      "endFrame": 1143
+    },
+    {
+      "word": "for",
+      "start": 38.1,
+      "end": 38.38,
+      "score": 0.8409104347229004,
+      "startFrame": 1143,
+      "endFrame": 1151
+    },
+    {
+      "word": "the",
+      "start": 38.38,
+      "end": 38.64,
+      "score": 0.9956929087638855,
+      "startFrame": 1151,
+      "endFrame": 1159
+    },
+    {
+      "word": "mental",
+      "start": 38.64,
+      "end": 39.18,
+      "score": 0.998505711555481,
+      "startFrame": 1159,
+      "endFrame": 1175
+    },
+    {
+      "word": "stability",
+      "start": 39.18,
+      "end": 39.74,
+      "score": 0.9996110796928406,
+      "startFrame": 1175,
+      "endFrame": 1192
+    },
+    {
+      "word": "in",
+      "start": 39.74,
+      "end": 40.16,
+      "score": 0.9761909246444702,
+      "startFrame": 1192,
+      "endFrame": 1205
+    },
+    {
+      "word": "order",
+      "start": 40.16,
+      "end": 40.32,
+      "score": 0.9994454979896545,
+      "startFrame": 1205,
+      "endFrame": 1210
+    },
+    {
+      "word": "to",
+      "start": 40.32,
+      "end": 40.54,
+      "score": 0.9996398687362671,
+      "startFrame": 1210,
+      "endFrame": 1216
+    },
+    {
+      "word": "reduce",
+      "start": 40.54,
+      "end": 40.84,
+      "score": 0.9964842796325684,
+      "startFrame": 1216,
+      "endFrame": 1225
+    },
+    {
+      "word": "stress",
+      "start": 40.84,
+      "end": 41.46,
+      "score": 0.9935634136199951,
+      "startFrame": 1225,
+      "endFrame": 1244
+    },
+    {
+      "word": "one",
+      "start": 41.46,
+      "end": 42.12,
+      "score": 0.9472390413284302,
+      "startFrame": 1244,
+      "endFrame": 1264
+    },
+    {
+      "word": "must",
+      "start": 42.12,
+      "end": 42.36,
+      "score": 0.9937629103660583,
+      "startFrame": 1264,
+      "endFrame": 1271
+    },
+    {
+      "word": "also",
+      "start": 42.36,
+      "end": 42.72,
+      "score": 0.9977076053619385,
+      "startFrame": 1271,
+      "endFrame": 1282
+    },
+    {
+      "word": "follow",
+      "start": 42.72,
+      "end": 43.02,
+      "score": 0.9979662895202637,
+      "startFrame": 1282,
+      "endFrame": 1291
+    },
+    {
+      "word": "meditation",
+      "start": 43.02,
+      "end": 43.58,
+      "score": 0.9943179488182068,
+      "startFrame": 1291,
+      "endFrame": 1307
+    },
+    {
+      "word": "at",
+      "start": 43.58,
+      "end": 44.36,
+      "score": 0.997147262096405,
+      "startFrame": 1307,
+      "endFrame": 1331
+    },
+    {
+      "word": "least",
+      "start": 44.36,
+      "end": 44.54,
+      "score": 0.9969761371612549,
+      "startFrame": 1331,
+      "endFrame": 1336
+    },
+    {
+      "word": "two",
+      "start": 44.54,
+      "end": 44.94,
+      "score": 0.9587500095367432,
+      "startFrame": 1336,
+      "endFrame": 1348
+    },
+    {
+      "word": "or",
+      "start": 44.94,
+      "end": 45.06,
+      "score": 0.9986711740493774,
+      "startFrame": 1348,
+      "endFrame": 1352
+    },
+    {
+      "word": "three",
+      "start": 45.06,
+      "end": 45.28,
+      "score": 0.9992545247077942,
+      "startFrame": 1352,
+      "endFrame": 1358
+    },
+    {
+      "word": "times",
+      "start": 45.28,
+      "end": 45.54,
+      "score": 0.998066246509552,
+      "startFrame": 1358,
+      "endFrame": 1366
+    },
+    {
+      "word": "per",
+      "start": 45.54,
+      "end": 45.78,
+      "score": 0.9973190426826477,
+      "startFrame": 1366,
+      "endFrame": 1373
+    },
+    {
+      "word": "week.",
+      "start": 45.78,
+      "end": 45.94,
+      "score": 0.997998058795929,
+      "startFrame": 1373,
+      "endFrame": 1378
+    }
+  ]
+}
