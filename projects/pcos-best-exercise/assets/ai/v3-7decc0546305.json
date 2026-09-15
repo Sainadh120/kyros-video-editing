@@ -1,0 +1,52 @@
+{
+  "assetId": "v3-7decc0546305",
+  "file": "v3-7decc0546305.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her thirties in a fitted black t-shirt and black track pants stands tall in a clean neighbourhood gym in Hyderabad, feet hip-width apart, holding a light dumbbell in each hand and curling them up toward her shoulders, elbows close to her sides, calm focused expression, seen from the front at a slight angle, centred in a wide 16:9 frame. Racks and mirrors softly out of focus behind her. Natural window light from the left, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour, plain unmarked equipment.",
+  "negative": null,
+  "width": 1344,
+  "height": 768,
+  "seed": 1538369028,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "7decc0546305d89792c6bb8b550f4429b204524f49c319f86c5c54efcd3fba4a",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her thirties in a fitted black t-shirt and black track pants stands tall in a clean neighbourhood gym in Hyderabad, feet hip-width apart, holding a light dumbbell in each hand and curling them up toward her shoulders, elbows close to her sides, calm focused expression, seen from the front at a slight angle, centred in a wide 16:9 frame. Racks and mirrors softly out of focus behind her. Natural window light from the left, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour, plain unmarked equipment.",
+    "negative": null,
+    "width": 1344,
+    "height": 768,
+    "seed": 1538369028,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v3"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-best-exercise",
+  "treatment": "inset",
+  "why": "'resistance training or strength training, gym' — a card on the wall while she stays full-frame and says how often",
+  "says": "do resistance training or strength training gym or yoga at least weekly two or three times",
+  "createdAt": "2026-09-11T01:13:06",
+  "elapsedSec": 46.28,
+  "costEstimateUsd": 0.014163,
+  "costBasis": "estimate: 46.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    1344,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

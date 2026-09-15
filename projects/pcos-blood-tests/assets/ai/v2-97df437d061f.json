@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-97df437d061f",
+  "file": "v2-97df437d061f.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Medical textbook 3D render of a human ovary cut in half: an oval, pinkish-beige organ with a smooth outer capsule, many small round dark fluid-filled follicles clustered just beneath its surface, the fringed end of the fallopian tube curving beside it, soft studio lighting on a plain deep green background, vertical 9:16 frame with calm empty space in the upper third, scientifically accurate anatomy, realistic tissue texture.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1403808240,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "97df437d061fff722efd2a2889b484f3ebad400249949b69a8bc7726b435adef",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Medical textbook 3D render of a human ovary cut in half: an oval, pinkish-beige organ with a smooth outer capsule, many small round dark fluid-filled follicles clustered just beneath its surface, the fringed end of the fallopian tube curving beside it, soft studio lighting on a plain deep green background, vertical 9:16 frame with calm empty space in the upper third, scientifically accurate anatomy, realistic tissue texture.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1403808240,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "doctorBubble",
+  "why": "'patients will develop all these ovarian cysts' — one thing named, one clear educational picture",
+  "says": "patients will develop all these ovarian cysts",
+  "createdAt": "2026-09-11T18:59:02",
+  "elapsedSec": 38.92,
+  "costEstimateUsd": 0.011909,
+  "costBasis": "estimate: 38.9s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

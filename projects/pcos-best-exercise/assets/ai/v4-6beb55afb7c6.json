@@ -1,0 +1,55 @@
+{
+  "assetId": "v4-6beb55afb7c6",
+  "file": "v4-6beb55afb7c6.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "Clear turquoise water in an outdoor community pool in the morning. A woman in a dark swimsuit and swim cap glides forward doing an easy, steady freestyle stroke, her arms rising and entering the water in a calm rhythm. The camera tracks slowly alongside at water level, keeping the swimmer in the lower right of the frame, with bright calm water and open sky in the upper third. Sunlight ripples across the pool floor. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 768,
+  "height": 1344,
+  "seed": 560211801,
+  "numFrames": 121,
+  "fps": 24,
+  "input": null,
+  "requestHash": "6beb55afb7c60c7da920497054862cf5a1f7e5f4d5c014cd8ab51edfb69264f1",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "Clear turquoise water in an outdoor community pool in the morning. A woman in a dark swimsuit and swim cap glides forward doing an easy, steady freestyle stroke, her arms rising and entering the water in a calm rhythm. The camera tracks slowly alongside at water level, keeping the swimmer in the lower right of the frame, with bright calm water and open sky in the upper third. Sunlight ripples across the pool floor. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 768,
+    "height": 1344,
+    "seed": 560211801,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 121,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "v4"
+  ],
+  "sourceBeats": [
+    8
+  ],
+  "slug": "pcos-best-exercise",
+  "treatment": "doctorBubble",
+  "why": "'swimming, running, jogging, cycling' — swimming is the first she names and motion is the point",
+  "says": "and cardiovascular exercise moderate intensity exercise like swimming running jogging cycling",
+  "createdAt": "2026-09-11T02:40:22",
+  "elapsedSec": 351.14,
+  "costEstimateUsd": 0.243694,
+  "costBasis": "estimate: 351.1s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 5.041667,
+  "outputSize": [
+    768,
+    1344
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

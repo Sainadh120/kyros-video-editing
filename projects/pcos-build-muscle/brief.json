@@ -1,0 +1,130 @@
+{
+  "slug": "pcos-build-muscle",
+  "clip": "inbox/pcos-build-muscle.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "_palette_note": "No palette block on purpose: palette.py measures wall #E6BE9B and saree #B3B744 and derives the APCA-checked rotation per zone, same engine as every shipped clip. The saree band is bimodal (black mic dead centre) — the pcos-muscle lesson — so low captions get their own dark scrim and the register proposal (dark) is honoured.",
+  "question": {
+    "preset": "ink",
+    "scrimOpacity": 0.55,
+    "_presetNote": "register.py proposal: last clip ran 'paper', so this takes 'ink' — dense near-black with warm white + saffron type. Opposite opening to pcos-sleep-cycle's paper card.",
+    "_scrimNote": "Niranjan: she must be VISIBLE while she speaks the question — the card is a veil, not a wall. 0.55 is the lowest APCA-measured value that clears the 45 Lc floor for BOTH type colours against this footage under the text band (worst-case 5th percentile: lead 80.4, saffron key 46.5); 0.50 fails the saffron at 42.4. The payload's own drop shadow adds further contrast beyond the flat blend.",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [0, 1, 2, 3]
+      },
+      {
+        "style": "key",
+        "words": [4, 5],
+        "lines": ["BUILD MUSCLE?"]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "_beat": "4.7-8.6s  myth thought-bubbles arrive top at 7.1s — the beat's whole life is not clear-top, so it sits low on the scrim (auto_zone is per-beat, no mid-beat switch)",
+      "lead": [11, 12, 13],
+      "key": [15, 16, 17],
+      "lines": ["LOT OF MYTHS"]
+    },
+    {
+      "_beat": "12.6-15.0s  myths graphic clears 13.9s mid-beat; whole life not clear -> low",
+      "lead": [27, 28],
+      "key": [30, 31],
+      "lines": ["PCOS WOMEN"]
+    },
+    {
+      "_beat": "15.3-16.9s  top CLEAR 13.9-18.3s -> the hero beat, big on the bare wall if auto_zone grants it",
+      "lead": [32],
+      "key": [33, 34, 35, 36],
+      "lines": ["BUILD & MAINTAIN", "MUSCLE"],
+      "tone": "keyAlt"
+    },
+    {
+      "_beat": "18.1-19.5s  whey-protein graphic top from 18.3s -> low",
+      "lead": [40, 41],
+      "key": [42],
+      "lines": ["PROTEIN"]
+    },
+    {
+      "_beat": "20.2-22.6s  payload-only stat; the number is the whole caption. 'per week' omitted — Niranjan approved G/KG without the unit",
+      "lead": [],
+      "key": [45, 46, 47, 48, 49, 50, 51, 52],
+      "lines": ["1.2–1.4 G/KG"]
+    },
+    {
+      "_beat": "24.6-26.8s  barbell graphic top from 26.2s -> low",
+      "lead": [58, 59, 60],
+      "key": [61, 62],
+      "lines": ["RESISTANCE", "TRAINING"]
+    },
+    {
+      "_beat": "26.8-28.5s  payload-only; she stumbles 'twice or twice a week' -> captioned TWICE A WEEK",
+      "lead": [],
+      "key": [63, 64, 65, 66, 67],
+      "lines": ["TWICE A WEEK"]
+    },
+    {
+      "_beat": "29.0-32.0s  adjusted raw: the crash-diet circles were replaced by a fork-and-greens shot (no burned-in words) — caption carries the point alone now",
+      "lead": [69, 70, 71],
+      "key": [77, 78],
+      "lines": ["NO", "CRASH DIETS"]
+    },
+    {
+      "_beat": "32.0-36.6s  the close; her repeated 'crash diets' (80,81) and 'in the body' (87-89) folded out",
+      "lead": [79],
+      "key": [82, 83, 84, 85, 86],
+      "lines": ["WILL DAMAGE", "EXISTING MUSCLE"]
+    }
+  ],
+  "layout": {
+    "_comment": "Panel geometry is DERIVED, not set: build measures the chin and fades the panel in below it, reaching solid by the time the payload starts. Same doctor, same framing as pcos-muscle.",
+    "bottomZone": {
+      "top": 1470,
+      "height": 380,
+      "paddingX": 48,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "ground": "dark",
+      "opacity": 0.8,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      },
+      "key": {
+        "bottomMinSize": 96,
+        "bottomMaxOneLine": 210,
+        "bottomMaxMultiLine": 168
+      },
+      "lead": {
+        "bottomAnswerSize": 56
+      }
+    }
+  },
+  "style": {
+    "_comment": "register.py proposal accepted by Niranjan: dark scrim (last 2 ran light, none), ink card (last ran paper), match lead, brick palette lead, warmEditorial pairing (heritage ran four reels), maskWipeFast reveal (never run). Vivid light type on the dark scrim — never cream-only.",
+    "typePairing": "warmEditorial",
+    "textPosition": "low on the dark scrim over the saree/mic band; the hero beat (15.3-16.9s) goes big on the bare wall in the 13.9-18.3s clear window if the solver grants it",
+    "revealMechanic": "maskWipeFast pinned clip-wide",
+    "payloadTreatment": "stacked caps, NO stroke, NO ladder rule; lead shares the payload's colour (match) so only one tone is on screen at a time",
+    "accent": "rotation led by brick on the dark ground (brick's light-flip); palette.py derives and APCA-checks the rest",
+    "leadStyle": "match",
+    "paletteLead": "brick"
+  },
+  "openFlags": [],
+  "_resolved": [
+    "Transcript confirmed with Niranjan: 'How can a woman build muscle?' — myths / PCOS women build muscle / protein 1.2-1.4 / resistance training / no crash diets. 37.2s, 90 words.",
+    "Chunking + register approved together (one pass). Protein stat approved as '1.2–1.4 G/KG' without the week/day unit — she says 'per week', guidelines say per day; the caption states neither.",
+    "Slug pcos-build-muscle — distinct from the shipped pcos-muscle (different question: that one was why muscle matters, this one is how to build it).",
+    "Burned-in graphics top band: 7.1-13.9s myth bubbles (they carry words, but the caption names the concept, not their list — no skip), 18.3-22.8s whey pour, 26.2-37.2s resistance/crash-diet visuals. RAW SWAPPED 2026-09-09: the 30-37s crash-diet circles (LOSE MUSCLE ✗ / PRESERVE MUSCLE ✓) were replaced by a fork-and-greens shot with no words — Niranjan: 'visual adjusted at one place, everything else the same'. Transcript and all 90 word timestamps re-measured identical; beat 9's caption is now the only carrier of that point.",
+    "Registration number: not shown on screen. Handled at consultation. No compliance flags — no cure/reverse/guarantee language in this take.",
+    "Saree band is bimodal (bright #B3B744 with black mic centre) — dark scrim, vivid rotation, same reasoning as pcos-muscle."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "doctor-qa-vertical",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion 1080x1920 @30fps doctor Q&A with acoustically-aligned captions",
+  "scripts": {
+    "_comment": "The real pipeline is scripts/reels.py, which stages a clip and renders into its project's out/. These are just studio conveniences; composition ids match src/Root.tsx (Composed / PartnerComposed / TextOverlay / PartnerTextOverlay).",
+    "dev": "remotion studio",
+    "kyros": "remotion render Composed out/kyros.mp4",
+    "partner": "remotion render PartnerComposed out/partner.mp4",
+    "kyros:overlay": "remotion render TextOverlay out/kyros-overlay.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png",
+    "partner:overlay": "remotion render PartnerTextOverlay out/partner-overlay.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.409",
+    "@remotion/google-fonts": "4.0.409",
+    "remotion": "4.0.409",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

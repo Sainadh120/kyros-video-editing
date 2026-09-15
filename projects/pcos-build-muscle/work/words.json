@@ -1,0 +1,726 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "How",
+      "start": 0.0,
+      "end": 0.48,
+      "score": 0.6648384928703308,
+      "startFrame": 0,
+      "endFrame": 14
+    },
+    {
+      "word": "can",
+      "start": 0.48,
+      "end": 0.72,
+      "score": 0.9712237119674683,
+      "startFrame": 14,
+      "endFrame": 22
+    },
+    {
+      "word": "a",
+      "start": 0.72,
+      "end": 0.86,
+      "score": 0.8189572095870972,
+      "startFrame": 22,
+      "endFrame": 26
+    },
+    {
+      "word": "woman",
+      "start": 0.86,
+      "end": 1.04,
+      "score": 0.854378879070282,
+      "startFrame": 26,
+      "endFrame": 31
+    },
+    {
+      "word": "build",
+      "start": 1.04,
+      "end": 1.52,
+      "score": 0.9328219890594482,
+      "startFrame": 31,
+      "endFrame": 46
+    },
+    {
+      "word": "muscle?",
+      "start": 1.52,
+      "end": 2.26,
+      "score": 0.8047158122062683,
+      "startFrame": 46,
+      "endFrame": 68
+    },
+    {
+      "word": "So",
+      "start": 3.08,
+      "end": 3.08,
+      "score": 0.47571390867233276,
+      "startFrame": 92,
+      "endFrame": 92
+    },
+    {
+      "word": "in",
+      "start": 3.08,
+      "end": 3.3,
+      "score": 0.6104804277420044,
+      "startFrame": 92,
+      "endFrame": 99
+    },
+    {
+      "word": "any",
+      "start": 3.3,
+      "end": 3.68,
+      "score": 0.9936168193817139,
+      "startFrame": 99,
+      "endFrame": 110
+    },
+    {
+      "word": "woman,",
+      "start": 3.68,
+      "end": 3.94,
+      "score": 0.7098862528800964,
+      "startFrame": 110,
+      "endFrame": 118
+    },
+    {
+      "word": "usually",
+      "start": 4.38,
+      "end": 4.68,
+      "score": 0.9650847315788269,
+      "startFrame": 131,
+      "endFrame": 140
+    },
+    {
+      "word": "women",
+      "start": 4.68,
+      "end": 5.84,
+      "score": 0.7505152225494385,
+      "startFrame": 140,
+      "endFrame": 175
+    },
+    {
+      "word": "will",
+      "start": 5.84,
+      "end": 6.6,
+      "score": 0.9411287307739258,
+      "startFrame": 175,
+      "endFrame": 198
+    },
+    {
+      "word": "face",
+      "start": 6.6,
+      "end": 7.06,
+      "score": 0.9941006302833557,
+      "startFrame": 198,
+      "endFrame": 212
+    },
+    {
+      "word": "a",
+      "start": 7.06,
+      "end": 7.58,
+      "score": 0.9634385108947754,
+      "startFrame": 212,
+      "endFrame": 227
+    },
+    {
+      "word": "lot",
+      "start": 7.58,
+      "end": 7.84,
+      "score": 0.9980904459953308,
+      "startFrame": 227,
+      "endFrame": 235
+    },
+    {
+      "word": "of",
+      "start": 7.84,
+      "end": 8.12,
+      "score": 0.9978773593902588,
+      "startFrame": 235,
+      "endFrame": 244
+    },
+    {
+      "word": "myths",
+      "start": 8.12,
+      "end": 8.58,
+      "score": 0.9767537117004395,
+      "startFrame": 244,
+      "endFrame": 257
+    },
+    {
+      "word": "when",
+      "start": 8.58,
+      "end": 9.12,
+      "score": 0.9494488835334778,
+      "startFrame": 257,
+      "endFrame": 274
+    },
+    {
+      "word": "it",
+      "start": 9.12,
+      "end": 9.56,
+      "score": 0.9954690933227539,
+      "startFrame": 274,
+      "endFrame": 287
+    },
+    {
+      "word": "comes",
+      "start": 9.56,
+      "end": 9.82,
+      "score": 0.9951165914535522,
+      "startFrame": 287,
+      "endFrame": 295
+    },
+    {
+      "word": "to",
+      "start": 9.82,
+      "end": 10.04,
+      "score": 0.9980340600013733,
+      "startFrame": 295,
+      "endFrame": 301
+    },
+    {
+      "word": "the",
+      "start": 10.04,
+      "end": 10.22,
+      "score": 0.9746454954147339,
+      "startFrame": 301,
+      "endFrame": 307
+    },
+    {
+      "word": "muscle",
+      "start": 10.22,
+      "end": 10.44,
+      "score": 0.9711904525756836,
+      "startFrame": 307,
+      "endFrame": 313
+    },
+    {
+      "word": "building.",
+      "start": 10.44,
+      "end": 10.84,
+      "score": 0.960289716720581,
+      "startFrame": 313,
+      "endFrame": 325
+    },
+    {
+      "word": "But",
+      "start": 11.32,
+      "end": 11.68,
+      "score": 0.9827269315719604,
+      "startFrame": 340,
+      "endFrame": 350
+    },
+    {
+      "word": "any",
+      "start": 11.68,
+      "end": 12.6,
+      "score": 0.7798197865486145,
+      "startFrame": 350,
+      "endFrame": 378
+    },
+    {
+      "word": "metabolic",
+      "start": 12.6,
+      "end": 13.02,
+      "score": 0.9985161423683167,
+      "startFrame": 378,
+      "endFrame": 391
+    },
+    {
+      "word": "issue,",
+      "start": 13.02,
+      "end": 13.46,
+      "score": 0.9433444142341614,
+      "startFrame": 391,
+      "endFrame": 404
+    },
+    {
+      "word": "especially",
+      "start": 13.64,
+      "end": 14.06,
+      "score": 0.99126797914505,
+      "startFrame": 409,
+      "endFrame": 422
+    },
+    {
+      "word": "PCOS",
+      "start": 14.06,
+      "end": 14.68,
+      "score": 0.9458219707012177,
+      "startFrame": 422,
+      "endFrame": 440
+    },
+    {
+      "word": "women,",
+      "start": 14.68,
+      "end": 15.04,
+      "score": 0.7641923427581787,
+      "startFrame": 440,
+      "endFrame": 451
+    },
+    {
+      "word": "should",
+      "start": 15.3,
+      "end": 15.52,
+      "score": 0.9868903160095215,
+      "startFrame": 459,
+      "endFrame": 466
+    },
+    {
+      "word": "build",
+      "start": 15.52,
+      "end": 15.9,
+      "score": 0.9913910627365112,
+      "startFrame": 466,
+      "endFrame": 477
+    },
+    {
+      "word": "and",
+      "start": 15.9,
+      "end": 16.18,
+      "score": 0.9917615652084351,
+      "startFrame": 477,
+      "endFrame": 485
+    },
+    {
+      "word": "maintain",
+      "start": 16.18,
+      "end": 16.58,
+      "score": 0.9955845475196838,
+      "startFrame": 485,
+      "endFrame": 497
+    },
+    {
+      "word": "muscle.",
+      "start": 16.58,
+      "end": 16.9,
+      "score": 0.9514911770820618,
+      "startFrame": 497,
+      "endFrame": 507
+    },
+    {
+      "word": "So",
+      "start": 17.4,
+      "end": 17.58,
+      "score": 0.9881373047828674,
+      "startFrame": 522,
+      "endFrame": 527
+    },
+    {
+      "word": "one",
+      "start": 17.58,
+      "end": 17.86,
+      "score": 0.8876025080680847,
+      "startFrame": 527,
+      "endFrame": 536
+    },
+    {
+      "word": "must",
+      "start": 17.86,
+      "end": 18.08,
+      "score": 0.9876981377601624,
+      "startFrame": 536,
+      "endFrame": 542
+    },
+    {
+      "word": "take",
+      "start": 18.08,
+      "end": 18.4,
+      "score": 0.5942612886428833,
+      "startFrame": 542,
+      "endFrame": 552
+    },
+    {
+      "word": "adequate",
+      "start": 18.4,
+      "end": 19.0,
+      "score": 0.8790826201438904,
+      "startFrame": 552,
+      "endFrame": 570
+    },
+    {
+      "word": "protein",
+      "start": 19.0,
+      "end": 19.54,
+      "score": 0.9952616691589355,
+      "startFrame": 570,
+      "endFrame": 586
+    },
+    {
+      "word": "of",
+      "start": 19.54,
+      "end": 19.86,
+      "score": 0.9806990027427673,
+      "startFrame": 586,
+      "endFrame": 596
+    },
+    {
+      "word": "around",
+      "start": 19.86,
+      "end": 20.18,
+      "score": 0.9743928909301758,
+      "startFrame": 596,
+      "endFrame": 605
+    },
+    {
+      "word": "1",
+      "start": 20.18,
+      "end": 20.5,
+      "score": 0.9188787937164307,
+      "startFrame": 605,
+      "endFrame": 615
+    },
+    {
+      "word": ".2",
+      "start": 20.5,
+      "end": 20.92,
+      "score": 0.9905515909194946,
+      "startFrame": 615,
+      "endFrame": 628
+    },
+    {
+      "word": "to",
+      "start": 20.92,
+      "end": 21.04,
+      "score": 0.8829360604286194,
+      "startFrame": 628,
+      "endFrame": 631
+    },
+    {
+      "word": "1",
+      "start": 21.04,
+      "end": 21.28,
+      "score": 0.9912723898887634,
+      "startFrame": 631,
+      "endFrame": 638
+    },
+    {
+      "word": ".4",
+      "start": 21.28,
+      "end": 21.74,
+      "score": 0.9981328547000885,
+      "startFrame": 638,
+      "endFrame": 652
+    },
+    {
+      "word": "gram",
+      "start": 21.74,
+      "end": 21.98,
+      "score": 0.4448987543582916,
+      "startFrame": 652,
+      "endFrame": 659
+    },
+    {
+      "word": "per",
+      "start": 21.98,
+      "end": 22.38,
+      "score": 0.9521490335464478,
+      "startFrame": 659,
+      "endFrame": 671
+    },
+    {
+      "word": "kg",
+      "start": 22.38,
+      "end": 22.62,
+      "score": 0.9862765073776245,
+      "startFrame": 671,
+      "endFrame": 679
+    },
+    {
+      "word": "per",
+      "start": 22.62,
+      "end": 22.94,
+      "score": 0.9641429781913757,
+      "startFrame": 679,
+      "endFrame": 688
+    },
+    {
+      "word": "week,",
+      "start": 22.94,
+      "end": 23.2,
+      "score": 0.9973203539848328,
+      "startFrame": 688,
+      "endFrame": 696
+    },
+    {
+      "word": "especially",
+      "start": 23.38,
+      "end": 23.66,
+      "score": 0.991619348526001,
+      "startFrame": 701,
+      "endFrame": 710
+    },
+    {
+      "word": "active",
+      "start": 23.66,
+      "end": 24.24,
+      "score": 0.9927895665168762,
+      "startFrame": 710,
+      "endFrame": 727
+    },
+    {
+      "word": "women.",
+      "start": 24.24,
+      "end": 24.58,
+      "score": 0.8492602705955505,
+      "startFrame": 727,
+      "endFrame": 737
+    },
+    {
+      "word": "they",
+      "start": 24.58,
+      "end": 25.46,
+      "score": 0.3569968044757843,
+      "startFrame": 737,
+      "endFrame": 764
+    },
+    {
+      "word": "should",
+      "start": 25.46,
+      "end": 25.64,
+      "score": 0.9906925559043884,
+      "startFrame": 764,
+      "endFrame": 769
+    },
+    {
+      "word": "do",
+      "start": 25.64,
+      "end": 25.86,
+      "score": 0.9834108948707581,
+      "startFrame": 769,
+      "endFrame": 776
+    },
+    {
+      "word": "resistance",
+      "start": 25.86,
+      "end": 26.24,
+      "score": 0.9637964963912964,
+      "startFrame": 776,
+      "endFrame": 787
+    },
+    {
+      "word": "training",
+      "start": 26.24,
+      "end": 26.82,
+      "score": 0.9954978227615356,
+      "startFrame": 787,
+      "endFrame": 805
+    },
+    {
+      "word": "twice",
+      "start": 26.82,
+      "end": 27.16,
+      "score": 0.9953213334083557,
+      "startFrame": 805,
+      "endFrame": 815
+    },
+    {
+      "word": "or",
+      "start": 27.16,
+      "end": 27.64,
+      "score": 0.9671952128410339,
+      "startFrame": 815,
+      "endFrame": 829
+    },
+    {
+      "word": "twice",
+      "start": 27.64,
+      "end": 28.1,
+      "score": 0.2008105367422104,
+      "startFrame": 829,
+      "endFrame": 843
+    },
+    {
+      "word": "a",
+      "start": 28.1,
+      "end": 28.28,
+      "score": 0.9753174781799316,
+      "startFrame": 843,
+      "endFrame": 848
+    },
+    {
+      "word": "week",
+      "start": 28.28,
+      "end": 28.52,
+      "score": 0.9986838698387146,
+      "startFrame": 848,
+      "endFrame": 856
+    },
+    {
+      "word": "and",
+      "start": 28.52,
+      "end": 29.0,
+      "score": 0.760552704334259,
+      "startFrame": 856,
+      "endFrame": 870
+    },
+    {
+      "word": "very",
+      "start": 29.0,
+      "end": 29.34,
+      "score": 0.9796424508094788,
+      "startFrame": 870,
+      "endFrame": 880
+    },
+    {
+      "word": "important",
+      "start": 29.34,
+      "end": 29.76,
+      "score": 0.9891290664672852,
+      "startFrame": 880,
+      "endFrame": 893
+    },
+    {
+      "word": "is",
+      "start": 29.76,
+      "end": 30.08,
+      "score": 0.9627983570098877,
+      "startFrame": 893,
+      "endFrame": 902
+    },
+    {
+      "word": "they",
+      "start": 30.08,
+      "end": 30.24,
+      "score": 0.9519696235656738,
+      "startFrame": 902,
+      "endFrame": 907
+    },
+    {
+      "word": "should",
+      "start": 30.24,
+      "end": 30.42,
+      "score": 0.9986950755119324,
+      "startFrame": 907,
+      "endFrame": 913
+    },
+    {
+      "word": "not",
+      "start": 30.42,
+      "end": 30.8,
+      "score": 0.9803711175918579,
+      "startFrame": 913,
+      "endFrame": 924
+    },
+    {
+      "word": "do",
+      "start": 30.8,
+      "end": 31.04,
+      "score": 0.9971670508384705,
+      "startFrame": 924,
+      "endFrame": 931
+    },
+    {
+      "word": "any",
+      "start": 31.04,
+      "end": 31.38,
+      "score": 0.9964187145233154,
+      "startFrame": 931,
+      "endFrame": 941
+    },
+    {
+      "word": "crash",
+      "start": 31.38,
+      "end": 31.7,
+      "score": 0.9904952049255371,
+      "startFrame": 941,
+      "endFrame": 951
+    },
+    {
+      "word": "diets",
+      "start": 31.7,
+      "end": 31.98,
+      "score": 0.9194602370262146,
+      "startFrame": 951,
+      "endFrame": 959
+    },
+    {
+      "word": "because",
+      "start": 31.98,
+      "end": 32.4,
+      "score": 0.8745207786560059,
+      "startFrame": 959,
+      "endFrame": 972
+    },
+    {
+      "word": "crash",
+      "start": 32.4,
+      "end": 32.8,
+      "score": 0.9834139943122864,
+      "startFrame": 972,
+      "endFrame": 984
+    },
+    {
+      "word": "diets",
+      "start": 32.8,
+      "end": 33.24,
+      "score": 0.9919598698616028,
+      "startFrame": 984,
+      "endFrame": 997
+    },
+    {
+      "word": "will",
+      "start": 33.24,
+      "end": 34.04,
+      "score": 0.9888880848884583,
+      "startFrame": 997,
+      "endFrame": 1021
+    },
+    {
+      "word": "damage",
+      "start": 34.04,
+      "end": 35.0,
+      "score": 0.9893568158149719,
+      "startFrame": 1021,
+      "endFrame": 1050
+    },
+    {
+      "word": "already",
+      "start": 35.0,
+      "end": 35.56,
+      "score": 0.9043726325035095,
+      "startFrame": 1050,
+      "endFrame": 1067
+    },
+    {
+      "word": "existing",
+      "start": 35.56,
+      "end": 36.08,
+      "score": 0.9869806170463562,
+      "startFrame": 1067,
+      "endFrame": 1082
+    },
+    {
+      "word": "muscle",
+      "start": 36.08,
+      "end": 36.32,
+      "score": 0.9781010150909424,
+      "startFrame": 1082,
+      "endFrame": 1090
+    },
+    {
+      "word": "in",
+      "start": 36.32,
+      "end": 36.58,
+      "score": 0.9974091649055481,
+      "startFrame": 1090,
+      "endFrame": 1097
+    },
+    {
+      "word": "the",
+      "start": 36.58,
+      "end": 36.68,
+      "score": 0.9965639710426331,
+      "startFrame": 1097,
+      "endFrame": 1100
+    },
+    {
+      "word": "body",
+      "start": 36.68,
+      "end": 36.94,
+      "score": 0.9995747208595276,
+      "startFrame": 1100,
+      "endFrame": 1108
+    }
+  ]
+}

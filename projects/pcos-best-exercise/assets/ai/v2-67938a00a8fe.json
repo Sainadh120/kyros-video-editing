@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-67938a00a8fe",
+  "file": "v2-67938a00a8fe.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her early thirties in a navy t-shirt, grey track pants and white running shoes walks briskly along a tree-lined walking track in a Hyderabad park at sunrise, seen side-on from a slight distance, mid-stride, right of centre. Vertical 9:16 frame with soft open morning sky in the upper third and a quiet stretch of track in the lower left. Shot on a 35mm lens at eye level, warm golden light, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 1088,
+  "height": 1936,
+  "seed": 629021455,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "67938a00a8feb7fdd767054014d2e633ca5044d720603499528f6c4e81ea84ab",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her early thirties in a navy t-shirt, grey track pants and white running shoes walks briskly along a tree-lined walking track in a Hyderabad park at sunrise, seen side-on from a slight distance, mid-stride, right of centre. Vertical 9:16 frame with soft open morning sky in the upper third and a quiet stretch of track in the lower left. Shot on a 35mm lens at eye level, warm golden light, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 1088,
+    "height": 1936,
+    "seed": 629021455,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    5
+  ],
+  "slug": "pcos-best-exercise",
+  "treatment": "doctorBubble",
+  "why": "'8 to 10,000 steps per day' — daily walking, shown literally; the caption carries her number",
+  "says": "at least 8 to 10 ,000 steps per day,",
+  "createdAt": "2026-09-11T01:07:17",
+  "elapsedSec": 76.11,
+  "costEstimateUsd": 0.02329,
+  "costBasis": "estimate: 76.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    1088,
+    1936
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

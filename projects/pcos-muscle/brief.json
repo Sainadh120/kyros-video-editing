@@ -1,0 +1,291 @@
+{
+  "slug": "pcos-muscle",
+  "clip": "inbox/pcos-muscle.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "_palette_note": "No palette block and no per-chunk keyColor/leadColor on purpose: scripts/palette.py measures the wall (#E9C2A0) and saree (#B7B54C) and derives an APCA-checked mix per beat, the same engine that coloured pcos-insulin-resistance and pcos-walking. Add an override only with a specific reason.",
+  "question": {
+    "preset": "ink",
+    "_presetNote": "Four grounds ship: ink (dense near-black), forest (the Kyros green), paper (light card, dark type), white (bone white, rust payload). Rotate — do not repeat the last two reels. pcos-insulin-resistance and pcos-walking both used the old flat dark scrim, so this one takes 'ink' at 0.985 (was 0.94, which read as a transparent grey); the next reel should take paper or white.",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [
+          0,
+          1
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          2
+        ],
+        "lines": [
+          "MUSCLE"
+        ]
+      },
+      {
+        "style": "lead",
+        "words": [
+          3,
+          4
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          5
+        ],
+        "lines": [
+          "PCOS?"
+        ]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "_beat": "3.8-6.6s  muscle/glucose graphic up top -> caption low",
+      "lead": [
+        6,
+        7,
+        8
+      ],
+      "key": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "lines": [
+        "LARGEST ORGAN FOR",
+        "GLUCOSE DISPOSAL"
+      ]
+    },
+    {
+      "_beat": "7.1-11.4s top clears at 8.0s",
+      "lead": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "key": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "lines": [
+        "MUSCLE MASS",
+        "IS VERY IMPORTANT"
+      ]
+    },
+    {
+      "_beat": "11.4-14.4s top blank -> caption big, up top. List item 1 of 5.",
+      "lead": [
+        25,
+        26
+      ],
+      "key": [
+        27,
+        28,
+        29
+      ],
+      "lines": [
+        "REDUCES INSULIN",
+        "RESISTANCE"
+      ]
+    },
+    {
+      "_beat": "15.2-16.7s benefits graphic up top -> caption low. List item 2.",
+      "lead": [
+        30
+      ],
+      "key": [
+        31,
+        32,
+        33
+      ],
+      "lines": [
+        "IMPROVES",
+        "METABOLIC RATE"
+      ],
+      "skip": true,
+      "_skipWhy": "graphic already reads 'Improves metabolic rate'"
+    },
+    {
+      "_beat": "17.1-18.8s graphic up top -> caption low. List item 3.",
+      "lead": [
+        34
+      ],
+      "key": [
+        35,
+        36,
+        37
+      ],
+      "lines": [
+        "DECREASES",
+        "VISCERAL FAT"
+      ],
+      "skip": true,
+      "_skipWhy": "graphic already reads 'Decreases visceral fat'"
+    },
+    {
+      "_beat": "19.1-21.3s graphic up top -> caption low. List item 4.",
+      "lead": [
+        38,
+        39
+      ],
+      "key": [
+        40,
+        41,
+        42
+      ],
+      "lines": [
+        "GOOD BONE",
+        "HEALTH"
+      ],
+      "skip": true,
+      "_skipWhy": "graphic already reads 'Maintains good bone health'"
+    },
+    {
+      "_beat": "21.5-25.4s graphic up top -> caption low. List item 5, closes the ladder.",
+      "lead": [
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "key": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "lines": [
+        "STABILITY",
+        "AND BALANCE"
+      ],
+      "skip": true,
+      "_skipWhy": "graphic already reads 'Important for stability & balance'"
+    },
+    {
+      "_beat": "26.0-30.4s top blank -> caption big, up top. COMPLIANCE: 'almost cures' stays in the small italic lead, exactly as spoken; never promoted to a payload word.",
+      "lead": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "key": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "lines": [
+        "PATHOPHYSIOLOGY",
+        "OF PCOS"
+      ]
+    },
+    {
+      "_beat": "31.0-36.1s PCOS->BUILD & MAINTAIN MUSCLE graphic up top -> caption low. The takeaway.",
+      "lead": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "key": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "lines": [
+        "BUILDING &",
+        "MAINTAINING MUSCLE"
+      ],
+      "tone": "keyAlt"
+    }
+  ],
+  "layout": {
+    "_comment": "Panel geometry is DERIVED, not set: build measures the chin and fades the panel in below it, reaching solid by the time the payload starts. A 12px cut read as a bar across the frame; a 420px wash climbed her face. The feather is whatever distance the clip actually leaves between the two.",
+    "bottomZone": {
+      "top": 1470,
+      "height": 380,
+      "paddingX": 48,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "ground": "dark",
+      "opacity": 0.8,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      },
+      "key": {
+        "bottomMinSize": 96,
+        "bottomMaxOneLine": 210,
+        "bottomMaxMultiLine": 168
+      },
+      "lead": {
+        "bottomAnswerSize": 56
+      }
+    }
+  },
+  "style": {
+    "_comment": "Colour flips polarity with the ground: the forest/brick/rust that reads on a pale wall scores 2-19 Lc on a dark scrim, so the rotation uses their light-flipped counterparts instead. Four beats carry no caption at all — the burned-in graphic already names those benefits.",
+    "typePairing": "PlayfairDisplay Italic / Anton",
+    "textPosition": "low and large, on its own scrim below the microphone and hands (band 1470-1850) — the footage keeps the top band busy for 23 of 37s",
+    "revealMechanic": "per-line stagger rise + settle behind a mask, no ghost preview",
+    "payloadTreatment": "stacked caps at 116-168px, NO stroke, NO ladder rule; lead carries the SAME colour as the payload so only one tone is on screen at a time",
+    "accent": "vivid rotation on the forest scrim — spring green #9BE564 / warm white #FFF6E8 / coral #FF8F70 / mint #5FE3C0, with the Kyros saffron #FFB01F held back for the closing takeaway",
+    "leadStyle": "match",
+    "_leadNote": "One colour this reel: lead and payload share the tone, separated by size and italic. pcos-sleep-cycle runs the two-colour pairing instead — rotate them."
+  },
+  "openFlags": [
+    "COMPLIANCE: at 26.8-28.1s she says 'it almost cures the pathophysiology of the PCOS'. Niranjan chose to keep it exactly as spoken; 'almost cures' appears only in the small italic lead of beat 8, never as a large payload word. Schedule J cure-claim language is therefore never set large on screen."
+  ],
+  "_resolved": [
+    "Source file arrived as ~/Downloads/' .mp4' (name mangled on download); confirmed as the muscle/PCOS take by transcript readback.",
+    "Registration number: not shown on screen. Handled at consultation.",
+    "Text placement follows the source footage's baked-in top-half graphics.",
+    "Doctor title card timing left to build_captions, which places it in a blank-top window.",
+    "Ghost preview text removed — the payload's space is now reserved with visibility:hidden instead of a 16%-opacity copy of the words.",
+    "auto_zone now requires the top band to be clear for a beat's whole life plus 8 frames either side. Partial clearance was letting captions sit over the burned-in graphics at each end.",
+    "Consequence of that rule on this clip: every answer beat is low, so the doctor title card moves to the top during its blank-top window rather than colliding with the captions.",
+    "The pinned three-fill palette (white / #FFB01F amber / #FF6F52 coral on a flat black stroke) is REVERTED. Niranjan reviewed it against pcos-insulin-resistance and pcos-walking and found it worse: too much black, and a bad small-font combination. Colour is back to palette.py's measured rotation.",
+    "The small italic lead that was previously pinned to cream on beats 6 and 9 is no longer pinned. palette.py's nearby_lead now contrast-checks its tint against the local background (APCA floor 45) instead of only nudging lightness, which is what had made the derived lead vanish on the parrot-green saree.",
+    "Niranjan rejected the low captions outright: the outline ('borderline'), the thin ladder rule under the payload, the two-tone lead+payload pairing, and the colours. All four are removed. Reference for what good looks like: pcos-insulin-resistance — one strong colour, huge type, no outline, clean ground.",
+    "MEASURED: inside the caption footprint there is NO flat colour that clears APCA against both ends of this footage — cream fails against the bright saree/bangles (worst 2.2) and forest/rust/chocolate fail against the black mic (worst 0.6). That is why a scrim is required here and was not on pcos-insulin-resistance, where the type sat on a clean wall.",
+    "Niranjan: colours must be VIBRANT, not cream. On the dark scrim the dark brand tones are unusable (forest 3.9 Lc, brick 18.8, rust 17.9) so the rotation uses their light-flipped counterparts at 55-99 Lc. The scrim itself is deep forest #0B2119 — the brand green, used as ground.",
+    "Niranjan: a caption is not owed to every sentence. Beats 4-7 are skipped because the burned-in graphic already names those exact benefits on screen. build_captions now supports \"skip\" per beat and reports any beat >=75% covered by a graphic as a skip candidate.",
+    "Niranjan: the question card read as a lighter transparent black. Opacity is now 0.985 and the card is a named preset with its own texture, so the opening can change register between reels instead of always being the same dark wash.",
+    "Niranjan: the scrim must not reach the doctor's face. Changed from a ~420px feather starting at 990 to a 12px cut at 1450, below the mic.",
+    "Niranjan: the 12px cut was too sharp. Panel now fades gradually, but the fade is anchored below the measured chin so it still never touches her face. Opacity eased to 0.88 so a little of the footage reads through the panel.",
+    "Niranjan: go more transparent. Panel eased to 0.8. That was gated on the weakest tone in the rotation, so coral #FF8F70 (57 Lc, the outlier) was swapped for blush #FFA8B6 first — 65 Lc, and 66 deg from the saffron accent where apricot would have been only 29 deg and read as a repeat."
+  ]
+}

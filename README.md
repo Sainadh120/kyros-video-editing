@@ -118,6 +118,26 @@ sits, how it reveals, how the payload is treated, and which colours carry it.
 Two or three change each time. Changing one is invisible; changing all of them
 looks like a different account.
 
+## 5b. Supporting visuals — optional, proposed in the same message
+
+When a beat names something you can show — steps, swimming, a gym, a number,
+a list — the chunking arrives with a visual proposal beside it: nothing (her
+face carries it), a text/number animation drawn by Remotion (free), an AI
+still with a slow camera move, or a short AI video. Each one shows exactly
+what she says on that beat, realistically, and nothing she didn't.
+
+```bash
+python3 scripts/reels.py visuals <slug>                 # the plan, her words beside each prompt, cost
+python3 scripts/reels.py visuals <slug> --approve all   # then --generate, then --preview
+```
+
+She shrinks into a corner bubble while a picture fills the frame and pops
+back after, or a card sits on the bare wall above her head while she stays
+full-frame. Every visual is placed against the same hazards as the captions.
+Generation runs on Modal through the video toolkit, is cached, and never
+blocks the reel — a visual that fails is left out. No `visuals` block, no
+change. Setup and details: `docs/VISUALS.md`.
+
 ## 6. Build, render, verify
 
 ```bash
@@ -194,6 +214,13 @@ Then post:
 ```
 projects/<slug>/out/<slug>-kyros.mp4      -> Kyros accounts
 projects/<slug>/out/<slug>-partner.mp4    -> the doctor's clinic
+```
+
+And back it up. Media is not in git — until this runs, the only copy of the
+clip, the AI files and the cuts is this disk:
+
+```bash
+python3 scripts/reels.py push <slug>      # to the R2 bucket; see docs/MEDIA.md
 ```
 
 ---
@@ -847,17 +874,24 @@ this repo today.
 
 # Part 3 — how the folder is put together
 
-## Every clip, seven commands
+## Every clip, the commands
 
 ```bash
 python3 scripts/reels.py library _              who is on file
 python3 scripts/reels.py new    <slug>          create the project
 python3 scripts/reels.py prep   <slug>          probe + transcribe + measure + scan + palette + register
+python3 scripts/reels.py visuals <slug>         optional: supporting visuals — plan / --approve / --generate / --preview
 python3 scripts/reels.py build  <slug>          brief -> captions_data.json
 python3 scripts/reels.py stage  <slug>          swap this clip into the studio
 python3 scripts/reels.py render <slug> [kyros|partner]   render a cut (or both)
 python3 scripts/reels.py verify <slug>          check them with numbers
+python3 scripts/reels.py push   <slug|all>      back up clip, AI files, audio, cuts to R2
+python3 scripts/reels.py pull   <slug|all>      bring them back — a fresh clone has no media
 ```
+
+Git holds code, briefs and measurements; clips, AI files, audio and renders are
+ignored and live in the R2 bucket instead (`docs/MEDIA.md`). Push adds and
+never deletes; pull fills in what's missing and never overwrites.
 
 Every `render` keeps the previous cut in `out/versions/` as `…-vN.mp4`, so a new
 version never destroys the one you were comparing against.

@@ -1,0 +1,52 @@
+{
+  "assetId": "v3-ab13ce47dafd",
+  "file": "v3-ab13ce47dafd.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her thirties in a fitted black t-shirt and track pants performs a one-arm dumbbell row on a flat bench in a clean neighbourhood gym in Hyderabad, back straight, seen from the side, centred in a wide 16:9 frame. Racks and mirrors softly out of focus behind her. Natural window light from the left, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 1344,
+  "height": 768,
+  "seed": 1412470700,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "ab13ce47dafd9f1fa538001b51b5a5cfcd15704158622b5aa8d6a9df46987ff2",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her thirties in a fitted black t-shirt and track pants performs a one-arm dumbbell row on a flat bench in a clean neighbourhood gym in Hyderabad, back straight, seen from the side, centred in a wide 16:9 frame. Racks and mirrors softly out of focus behind her. Natural window light from the left, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 1344,
+    "height": 768,
+    "seed": 1412470700,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v3"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-best-exercise",
+  "treatment": "inset",
+  "why": "'resistance training or strength training, gym' — a card on the wall while she stays full-frame and says how often",
+  "says": "do resistance training or strength training gym or yoga at least weekly two or three times",
+  "createdAt": "2026-09-11T01:07:31",
+  "elapsedSec": 13.42,
+  "costEstimateUsd": 0.004105,
+  "costBasis": "estimate: 13.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    1344,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

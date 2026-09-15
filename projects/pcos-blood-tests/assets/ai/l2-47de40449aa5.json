@@ -1,0 +1,52 @@
+{
+  "assetId": "l2-47de40449aa5",
+  "file": "l2-47de40449aa5.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Close-up of a fingertip with a tiny drop of blood being touched to a glucose test strip held in a gloved hand, the meter turned away from the camera, soft warm light, square composition, realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1836847693,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "47de40449aa573f03389f8967b6e09b6c45ad87e9db12c10f0c714a661d22953",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Close-up of a fingertip with a tiny drop of blood being touched to a glucose test strip held in a gloved hand, the meter turned away from the camera, soft warm light, square composition, realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1836847693,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l2"
+  ],
+  "sourceBeats": [
+    10
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "listBuild",
+  "why": "'sugar blood test'",
+  "says": "HPA1C and sugar blood test done cholesterol test",
+  "createdAt": "2026-09-11T18:50:48",
+  "elapsedSec": 7.99,
+  "costEstimateUsd": 0.002446,
+  "costBasis": "estimate: 8.0s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

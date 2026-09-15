@@ -1,0 +1,225 @@
+{
+  "items": {
+    "h1": {
+      "status": "complete",
+      "kind": "video",
+      "requestHash": "73e166213cc02837587065990ba2d00a701fa06e54275995280c362c92135b51",
+      "file": "assets/ai/h1-73e166213cc0.mp4",
+      "reused": false,
+      "costEstimateUsd": 0.138616,
+      "elapsedSec": 199.73
+    },
+    "v1": {
+      "status": "complete",
+      "kind": "graphic"
+    },
+    "v2": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "97df437d061fff722efd2a2889b484f3ebad400249949b69a8bc7726b435adef",
+      "file": "assets/ai/v2-97df437d061f.png",
+      "reused": false,
+      "costEstimateUsd": 0.011909,
+      "elapsedSec": 38.92
+    },
+    "l1": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "d7bfc46b034dc763356187d4e8722c63914216e5273d44e168b43c0fb8e33c00",
+      "file": "assets/ai/l1-d7bfc46b034d.png",
+      "reused": false,
+      "costEstimateUsd": 0.003011,
+      "elapsedSec": 9.84
+    },
+    "l2": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "89d76da43fd0de3b529c809a89447a85856b3315c65d9549b67f1dc061684333",
+      "file": "assets/ai/l2-89d76da43fd0.png",
+      "reused": false,
+      "costEstimateUsd": 0.002397,
+      "elapsedSec": 7.83
+    },
+    "l3": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "3ce8ee3842ed24019dfc666a2bbb86f4501bdbc540be87d873ec4454f86c60f2",
+      "file": "assets/ai/l3-3ce8ee3842ed.png",
+      "reused": false,
+      "costEstimateUsd": 0.003518,
+      "elapsedSec": 11.5
+    },
+    "l4": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "9e3abe187346585b66aafd29273cd943de6bab1ba8fec9c966b19ac2e947b82f",
+      "file": "assets/ai/l4-9e3abe187346.png",
+      "reused": false,
+      "costEstimateUsd": 0.002367,
+      "elapsedSec": 7.74
+    },
+    "l5": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "df3a036e62c03fe4ad77244353632399e17920bfc2d27805f8672a39f57274ba",
+      "file": "assets/ai/l5-df3a036e62c0.png",
+      "reused": false,
+      "costEstimateUsd": 0.003333,
+      "elapsedSec": 10.89
+    }
+  },
+  "runs": [
+    {
+      "images": 6,
+      "videos": 1,
+      "graphics": 1,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.157324,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-11T18:51:19"
+    },
+    {
+      "images": 4,
+      "videos": 1,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.154748,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-11T18:57:23"
+    },
+    {
+      "images": 1,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.011909,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-11T18:59:02"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "h1",
+      "requestHash": "35282f883ea87c88b6f97dc1f8983b2181520573a4a361755ac189883789d4b1",
+      "tool": "ltx2",
+      "ok": true,
+      "elapsedSec": 192.09,
+      "costUsd": 0.133313,
+      "at": "2026-09-11T18:50:00"
+    },
+    {
+      "id": "v2",
+      "requestHash": "205da087e7c96826802edb479cb09864198b69e7ce1b89b7490de72a03a617da",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 31.75,
+      "costUsd": 0.009714,
+      "at": "2026-09-11T18:50:32"
+    },
+    {
+      "id": "l1",
+      "requestHash": "9c8d635222106a4e8184d43740f08fd9a792e29ca910b2db77f4086941901a0c",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 7.77,
+      "costUsd": 0.002379,
+      "at": "2026-09-11T18:50:40"
+    },
+    {
+      "id": "l2",
+      "requestHash": "47de40449aa573f03389f8967b6e09b6c45ad87e9db12c10f0c714a661d22953",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 7.99,
+      "costUsd": 0.002446,
+      "at": "2026-09-11T18:50:48"
+    },
+    {
+      "id": "l3",
+      "requestHash": "3ce8ee3842ed24019dfc666a2bbb86f4501bdbc540be87d873ec4454f86c60f2",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 11.5,
+      "costUsd": 0.003518,
+      "at": "2026-09-11T18:51:00"
+    },
+    {
+      "id": "l4",
+      "requestHash": "7ed2c456b347c30b30fd66e66784f8224e9d827da5bea674483cc172c099dc3f",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 8.56,
+      "costUsd": 0.002621,
+      "at": "2026-09-11T18:51:08"
+    },
+    {
+      "id": "l5",
+      "requestHash": "df3a036e62c03fe4ad77244353632399e17920bfc2d27805f8672a39f57274ba",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 10.89,
+      "costUsd": 0.003333,
+      "at": "2026-09-11T18:51:19"
+    },
+    {
+      "id": "h1",
+      "requestHash": "73e166213cc02837587065990ba2d00a701fa06e54275995280c362c92135b51",
+      "tool": "ltx2",
+      "ok": true,
+      "elapsedSec": 199.73,
+      "costUsd": 0.138616,
+      "at": "2026-09-11T18:56:30"
+    },
+    {
+      "id": "v2",
+      "requestHash": "363e99ec81c7b54220de646e16309d6964c7cfaedbe16d2cf8d25ffef40159d7",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 27.31,
+      "costUsd": 0.008357,
+      "at": "2026-09-11T18:56:58"
+    },
+    {
+      "id": "l1",
+      "requestHash": "d7bfc46b034dc763356187d4e8722c63914216e5273d44e168b43c0fb8e33c00",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 9.84,
+      "costUsd": 0.003011,
+      "at": "2026-09-11T18:57:08"
+    },
+    {
+      "id": "l2",
+      "requestHash": "89d76da43fd0de3b529c809a89447a85856b3315c65d9549b67f1dc061684333",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 7.83,
+      "costUsd": 0.002397,
+      "at": "2026-09-11T18:57:15"
+    },
+    {
+      "id": "l4",
+      "requestHash": "9e3abe187346585b66aafd29273cd943de6bab1ba8fec9c966b19ac2e947b82f",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 7.74,
+      "costUsd": 0.002367,
+      "at": "2026-09-11T18:57:23"
+    },
+    {
+      "id": "v2",
+      "requestHash": "97df437d061fff722efd2a2889b484f3ebad400249949b69a8bc7726b435adef",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 38.92,
+      "costUsd": 0.011909,
+      "at": "2026-09-11T18:59:02"
+    }
+  ]
+}

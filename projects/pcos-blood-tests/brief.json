@@ -1,0 +1,402 @@
+{
+  "slug": "pcos-blood-tests",
+  "clip": "inbox/pcos-blood-tests.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "_transcriptNote": "faster-whisper heard 'irrititis' (menstrual irregularities) and 'HPA1C' (HbA1c); payload lines use her meaning, the words stay hers.",
+  "question": {
+    "preset": "forest",
+    "_presetNote": "register.py proposal: last clip ran 'ink'. The card itself disappears under the opening pictures; the preset still sets the question's type colours.",
+    "rows": [
+      {
+        "style": "key",
+        "words": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "lines": [
+          "WHAT BLOOD TESTS"
+        ],
+        "_wordsNote": "0-1 are the interviewer's 'Ma'am,' — inside the question so her answer is timed from word 9; `lines` keep it off screen"
+      },
+      {
+        "style": "lead",
+        "words": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "_beat": "1  4.3-7.2s  the framing line — her face",
+      "lead": [
+        9
+      ],
+      "key": [
+        10,
+        11,
+        15,
+        16
+      ],
+      "lines": [
+        "ANY WOMAN",
+        "WITH PCOS"
+      ]
+    },
+    {
+      "_beat": "2  7.2-11.1s  two tests — the checklist card carries it",
+      "lead": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "key": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "lines": [
+        "METABOLIC",
+        "& HORMONAL TESTS"
+      ],
+      "skip": true,
+      "_skipWhy": "the checklist card on the wall names both as she says them"
+    },
+    {
+      "_beat": "3  11.1-16.6s  two kinds — her face",
+      "lead": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "key": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "lines": [
+        "PRIMARY",
+        "& SECONDARY"
+      ]
+    },
+    {
+      "_beat": "4  16.6-18.6s  ovarian cysts — the ovary illustration",
+      "lead": [
+        42,
+        43,
+        44
+      ],
+      "key": [
+        47,
+        48
+      ],
+      "lines": [
+        "OVARIAN CYSTS"
+      ]
+    },
+    {
+      "_beat": "5  18.6-19.6s",
+      "lead": [
+        49
+      ],
+      "key": [
+        50,
+        51
+      ],
+      "lines": [
+        "MENSTRUAL",
+        "IRREGULARITIES"
+      ]
+    },
+    {
+      "_beat": "6  19.6-23.2s  a nuance about cause — her face",
+      "lead": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "key": [
+        58,
+        59,
+        60
+      ],
+      "lines": [
+        "THYROID",
+        "& PROLACTIN"
+      ]
+    },
+    {
+      "_beat": "7  23.2-25.5s  sensitive — her face, no picture",
+      "lead": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "key": [
+        67,
+        68,
+        69
+      ],
+      "lines": [
+        "EXCESSIVE",
+        "FACIAL HAIR"
+      ]
+    },
+    {
+      "_beat": "8  25.5-29.4s",
+      "lead": [
+        70,
+        71,
+        72
+      ],
+      "key": [
+        73,
+        74,
+        75
+      ],
+      "lines": [
+        "OTHER",
+        "HORMONE TESTS"
+      ]
+    },
+    {
+      "_beat": "9  29.4-34.4s  she stresses it — her face",
+      "lead": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "key": [
+        87,
+        88
+      ],
+      "lines": [
+        "INSULIN",
+        "RESISTANCE"
+      ]
+    },
+    {
+      "_beat": "10  34.4-39.8s  the list — the tiles carry the words",
+      "lead": [],
+      "key": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "lines": [
+        "HbA1c",
+        "SUGAR · CHOLESTEROL"
+      ],
+      "skip": true,
+      "_skipWhy": "the list build names each test on its tile as she says it"
+    },
+    {
+      "_beat": "11  39.8-43.9s  the list continues",
+      "lead": [],
+      "key": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "lines": [
+        "BMI & WAIST"
+      ],
+      "skip": true,
+      "_skipWhy": "the list build names BMI and waist on their tiles"
+    }
+  ],
+  "layout": {
+    "captionScrim": {
+      "enabled": true,
+      "ground": "light",
+      "opacity": 0.82,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "style": {
+    "_comment": "register.py proposals, pending Niranjan's OK: light ground (last two ran none, dark), forest card, neutral lead, forest palette lead, classicPress pairing, wordStagger reveal, goldenHour visuals, rounded-square bubble.",
+    "typePairing": "classicPress",
+    "revealStyle": "wordStagger",
+    "leadStyle": "neutral",
+    "paletteLead": "forest",
+    "textPosition": "top on the bare wall (no burned-in graphics); a beat under the wall card drops low onto the light ground",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "rotation led by forest; palette.py derives and APCA-checks the rest"
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "hd",
+    "style": "goldenHour",
+    "bubbleShape": "roundedSquare",
+    "beats": [
+      {
+        "id": "h1",
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "prompt": "A gloved hand slowly lowers a small bare glass blood sample tube with a red cap into a plain grey plastic rack of round holes on a clean laboratory bench, warm golden morning light coming from a window behind. The tube is smooth and transparent with no sticker. The camera holds at bench height and pushes in slowly as the tube settles into place. Shallow depth of field, softly blurred background, calm open space in the middle of the frame. Realistic, natural motion, true-to-life colour.",
+        "status": "approved",
+        "_why": "the question is 'what blood tests' — open on the act itself, moving from frame 1, instead of a blank card",
+        "_rejected": [
+          "printed gibberish label on the tube; the 'rack' was an abstract wavy shape"
+        ],
+        "at": [
+          0.0,
+          4.26
+        ],
+        "approvedHash": "73e166213cc02837587065990ba2d00a701fa06e54275995280c362c92135b51"
+      },
+      {
+        "id": "v1",
+        "beat": 2,
+        "mode": "graphic",
+        "treatment": "inset",
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "METABOLIC TEST",
+            "HORMONAL TEST"
+          ]
+        },
+        "status": "approved",
+        "_why": "two tests that would look identical as pictures — her two words, ticking in as she says them"
+      },
+      {
+        "id": "v2",
+        "beat": 4,
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pushIn",
+        "prompt": "Medical textbook 3D render of a human ovary cut in half: an oval, pinkish-beige organ with a smooth outer capsule, many small round dark fluid-filled follicles clustered just beneath its surface, the fringed end of the fallopian tube curving beside it, soft studio lighting on a plain deep green background, vertical 9:16 frame with calm empty space in the upper third, scientifically accurate anatomy, realistic tissue texture.",
+        "status": "rejected",
+        "_why": "'patients will develop all these ovarian cysts' — one thing named, one clear educational picture",
+        "_rejected": [
+          "anatomically wrong — a heart-shaped balloon on a stem that reads as a uterus",
+          "took 'string of pearls' literally — jewellery pearls in a pink cup on a stem",
+          "third try: a pink ring studded with black beads — not credible anatomy, and the clustered holes can unsettle viewers. Dropped: her face and the OVARIAN CYSTS caption carry the beat."
+        ]
+      },
+      {
+        "id": "l1",
+        "beat": 10,
+        "word": 93,
+        "group": "tests",
+        "label": "HbA1c",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A gloved hand holds up a single bare transparent glass blood sample tube with a purple cap against a softly blurred bright laboratory window, the tube smooth and completely unprinted, warm golden light, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'HbA1c' — first of the five she lists",
+        "_rejected": [
+          "gibberish printing on the tube label, visible at centre-stage size"
+        ],
+        "approvedHash": "d7bfc46b034dc763356187d4e8722c63914216e5273d44e168b43c0fb8e33c00"
+      },
+      {
+        "id": "l2",
+        "beat": 10,
+        "word": 95,
+        "group": "tests",
+        "label": "SUGAR TEST",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "Close-up of a fingertip with a single small drop of blood after a finger-prick, a gloved hand holding a plain white blank test strip beside it, soft warm light, softly blurred background, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'sugar blood test'",
+        "_rejected": [
+          "printed gibberish on the strip; the 'blood' read as red nail polish"
+        ],
+        "approvedHash": "89d76da43fd0de3b529c809a89447a85856b3315c65d9549b67f1dc061684333"
+      },
+      {
+        "id": "l3",
+        "beat": 10,
+        "word": 99,
+        "group": "tests",
+        "label": "CHOLESTEROL",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "Unlabelled blood sample tubes standing in a laboratory centrifuge with its lid open, a gloved hand about to close it, bright clean laboratory in warm morning light, square composition, realistic documentary photograph, true-to-life colour, clean unmarked surfaces.",
+        "status": "approved",
+        "_why": "'cholesterol test'",
+        "approvedHash": "3ce8ee3842ed24019dfc666a2bbb86f4501bdbc540be87d873ec4454f86c60f2"
+      },
+      {
+        "id": "l4",
+        "beat": 11,
+        "word": 101,
+        "group": "tests",
+        "label": "BMI",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "Side view at floor level of a woman's bare feet stepping onto a slim white bathroom scale on a light wooden floor, the scale's top surface out of view, only its front edge visible, soft morning window light, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'BMI' — weight, shown literally, nothing read off",
+        "_rejected": [
+          "the scale's display was in frame showing digits — a number she never said"
+        ],
+        "approvedHash": "9e3abe187346585b66aafd29273cd943de6bab1ba8fec9c966b19ac2e947b82f"
+      },
+      {
+        "id": "l5",
+        "beat": 11,
+        "word": 103,
+        "group": "tests",
+        "label": "WAIST",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A woman in a soft cotton kurta holds a cloth measuring tape around her waist over her clothes, seen from the side at mid-body, modest framing with her face out of frame, warm window light, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'waist circumference measurement'",
+        "approvedHash": "df3a036e62c03fe4ad77244353632399e17920bfc2d27805f8672a39f57274ba"
+      }
+    ]
+  },
+  "openFlags": [],
+  "_resolved": [
+    "Transcript (43.9s, 109 words): 'Ma'am, what blood tests are needed for PCOS?' — metabolic and hormonal tests; primary vs secondary PCOS; secondary: ovarian cysts and menstrual irregularities from thyroid/prolactin problems; excessive facial hair: other hormone tests; insulin resistance: HbA1c, sugar test, cholesterol, BMI, waist circumference. Pending Niranjan's confirmation.",
+    "No burned-in graphics; the wall above her head is free the whole take.",
+    "Wording: no cure/reverse/guarantee language. Medical tests are shown as the act (tube, strip, scale, tape), never a report, value or result."
+  ]
+}

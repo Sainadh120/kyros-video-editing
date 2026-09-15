@@ -1,0 +1,52 @@
+{
+  "assetId": "l1-d7bfc46b034d",
+  "file": "l1-d7bfc46b034d.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A gloved hand holds up a single bare transparent glass blood sample tube with a purple cap against a softly blurred bright laboratory window, the tube smooth and completely unprinted, warm golden light, square composition, realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 91902417,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "d7bfc46b034dc763356187d4e8722c63914216e5273d44e168b43c0fb8e33c00",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A gloved hand holds up a single bare transparent glass blood sample tube with a purple cap against a softly blurred bright laboratory window, the tube smooth and completely unprinted, warm golden light, square composition, realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 91902417,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l1"
+  ],
+  "sourceBeats": [
+    10
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "listBuild",
+  "why": "'HbA1c' — first of the five she lists",
+  "says": "HPA1C and sugar blood test done cholesterol test",
+  "createdAt": "2026-09-11T18:57:08",
+  "elapsedSec": 9.84,
+  "costEstimateUsd": 0.003011,
+  "costBasis": "estimate: 9.8s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

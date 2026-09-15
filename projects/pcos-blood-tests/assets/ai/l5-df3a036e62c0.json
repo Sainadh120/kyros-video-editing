@@ -1,0 +1,52 @@
+{
+  "assetId": "l5-df3a036e62c0",
+  "file": "l5-df3a036e62c0.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in a soft cotton kurta holds a cloth measuring tape around her waist over her clothes, seen from the side at mid-body, modest framing with her face out of frame, warm window light, square composition, realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1552984256,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "df3a036e62c03fe4ad77244353632399e17920bfc2d27805f8672a39f57274ba",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in a soft cotton kurta holds a cloth measuring tape around her waist over her clothes, seen from the side at mid-body, modest framing with her face out of frame, warm window light, square composition, realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1552984256,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l5"
+  ],
+  "sourceBeats": [
+    11
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "listBuild",
+  "why": "'waist circumference measurement'",
+  "says": "BMI and waist circumference measurement is also important.",
+  "createdAt": "2026-09-11T18:51:19",
+  "elapsedSec": 10.89,
+  "costEstimateUsd": 0.003333,
+  "costBasis": "estimate: 10.9s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

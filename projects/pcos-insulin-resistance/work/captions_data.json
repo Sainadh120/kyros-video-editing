@@ -1,0 +1,966 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 581,
+    "videoFrames": 491,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-insulin-resistance",
+    "style": {
+      "typePairing": "PlayfairDisplay Italic / Anton",
+      "textPosition": "top over clear wall",
+      "revealMechanic": "clip-path mask wipe + ghost",
+      "payloadTreatment": "stacked caps, saffron rule on stats",
+      "accent": "forest primary, rust for stats"
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#E9C39F",
+        "wallShadow": "#DAB491"
+      },
+      "onLight": {
+        "lead": "#2A1F17",
+        "key": "#0F3D2E",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#1C1410",
+        "lead": "#FFF6E8",
+        "key": "#E8A33C",
+        "keyAlt": "#F2C879",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#241810",
+        "key": "#3A2416",
+        "keyAlt": "#A6371C"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "PlayfairDisplay",
+        "weight": 500,
+        "lineHeight": 1.18,
+        "letterSpacing": -0.5,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 44
+      },
+      "key": {
+        "fontFamily": "Anton",
+        "weight": 400,
+        "lineHeight": 0.92,
+        "letterSpacing": -1.0,
+        "advanceEm": 0.47,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 70,
+        "bottomMaxOneLine": 140,
+        "bottomMaxMultiLine": 108
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1150,
+      "height": 430,
+      "paddingX": 84,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": false,
+      "color": "#120C08",
+      "opacity": 0.9,
+      "top": 900
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 1430,
+      "holdFrames": 57,
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    }
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/Downloads/Personal/Kyros_Project/Reels/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": []
+  },
+  "fixtures": {
+    "plateFromFrame": 134,
+    "logoFromFrame": 158
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 491,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 581
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 491,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 521
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "scrimOpacity": 0.94,
+      "exitFrame": 123,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "lead",
+          "words": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "appearFrame": 0,
+          "text": "Does every woman with"
+        },
+        {
+          "style": "key",
+          "words": [
+            4
+          ],
+          "lines": [
+            "PCOS"
+          ],
+          "appearFrame": 38,
+          "text": "PCOS",
+          "size": 266
+        },
+        {
+          "style": "lead",
+          "words": [
+            5
+          ],
+          "appearFrame": 50,
+          "text": "have"
+        },
+        {
+          "style": "key",
+          "words": [
+            6,
+            7
+          ],
+          "lines": [
+            "INSULIN",
+            "RESISTANCE?"
+          ],
+          "appearFrame": 64,
+          "text": "insulin resistance?",
+          "size": 181
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 134,
+      "toFrame": 491,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "top",
+          "leadWords": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "leadText": "Majority of women with",
+          "leadSize": 70,
+          "leadColor": "#F4E9D6",
+          "leadDark": false,
+          "keyWords": [
+            12
+          ],
+          "keyLines": [
+            "PCOS"
+          ],
+          "keySize": 240,
+          "keyColor": "#103D2C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 134,
+          "toFrame": 179,
+          "keyFromFrame": 163
+        },
+        {
+          "id": "chunk-2",
+          "zone": "top",
+          "leadWords": [
+            13
+          ],
+          "leadText": "has",
+          "leadSize": 70,
+          "leadColor": "#F4E9D6",
+          "leadDark": false,
+          "keyWords": [
+            14,
+            15
+          ],
+          "keyLines": [
+            "INSULIN",
+            "RESISTANCE"
+          ],
+          "keySize": 178,
+          "keyColor": "#8E2A18",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 179,
+          "toFrame": 216,
+          "keyFromFrame": 193
+        },
+        {
+          "id": "chunk-3",
+          "zone": "top",
+          "leadWords": [
+            16,
+            17,
+            18
+          ],
+          "leadText": "that is around",
+          "leadSize": 70,
+          "leadColor": "#F4E9D6",
+          "leadDark": false,
+          "keyWords": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "keyLines": [
+            "65\u201370%"
+          ],
+          "keySize": 240,
+          "keyColor": "#9E3B16",
+          "keyDark": true,
+          "tone": "keyAlt",
+          "fromFrame": 216,
+          "toFrame": 320,
+          "keyFromFrame": 244
+        },
+        {
+          "id": "chunk-4",
+          "zone": "top",
+          "leadWords": [
+            23,
+            24,
+            25
+          ],
+          "leadText": "So, that's why",
+          "leadSize": 70,
+          "leadColor": "#F4E9D6",
+          "leadDark": false,
+          "keyWords": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "keyLines": [
+            "ONE MUST",
+            "ADDRESS THIS"
+          ],
+          "keySize": 166,
+          "keyColor": "#0E3A38",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 320,
+          "toFrame": 385,
+          "keyFromFrame": 348
+        },
+        {
+          "id": "chunk-5",
+          "zone": "top",
+          "leadWords": [],
+          "leadText": "",
+          "leadSize": 70,
+          "leadColor": "#F4E9D6",
+          "leadDark": false,
+          "keyWords": [
+            30,
+            31
+          ],
+          "keyLines": [
+            "INSULIN",
+            "RESISTANCE"
+          ],
+          "keySize": 178,
+          "keyColor": "#3A2416",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 385,
+          "toFrame": 409,
+          "keyFromFrame": 385
+        },
+        {
+          "id": "chunk-6",
+          "zone": "top",
+          "leadWords": [
+            32,
+            33,
+            34
+          ],
+          "leadText": "before starting a",
+          "leadSize": 70,
+          "leadColor": "#F4E9D6",
+          "leadDark": false,
+          "keyWords": [
+            35,
+            36,
+            37
+          ],
+          "keyLines": [
+            "TREATMENT",
+            "OF PCOS"
+          ],
+          "keySize": 178,
+          "keyColor": "#9E3B16",
+          "keyDark": true,
+          "tone": "keyAlt",
+          "fromFrame": 409,
+          "toFrame": 484,
+          "keyFromFrame": 441
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "Does",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 8
+      },
+      {
+        "index": 1,
+        "text": "every",
+        "startFrame": 8,
+        "activeFromFrame": 8,
+        "activeToFrame": 20
+      },
+      {
+        "index": 2,
+        "text": "woman",
+        "startFrame": 20,
+        "activeFromFrame": 20,
+        "activeToFrame": 28
+      },
+      {
+        "index": 3,
+        "text": "with",
+        "startFrame": 28,
+        "activeFromFrame": 28,
+        "activeToFrame": 38
+      },
+      {
+        "index": 4,
+        "text": "PCOS",
+        "startFrame": 38,
+        "activeFromFrame": 38,
+        "activeToFrame": 50
+      },
+      {
+        "index": 5,
+        "text": "have",
+        "startFrame": 50,
+        "activeFromFrame": 50,
+        "activeToFrame": 64
+      },
+      {
+        "index": 6,
+        "text": "insulin",
+        "startFrame": 64,
+        "activeFromFrame": 64,
+        "activeToFrame": 77
+      },
+      {
+        "index": 7,
+        "text": "resistance?",
+        "startFrame": 77,
+        "activeFromFrame": 77,
+        "activeToFrame": 134
+      },
+      {
+        "index": 8,
+        "text": "Majority",
+        "startFrame": 134,
+        "activeFromFrame": 134,
+        "activeToFrame": 136
+      },
+      {
+        "index": 9,
+        "text": "of",
+        "startFrame": 136,
+        "activeFromFrame": 136,
+        "activeToFrame": 148
+      },
+      {
+        "index": 10,
+        "text": "women",
+        "startFrame": 148,
+        "activeFromFrame": 148,
+        "activeToFrame": 155
+      },
+      {
+        "index": 11,
+        "text": "with",
+        "startFrame": 155,
+        "activeFromFrame": 155,
+        "activeToFrame": 163
+      },
+      {
+        "index": 12,
+        "text": "PCOS",
+        "startFrame": 163,
+        "activeFromFrame": 163,
+        "activeToFrame": 179
+      },
+      {
+        "index": 13,
+        "text": "has",
+        "startFrame": 179,
+        "activeFromFrame": 179,
+        "activeToFrame": 193
+      },
+      {
+        "index": 14,
+        "text": "insulin",
+        "startFrame": 193,
+        "activeFromFrame": 193,
+        "activeToFrame": 204
+      },
+      {
+        "index": 15,
+        "text": "resistance",
+        "startFrame": 204,
+        "activeFromFrame": 204,
+        "activeToFrame": 216
+      },
+      {
+        "index": 16,
+        "text": "that",
+        "startFrame": 216,
+        "activeFromFrame": 216,
+        "activeToFrame": 230
+      },
+      {
+        "index": 17,
+        "text": "is",
+        "startFrame": 230,
+        "activeFromFrame": 230,
+        "activeToFrame": 236
+      },
+      {
+        "index": 18,
+        "text": "around",
+        "startFrame": 236,
+        "activeFromFrame": 236,
+        "activeToFrame": 244
+      },
+      {
+        "index": 19,
+        "text": "65",
+        "startFrame": 244,
+        "activeFromFrame": 244,
+        "activeToFrame": 258
+      },
+      {
+        "index": 20,
+        "text": "to",
+        "startFrame": 258,
+        "activeFromFrame": 258,
+        "activeToFrame": 268
+      },
+      {
+        "index": 21,
+        "text": "70",
+        "startFrame": 268,
+        "activeFromFrame": 268,
+        "activeToFrame": 283
+      },
+      {
+        "index": 22,
+        "text": "percent.",
+        "startFrame": 283,
+        "activeFromFrame": 283,
+        "activeToFrame": 320
+      },
+      {
+        "index": 23,
+        "text": "So,",
+        "startFrame": 320,
+        "activeFromFrame": 320,
+        "activeToFrame": 324
+      },
+      {
+        "index": 24,
+        "text": "that's",
+        "startFrame": 324,
+        "activeFromFrame": 324,
+        "activeToFrame": 342
+      },
+      {
+        "index": 25,
+        "text": "why",
+        "startFrame": 342,
+        "activeFromFrame": 342,
+        "activeToFrame": 348
+      },
+      {
+        "index": 26,
+        "text": "one",
+        "startFrame": 348,
+        "activeFromFrame": 348,
+        "activeToFrame": 360
+      },
+      {
+        "index": 27,
+        "text": "must",
+        "startFrame": 360,
+        "activeFromFrame": 360,
+        "activeToFrame": 368
+      },
+      {
+        "index": 28,
+        "text": "address",
+        "startFrame": 368,
+        "activeFromFrame": 368,
+        "activeToFrame": 379
+      },
+      {
+        "index": 29,
+        "text": "this",
+        "startFrame": 379,
+        "activeFromFrame": 379,
+        "activeToFrame": 385
+      },
+      {
+        "index": 30,
+        "text": "insulin",
+        "startFrame": 385,
+        "activeFromFrame": 385,
+        "activeToFrame": 395
+      },
+      {
+        "index": 31,
+        "text": "resistance",
+        "startFrame": 395,
+        "activeFromFrame": 395,
+        "activeToFrame": 409
+      },
+      {
+        "index": 32,
+        "text": "before",
+        "startFrame": 409,
+        "activeFromFrame": 409,
+        "activeToFrame": 422
+      },
+      {
+        "index": 33,
+        "text": "starting",
+        "startFrame": 422,
+        "activeFromFrame": 422,
+        "activeToFrame": 437
+      },
+      {
+        "index": 34,
+        "text": "a",
+        "startFrame": 437,
+        "activeFromFrame": 437,
+        "activeToFrame": 441
+      },
+      {
+        "index": 35,
+        "text": "treatment",
+        "startFrame": 441,
+        "activeFromFrame": 441,
+        "activeToFrame": 452
+      },
+      {
+        "index": 36,
+        "text": "of",
+        "startFrame": 452,
+        "activeFromFrame": 452,
+        "activeToFrame": 466
+      },
+      {
+        "index": 37,
+        "text": "PCOS.",
+        "startFrame": 466,
+        "activeFromFrame": 466,
+        "activeToFrame": 493
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "Does",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 8
+      },
+      {
+        "index": 1,
+        "text": "every",
+        "startFrame": 8,
+        "activeFromFrame": 8,
+        "activeToFrame": 20
+      },
+      {
+        "index": 2,
+        "text": "woman",
+        "startFrame": 20,
+        "activeFromFrame": 20,
+        "activeToFrame": 28
+      },
+      {
+        "index": 3,
+        "text": "with",
+        "startFrame": 28,
+        "activeFromFrame": 28,
+        "activeToFrame": 38
+      },
+      {
+        "index": 4,
+        "text": "PCOS",
+        "startFrame": 38,
+        "activeFromFrame": 38,
+        "activeToFrame": 50
+      },
+      {
+        "index": 5,
+        "text": "have",
+        "startFrame": 50,
+        "activeFromFrame": 50,
+        "activeToFrame": 64
+      },
+      {
+        "index": 6,
+        "text": "insulin",
+        "startFrame": 64,
+        "activeFromFrame": 64,
+        "activeToFrame": 77
+      },
+      {
+        "index": 7,
+        "text": "resistance?",
+        "startFrame": 77,
+        "activeFromFrame": 77,
+        "activeToFrame": 134
+      },
+      {
+        "index": 8,
+        "text": "Majority",
+        "startFrame": 134,
+        "activeFromFrame": 134,
+        "activeToFrame": 136
+      },
+      {
+        "index": 9,
+        "text": "of",
+        "startFrame": 136,
+        "activeFromFrame": 136,
+        "activeToFrame": 148
+      },
+      {
+        "index": 10,
+        "text": "women",
+        "startFrame": 148,
+        "activeFromFrame": 148,
+        "activeToFrame": 155
+      },
+      {
+        "index": 11,
+        "text": "with",
+        "startFrame": 155,
+        "activeFromFrame": 155,
+        "activeToFrame": 163
+      },
+      {
+        "index": 12,
+        "text": "PCOS",
+        "startFrame": 163,
+        "activeFromFrame": 163,
+        "activeToFrame": 179
+      },
+      {
+        "index": 13,
+        "text": "has",
+        "startFrame": 179,
+        "activeFromFrame": 179,
+        "activeToFrame": 193
+      },
+      {
+        "index": 14,
+        "text": "insulin",
+        "startFrame": 193,
+        "activeFromFrame": 193,
+        "activeToFrame": 204
+      },
+      {
+        "index": 15,
+        "text": "resistance",
+        "startFrame": 204,
+        "activeFromFrame": 204,
+        "activeToFrame": 216
+      },
+      {
+        "index": 16,
+        "text": "that",
+        "startFrame": 216,
+        "activeFromFrame": 216,
+        "activeToFrame": 230
+      },
+      {
+        "index": 17,
+        "text": "is",
+        "startFrame": 230,
+        "activeFromFrame": 230,
+        "activeToFrame": 236
+      },
+      {
+        "index": 18,
+        "text": "around",
+        "startFrame": 236,
+        "activeFromFrame": 236,
+        "activeToFrame": 244
+      },
+      {
+        "index": 19,
+        "text": "65",
+        "startFrame": 244,
+        "activeFromFrame": 244,
+        "activeToFrame": 258
+      },
+      {
+        "index": 20,
+        "text": "to",
+        "startFrame": 258,
+        "activeFromFrame": 258,
+        "activeToFrame": 268
+      },
+      {
+        "index": 21,
+        "text": "70",
+        "startFrame": 268,
+        "activeFromFrame": 268,
+        "activeToFrame": 283
+      },
+      {
+        "index": 22,
+        "text": "percent.",
+        "startFrame": 283,
+        "activeFromFrame": 283,
+        "activeToFrame": 320
+      },
+      {
+        "index": 23,
+        "text": "So,",
+        "startFrame": 320,
+        "activeFromFrame": 320,
+        "activeToFrame": 324
+      },
+      {
+        "index": 24,
+        "text": "that's",
+        "startFrame": 324,
+        "activeFromFrame": 324,
+        "activeToFrame": 342
+      },
+      {
+        "index": 25,
+        "text": "why",
+        "startFrame": 342,
+        "activeFromFrame": 342,
+        "activeToFrame": 348
+      },
+      {
+        "index": 26,
+        "text": "one",
+        "startFrame": 348,
+        "activeFromFrame": 348,
+        "activeToFrame": 360
+      },
+      {
+        "index": 27,
+        "text": "must",
+        "startFrame": 360,
+        "activeFromFrame": 360,
+        "activeToFrame": 368
+      },
+      {
+        "index": 28,
+        "text": "address",
+        "startFrame": 368,
+        "activeFromFrame": 368,
+        "activeToFrame": 379
+      },
+      {
+        "index": 29,
+        "text": "this",
+        "startFrame": 379,
+        "activeFromFrame": 379,
+        "activeToFrame": 385
+      },
+      {
+        "index": 30,
+        "text": "insulin",
+        "startFrame": 385,
+        "activeFromFrame": 385,
+        "activeToFrame": 395
+      },
+      {
+        "index": 31,
+        "text": "resistance",
+        "startFrame": 395,
+        "activeFromFrame": 395,
+        "activeToFrame": 409
+      },
+      {
+        "index": 32,
+        "text": "before",
+        "startFrame": 409,
+        "activeFromFrame": 409,
+        "activeToFrame": 422
+      },
+      {
+        "index": 33,
+        "text": "starting",
+        "startFrame": 422,
+        "activeFromFrame": 422,
+        "activeToFrame": 437
+      },
+      {
+        "index": 34,
+        "text": "a",
+        "startFrame": 437,
+        "activeFromFrame": 437,
+        "activeToFrame": 441
+      },
+      {
+        "index": 35,
+        "text": "treatment",
+        "startFrame": 441,
+        "activeFromFrame": 441,
+        "activeToFrame": 452
+      },
+      {
+        "index": 36,
+        "text": "of",
+        "startFrame": 452,
+        "activeFromFrame": 452,
+        "activeToFrame": 466
+      },
+      {
+        "index": 37,
+        "text": "PCOS.",
+        "startFrame": 466,
+        "activeFromFrame": 466,
+        "activeToFrame": 493
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "assetId": "v5-c37fc2c68290",
+  "file": "v5-c37fc2c68290.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her thirties in a soft cotton kurta sits cross-legged on a mat beside a sunlit window in a calm Hyderabad apartment, eyes closed, shoulders relaxed, hands resting on her knees, breathing out slowly. Vertical 9:16 frame, subject right of centre, plain warm wall in the upper third. Soft morning window light, shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 1088,
+  "height": 1936,
+  "seed": 2041318226,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "c37fc2c68290ed068dea2b63ad9c65b1ce6aeb12f0b0c79dbc22bd0df6ce233b",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her thirties in a soft cotton kurta sits cross-legged on a mat beside a sunlit window in a calm Hyderabad apartment, eyes closed, shoulders relaxed, hands resting on her knees, breathing out slowly. Vertical 9:16 frame, subject right of centre, plain warm wall in the upper third. Soft morning window light, shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 1088,
+    "height": 1936,
+    "seed": 2041318226,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v5"
+  ],
+  "sourceBeats": [
+    10
+  ],
+  "slug": "pcos-best-exercise",
+  "treatment": "doctorBubble",
+  "why": "'for mental stability, to reduce stress' — a real, quiet moment of the meditation she then names",
+  "says": "also for the mental stability in order to reduce stress",
+  "createdAt": "2026-09-11T01:08:16",
+  "elapsedSec": 45.35,
+  "costEstimateUsd": 0.013878,
+  "costBasis": "estimate: 45.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    1088,
+    1936
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

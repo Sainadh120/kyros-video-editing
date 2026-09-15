@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-363e99ec81c7",
+  "file": "v2-363e99ec81c7.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Educational 3D medical illustration of a single almond-shaped human ovary shown in cross-section, with many small round fluid-filled follicles arranged around its outer edge like a string of pearls, attached to a delicate fallopian tube, soft realistic tissue in warm pink and peach tones, gently lit against a plain deep green background, centred in a vertical 9:16 frame with calm empty space in the upper third, clean smooth surfaces.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 889403413,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "363e99ec81c7b54220de646e16309d6964c7cfaedbe16d2cf8d25ffef40159d7",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Educational 3D medical illustration of a single almond-shaped human ovary shown in cross-section, with many small round fluid-filled follicles arranged around its outer edge like a string of pearls, attached to a delicate fallopian tube, soft realistic tissue in warm pink and peach tones, gently lit against a plain deep green background, centred in a vertical 9:16 frame with calm empty space in the upper third, clean smooth surfaces.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 889403413,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-blood-tests",
+  "treatment": "doctorBubble",
+  "why": "'patients will develop all these ovarian cysts' — one thing named, one clear educational picture",
+  "says": "patients will develop all these ovarian cysts",
+  "createdAt": "2026-09-11T18:56:58",
+  "elapsedSec": 27.31,
+  "costEstimateUsd": 0.008357,
+  "costBasis": "estimate: 27.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

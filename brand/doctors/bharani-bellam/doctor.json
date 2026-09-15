@@ -1,0 +1,8 @@
+{
+  "id": "bharani-bellam",
+  "name": "Dr. Bharani Bellam",
+  "title": "Senior Endocrinologist",
+  "plate": "plate.png",
+  "defaultPartner": "aster-ramesh",
+  "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render."
+}

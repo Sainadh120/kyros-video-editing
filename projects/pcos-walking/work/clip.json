@@ -1,0 +1,10 @@
+{
+  "clip": "projects/pcos-walking/inbox/pcos-walking.mp4",
+  "width": 1512,
+  "height": 2688,
+  "sourceFps": 30.0,
+  "durationSeconds": 24.4,
+  "frames30": 732,
+  "alignAudio": "projects/pcos-walking/work/align.wav",
+  "playbackAudio": "projects/pcos-walking/work/playback.m4a"
+}

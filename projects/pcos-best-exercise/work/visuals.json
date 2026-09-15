@@ -1,0 +1,155 @@
+{
+  "items": {
+    "v2": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "67938a00a8feb7fdd767054014d2e633ca5044d720603499528f6c4e81ea84ab",
+      "file": "assets/ai/v2-67938a00a8fe.png",
+      "reused": false,
+      "costEstimateUsd": 0.02329,
+      "elapsedSec": 76.11
+    },
+    "v3": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "7decc0546305d89792c6bb8b550f4429b204524f49c319f86c5c54efcd3fba4a",
+      "file": "assets/ai/v3-7decc0546305.png",
+      "reused": false,
+      "costEstimateUsd": 0.014163,
+      "elapsedSec": 46.28
+    },
+    "v5": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "c37fc2c68290ed068dea2b63ad9c65b1ce6aeb12f0b0c79dbc22bd0df6ce233b",
+      "file": "assets/ai/v5-c37fc2c68290.png",
+      "reused": false,
+      "costEstimateUsd": 0.013878,
+      "elapsedSec": 45.35
+    },
+    "v4": {
+      "status": "complete",
+      "kind": "video",
+      "requestHash": "6beb55afb7c60c7da920497054862cf5a1f7e5f4d5c014cd8ab51edfb69264f1",
+      "file": "assets/ai/v4-6beb55afb7c6.mp4",
+      "reused": false,
+      "costEstimateUsd": 0.243694,
+      "elapsedSec": 351.14
+    }
+  },
+  "runs": [
+    {
+      "images": 3,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.041273,
+      "at": "2026-09-11T01:08:16"
+    },
+    {
+      "images": 1,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.014163,
+      "at": "2026-09-11T01:13:06"
+    },
+    {
+      "images": 0,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.0,
+      "at": "2026-09-11T01:27:06"
+    },
+    {
+      "images": 0,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 1,
+      "skipped": 0,
+      "costUsd": 1.041011,
+      "at": "2026-09-11T02:11:50"
+    },
+    {
+      "images": 0,
+      "videos": 1,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.243694,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-11T02:40:22"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "v2",
+      "requestHash": "67938a00a8feb7fdd767054014d2e633ca5044d720603499528f6c4e81ea84ab",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 76.11,
+      "costUsd": 0.02329,
+      "at": "2026-09-11T01:07:17",
+      "backfilled": true
+    },
+    {
+      "id": "v3",
+      "requestHash": "ab13ce47dafd9f1fa538001b51b5a5cfcd15704158622b5aa8d6a9df46987ff2",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 13.42,
+      "costUsd": 0.004105,
+      "at": "2026-09-11T01:07:31",
+      "backfilled": true
+    },
+    {
+      "id": "v5",
+      "requestHash": "c37fc2c68290ed068dea2b63ad9c65b1ce6aeb12f0b0c79dbc22bd0df6ce233b",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 45.35,
+      "costUsd": 0.013878,
+      "at": "2026-09-11T01:08:16",
+      "backfilled": true
+    },
+    {
+      "id": "v3",
+      "requestHash": "7decc0546305d89792c6bb8b550f4429b204524f49c319f86c5c54efcd3fba4a",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 46.28,
+      "costUsd": 0.014163,
+      "at": "2026-09-11T01:13:06",
+      "backfilled": true
+    },
+    {
+      "id": "v4",
+      "requestHash": "6beb55afb7c60c7da920497054862cf5a1f7e5f4d5c014cd8ab51edfb69264f1",
+      "tool": "ltx2",
+      "ok": false,
+      "elapsedSec": 1500.0,
+      "costUsd": 1.041011,
+      "at": "2026-09-11T02:11:50",
+      "backfilled": true,
+      "note": "app crash-looped on start (torch 2.7 vs LTX-2 2362161); Modal billed ~$0.15"
+    },
+    {
+      "id": "v4",
+      "requestHash": "6beb55afb7c60c7da920497054862cf5a1f7e5f4d5c014cd8ab51edfb69264f1",
+      "tool": "ltx2",
+      "ok": true,
+      "elapsedSec": 351.14,
+      "costUsd": 0.243694,
+      "at": "2026-09-11T02:40:22"
+    }
+  ]
+}
