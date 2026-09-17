@@ -1,0 +1,52 @@
+{
+  "assetId": "l1-910e30509194",
+  "file": "l1-910e30509194.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "An Indian woman in a cotton kurta at a home dining table sets her spoon down on a steel plate with a modest, half-finished portion of rice, dal and vegetables, satisfied and relaxed, seen at mid-body with her face softly out of frame, warm daylight, square composition, candid documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 372936195,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "910e30509194ef22a40f97c2f720fc3f5546985e115d164c7d7f32397101334e",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "An Indian woman in a cotton kurta at a home dining table sets her spoon down on a steel plate with a modest, half-finished portion of rice, dal and vegetables, satisfied and relaxed, seen at mid-body with her face softly out of frame, warm daylight, square composition, candid documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 372936195,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l1"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "listBuild",
+  "why": "'they reduce the appetite'",
+  "says": "they reduce the appetite, delays gastric emptying, decreases inflammation, reduces visceral fat.",
+  "createdAt": "2026-09-17T10:32:26",
+  "elapsedSec": 9.6,
+  "costEstimateUsd": 0.002938,
+  "costBasis": "estimate: 9.6s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

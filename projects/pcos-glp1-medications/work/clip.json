@@ -1,0 +1,10 @@
+{
+  "clip": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-glp1-medications/inbox/pcos-glp1-medications.mp4",
+  "width": 2160,
+  "height": 3840,
+  "sourceFps": 50.0,
+  "durationSeconds": 33.962,
+  "frames30": 1019,
+  "alignAudio": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-glp1-medications/work/align.wav",
+  "playbackAudio": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-glp1-medications/work/playback.m4a"
+}

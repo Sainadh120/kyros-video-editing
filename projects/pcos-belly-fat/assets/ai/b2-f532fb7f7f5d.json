@@ -1,0 +1,52 @@
+{
+  "assetId": "b2-f532fb7f7f5d",
+  "file": "b2-f532fb7f7f5d.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "An Indian woman in her thirties in a cotton kurta and trousers sits on the front step of her home in soft early-morning light, bending forward to tie the laces of her white walking shoes, potted plants beside the door, nobody else in view. Wide 16:9 frame with her on the left third. Shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 1024,
+  "height": 576,
+  "seed": 238939368,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "f532fb7f7f5ddbd3929c59fbade71014b07a4f11139abe687491cef5f058d565",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "An Indian woman in her thirties in a cotton kurta and trousers sits on the front step of her home in soft early-morning light, bending forward to tie the laces of her white walking shoes, potted plants beside the door, nobody else in view. Wide 16:9 frame with her on the left third. Shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 1024,
+    "height": 576,
+    "seed": 238939368,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "b2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "inset",
+  "why": "context b-roll (approved 2026-09-17): 'must address this fat' — a quiet start to the day; no result, no number",
+  "says": "any women with PCOS must address this fat before",
+  "createdAt": "2026-09-17T10:42:00",
+  "elapsedSec": 26.41,
+  "costEstimateUsd": 0.00808,
+  "costBasis": "estimate: 26.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    1024,
+    576
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,36 @@
+{
+  "sampledAt": 13.555,
+  "captionZone": "#EDC7A5",
+  "lowerBand": "#BAA460",
+  "contrast": {
+    "espresso": 10.19,
+    "deep navy": 9.18,
+    "forest": 7.71,
+    "rust": 4.31,
+    "saffron": 1.64,
+    "white": 1.58,
+    "cream": 1.47
+  },
+  "suggestedPalette": {
+    "scene": {
+      "wall": "#EDC7A5",
+      "wallShadow": "#BAA460"
+    },
+    "onLight": {
+      "lead": "#16294A",
+      "key": "#2A1F17",
+      "keyAlt": "#9E3B16",
+      "muted": "#5A4636"
+    },
+    "onDark": {
+      "scrim": "#1C1410",
+      "lead": "#FFF6E8",
+      "key": "#E8A33C",
+      "keyAlt": "#F2C879",
+      "muted": "#C9B39A"
+    }
+  },
+  "headTopPx": 815,
+  "captionZoneTop": 288,
+  "captionZoneBottom": 795
+}

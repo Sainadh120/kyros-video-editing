@@ -1,0 +1,2029 @@
+{
+  "zoom": null,
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1141,
+    "videoFrames": 1051,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-gut-health",
+    "style": {
+      "_comment": "register.py proposals; Niranjan 2026-09-16: 'do whatever is good for that particular video'.",
+      "typePairing": "warmEditorial",
+      "revealStyle": "maskWipeFast",
+      "leadStyle": "match",
+      "paletteLead": "brick",
+      "textPosition": "top on the bare wall (no burned-in graphics); beats under a wall card drop low onto the dark scrim",
+      "payloadTreatment": "stacked caps, no stroke",
+      "accent": "rotation led by brick; palette.py derives and APCA-checks the rest"
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#E7C09D",
+        "wallShadow": "#B99472"
+      },
+      "onLight": {
+        "lead": "#604C40",
+        "key": "#3A2416",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#120C08",
+        "lead": "#FFF6E8",
+        "key": "#F4CE87",
+        "keyAlt": "#E8A33C",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#B5F28C",
+        "key": "#9BE564",
+        "keyAlt": "#FFB01F"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "Fraunces",
+        "weight": 500,
+        "lineHeight": 1.2,
+        "letterSpacing": -0.3,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 44,
+        "googleFontsModule": "Fraunces",
+        "style": "italic",
+        "weights": [
+          500,
+          600
+        ]
+      },
+      "key": {
+        "fontFamily": "BarlowCondensed",
+        "weight": 800,
+        "lineHeight": 0.94,
+        "letterSpacing": -0.4,
+        "advanceEm": 0.46,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 70,
+        "bottomMaxOneLine": 140,
+        "bottomMaxMultiLine": 108,
+        "googleFontsModule": "BarlowCondensed",
+        "style": "normal",
+        "weights": [
+          800
+        ]
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      },
+      "stroke": {
+        "color": null,
+        "keyEm": 0.105,
+        "leadEm": 0.075,
+        "shadow": "0 8px 26px rgba(0,0,0,0.40)"
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1150,
+      "height": 430,
+      "paddingX": 84,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "color": "#100500",
+      "opacity": 0.8,
+      "top": 1160,
+      "ground": "dark",
+      "feather": 90
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 1386,
+      "holdFrames": 57,
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    }
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/IdeaProjects/kyros-video-editing/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": []
+  },
+  "fixtures": {
+    "plateFromFrame": 130,
+    "logoFromFrame": 154,
+    "logoHideWindows": [
+      [
+        589,
+        773
+      ]
+    ]
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 1051,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 1141
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 1051,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 1081
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "card": {
+        "bg": "#0C0A07",
+        "opacity": 0.985,
+        "lead": "#FFF6E8",
+        "key": "#FFB01F",
+        "texture": "vignette",
+        "dark": true
+      },
+      "scrimOpacity": 0.985,
+      "exitFrame": 119,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "key",
+          "words": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "lines": [
+            "DOES GUT HEALTH"
+          ],
+          "_wordsNote": "0-1 are the interviewer's 'Ma'am' \u2014 inside the question so her answer times from word 8",
+          "appearFrame": 0,
+          "text": "Ma 'am does gut health",
+          "size": 136
+        },
+        {
+          "style": "lead",
+          "words": [
+            5,
+            6,
+            7
+          ],
+          "appearFrame": 50,
+          "text": "matter in PCOS?"
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 130,
+      "toFrame": 1051,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "top",
+          "leadWords": [
+            8,
+            9,
+            10
+          ],
+          "leadText": "Yes, gut health",
+          "leadSize": 70,
+          "leadColor": "#3A2416",
+          "leadDark": true,
+          "keyWords": [
+            14,
+            15,
+            16
+          ],
+          "keyLines": [
+            "VERY IMPORTANT",
+            "ROLE"
+          ],
+          "keySize": 145,
+          "keyColor": "#3A2416",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 130,
+          "toFrame": 232,
+          "keyFromFrame": 205,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-3",
+          "zone": "top",
+          "leadWords": [
+            24,
+            25,
+            26
+          ],
+          "leadText": "One must have",
+          "leadSize": 70,
+          "leadColor": "#7A4E1C",
+          "leadDark": true,
+          "keyWords": [
+            27,
+            28,
+            29
+          ],
+          "keyLines": [
+            "GOOD",
+            "GUT HEALTH"
+          ],
+          "keySize": 178,
+          "keyColor": "#7A4E1C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 329,
+          "toFrame": 380,
+          "keyFromFrame": 352,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-4",
+          "zone": "top",
+          "leadWords": [
+            30,
+            31,
+            32
+          ],
+          "leadText": "in order to",
+          "leadSize": 70,
+          "leadColor": "#8A5A2A",
+          "leadDark": true,
+          "keyWords": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "keyLines": [
+            "CONTROL",
+            "PCOS SYMPTOMS"
+          ],
+          "keySize": 157,
+          "keyColor": "#8A5A2A",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 380,
+          "toFrame": 466,
+          "keyFromFrame": 400,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-8",
+          "zone": "bottom",
+          "leadWords": [
+            59,
+            60
+          ],
+          "leadText": "and have",
+          "leadSize": 44,
+          "leadColor": "#9BE564",
+          "leadDark": false,
+          "keyWords": [
+            61,
+            62
+          ],
+          "keyLines": [
+            "REGULAR",
+            "EXERCISE"
+          ],
+          "keySize": 108,
+          "keyColor": "#9BE564",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 761,
+          "toFrame": 858,
+          "keyFromFrame": 799,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-9",
+          "zone": "bottom",
+          "leadWords": [],
+          "leadText": "",
+          "leadSize": 44,
+          "leadColor": "#FFF6E8",
+          "leadDark": false,
+          "keyWords": [
+            63,
+            64
+          ],
+          "keyLines": [
+            "GOOD",
+            "HYDRATION"
+          ],
+          "keySize": 108,
+          "keyColor": "#FFF6E8",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 858,
+          "toFrame": 906,
+          "keyFromFrame": 858,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        },
+        {
+          "id": "chunk-10",
+          "zone": "bottom",
+          "leadWords": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "leadText": "all these things will",
+          "leadSize": 44,
+          "leadColor": "#FFA8B6",
+          "leadDark": false,
+          "keyWords": [
+            69,
+            71,
+            72
+          ],
+          "keyLines": [
+            "IMPROVE",
+            "GUT HEALTH"
+          ],
+          "keySize": 108,
+          "keyColor": "#FFA8B6",
+          "keyDark": false,
+          "tone": "key",
+          "fromFrame": 906,
+          "toFrame": 1036,
+          "keyFromFrame": 930,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "maskWipeFast"
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "Ma",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 22
+      },
+      {
+        "index": 1,
+        "text": "'am",
+        "startFrame": 22,
+        "activeFromFrame": 22,
+        "activeToFrame": 26
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "startFrame": 26,
+        "activeFromFrame": 26,
+        "activeToFrame": 35
+      },
+      {
+        "index": 3,
+        "text": "gut",
+        "startFrame": 35,
+        "activeFromFrame": 35,
+        "activeToFrame": 43
+      },
+      {
+        "index": 4,
+        "text": "health",
+        "startFrame": 43,
+        "activeFromFrame": 43,
+        "activeToFrame": 50
+      },
+      {
+        "index": 5,
+        "text": "matter",
+        "startFrame": 50,
+        "activeFromFrame": 50,
+        "activeToFrame": 59
+      },
+      {
+        "index": 6,
+        "text": "in",
+        "startFrame": 59,
+        "activeFromFrame": 59,
+        "activeToFrame": 67
+      },
+      {
+        "index": 7,
+        "text": "PCOS?",
+        "startFrame": 67,
+        "activeFromFrame": 67,
+        "activeToFrame": 130
+      },
+      {
+        "index": 8,
+        "text": "Yes,",
+        "startFrame": 130,
+        "activeFromFrame": 130,
+        "activeToFrame": 158
+      },
+      {
+        "index": 9,
+        "text": "gut",
+        "startFrame": 158,
+        "activeFromFrame": 158,
+        "activeToFrame": 160
+      },
+      {
+        "index": 10,
+        "text": "health",
+        "startFrame": 160,
+        "activeFromFrame": 160,
+        "activeToFrame": 171
+      },
+      {
+        "index": 11,
+        "text": "again",
+        "startFrame": 171,
+        "activeFromFrame": 171,
+        "activeToFrame": 184
+      },
+      {
+        "index": 12,
+        "text": "plays",
+        "startFrame": 184,
+        "activeFromFrame": 184,
+        "activeToFrame": 197
+      },
+      {
+        "index": 13,
+        "text": "a",
+        "startFrame": 197,
+        "activeFromFrame": 197,
+        "activeToFrame": 205
+      },
+      {
+        "index": 14,
+        "text": "very",
+        "startFrame": 205,
+        "activeFromFrame": 205,
+        "activeToFrame": 211
+      },
+      {
+        "index": 15,
+        "text": "important",
+        "startFrame": 211,
+        "activeFromFrame": 211,
+        "activeToFrame": 221
+      },
+      {
+        "index": 16,
+        "text": "role",
+        "startFrame": 221,
+        "activeFromFrame": 221,
+        "activeToFrame": 232
+      },
+      {
+        "index": 17,
+        "text": "in",
+        "startFrame": 232,
+        "activeFromFrame": 232,
+        "activeToFrame": 238
+      },
+      {
+        "index": 18,
+        "text": "insulin",
+        "startFrame": 238,
+        "activeFromFrame": 238,
+        "activeToFrame": 247
+      },
+      {
+        "index": 19,
+        "text": "resistance",
+        "startFrame": 247,
+        "activeFromFrame": 247,
+        "activeToFrame": 263
+      },
+      {
+        "index": 20,
+        "text": "metabolic",
+        "startFrame": 263,
+        "activeFromFrame": 263,
+        "activeToFrame": 280
+      },
+      {
+        "index": 21,
+        "text": "and",
+        "startFrame": 280,
+        "activeFromFrame": 280,
+        "activeToFrame": 289
+      },
+      {
+        "index": 22,
+        "text": "hormone",
+        "startFrame": 289,
+        "activeFromFrame": 289,
+        "activeToFrame": 301
+      },
+      {
+        "index": 23,
+        "text": "problems.",
+        "startFrame": 301,
+        "activeFromFrame": 301,
+        "activeToFrame": 329
+      },
+      {
+        "index": 24,
+        "text": "One",
+        "startFrame": 329,
+        "activeFromFrame": 329,
+        "activeToFrame": 337
+      },
+      {
+        "index": 25,
+        "text": "must",
+        "startFrame": 337,
+        "activeFromFrame": 337,
+        "activeToFrame": 343
+      },
+      {
+        "index": 26,
+        "text": "have",
+        "startFrame": 343,
+        "activeFromFrame": 343,
+        "activeToFrame": 352
+      },
+      {
+        "index": 27,
+        "text": "good",
+        "startFrame": 352,
+        "activeFromFrame": 352,
+        "activeToFrame": 361
+      },
+      {
+        "index": 28,
+        "text": "gut",
+        "startFrame": 361,
+        "activeFromFrame": 361,
+        "activeToFrame": 370
+      },
+      {
+        "index": 29,
+        "text": "health",
+        "startFrame": 370,
+        "activeFromFrame": 370,
+        "activeToFrame": 380
+      },
+      {
+        "index": 30,
+        "text": "in",
+        "startFrame": 380,
+        "activeFromFrame": 380,
+        "activeToFrame": 388
+      },
+      {
+        "index": 31,
+        "text": "order",
+        "startFrame": 388,
+        "activeFromFrame": 388,
+        "activeToFrame": 392
+      },
+      {
+        "index": 32,
+        "text": "to",
+        "startFrame": 392,
+        "activeFromFrame": 392,
+        "activeToFrame": 400
+      },
+      {
+        "index": 33,
+        "text": "control",
+        "startFrame": 400,
+        "activeFromFrame": 400,
+        "activeToFrame": 410
+      },
+      {
+        "index": 34,
+        "text": "symptoms",
+        "startFrame": 410,
+        "activeFromFrame": 410,
+        "activeToFrame": 421
+      },
+      {
+        "index": 35,
+        "text": "of",
+        "startFrame": 421,
+        "activeFromFrame": 421,
+        "activeToFrame": 430
+      },
+      {
+        "index": 36,
+        "text": "PCOS.",
+        "startFrame": 430,
+        "activeFromFrame": 430,
+        "activeToFrame": 466
+      },
+      {
+        "index": 37,
+        "text": "One",
+        "startFrame": 466,
+        "activeFromFrame": 466,
+        "activeToFrame": 475
+      },
+      {
+        "index": 38,
+        "text": "must",
+        "startFrame": 475,
+        "activeFromFrame": 475,
+        "activeToFrame": 482
+      },
+      {
+        "index": 39,
+        "text": "take",
+        "startFrame": 482,
+        "activeFromFrame": 482,
+        "activeToFrame": 490
+      },
+      {
+        "index": 40,
+        "text": "25",
+        "startFrame": 490,
+        "activeFromFrame": 490,
+        "activeToFrame": 507
+      },
+      {
+        "index": 41,
+        "text": "to",
+        "startFrame": 507,
+        "activeFromFrame": 507,
+        "activeToFrame": 514
+      },
+      {
+        "index": 42,
+        "text": "30",
+        "startFrame": 514,
+        "activeFromFrame": 514,
+        "activeToFrame": 525
+      },
+      {
+        "index": 43,
+        "text": "grams",
+        "startFrame": 525,
+        "activeFromFrame": 525,
+        "activeToFrame": 530
+      },
+      {
+        "index": 44,
+        "text": "of",
+        "startFrame": 530,
+        "activeFromFrame": 530,
+        "activeToFrame": 541
+      },
+      {
+        "index": 45,
+        "text": "fiber",
+        "startFrame": 541,
+        "activeFromFrame": 541,
+        "activeToFrame": 548
+      },
+      {
+        "index": 46,
+        "text": "per",
+        "startFrame": 548,
+        "activeFromFrame": 548,
+        "activeToFrame": 559
+      },
+      {
+        "index": 47,
+        "text": "day,",
+        "startFrame": 559,
+        "activeFromFrame": 559,
+        "activeToFrame": 580
+      },
+      {
+        "index": 48,
+        "text": "eat",
+        "startFrame": 580,
+        "activeFromFrame": 580,
+        "activeToFrame": 589
+      },
+      {
+        "index": 49,
+        "text": "vegetables,",
+        "startFrame": 589,
+        "activeFromFrame": 589,
+        "activeToFrame": 632
+      },
+      {
+        "index": 50,
+        "text": "fruits,",
+        "startFrame": 632,
+        "activeFromFrame": 632,
+        "activeToFrame": 653
+      },
+      {
+        "index": 51,
+        "text": "eat",
+        "startFrame": 653,
+        "activeFromFrame": 653,
+        "activeToFrame": 657
+      },
+      {
+        "index": 52,
+        "text": "fermented",
+        "startFrame": 657,
+        "activeFromFrame": 657,
+        "activeToFrame": 671
+      },
+      {
+        "index": 53,
+        "text": "foods",
+        "startFrame": 671,
+        "activeFromFrame": 671,
+        "activeToFrame": 683
+      },
+      {
+        "index": 54,
+        "text": "like",
+        "startFrame": 683,
+        "activeFromFrame": 683,
+        "activeToFrame": 694
+      },
+      {
+        "index": 55,
+        "text": "curd,",
+        "startFrame": 694,
+        "activeFromFrame": 694,
+        "activeToFrame": 715
+      },
+      {
+        "index": 56,
+        "text": "buttermilk,",
+        "startFrame": 715,
+        "activeFromFrame": 715,
+        "activeToFrame": 731
+      },
+      {
+        "index": 57,
+        "text": "idly",
+        "startFrame": 731,
+        "activeFromFrame": 731,
+        "activeToFrame": 751
+      },
+      {
+        "index": 58,
+        "text": "etc",
+        "startFrame": 751,
+        "activeFromFrame": 751,
+        "activeToFrame": 761
+      },
+      {
+        "index": 59,
+        "text": "and",
+        "startFrame": 761,
+        "activeFromFrame": 761,
+        "activeToFrame": 790
+      },
+      {
+        "index": 60,
+        "text": "have",
+        "startFrame": 790,
+        "activeFromFrame": 790,
+        "activeToFrame": 799
+      },
+      {
+        "index": 61,
+        "text": "regular",
+        "startFrame": 799,
+        "activeFromFrame": 799,
+        "activeToFrame": 821
+      },
+      {
+        "index": 62,
+        "text": "exercise,",
+        "startFrame": 821,
+        "activeFromFrame": 821,
+        "activeToFrame": 858
+      },
+      {
+        "index": 63,
+        "text": "good",
+        "startFrame": 858,
+        "activeFromFrame": 858,
+        "activeToFrame": 860
+      },
+      {
+        "index": 64,
+        "text": "hydration,",
+        "startFrame": 860,
+        "activeFromFrame": 860,
+        "activeToFrame": 906
+      },
+      {
+        "index": 65,
+        "text": "all",
+        "startFrame": 906,
+        "activeFromFrame": 906,
+        "activeToFrame": 909
+      },
+      {
+        "index": 66,
+        "text": "these",
+        "startFrame": 909,
+        "activeFromFrame": 909,
+        "activeToFrame": 916
+      },
+      {
+        "index": 67,
+        "text": "things",
+        "startFrame": 916,
+        "activeFromFrame": 916,
+        "activeToFrame": 923
+      },
+      {
+        "index": 68,
+        "text": "will",
+        "startFrame": 923,
+        "activeFromFrame": 923,
+        "activeToFrame": 930
+      },
+      {
+        "index": 69,
+        "text": "improve",
+        "startFrame": 930,
+        "activeFromFrame": 930,
+        "activeToFrame": 993
+      },
+      {
+        "index": 70,
+        "text": "the",
+        "startFrame": 993,
+        "activeFromFrame": 993,
+        "activeToFrame": 1002
+      },
+      {
+        "index": 71,
+        "text": "gut",
+        "startFrame": 1002,
+        "activeFromFrame": 1002,
+        "activeToFrame": 1007
+      },
+      {
+        "index": 72,
+        "text": "health",
+        "startFrame": 1007,
+        "activeFromFrame": 1007,
+        "activeToFrame": 1015
+      },
+      {
+        "index": 73,
+        "text": "in",
+        "startFrame": 1015,
+        "activeFromFrame": 1015,
+        "activeToFrame": 1021
+      },
+      {
+        "index": 74,
+        "text": "any",
+        "startFrame": 1021,
+        "activeFromFrame": 1021,
+        "activeToFrame": 1028
+      },
+      {
+        "index": 75,
+        "text": "woman.",
+        "startFrame": 1028,
+        "activeFromFrame": 1028,
+        "activeToFrame": 1048
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "Ma",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 22
+      },
+      {
+        "index": 1,
+        "text": "'am",
+        "startFrame": 22,
+        "activeFromFrame": 22,
+        "activeToFrame": 26
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "startFrame": 26,
+        "activeFromFrame": 26,
+        "activeToFrame": 35
+      },
+      {
+        "index": 3,
+        "text": "gut",
+        "startFrame": 35,
+        "activeFromFrame": 35,
+        "activeToFrame": 43
+      },
+      {
+        "index": 4,
+        "text": "health",
+        "startFrame": 43,
+        "activeFromFrame": 43,
+        "activeToFrame": 50
+      },
+      {
+        "index": 5,
+        "text": "matter",
+        "startFrame": 50,
+        "activeFromFrame": 50,
+        "activeToFrame": 59
+      },
+      {
+        "index": 6,
+        "text": "in",
+        "startFrame": 59,
+        "activeFromFrame": 59,
+        "activeToFrame": 67
+      },
+      {
+        "index": 7,
+        "text": "PCOS?",
+        "startFrame": 67,
+        "activeFromFrame": 67,
+        "activeToFrame": 130
+      },
+      {
+        "index": 8,
+        "text": "Yes,",
+        "startFrame": 130,
+        "activeFromFrame": 130,
+        "activeToFrame": 158
+      },
+      {
+        "index": 9,
+        "text": "gut",
+        "startFrame": 158,
+        "activeFromFrame": 158,
+        "activeToFrame": 160
+      },
+      {
+        "index": 10,
+        "text": "health",
+        "startFrame": 160,
+        "activeFromFrame": 160,
+        "activeToFrame": 171
+      },
+      {
+        "index": 11,
+        "text": "again",
+        "startFrame": 171,
+        "activeFromFrame": 171,
+        "activeToFrame": 184
+      },
+      {
+        "index": 12,
+        "text": "plays",
+        "startFrame": 184,
+        "activeFromFrame": 184,
+        "activeToFrame": 197
+      },
+      {
+        "index": 13,
+        "text": "a",
+        "startFrame": 197,
+        "activeFromFrame": 197,
+        "activeToFrame": 205
+      },
+      {
+        "index": 14,
+        "text": "very",
+        "startFrame": 205,
+        "activeFromFrame": 205,
+        "activeToFrame": 211
+      },
+      {
+        "index": 15,
+        "text": "important",
+        "startFrame": 211,
+        "activeFromFrame": 211,
+        "activeToFrame": 221
+      },
+      {
+        "index": 16,
+        "text": "role",
+        "startFrame": 221,
+        "activeFromFrame": 221,
+        "activeToFrame": 232
+      },
+      {
+        "index": 17,
+        "text": "in",
+        "startFrame": 232,
+        "activeFromFrame": 232,
+        "activeToFrame": 238
+      },
+      {
+        "index": 18,
+        "text": "insulin",
+        "startFrame": 238,
+        "activeFromFrame": 238,
+        "activeToFrame": 247
+      },
+      {
+        "index": 19,
+        "text": "resistance",
+        "startFrame": 247,
+        "activeFromFrame": 247,
+        "activeToFrame": 263
+      },
+      {
+        "index": 20,
+        "text": "metabolic",
+        "startFrame": 263,
+        "activeFromFrame": 263,
+        "activeToFrame": 280
+      },
+      {
+        "index": 21,
+        "text": "and",
+        "startFrame": 280,
+        "activeFromFrame": 280,
+        "activeToFrame": 289
+      },
+      {
+        "index": 22,
+        "text": "hormone",
+        "startFrame": 289,
+        "activeFromFrame": 289,
+        "activeToFrame": 301
+      },
+      {
+        "index": 23,
+        "text": "problems.",
+        "startFrame": 301,
+        "activeFromFrame": 301,
+        "activeToFrame": 329
+      },
+      {
+        "index": 24,
+        "text": "One",
+        "startFrame": 329,
+        "activeFromFrame": 329,
+        "activeToFrame": 337
+      },
+      {
+        "index": 25,
+        "text": "must",
+        "startFrame": 337,
+        "activeFromFrame": 337,
+        "activeToFrame": 343
+      },
+      {
+        "index": 26,
+        "text": "have",
+        "startFrame": 343,
+        "activeFromFrame": 343,
+        "activeToFrame": 352
+      },
+      {
+        "index": 27,
+        "text": "good",
+        "startFrame": 352,
+        "activeFromFrame": 352,
+        "activeToFrame": 361
+      },
+      {
+        "index": 28,
+        "text": "gut",
+        "startFrame": 361,
+        "activeFromFrame": 361,
+        "activeToFrame": 370
+      },
+      {
+        "index": 29,
+        "text": "health",
+        "startFrame": 370,
+        "activeFromFrame": 370,
+        "activeToFrame": 380
+      },
+      {
+        "index": 30,
+        "text": "in",
+        "startFrame": 380,
+        "activeFromFrame": 380,
+        "activeToFrame": 388
+      },
+      {
+        "index": 31,
+        "text": "order",
+        "startFrame": 388,
+        "activeFromFrame": 388,
+        "activeToFrame": 392
+      },
+      {
+        "index": 32,
+        "text": "to",
+        "startFrame": 392,
+        "activeFromFrame": 392,
+        "activeToFrame": 400
+      },
+      {
+        "index": 33,
+        "text": "control",
+        "startFrame": 400,
+        "activeFromFrame": 400,
+        "activeToFrame": 410
+      },
+      {
+        "index": 34,
+        "text": "symptoms",
+        "startFrame": 410,
+        "activeFromFrame": 410,
+        "activeToFrame": 421
+      },
+      {
+        "index": 35,
+        "text": "of",
+        "startFrame": 421,
+        "activeFromFrame": 421,
+        "activeToFrame": 430
+      },
+      {
+        "index": 36,
+        "text": "PCOS.",
+        "startFrame": 430,
+        "activeFromFrame": 430,
+        "activeToFrame": 466
+      },
+      {
+        "index": 37,
+        "text": "One",
+        "startFrame": 466,
+        "activeFromFrame": 466,
+        "activeToFrame": 475
+      },
+      {
+        "index": 38,
+        "text": "must",
+        "startFrame": 475,
+        "activeFromFrame": 475,
+        "activeToFrame": 482
+      },
+      {
+        "index": 39,
+        "text": "take",
+        "startFrame": 482,
+        "activeFromFrame": 482,
+        "activeToFrame": 490
+      },
+      {
+        "index": 40,
+        "text": "25",
+        "startFrame": 490,
+        "activeFromFrame": 490,
+        "activeToFrame": 507
+      },
+      {
+        "index": 41,
+        "text": "to",
+        "startFrame": 507,
+        "activeFromFrame": 507,
+        "activeToFrame": 514
+      },
+      {
+        "index": 42,
+        "text": "30",
+        "startFrame": 514,
+        "activeFromFrame": 514,
+        "activeToFrame": 525
+      },
+      {
+        "index": 43,
+        "text": "grams",
+        "startFrame": 525,
+        "activeFromFrame": 525,
+        "activeToFrame": 530
+      },
+      {
+        "index": 44,
+        "text": "of",
+        "startFrame": 530,
+        "activeFromFrame": 530,
+        "activeToFrame": 541
+      },
+      {
+        "index": 45,
+        "text": "fiber",
+        "startFrame": 541,
+        "activeFromFrame": 541,
+        "activeToFrame": 548
+      },
+      {
+        "index": 46,
+        "text": "per",
+        "startFrame": 548,
+        "activeFromFrame": 548,
+        "activeToFrame": 559
+      },
+      {
+        "index": 47,
+        "text": "day,",
+        "startFrame": 559,
+        "activeFromFrame": 559,
+        "activeToFrame": 580
+      },
+      {
+        "index": 48,
+        "text": "eat",
+        "startFrame": 580,
+        "activeFromFrame": 580,
+        "activeToFrame": 589
+      },
+      {
+        "index": 49,
+        "text": "vegetables,",
+        "startFrame": 589,
+        "activeFromFrame": 589,
+        "activeToFrame": 632
+      },
+      {
+        "index": 50,
+        "text": "fruits,",
+        "startFrame": 632,
+        "activeFromFrame": 632,
+        "activeToFrame": 653
+      },
+      {
+        "index": 51,
+        "text": "eat",
+        "startFrame": 653,
+        "activeFromFrame": 653,
+        "activeToFrame": 657
+      },
+      {
+        "index": 52,
+        "text": "fermented",
+        "startFrame": 657,
+        "activeFromFrame": 657,
+        "activeToFrame": 671
+      },
+      {
+        "index": 53,
+        "text": "foods",
+        "startFrame": 671,
+        "activeFromFrame": 671,
+        "activeToFrame": 683
+      },
+      {
+        "index": 54,
+        "text": "like",
+        "startFrame": 683,
+        "activeFromFrame": 683,
+        "activeToFrame": 694
+      },
+      {
+        "index": 55,
+        "text": "curd,",
+        "startFrame": 694,
+        "activeFromFrame": 694,
+        "activeToFrame": 715
+      },
+      {
+        "index": 56,
+        "text": "buttermilk,",
+        "startFrame": 715,
+        "activeFromFrame": 715,
+        "activeToFrame": 731
+      },
+      {
+        "index": 57,
+        "text": "idly",
+        "startFrame": 731,
+        "activeFromFrame": 731,
+        "activeToFrame": 751
+      },
+      {
+        "index": 58,
+        "text": "etc",
+        "startFrame": 751,
+        "activeFromFrame": 751,
+        "activeToFrame": 761
+      },
+      {
+        "index": 59,
+        "text": "and",
+        "startFrame": 761,
+        "activeFromFrame": 761,
+        "activeToFrame": 790
+      },
+      {
+        "index": 60,
+        "text": "have",
+        "startFrame": 790,
+        "activeFromFrame": 790,
+        "activeToFrame": 799
+      },
+      {
+        "index": 61,
+        "text": "regular",
+        "startFrame": 799,
+        "activeFromFrame": 799,
+        "activeToFrame": 821
+      },
+      {
+        "index": 62,
+        "text": "exercise,",
+        "startFrame": 821,
+        "activeFromFrame": 821,
+        "activeToFrame": 858
+      },
+      {
+        "index": 63,
+        "text": "good",
+        "startFrame": 858,
+        "activeFromFrame": 858,
+        "activeToFrame": 860
+      },
+      {
+        "index": 64,
+        "text": "hydration,",
+        "startFrame": 860,
+        "activeFromFrame": 860,
+        "activeToFrame": 906
+      },
+      {
+        "index": 65,
+        "text": "all",
+        "startFrame": 906,
+        "activeFromFrame": 906,
+        "activeToFrame": 909
+      },
+      {
+        "index": 66,
+        "text": "these",
+        "startFrame": 909,
+        "activeFromFrame": 909,
+        "activeToFrame": 916
+      },
+      {
+        "index": 67,
+        "text": "things",
+        "startFrame": 916,
+        "activeFromFrame": 916,
+        "activeToFrame": 923
+      },
+      {
+        "index": 68,
+        "text": "will",
+        "startFrame": 923,
+        "activeFromFrame": 923,
+        "activeToFrame": 930
+      },
+      {
+        "index": 69,
+        "text": "improve",
+        "startFrame": 930,
+        "activeFromFrame": 930,
+        "activeToFrame": 993
+      },
+      {
+        "index": 70,
+        "text": "the",
+        "startFrame": 993,
+        "activeFromFrame": 993,
+        "activeToFrame": 1002
+      },
+      {
+        "index": 71,
+        "text": "gut",
+        "startFrame": 1002,
+        "activeFromFrame": 1002,
+        "activeToFrame": 1007
+      },
+      {
+        "index": 72,
+        "text": "health",
+        "startFrame": 1007,
+        "activeFromFrame": 1007,
+        "activeToFrame": 1015
+      },
+      {
+        "index": 73,
+        "text": "in",
+        "startFrame": 1015,
+        "activeFromFrame": 1015,
+        "activeToFrame": 1021
+      },
+      {
+        "index": 74,
+        "text": "any",
+        "startFrame": 1021,
+        "activeFromFrame": 1021,
+        "activeToFrame": 1028
+      },
+      {
+        "index": 75,
+        "text": "woman.",
+        "startFrame": 1028,
+        "activeFromFrame": 1028,
+        "activeToFrame": 1048
+      }
+    ]
+  },
+  "visuals": {
+    "style": "naturalLight",
+    "bubbleShape": "circle",
+    "items": [
+      {
+        "id": "h1",
+        "beat": null,
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 0,
+        "toFrame": 50,
+        "motion": "pushIn",
+        "src": "ai/h1-1760b95aad5f.png",
+        "fadeFrames": 0,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "cardOpacity": 0.0,
+        "glow": {
+          "color": "#120C08",
+          "opacity": 0.729,
+          "rect": [
+            0,
+            725,
+            1080,
+            1195
+          ]
+        }
+      },
+      {
+        "id": "h2",
+        "beat": null,
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 50,
+        "toFrame": 130,
+        "motion": "panLeft",
+        "src": "ai/h2-50b1916cd8cb.png",
+        "fadeFrames": 0,
+        "kenBurns": {
+          "from": 1.08,
+          "to": 1.08,
+          "x0": 0.025,
+          "x1": -0.025
+        },
+        "cardOpacity": 0.0
+      },
+      {
+        "id": "v1",
+        "beat": 2,
+        "treatment": "inset",
+        "mode": "graphic",
+        "kind": "graphic",
+        "fromFrame": 241,
+        "toFrame": 320,
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "INSULIN RESISTANCE",
+            "METABOLIC",
+            "HORMONES"
+          ],
+          "ground": "#FAEADB",
+          "groundOpacity": 0.94,
+          "ink": "#3A2416",
+          "accent": "#9E3B16",
+          "text": "#604C40",
+          "texture": "grain",
+          "itemFrames": [
+            247,
+            263,
+            289
+          ]
+        },
+        "src": null,
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12
+      },
+      {
+        "id": "v2",
+        "beat": 5,
+        "treatment": "inset",
+        "mode": "graphic",
+        "kind": "graphic",
+        "fromFrame": 475,
+        "toFrame": 571,
+        "graphic": {
+          "type": "counter",
+          "from": 25,
+          "value": 30,
+          "label": "GRAMS OF FIBER / DAY",
+          "ground": "#FAEADB",
+          "groundOpacity": 0.94,
+          "ink": "#3A2416",
+          "accent": "#9E3B16",
+          "text": "#604C40",
+          "texture": "grain"
+        },
+        "src": null,
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12
+      },
+      {
+        "id": "l1",
+        "beat": 6,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 589,
+        "toFrame": 761,
+        "group": "foods",
+        "label": "VEGETABLES",
+        "word": 49,
+        "src": "ai/l1-1e14239cffb4.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "upper-left",
+          "rect": [
+            56,
+            312,
+            396,
+            652
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1068,
+            "r": 267
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          48,
+          680,
+          703,
+          1251
+        ],
+        "stage": [
+          48,
+          680,
+          1032,
+          1540
+        ],
+        "tile": [
+          48,
+          680,
+          533,
+          1103
+        ],
+        "index": 0,
+        "count": 5,
+        "settleFrame": 632,
+        "tileFrames": 10,
+        "ground": "#0C0A07",
+        "labelColor": "#FFF6E8",
+        "accent": "#FFB01F",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l2",
+        "beat": 6,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 632,
+        "toFrame": 761,
+        "group": "foods",
+        "label": "FRUITS",
+        "word": 50,
+        "src": "ai/l2-f2b7c906edf5.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "upper-left",
+          "rect": [
+            56,
+            312,
+            396,
+            652
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1068,
+            "r": 267
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          377,
+          680,
+          1032,
+          1251
+        ],
+        "stage": [
+          48,
+          680,
+          1032,
+          1540
+        ],
+        "tile": [
+          547,
+          680,
+          1032,
+          1103
+        ],
+        "index": 1,
+        "count": 5,
+        "settleFrame": 694,
+        "tileFrames": 10,
+        "ground": "#0C0A07",
+        "labelColor": "#FFF6E8",
+        "accent": "#FFB01F",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l3",
+        "beat": 7,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 694,
+        "toFrame": 761,
+        "group": "foods",
+        "label": "CURD",
+        "word": 55,
+        "src": "ai/l3-00ca9d560d81.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "upper-left",
+          "rect": [
+            56,
+            312,
+            396,
+            652
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1068,
+            "r": 267
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          48,
+          969,
+          479,
+          1540
+        ],
+        "stage": [
+          48,
+          680,
+          1032,
+          1540
+        ],
+        "tile": [
+          48,
+          1117,
+          367,
+          1540
+        ],
+        "index": 2,
+        "count": 5,
+        "settleFrame": 715,
+        "tileFrames": 10,
+        "ground": "#0C0A07",
+        "labelColor": "#FFF6E8",
+        "accent": "#FFB01F",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l4",
+        "beat": 7,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 715,
+        "toFrame": 761,
+        "group": "foods",
+        "label": "BUTTERMILK",
+        "word": 56,
+        "src": "ai/l4-8b6eee7a3d63.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "upper-left",
+          "rect": [
+            56,
+            312,
+            396,
+            652
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1068,
+            "r": 267
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          325,
+          969,
+          755,
+          1540
+        ],
+        "stage": [
+          48,
+          680,
+          1032,
+          1540
+        ],
+        "tile": [
+          381,
+          1117,
+          699,
+          1540
+        ],
+        "index": 3,
+        "count": 5,
+        "settleFrame": 731,
+        "tileFrames": 10,
+        "ground": "#0C0A07",
+        "labelColor": "#FFF6E8",
+        "accent": "#FFB01F",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l5",
+        "beat": 7,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 731,
+        "toFrame": 761,
+        "group": "foods",
+        "label": "IDLI",
+        "word": 57,
+        "src": "ai/l5-46b072e16106.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "upper-left",
+          "rect": [
+            56,
+            312,
+            396,
+            652
+          ],
+          "face": {
+            "cx": 600,
+            "cy": 1068,
+            "r": 267
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          601,
+          969,
+          1032,
+          1540
+        ],
+        "stage": [
+          48,
+          680,
+          1032,
+          1540
+        ],
+        "tile": [
+          713,
+          1117,
+          1032,
+          1540
+        ],
+        "index": 4,
+        "count": 5,
+        "settleFrame": 737,
+        "tileFrames": 10,
+        "ground": "#0C0A07",
+        "labelColor": "#FFF6E8",
+        "accent": "#FFB01F",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "v3",
+        "beat": 8,
+        "treatment": "inset",
+        "mode": "video",
+        "kind": "video",
+        "fromFrame": 770,
+        "toFrame": 849,
+        "aspect": "16:9",
+        "src": "ai/v3-3136f13dba31.mp4",
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12
+      },
+      {
+        "id": "v4",
+        "beat": 9,
+        "treatment": "inset",
+        "mode": "video",
+        "kind": "video",
+        "fromFrame": 858,
+        "toFrame": 906,
+        "aspect": "16:9",
+        "src": "ai/v4-488071705991.mp4",
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-1760b95aad5f",
+  "file": "h1-1760b95aad5f.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A bowl of thick fresh homemade curd in a steel katori beside a wooden board of freshly chopped carrots, cucumber and green beans on a light stone kitchen counter in a Hyderabad home, seen from a slight high angle. Vertical 9:16 frame with calm plain wall in the upper third. Soft morning window light, shot on a 50mm lens, candid documentary photograph, true-to-life colour, plain unmarked surfaces.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1647243947,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "1760b95aad5f9337b9c44777d0e295801856d28cd1e46cdca86756a421e7c475",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A bowl of thick fresh homemade curd in a steel katori beside a wooden board of freshly chopped carrots, cucumber and green beans on a light stone kitchen counter in a Hyderabad home, seen from a slight high angle. Vertical 9:16 frame with calm plain wall in the upper third. Soft morning window light, shot on a 50mm lens, candid documentary photograph, true-to-life colour, plain unmarked surfaces.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1647243947,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "hookBackdrop",
+  "why": "'does gut health' — open on the foods of her answer, not a blank card",
+  "says": "Ma 'am does gut health",
+  "createdAt": "2026-09-17T03:33:30",
+  "elapsedSec": 64.07,
+  "costEstimateUsd": 0.019607,
+  "costBasis": "estimate: 64.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,52 @@
+{
+  "assetId": "l4-d05dfe40efc9",
+  "file": "l4-d05dfe40efc9.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A side cross-section of the human abdomen showing soft yellow visceral fat deposits packed around the liver, stomach and intestines, organs in natural muted pinks and reds, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 986904623,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "d05dfe40efc9746c293503aee1db5ff02c16cf4f92ffb36c5f8957c0fcf59717",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A side cross-section of the human abdomen showing soft yellow visceral fat deposits packed around the liver, stomach and intestines, organs in natural muted pinks and reds, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 986904623,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l4"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "listBuild",
+  "why": "'reduces visceral fat' — what visceral fat is, not a before/after",
+  "says": "they reduce the appetite, delays gastric emptying, decreases inflammation, reduces visceral fat.",
+  "createdAt": "2026-09-17T10:32:44",
+  "elapsedSec": 5.54,
+  "costEstimateUsd": 0.001697,
+  "costBasis": "estimate: 5.5s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

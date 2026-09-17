@@ -9,8 +9,8 @@ operator's manual: install, configure, run, and what happens to the files.
 Claude (kyros-doctor-reels skill)      decides: which beats, which rung, the prompt
   └─ brief.json → visuals.beats         the decision, reviewable, versioned
       └─ reels.py visuals --generate    scripts/visuals.py: lint, cache, call
-          └─ claude-code-video-toolkit  tools/flux2.py · tools/ltx2.py · tools/image_edit.py
-              └─ Modal GPU              FLUX.2 (A10G) · LTX-2 / Qwen edit (A100-80GB)
+          └─ scripts/modal_client.py    one JSON POST per request, stdlib only
+              └─ infra/modal/*_app.py   our own servers: FLUX.2 (A10G) · LTX-2.3 (A100-80GB)
       assets/ai/<id>-<hash>.<ext>       + .json metadata, never overwritten
   └─ reels.py build                     places each visual against every hazard
   └─ reels.py stage                     copies exactly the referenced files into studio/public/ai
@@ -20,26 +20,18 @@ Claude (kyros-doctor-reels skill)      decides: which beats, which rung, the pro
 
 Nothing here is required. A brief without `visuals` — or with
 `visuals.enabled: false` — builds exactly as it did before this existed.
-Text and number animations (`mode: "graphic"`) need no toolkit and no Modal.
+Text and number animations (`mode: "graphic"`) need no Modal at all.
 
-## 1. Install the toolkit (once)
+## 1. Install (once)
 
-The toolkit lives beside this folder, not inside it:
-
-```bash
-cd ~/Downloads/Personal/Kyros_Project
-git clone https://github.com/digitalsamba/claude-code-video-toolkit.git
-cd claude-code-video-toolkit
-uv sync --extra modal          # its own .venv, including the Modal CLI
-```
-
-Somewhere else? Set `KYROS_TOOLKIT_DIR=/path/to/claude-code-video-toolkit`.
-
-`uv` is required (`brew install uv`). The doctor bubble measures her face with
-OpenCV; install it into the Python that runs `reels.py`:
+The model servers live in this repo (`infra/modal/`), adapted from
+claude-code-video-toolkit (MIT; notice in `infra/modal/LICENSE-claude-code-video-toolkit`)
+and owned here since 2026-09-17: pins, fixes and upgrades are commits in this
+repo, not edits to an untracked clone. The Modal CLI goes into the Python that
+runs `reels.py`, together with OpenCV (the doctor bubble measures her face):
 
 ```bash
-python3 -m pip install "opencv-python-headless>=4.10,<5"
+python3 -m pip install modal "opencv-python-headless>=4.10,<5"
 ```
 
 (OpenCV 5 dropped the face detector used here. Without OpenCV the bubble falls
@@ -47,48 +39,57 @@ back to a centred estimate and says so.)
 
 ## 2. Connect Modal (once)
 
-From the toolkit folder — or run `/setup` inside a Claude Code session opened
-there, which walks the same steps:
-
 ```bash
-uv run modal setup             # opens a browser, writes ~/.modal.toml
-uv run modal app list          # proves it worked
+modal setup                    # opens a browser, writes ~/.modal.toml
+modal app list                 # proves it worked
 ```
 
-LTX-2 (video) and Qwen image edit run on an A100-80GB, which Modal only allows
-once a payment method is on the account. LTX-2 also needs a Hugging Face
-read token (and the Gemma licence accepted on huggingface.co):
+LTX-2 runs on an A100-80GB, which Modal only allows once a payment method is on
+the account. It also needs a Hugging Face read token whose account has
+accepted the Gemma licence on huggingface.co (LTX-2.5 also needs its own
+licence accepted). The apps read the secret `huggingface-secret`:
 
 ```bash
-uv run modal secret create huggingface-token HF_TOKEN=hf_...
+modal secret create huggingface-secret HF_TOKEN=hf_...
 ```
 
 Type the token yourself; never paste it into a chat.
 
-## 3. Deploy the apps (once, one at a time)
+## 3. Deploy the servers (once, one at a time)
 
-Modal rate-limits app creation, so deploy serially:
+Modal rate-limits app creation, so deploy serially. Every model download is
+pinned to a Hugging Face revision in the app file — a rebuild fetches exactly
+those weights; upgrading means changing the hash on purpose.
 
 ```bash
-uv run modal deploy docker/modal-flux2/app.py        # images — the one you need first
-uv run modal deploy docker/modal-ltx2/app.py         # video — ~15 min, bakes ~62 GB of weights
-uv run modal deploy docker/modal-image-edit/app.py   # optional — edits of a reference image
+modal deploy infra/modal/flux2_app.py      # images
+modal deploy infra/modal/ltx2_app.py       # LTX-2.3 video — kept for reels pinned to it
+modal deploy infra/modal/ltx25_app.py      # LTX-2.5 video — the default since 2026-09-17
+modal deploy infra/modal/qwen_image_app.py # Qwen-Image — opt-in per visual (food, anatomy)
 ```
 
-Each prints an endpoint URL. Put them in the toolkit's `.env`
-(`cp .env.example .env` first if it doesn't exist):
+Each prints an endpoint URL. Put them in `infra/modal/.env` (gitignored —
+account-specific):
 
 | Variable | Used for |
 |---|---|
 | `MODAL_FLUX2_ENDPOINT_URL` | `mode: "image"` |
-| `MODAL_LTX2_ENDPOINT_URL` | `mode: "video"` |
-| `MODAL_IMAGE_EDIT_ENDPOINT_URL` | `mode: "imageEdit"` |
-| `MODAL_TOKEN_ID`, `MODAL_TOKEN_SECRET` | optional — only if you locked the endpoints |
-| `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET_NAME` | optional — faster transfer of large results |
+| `MODAL_LTX2_ENDPOINT_URL` | `engine: "ltx2"` — LTX-2.3, reels pinned to it |
+| `MODAL_LTX25_ENDPOINT_URL` | `mode: "video"` — default engine `ltx25` |
+| `MODAL_QWEN_IMAGE_ENDPOINT_URL` | `engine: "qwen_image"` |
+| `MODAL_IMAGE_EDIT_ENDPOINT_URL` | `mode: "imageEdit"` — its server is not moved in yet |
+
+**Engines.** Each mode has a default (`image` → `flux2`, `video` → `ltx25`).
+A brief can set `visuals.engines: {"video": "ltx2"}`; a single visual can set
+`engine`. The engine is part of the request hash: switching it regenerates
+that visual, and a reel made before a default changed must pin the old engine
+to keep its cached files (all reels up to 2026-09-17 pin `video: ltx2`).
+`scripts/bakeoff.py` reruns the side-by-side that chose these defaults.
 
 The same names can instead be exported in the shell that runs `reels.py`. A
 missing endpoint fails that visual immediately and names the variable; there
-is no fallback to another provider.
+is no fallback to another provider. Re-deploying an app under its existing
+name keeps its URL.
 
 ## 4. Per reel
 
@@ -154,7 +155,7 @@ studio/public/ai/               copies of exactly what the staged build referenc
 ```
 
 The metadata sidecar answers, for any asset: which model (`tool`, `model`,
-`gpu`, `toolkitCommit`), what prompt (`prompt`, `negative`, `seed`, full
+`gpu`, `infraCommit` — `toolkitCommit` on assets made before 2026-09-17), what prompt (`prompt`, `negative`, `seed`, full
 `request`), which beat asked for it and why (`visualIds`, `sourceBeats`,
 `says`, `why`), when (`createdAt`), how long (`elapsedSec`) and roughly what it
 cost (`costEstimateUsd`, `costBasis`).
@@ -188,7 +189,7 @@ published per-second price for the GPU that app runs on (checked 2026-09-11):
 The wall-clock includes cold start and transfer and excludes Modal's region
 multipliers, so it is approximate. `verify` and `--generate` print the reel's
 totals (images, videos, text animations, reused, failed, estimated cost). For
-real charges: `uv run modal billing report --for today --json` in the toolkit.
+real charges: `modal billing report --for today --json`.
 The Starter plan includes $30/month of compute.
 
 ## 8. When generation fails
@@ -205,20 +206,15 @@ Symptom: `--generate` on a video waits until `timed out after 1500s`; the Modal
 logs for `video-toolkit-ltx2` repeat
 `AttributeError: module 'torch.compiler' has no attribute 'nested_compile_region'`.
 
-Cause (found 2026-09-11): the toolkit's `docker/modal-ltx2/app.py` pins
+Cause (found 2026-09-11): the app pins
 `torch==2.7.0` but cloned LTX-2's latest code unpinned; LTX-2 commit
 `2362161` (2026-08-11) started calling a torch ≥2.8 API. Every container died
 in `load_pipeline`, Modal kept restarting it, and the request just waited.
 
-Fix applied in the local toolkit clone (not yet upstream): the clone is pinned
-to `4f8905737aac86a554637cac86c178877a39c744`, the last LTX-2 commit before the
-break, which already supports the LTX-2.3 weights the app bakes. After pulling
-a newer toolkit, check that pin is still there before redeploying:
-
-```bash
-grep -n "checkout 4f89057" docker/modal-ltx2/app.py
-uv run modal deploy docker/modal-ltx2/app.py
-```
+Fix: `infra/modal/ltx2_app.py` checks out LTX-2 at
+`4f8905737aac86a554637cac86c178877a39c744`, the last commit before the break,
+which already supports the LTX-2.3 weights the app bakes. Moving past it means
+moving torch past 2.7 in the same change.
 
 A failed call's time is reported as an upper bound ("Failed calls: up to $…"),
 not as generation cost — on this failure the estimate said $1.04 and Modal
@@ -242,7 +238,7 @@ prints the reminder.
 `reels.py check _` includes `tests/test_visuals.py`: off-by-default, timing
 budgets, cache reuse and invalidation, approval and lint, failure handling,
 metadata, placement against captions/plate/mark/safe area, staging, verify,
-the toolkit command line, and the graphics' spoken-number rule. The fake
+the Modal request bodies, and the graphics' spoken-number rule. The fake
 generator writes real media with ffmpeg, so none of it needs Modal.
 
 `KYROS_SLOW=1 python3 -m pytest tests/test_visuals.py -k byte_identical`

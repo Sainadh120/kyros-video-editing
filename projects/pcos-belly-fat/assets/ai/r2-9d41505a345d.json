@@ -1,0 +1,52 @@
+{
+  "assetId": "r2-9d41505a345d",
+  "file": "r2-9d41505a345d.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A whole human heart with its main blood vessels, rendered in deep natural reds, slightly turned to show the chambers, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1876743709,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "9d41505a345dd97a5f3bd0ce39241fda107af92b0406dc3ddf529a9941d76b39",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A whole human heart with its main blood vessels, rendered in deep natural reds, slightly turned to show the chambers, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1876743709,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "r2"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "listBuild",
+  "why": "'cardiac problems'",
+  "says": "it is responsible for all the heart stroke, cardiac problems, diabetes, etc.",
+  "createdAt": "2026-09-17T10:33:13",
+  "elapsedSec": 8.01,
+  "costEstimateUsd": 0.002451,
+  "costBasis": "estimate: 8.0s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

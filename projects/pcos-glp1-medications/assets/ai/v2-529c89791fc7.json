@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-529c89791fc7",
+  "file": "v2-529c89791fc7.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "An Indian woman in her early thirties in a soft cotton kurta sits at a sunlit dining table at home, calmly holding a thick plain white prefilled injection pen in both hands and looking at it thoughtfully, seen at a medium distance from the side. Vertical 9:16 frame with a plain warm wall in the upper third. Warm golden late-afternoon light, shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour, the pen smooth, matte and completely blank.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1930875124,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "529c89791fc79b24c1582435e09b3e1e1c8d8a1d52267eeb17e47f9d0a056fa3",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "An Indian woman in her early thirties in a soft cotton kurta sits at a sunlit dining table at home, calmly holding a thick plain white prefilled injection pen in both hands and looking at it thoughtfully, seen at a medium distance from the side. Vertical 9:16 frame with a plain warm wall in the upper third. Warm golden late-afternoon light, shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour, the pen smooth, matte and completely blank.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1930875124,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "doctorBubble",
+  "why": "'weight loss injections have many advantages' — the medicine she is talking about, held, never injected",
+  "says": "the weight loss injections have many advantages,",
+  "createdAt": "2026-09-17T10:32:16",
+  "elapsedSec": 43.06,
+  "costEstimateUsd": 0.013177,
+  "costBasis": "estimate: 43.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

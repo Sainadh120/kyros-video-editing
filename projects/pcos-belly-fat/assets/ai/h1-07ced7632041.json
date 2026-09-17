@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-07ced7632041",
+  "file": "h1-07ced7632041.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her early thirties in a loose cotton kurta stands by a bright bedroom window with one hand resting lightly on her stomach, looking down thoughtfully, seen from the side at mid-body with her face softly out of focus at the top edge of the frame. Vertical 9:16 frame with a calm plain wall in the upper third. Soft natural daylight, shot on a 50mm lens, candid documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1324275454,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "07ced763204133d79286a07013c579fda7527a14487d7587bcf22e3524884116",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her early thirties in a loose cotton kurta stands by a bright bedroom window with one hand resting lightly on her stomach, looking down thoughtfully, seen from the side at mid-body with her face softly out of focus at the top edge of the frame. Vertical 9:16 frame with a calm plain wall in the upper third. Soft natural daylight, shot on a 50mm lens, candid documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1324275454,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "hookBackdrop",
+  "why": "'why should women with PCOS care' — the concern, modestly",
+  "says": "Doctor, why should women with PCOS care about",
+  "createdAt": "2026-09-17T03:35:23",
+  "elapsedSec": 8.93,
+  "costEstimateUsd": 0.002734,
+  "costBasis": "estimate: 8.9s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,678 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Doctor,",
+      "start": 0.0,
+      "end": 0.28,
+      "score": 0.5049058794975281,
+      "startFrame": 0,
+      "endFrame": 8
+    },
+    {
+      "word": "what",
+      "start": 0.76,
+      "end": 0.84,
+      "score": 0.8790336847305298,
+      "startFrame": 23,
+      "endFrame": 25
+    },
+    {
+      "word": "is",
+      "start": 0.84,
+      "end": 1.02,
+      "score": 0.9897983074188232,
+      "startFrame": 25,
+      "endFrame": 31
+    },
+    {
+      "word": "the",
+      "start": 1.02,
+      "end": 1.1,
+      "score": 0.989463210105896,
+      "startFrame": 31,
+      "endFrame": 33
+    },
+    {
+      "word": "role",
+      "start": 1.1,
+      "end": 1.28,
+      "score": 0.9827362298965454,
+      "startFrame": 33,
+      "endFrame": 38
+    },
+    {
+      "word": "of",
+      "start": 1.28,
+      "end": 1.48,
+      "score": 0.9952648878097534,
+      "startFrame": 38,
+      "endFrame": 44
+    },
+    {
+      "word": "GLP",
+      "start": 1.48,
+      "end": 2.0,
+      "score": 0.9800392687320709,
+      "startFrame": 44,
+      "endFrame": 60
+    },
+    {
+      "word": "-1",
+      "start": 2.0,
+      "end": 2.32,
+      "score": 0.8725791573524475,
+      "startFrame": 60,
+      "endFrame": 70
+    },
+    {
+      "word": "medications",
+      "start": 2.32,
+      "end": 2.78,
+      "score": 0.9446972012519836,
+      "startFrame": 70,
+      "endFrame": 83
+    },
+    {
+      "word": "in",
+      "start": 2.78,
+      "end": 3.14,
+      "score": 0.9952601790428162,
+      "startFrame": 83,
+      "endFrame": 94
+    },
+    {
+      "word": "PCOS?",
+      "start": 3.14,
+      "end": 3.6,
+      "score": 0.9840790331363678,
+      "startFrame": 94,
+      "endFrame": 108
+    },
+    {
+      "word": "As",
+      "start": 4.64,
+      "end": 4.92,
+      "score": 0.8190892934799194,
+      "startFrame": 139,
+      "endFrame": 148
+    },
+    {
+      "word": "you",
+      "start": 4.92,
+      "end": 5.1,
+      "score": 0.9883220791816711,
+      "startFrame": 148,
+      "endFrame": 153
+    },
+    {
+      "word": "know,",
+      "start": 5.1,
+      "end": 5.3,
+      "score": 0.9953952431678772,
+      "startFrame": 153,
+      "endFrame": 159
+    },
+    {
+      "word": "the",
+      "start": 5.5,
+      "end": 5.5,
+      "score": 0.8924967050552368,
+      "startFrame": 165,
+      "endFrame": 165
+    },
+    {
+      "word": "weight",
+      "start": 5.5,
+      "end": 5.62,
+      "score": 0.9594107866287231,
+      "startFrame": 165,
+      "endFrame": 169
+    },
+    {
+      "word": "loss",
+      "start": 5.62,
+      "end": 5.82,
+      "score": 0.7941796779632568,
+      "startFrame": 169,
+      "endFrame": 175
+    },
+    {
+      "word": "injections",
+      "start": 5.82,
+      "end": 6.16,
+      "score": 0.9840807914733887,
+      "startFrame": 175,
+      "endFrame": 185
+    },
+    {
+      "word": "have",
+      "start": 6.16,
+      "end": 6.66,
+      "score": 0.9870004057884216,
+      "startFrame": 185,
+      "endFrame": 200
+    },
+    {
+      "word": "many",
+      "start": 6.66,
+      "end": 7.48,
+      "score": 0.982172429561615,
+      "startFrame": 200,
+      "endFrame": 224
+    },
+    {
+      "word": "advantages,",
+      "start": 7.48,
+      "end": 8.1,
+      "score": 0.9920124411582947,
+      "startFrame": 224,
+      "endFrame": 243
+    },
+    {
+      "word": "especially",
+      "start": 8.34,
+      "end": 8.68,
+      "score": 0.9900593757629395,
+      "startFrame": 250,
+      "endFrame": 260
+    },
+    {
+      "word": "in",
+      "start": 8.68,
+      "end": 9.14,
+      "score": 0.9646052718162537,
+      "startFrame": 260,
+      "endFrame": 274
+    },
+    {
+      "word": "a",
+      "start": 9.14,
+      "end": 9.24,
+      "score": 0.7985644340515137,
+      "startFrame": 274,
+      "endFrame": 277
+    },
+    {
+      "word": "woman",
+      "start": 9.24,
+      "end": 9.44,
+      "score": 0.8859636783599854,
+      "startFrame": 277,
+      "endFrame": 283
+    },
+    {
+      "word": "with",
+      "start": 9.44,
+      "end": 9.72,
+      "score": 0.9973878264427185,
+      "startFrame": 283,
+      "endFrame": 292
+    },
+    {
+      "word": "PCOS",
+      "start": 9.72,
+      "end": 10.18,
+      "score": 0.9684363305568695,
+      "startFrame": 292,
+      "endFrame": 305
+    },
+    {
+      "word": "who",
+      "start": 10.18,
+      "end": 10.44,
+      "score": 0.8471593856811523,
+      "startFrame": 305,
+      "endFrame": 313
+    },
+    {
+      "word": "have",
+      "start": 10.44,
+      "end": 10.66,
+      "score": 0.39288368821144104,
+      "startFrame": 313,
+      "endFrame": 320
+    },
+    {
+      "word": "insulin",
+      "start": 10.66,
+      "end": 11.02,
+      "score": 0.977292537689209,
+      "startFrame": 320,
+      "endFrame": 331
+    },
+    {
+      "word": "resistance.",
+      "start": 11.02,
+      "end": 11.52,
+      "score": 0.9893652200698853,
+      "startFrame": 331,
+      "endFrame": 346
+    },
+    {
+      "word": "These",
+      "start": 12.28,
+      "end": 12.68,
+      "score": 0.9792364835739136,
+      "startFrame": 368,
+      "endFrame": 380
+    },
+    {
+      "word": "weight",
+      "start": 12.68,
+      "end": 12.9,
+      "score": 0.9850775599479675,
+      "startFrame": 380,
+      "endFrame": 387
+    },
+    {
+      "word": "loss",
+      "start": 12.9,
+      "end": 13.08,
+      "score": 0.9280604124069214,
+      "startFrame": 387,
+      "endFrame": 392
+    },
+    {
+      "word": "injections,",
+      "start": 13.08,
+      "end": 13.6,
+      "score": 0.9982849955558777,
+      "startFrame": 392,
+      "endFrame": 408
+    },
+    {
+      "word": "they",
+      "start": 13.88,
+      "end": 13.88,
+      "score": 0.973332405090332,
+      "startFrame": 416,
+      "endFrame": 416
+    },
+    {
+      "word": "reduce",
+      "start": 13.88,
+      "end": 14.22,
+      "score": 0.9909641742706299,
+      "startFrame": 416,
+      "endFrame": 427
+    },
+    {
+      "word": "the",
+      "start": 14.22,
+      "end": 14.42,
+      "score": 0.9422475099563599,
+      "startFrame": 427,
+      "endFrame": 433
+    },
+    {
+      "word": "appetite,",
+      "start": 14.42,
+      "end": 14.78,
+      "score": 0.5090566873550415,
+      "startFrame": 433,
+      "endFrame": 443
+    },
+    {
+      "word": "delays",
+      "start": 15.24,
+      "end": 15.56,
+      "score": 0.7440957427024841,
+      "startFrame": 457,
+      "endFrame": 467
+    },
+    {
+      "word": "gastric",
+      "start": 15.56,
+      "end": 16.12,
+      "score": 0.9938722550868988,
+      "startFrame": 467,
+      "endFrame": 484
+    },
+    {
+      "word": "emptying,",
+      "start": 16.12,
+      "end": 16.54,
+      "score": 0.9901815056800842,
+      "startFrame": 484,
+      "endFrame": 496
+    },
+    {
+      "word": "decreases",
+      "start": 16.72,
+      "end": 17.16,
+      "score": 0.8472315073013306,
+      "startFrame": 502,
+      "endFrame": 515
+    },
+    {
+      "word": "inflammation,",
+      "start": 17.16,
+      "end": 17.78,
+      "score": 0.9952921867370605,
+      "startFrame": 515,
+      "endFrame": 533
+    },
+    {
+      "word": "reduces",
+      "start": 18.18,
+      "end": 18.54,
+      "score": 0.9827051758766174,
+      "startFrame": 545,
+      "endFrame": 556
+    },
+    {
+      "word": "visceral",
+      "start": 18.54,
+      "end": 19.06,
+      "score": 0.8620521426200867,
+      "startFrame": 556,
+      "endFrame": 572
+    },
+    {
+      "word": "fat.",
+      "start": 19.06,
+      "end": 19.4,
+      "score": 0.9958731532096863,
+      "startFrame": 572,
+      "endFrame": 582
+    },
+    {
+      "word": "So",
+      "start": 19.86,
+      "end": 19.88,
+      "score": 0.972519040107727,
+      "startFrame": 596,
+      "endFrame": 596
+    },
+    {
+      "word": "thereby",
+      "start": 19.88,
+      "end": 20.34,
+      "score": 0.5012122988700867,
+      "startFrame": 596,
+      "endFrame": 610
+    },
+    {
+      "word": "it",
+      "start": 20.34,
+      "end": 20.62,
+      "score": 0.42989617586135864,
+      "startFrame": 610,
+      "endFrame": 619
+    },
+    {
+      "word": "address",
+      "start": 20.62,
+      "end": 21.0,
+      "score": 0.5008425116539001,
+      "startFrame": 619,
+      "endFrame": 630
+    },
+    {
+      "word": "almost",
+      "start": 21.0,
+      "end": 21.56,
+      "score": 0.9845713376998901,
+      "startFrame": 630,
+      "endFrame": 647
+    },
+    {
+      "word": "majority",
+      "start": 21.56,
+      "end": 22.2,
+      "score": 0.9281083345413208,
+      "startFrame": 647,
+      "endFrame": 666
+    },
+    {
+      "word": "of",
+      "start": 22.2,
+      "end": 22.54,
+      "score": 0.9977731108665466,
+      "startFrame": 666,
+      "endFrame": 676
+    },
+    {
+      "word": "pathophysiological",
+      "start": 22.54,
+      "end": 23.3,
+      "score": 0.9464688499768575,
+      "startFrame": 676,
+      "endFrame": 699
+    },
+    {
+      "word": "mechanisms",
+      "start": 23.3,
+      "end": 24.0,
+      "score": 0.9846604466438293,
+      "startFrame": 699,
+      "endFrame": 720
+    },
+    {
+      "word": "of",
+      "start": 24.0,
+      "end": 24.26,
+      "score": 0.9979402422904968,
+      "startFrame": 720,
+      "endFrame": 728
+    },
+    {
+      "word": "PCOS.",
+      "start": 24.26,
+      "end": 24.74,
+      "score": 0.9799396693706512,
+      "startFrame": 728,
+      "endFrame": 742
+    },
+    {
+      "word": "So",
+      "start": 25.28,
+      "end": 25.5,
+      "score": 0.9802465438842773,
+      "startFrame": 758,
+      "endFrame": 765
+    },
+    {
+      "word": "consult",
+      "start": 25.5,
+      "end": 25.88,
+      "score": 0.9143595695495605,
+      "startFrame": 765,
+      "endFrame": 776
+    },
+    {
+      "word": "your",
+      "start": 25.88,
+      "end": 26.18,
+      "score": 0.9929897785186768,
+      "startFrame": 776,
+      "endFrame": 785
+    },
+    {
+      "word": "doctor.",
+      "start": 26.18,
+      "end": 26.4,
+      "score": 0.9914041757583618,
+      "startFrame": 785,
+      "endFrame": 792
+    },
+    {
+      "word": "If",
+      "start": 26.74,
+      "end": 26.84,
+      "score": 0.991360604763031,
+      "startFrame": 802,
+      "endFrame": 805
+    },
+    {
+      "word": "you're",
+      "start": 26.84,
+      "end": 27.06,
+      "score": 0.6305482089519501,
+      "startFrame": 805,
+      "endFrame": 812
+    },
+    {
+      "word": "an",
+      "start": 27.06,
+      "end": 27.14,
+      "score": 0.7269272804260254,
+      "startFrame": 812,
+      "endFrame": 814
+    },
+    {
+      "word": "ideal",
+      "start": 27.14,
+      "end": 27.56,
+      "score": 0.9985981583595276,
+      "startFrame": 814,
+      "endFrame": 827
+    },
+    {
+      "word": "patient",
+      "start": 27.56,
+      "end": 27.88,
+      "score": 0.9981998205184937,
+      "startFrame": 827,
+      "endFrame": 836
+    },
+    {
+      "word": "for",
+      "start": 27.88,
+      "end": 28.22,
+      "score": 0.9953853487968445,
+      "startFrame": 836,
+      "endFrame": 847
+    },
+    {
+      "word": "weight",
+      "start": 28.22,
+      "end": 28.44,
+      "score": 0.9747273921966553,
+      "startFrame": 847,
+      "endFrame": 853
+    },
+    {
+      "word": "loss",
+      "start": 28.44,
+      "end": 28.64,
+      "score": 0.948273241519928,
+      "startFrame": 853,
+      "endFrame": 859
+    },
+    {
+      "word": "injections,",
+      "start": 28.64,
+      "end": 29.12,
+      "score": 0.9933335185050964,
+      "startFrame": 859,
+      "endFrame": 874
+    },
+    {
+      "word": "one",
+      "start": 29.12,
+      "end": 29.44,
+      "score": 0.5091850757598877,
+      "startFrame": 874,
+      "endFrame": 883
+    },
+    {
+      "word": "must",
+      "start": 29.44,
+      "end": 29.68,
+      "score": 0.9934698343276978,
+      "startFrame": 883,
+      "endFrame": 890
+    },
+    {
+      "word": "use",
+      "start": 29.68,
+      "end": 30.06,
+      "score": 0.9942408800125122,
+      "startFrame": 890,
+      "endFrame": 902
+    },
+    {
+      "word": "these",
+      "start": 30.06,
+      "end": 30.3,
+      "score": 0.6905769109725952,
+      "startFrame": 902,
+      "endFrame": 909
+    },
+    {
+      "word": "injections",
+      "start": 30.3,
+      "end": 30.74,
+      "score": 0.9831348657608032,
+      "startFrame": 909,
+      "endFrame": 922
+    },
+    {
+      "word": "for",
+      "start": 30.74,
+      "end": 31.04,
+      "score": 0.9950005412101746,
+      "startFrame": 922,
+      "endFrame": 931
+    },
+    {
+      "word": "many",
+      "start": 31.04,
+      "end": 31.44,
+      "score": 0.9956830739974976,
+      "startFrame": 931,
+      "endFrame": 943
+    },
+    {
+      "word": "benefits",
+      "start": 31.44,
+      "end": 31.88,
+      "score": 0.9969899654388428,
+      "startFrame": 943,
+      "endFrame": 956
+    },
+    {
+      "word": "in",
+      "start": 31.88,
+      "end": 32.18,
+      "score": 0.9895826578140259,
+      "startFrame": 956,
+      "endFrame": 965
+    },
+    {
+      "word": "any",
+      "start": 32.18,
+      "end": 32.42,
+      "score": 0.9967195391654968,
+      "startFrame": 965,
+      "endFrame": 973
+    },
+    {
+      "word": "patient",
+      "start": 32.42,
+      "end": 32.74,
+      "score": 0.9387145042419434,
+      "startFrame": 973,
+      "endFrame": 982
+    },
+    {
+      "word": "with",
+      "start": 32.74,
+      "end": 32.94,
+      "score": 0.9959251880645752,
+      "startFrame": 982,
+      "endFrame": 988
+    },
+    {
+      "word": "PCOS.",
+      "start": 32.94,
+      "end": 33.38,
+      "score": 0.8881549835205078,
+      "startFrame": 988,
+      "endFrame": 1001
+    }
+  ]
+}

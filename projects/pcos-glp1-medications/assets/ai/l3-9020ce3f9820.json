@@ -1,0 +1,52 @@
+{
+  "assetId": "l3-9020ce3f9820",
+  "file": "l3-9020ce3f9820.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "The inside of a smooth healthy blood vessel with calm red blood cells flowing through it and a few small immune cells glowing a soft cool blue along its wall, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1306005165,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "9020ce3f982049e85bf74312978c859a8331cb43985e52ddb96a9055cab2aa5a",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "The inside of a smooth healthy blood vessel with calm red blood cells flowing through it and a few small immune cells glowing a soft cool blue along its wall, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1306005165,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l3"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "listBuild",
+  "why": "'decreases inflammation'",
+  "says": "they reduce the appetite, delays gastric emptying, decreases inflammation, reduces visceral fat.",
+  "createdAt": "2026-09-17T10:32:39",
+  "elapsedSec": 7.14,
+  "costEstimateUsd": 0.002184,
+  "costBasis": "estimate: 7.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

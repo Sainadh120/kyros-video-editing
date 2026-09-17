@@ -1,0 +1,52 @@
+{
+  "assetId": "l4-8b6eee7a3d63",
+  "file": "l4-8b6eee7a3d63.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A tall plain glass of thin white spiced buttermilk garnished with a few curry leaves and chopped coriander, beside a small steel tumbler, on a wooden table, soft daylight, square composition, realistic documentary photograph, true-to-life colour, plain unmarked glass.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1967819385,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "8b6eee7a3d63c4898ed39e1de0039c981c1f4c0d9ed3ffec6423f0831acd97cc",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A tall plain glass of thin white spiced buttermilk garnished with a few curry leaves and chopped coriander, beside a small steel tumbler, on a wooden table, soft daylight, square composition, realistic documentary photograph, true-to-life colour, plain unmarked glass.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1967819385,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l4"
+  ],
+  "sourceBeats": [
+    7
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "listBuild",
+  "why": "'buttermilk'",
+  "says": "eat fermented foods like curd, buttermilk, idly etc",
+  "createdAt": "2026-09-17T03:34:11",
+  "elapsedSec": 5.14,
+  "costEstimateUsd": 0.001574,
+  "costBasis": "estimate: 5.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,52 @@
+{
+  "assetId": "v1-6eb611eba9ec",
+  "file": "v1-6eb611eba9ec.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in a soft cotton kurta holds a cloth measuring tape around her waist over her clothes, seen from the side at mid-body, modest framing with her face out of frame, warm available window light in a simple bedroom. Vertical 9:16 frame with a plain wall in the upper third. Handheld documentary photograph, true-to-life colour, the tape plain and seen edge-on so no numbers show.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1005172746,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "6eb611eba9ecb23b420eaa72be87d5b82fc9bf09ca27b46475d624634761b337",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in a soft cotton kurta holds a cloth measuring tape around her waist over her clothes, seen from the side at mid-body, modest framing with her face out of frame, warm available window light in a simple bedroom. Vertical 9:16 frame with a plain wall in the upper third. Handheld documentary photograph, true-to-life colour, the tape plain and seen edge-on so no numbers show.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1005172746,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v1"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-stress",
+  "treatment": "doctorBubble",
+  "why": "'it increases the belly fat' — shown literally, nothing read off the tape",
+  "says": "It increases the belly fat.",
+  "createdAt": "2026-09-17T03:35:14",
+  "elapsedSec": 12.21,
+  "costEstimateUsd": 0.003735,
+  "costBasis": "estimate: 12.2s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

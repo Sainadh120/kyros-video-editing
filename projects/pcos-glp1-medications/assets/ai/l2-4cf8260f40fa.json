@@ -1,0 +1,52 @@
+{
+  "assetId": "l2-4cf8260f40fa",
+  "file": "l2-4cf8260f40fa.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A translucent human stomach seen from the front, softly lit from within, holding a gently churning mass of food with only a thin stream passing slowly into the small intestine below, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 852927768,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "4cf8260f40fa6f7889c976a04e23b8ab831f9827a9f20376ad90d808a2ac8333",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A translucent human stomach seen from the front, softly lit from within, holding a gently churning mass of food with only a thin stream passing slowly into the small intestine below, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 852927768,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l2"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "listBuild",
+  "why": "'delays gastric emptying'",
+  "says": "they reduce the appetite, delays gastric emptying, decreases inflammation, reduces visceral fat.",
+  "createdAt": "2026-09-17T10:32:32",
+  "elapsedSec": 5.43,
+  "costEstimateUsd": 0.001662,
+  "costBasis": "estimate: 5.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

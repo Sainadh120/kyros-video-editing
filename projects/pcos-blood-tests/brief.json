@@ -391,7 +391,11 @@
         "_why": "'waist circumference measurement'",
         "approvedHash": "df3a036e62c03fe4ad77244353632399e17920bfc2d27805f8672a39f57274ba"
       }
-    ]
+    ],
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
   },
   "openFlags": [],
   "_resolved": [

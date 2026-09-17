@@ -1,0 +1,55 @@
+{
+  "assetId": "h2-3cf5049cb9c0",
+  "file": "h2-3cf5049cb9c0.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "A woman in her early thirties in a soft cotton kurta stands at a bright kitchen counter and tips a single plain amber softgel capsule from a small plain white jar into her open palm, then pauses and looks at it. The camera holds at a medium distance at counter height with a slow gentle push in. Soft bright morning window light from the left. Realistic, natural motion, true-to-life colour, the jar smooth, matte and completely blank.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 1061088880,
+  "numFrames": 57,
+  "fps": 24,
+  "input": null,
+  "requestHash": "3cf5049cb9c090242be208dd8e2ae68426f40ff0c98f3020b786e3db704d3c04",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "A woman in her early thirties in a soft cotton kurta stands at a bright kitchen counter and tips a single plain amber softgel capsule from a small plain white jar into her open palm, then pauses and looks at it. The camera holds at a medium distance at counter height with a slow gentle push in. Soft bright morning window light from the left. Realistic, natural motion, true-to-life colour, the jar smooth, matte and completely blank.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 1061088880,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 57,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-supplements",
+  "treatment": "hookBackdrop",
+  "why": "'can PCOS patients take?' — the act of taking one, not a result",
+  "says": "patients take?",
+  "createdAt": "2026-09-17T04:31:25",
+  "elapsedSec": 89.86,
+  "costEstimateUsd": 0.062364,
+  "costBasis": "estimate: 89.9s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 2.375,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,52 @@
+{
+  "assetId": "r1-036e215fc9d1",
+  "file": "r1-036e215fc9d1.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A textbook 3D medical illustration of a single coronary blood vessel shown as a long tube cut lengthwise, its inner wall lined with a thick yellow plaque buildup that narrows the channel, a few red blood cells squeezing through the narrow gap, square composition, clean educational render, soft studio lighting on a plain deep teal background, clearly an anatomical illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1035134427,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "036e215fc9d1b183a08c55928f12d797ea63f1a157e337028c152e727a473be8",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A textbook 3D medical illustration of a single coronary blood vessel shown as a long tube cut lengthwise, its inner wall lined with a thick yellow plaque buildup that narrows the channel, a few red blood cells squeezing through the narrow gap, square composition, clean educational render, soft studio lighting on a plain deep teal background, clearly an anatomical illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1035134427,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "r1"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "listBuild",
+  "why": "'heart stroke'",
+  "says": "it is responsible for all the heart stroke, cardiac problems, diabetes, etc.",
+  "createdAt": "2026-09-17T10:34:25",
+  "elapsedSec": 5.59,
+  "costEstimateUsd": 0.001712,
+  "costBasis": "estimate: 5.6s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,55 @@
+{
+  "assetId": "h2-59fdd0413c36",
+  "file": "h2-59fdd0413c36.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "A woman in her thirties stands by a dark apartment window at night, city lights softly blurred outside, and slowly rubs her forehead with one hand, then lets out a tired breath. The camera holds behind her shoulder at a medium distance and drifts slowly sideways. Cool blue night light from the window and a faint warm lamp behind. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 265680904,
+  "numFrames": 65,
+  "fps": 24,
+  "input": null,
+  "requestHash": "59fdd0413c36d0a5fd999a93dd3ec614551760b86f4f47b14a3d0d9c0c034774",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "A woman in her thirties stands by a dark apartment window at night, city lights softly blurred outside, and slowly rubs her forehead with one hand, then lets out a tired breath. The camera holds behind her shoulder at a medium distance and drifts slowly sideways. Cool blue night light from the window and a faint warm lamp behind. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 265680904,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 65,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-stress",
+  "treatment": "hookBackdrop",
+  "why": "'affect PCOS patients?' — the weight of stress, motion is the breath",
+  "says": "PCOS patients?",
+  "createdAt": "2026-09-17T04:34:36",
+  "elapsedSec": 93.62,
+  "costEstimateUsd": 0.064974,
+  "costBasis": "estimate: 93.6s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 2.708333,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

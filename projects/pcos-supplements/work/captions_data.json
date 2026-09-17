@@ -1,0 +1,1851 @@
+{
+  "zoom": null,
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1159,
+    "videoFrames": 1069,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-supplements",
+    "style": {
+      "_comment": "Niranjan 2026-09-17: every reel different in colour, type, animation and grade, all premium. Pinned so the four differ from each other and from pcos-gut-health (warmEditorial/maskWipeFast/ink/brick/dark).",
+      "typePairing": "quietPremium",
+      "revealStyle": "blurIn",
+      "leadStyle": "tint",
+      "paletteLead": "deep teal",
+      "textPosition": "top on the bare wall",
+      "payloadTreatment": "stacked caps, no stroke",
+      "accent": "teal & indigo \u2014 cool, clinical, to match the cool grade; keyColor pinned per chunk from palette.py POOL, APCA against measured top wall #E4C4A8: deep teal:67, indigo:69, deep teal:67, forest:67, deep teal:67, indigo:69, deep teal:67, forest:67",
+      "colourStory": "teal & indigo \u2014 cool, clinical, to match the cool grade"
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#E4C4A8",
+        "wallShadow": "#B7987D"
+      },
+      "onLight": {
+        "lead": "#604C40",
+        "key": "#3A2416",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#120C08",
+        "lead": "#FFF6E8",
+        "key": "#F4CE87",
+        "keyAlt": "#E8A33C",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#41625F",
+        "key": "#0E3A38",
+        "keyAlt": "#9E3B16"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "InstrumentSerif",
+        "weight": 400,
+        "lineHeight": 1.16,
+        "letterSpacing": 0.0,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 44,
+        "googleFontsModule": "InstrumentSerif",
+        "style": "italic",
+        "weights": [
+          400
+        ]
+      },
+      "key": {
+        "fontFamily": "Antonio",
+        "weight": 700,
+        "lineHeight": 0.96,
+        "letterSpacing": -0.3,
+        "advanceEm": 0.44,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 70,
+        "bottomMaxOneLine": 140,
+        "bottomMaxMultiLine": 108,
+        "googleFontsModule": "Antonio",
+        "style": "normal",
+        "weights": [
+          700
+        ]
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      },
+      "stroke": {
+        "color": null,
+        "keyEm": 0.105,
+        "leadEm": 0.075,
+        "shadow": "0 8px 26px rgba(0,0,0,0.40)"
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1150,
+      "height": 430,
+      "paddingX": 84,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": true,
+      "color": "#FAEADB",
+      "opacity": 0.8,
+      "top": 900,
+      "ground": "light",
+      "feather": "auto"
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 1386,
+      "holdFrames": 57,
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    }
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/IdeaProjects/kyros-video-editing/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": []
+  },
+  "fixtures": {
+    "plateFromFrame": 121,
+    "logoFromFrame": 145,
+    "logoHideWindows": [
+      [
+        631,
+        779
+      ]
+    ]
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 1069,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 1159
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 1069,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 1099
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "card": {
+        "bg": "#0E2A2F",
+        "opacity": 0.985,
+        "lead": "#EAF4F1",
+        "key": "#8FE3D1",
+        "texture": "vignette",
+        "_apca": "lead 95.9 / key 77.0",
+        "_why": "Niranjan 2026-09-17 asked for better question colours: sea-glass mint on deep sea teal, tied to this reel's colour story",
+        "dark": true
+      },
+      "scrimOpacity": 0.985,
+      "exitFrame": 110,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "key",
+          "words": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "lines": [
+            "WHAT SUPPLEMENTS"
+          ],
+          "_wordsNote": "0-1 are the interviewer's 'Ma'am' (heard as 'And Nam')",
+          "appearFrame": 0,
+          "text": "And Nam, what supplements",
+          "size": 133
+        },
+        {
+          "style": "lead",
+          "words": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "appearFrame": 41,
+          "text": "can PCOS patients take?"
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 121,
+      "toFrame": 1069,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "top",
+          "leadWords": [
+            8,
+            9,
+            10
+          ],
+          "leadText": "Usually, supplements are",
+          "leadSize": 70,
+          "leadColor": "#41625F",
+          "leadDark": true,
+          "keyWords": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "keyLines": [
+            "GOOD FOR ANY",
+            "PCOS PATIENT"
+          ],
+          "keySize": 178,
+          "keyColor": "#0E3A38",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 121,
+          "toFrame": 248,
+          "keyFromFrame": 169,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-2",
+          "zone": "top",
+          "leadWords": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "leadText": "but the evidence is",
+          "leadSize": 70,
+          "leadColor": "#4F5380",
+          "leadDark": true,
+          "keyWords": [
+            21,
+            22,
+            23
+          ],
+          "keyLines": [
+            "VERY",
+            "LIMITED"
+          ],
+          "keySize": 178,
+          "keyColor": "#28285C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 248,
+          "toFrame": 322,
+          "keyFromFrame": 276,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-3",
+          "zone": "top",
+          "leadWords": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "leadText": "Only few drugs are proved to",
+          "leadSize": 70,
+          "leadColor": "#41625F",
+          "leadDark": true,
+          "keyWords": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "keyLines": [
+            "ADDRESS THE",
+            "PATHOPHYSIOLOGY"
+          ],
+          "keySize": 142,
+          "keyColor": "#0E3A38",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 322,
+          "toFrame": 460,
+          "keyFromFrame": 376,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-5",
+          "zone": "top",
+          "leadWords": [
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "leadText": "So, what I suggest is,",
+          "leadSize": 70,
+          "leadColor": "#426555",
+          "leadDark": true,
+          "keyWords": [
+            50,
+            51,
+            52
+          ],
+          "keyLines": [
+            "DO NOT TAKE"
+          ],
+          "keySize": 194,
+          "keyColor": "#103D2C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 631,
+          "toFrame": 713,
+          "keyFromFrame": 694,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-6",
+          "zone": "top",
+          "leadWords": [],
+          "leadText": "",
+          "leadSize": 70,
+          "leadColor": "#41625F",
+          "leadDark": true,
+          "keyWords": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "keyLines": [
+            "OVER-THE-COUNTER",
+            "SUPPLEMENTS"
+          ],
+          "keySize": 133,
+          "keyColor": "#0E3A38",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 713,
+          "toFrame": 767,
+          "keyFromFrame": 713,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-7",
+          "zone": "top",
+          "leadWords": [
+            57
+          ],
+          "leadText": "always",
+          "leadSize": 70,
+          "leadColor": "#4F5380",
+          "leadDark": true,
+          "keyWords": [
+            58,
+            59,
+            60
+          ],
+          "keyLines": [
+            "CONSULT YOUR",
+            "PHYSICIAN"
+          ],
+          "keySize": 178,
+          "keyColor": "#28285C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 767,
+          "toFrame": 889,
+          "keyFromFrame": 800,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-8",
+          "zone": "top",
+          "leadWords": [
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "leadText": "and also look for the",
+          "leadSize": 70,
+          "leadColor": "#41625F",
+          "leadDark": true,
+          "keyWords": [
+            70
+          ],
+          "keyLines": [
+            "DEFICIENCIES"
+          ],
+          "keySize": 178,
+          "keyColor": "#0E3A38",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 889,
+          "toFrame": 966,
+          "keyFromFrame": 949,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        },
+        {
+          "id": "chunk-9",
+          "zone": "top",
+          "leadWords": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "leadText": "because not all supplements",
+          "leadSize": 70,
+          "leadColor": "#426555",
+          "leadDark": true,
+          "keyWords": [
+            76,
+            77,
+            78
+          ],
+          "keyLines": [
+            "REQUIRED WITHOUT",
+            "DEFICIENCY"
+          ],
+          "keySize": 133,
+          "keyColor": "#103D2C",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 966,
+          "toFrame": 1062,
+          "keyFromFrame": 1019,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "blurIn"
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "And",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 14
+      },
+      {
+        "index": 1,
+        "text": "Nam,",
+        "startFrame": 14,
+        "activeFromFrame": 14,
+        "activeToFrame": 23
+      },
+      {
+        "index": 2,
+        "text": "what",
+        "startFrame": 23,
+        "activeFromFrame": 23,
+        "activeToFrame": 28
+      },
+      {
+        "index": 3,
+        "text": "supplements",
+        "startFrame": 28,
+        "activeFromFrame": 28,
+        "activeToFrame": 41
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "startFrame": 41,
+        "activeFromFrame": 41,
+        "activeToFrame": 50
+      },
+      {
+        "index": 5,
+        "text": "PCOS",
+        "startFrame": 50,
+        "activeFromFrame": 50,
+        "activeToFrame": 64
+      },
+      {
+        "index": 6,
+        "text": "patients",
+        "startFrame": 64,
+        "activeFromFrame": 64,
+        "activeToFrame": 76
+      },
+      {
+        "index": 7,
+        "text": "take?",
+        "startFrame": 76,
+        "activeFromFrame": 76,
+        "activeToFrame": 121
+      },
+      {
+        "index": 8,
+        "text": "Usually,",
+        "startFrame": 121,
+        "activeFromFrame": 121,
+        "activeToFrame": 145
+      },
+      {
+        "index": 9,
+        "text": "supplements",
+        "startFrame": 145,
+        "activeFromFrame": 145,
+        "activeToFrame": 154
+      },
+      {
+        "index": 10,
+        "text": "are",
+        "startFrame": 154,
+        "activeFromFrame": 154,
+        "activeToFrame": 169
+      },
+      {
+        "index": 11,
+        "text": "good",
+        "startFrame": 169,
+        "activeFromFrame": 169,
+        "activeToFrame": 181
+      },
+      {
+        "index": 12,
+        "text": "for",
+        "startFrame": 181,
+        "activeFromFrame": 181,
+        "activeToFrame": 191
+      },
+      {
+        "index": 13,
+        "text": "any",
+        "startFrame": 191,
+        "activeFromFrame": 191,
+        "activeToFrame": 202
+      },
+      {
+        "index": 14,
+        "text": "patient",
+        "startFrame": 202,
+        "activeFromFrame": 202,
+        "activeToFrame": 216
+      },
+      {
+        "index": 15,
+        "text": "with",
+        "startFrame": 216,
+        "activeFromFrame": 216,
+        "activeToFrame": 223
+      },
+      {
+        "index": 16,
+        "text": "PCOS,",
+        "startFrame": 223,
+        "activeFromFrame": 223,
+        "activeToFrame": 248
+      },
+      {
+        "index": 17,
+        "text": "but",
+        "startFrame": 248,
+        "activeFromFrame": 248,
+        "activeToFrame": 253
+      },
+      {
+        "index": 18,
+        "text": "the",
+        "startFrame": 253,
+        "activeFromFrame": 253,
+        "activeToFrame": 257
+      },
+      {
+        "index": 19,
+        "text": "evidence",
+        "startFrame": 257,
+        "activeFromFrame": 257,
+        "activeToFrame": 266
+      },
+      {
+        "index": 20,
+        "text": "is",
+        "startFrame": 266,
+        "activeFromFrame": 266,
+        "activeToFrame": 276
+      },
+      {
+        "index": 21,
+        "text": "very",
+        "startFrame": 276,
+        "activeFromFrame": 276,
+        "activeToFrame": 286
+      },
+      {
+        "index": 22,
+        "text": "much",
+        "startFrame": 286,
+        "activeFromFrame": 286,
+        "activeToFrame": 292
+      },
+      {
+        "index": 23,
+        "text": "limited.",
+        "startFrame": 292,
+        "activeFromFrame": 292,
+        "activeToFrame": 322
+      },
+      {
+        "index": 24,
+        "text": "Only",
+        "startFrame": 322,
+        "activeFromFrame": 322,
+        "activeToFrame": 327
+      },
+      {
+        "index": 25,
+        "text": "few",
+        "startFrame": 327,
+        "activeFromFrame": 327,
+        "activeToFrame": 338
+      },
+      {
+        "index": 26,
+        "text": "drugs",
+        "startFrame": 338,
+        "activeFromFrame": 338,
+        "activeToFrame": 346
+      },
+      {
+        "index": 27,
+        "text": "are",
+        "startFrame": 346,
+        "activeFromFrame": 346,
+        "activeToFrame": 353
+      },
+      {
+        "index": 28,
+        "text": "proved",
+        "startFrame": 353,
+        "activeFromFrame": 353,
+        "activeToFrame": 364
+      },
+      {
+        "index": 29,
+        "text": "to",
+        "startFrame": 364,
+        "activeFromFrame": 364,
+        "activeToFrame": 376
+      },
+      {
+        "index": 30,
+        "text": "address",
+        "startFrame": 376,
+        "activeFromFrame": 376,
+        "activeToFrame": 411
+      },
+      {
+        "index": 31,
+        "text": "this",
+        "startFrame": 411,
+        "activeFromFrame": 411,
+        "activeToFrame": 418
+      },
+      {
+        "index": 32,
+        "text": "pathophysiology",
+        "startFrame": 418,
+        "activeFromFrame": 418,
+        "activeToFrame": 439
+      },
+      {
+        "index": 33,
+        "text": "of",
+        "startFrame": 439,
+        "activeFromFrame": 439,
+        "activeToFrame": 445
+      },
+      {
+        "index": 34,
+        "text": "PCOS",
+        "startFrame": 445,
+        "activeFromFrame": 445,
+        "activeToFrame": 460
+      },
+      {
+        "index": 35,
+        "text": "like",
+        "startFrame": 460,
+        "activeFromFrame": 460,
+        "activeToFrame": 469
+      },
+      {
+        "index": 36,
+        "text": "calcium,",
+        "startFrame": 469,
+        "activeFromFrame": 469,
+        "activeToFrame": 506
+      },
+      {
+        "index": 37,
+        "text": "vitamin",
+        "startFrame": 506,
+        "activeFromFrame": 506,
+        "activeToFrame": 515
+      },
+      {
+        "index": 38,
+        "text": "D,",
+        "startFrame": 515,
+        "activeFromFrame": 515,
+        "activeToFrame": 533
+      },
+      {
+        "index": 39,
+        "text": "omega",
+        "startFrame": 533,
+        "activeFromFrame": 533,
+        "activeToFrame": 539
+      },
+      {
+        "index": 40,
+        "text": "-3",
+        "startFrame": 539,
+        "activeFromFrame": 539,
+        "activeToFrame": 551
+      },
+      {
+        "index": 41,
+        "text": "fatty",
+        "startFrame": 551,
+        "activeFromFrame": 551,
+        "activeToFrame": 562
+      },
+      {
+        "index": 42,
+        "text": "acids,",
+        "startFrame": 562,
+        "activeFromFrame": 562,
+        "activeToFrame": 581
+      },
+      {
+        "index": 43,
+        "text": "myo",
+        "startFrame": 581,
+        "activeFromFrame": 581,
+        "activeToFrame": 587
+      },
+      {
+        "index": 44,
+        "text": "-enositol.",
+        "startFrame": 587,
+        "activeFromFrame": 587,
+        "activeToFrame": 631
+      },
+      {
+        "index": 45,
+        "text": "So,",
+        "startFrame": 631,
+        "activeFromFrame": 631,
+        "activeToFrame": 643
+      },
+      {
+        "index": 46,
+        "text": "what",
+        "startFrame": 643,
+        "activeFromFrame": 643,
+        "activeToFrame": 651
+      },
+      {
+        "index": 47,
+        "text": "I",
+        "startFrame": 651,
+        "activeFromFrame": 651,
+        "activeToFrame": 661
+      },
+      {
+        "index": 48,
+        "text": "suggest",
+        "startFrame": 661,
+        "activeFromFrame": 661,
+        "activeToFrame": 673
+      },
+      {
+        "index": 49,
+        "text": "is,",
+        "startFrame": 673,
+        "activeFromFrame": 673,
+        "activeToFrame": 694
+      },
+      {
+        "index": 50,
+        "text": "do",
+        "startFrame": 694,
+        "activeFromFrame": 694,
+        "activeToFrame": 697
+      },
+      {
+        "index": 51,
+        "text": "not",
+        "startFrame": 697,
+        "activeFromFrame": 697,
+        "activeToFrame": 704
+      },
+      {
+        "index": 52,
+        "text": "take",
+        "startFrame": 704,
+        "activeFromFrame": 704,
+        "activeToFrame": 713
+      },
+      {
+        "index": 53,
+        "text": "over",
+        "startFrame": 713,
+        "activeFromFrame": 713,
+        "activeToFrame": 724
+      },
+      {
+        "index": 54,
+        "text": "-the",
+        "startFrame": 724,
+        "activeFromFrame": 724,
+        "activeToFrame": 730
+      },
+      {
+        "index": 55,
+        "text": "-counter",
+        "startFrame": 730,
+        "activeFromFrame": 730,
+        "activeToFrame": 740
+      },
+      {
+        "index": 56,
+        "text": "supplements.",
+        "startFrame": 740,
+        "activeFromFrame": 740,
+        "activeToFrame": 767
+      },
+      {
+        "index": 57,
+        "text": "always",
+        "startFrame": 767,
+        "activeFromFrame": 767,
+        "activeToFrame": 800
+      },
+      {
+        "index": 58,
+        "text": "consult",
+        "startFrame": 800,
+        "activeFromFrame": 800,
+        "activeToFrame": 817
+      },
+      {
+        "index": 59,
+        "text": "your",
+        "startFrame": 817,
+        "activeFromFrame": 817,
+        "activeToFrame": 825
+      },
+      {
+        "index": 60,
+        "text": "physician",
+        "startFrame": 825,
+        "activeFromFrame": 825,
+        "activeToFrame": 838
+      },
+      {
+        "index": 61,
+        "text": "before",
+        "startFrame": 838,
+        "activeFromFrame": 838,
+        "activeToFrame": 853
+      },
+      {
+        "index": 62,
+        "text": "taking",
+        "startFrame": 853,
+        "activeFromFrame": 853,
+        "activeToFrame": 864
+      },
+      {
+        "index": 63,
+        "text": "any",
+        "startFrame": 864,
+        "activeFromFrame": 864,
+        "activeToFrame": 874
+      },
+      {
+        "index": 64,
+        "text": "supplements",
+        "startFrame": 874,
+        "activeFromFrame": 874,
+        "activeToFrame": 889
+      },
+      {
+        "index": 65,
+        "text": "and",
+        "startFrame": 889,
+        "activeFromFrame": 889,
+        "activeToFrame": 919
+      },
+      {
+        "index": 66,
+        "text": "also",
+        "startFrame": 919,
+        "activeFromFrame": 919,
+        "activeToFrame": 928
+      },
+      {
+        "index": 67,
+        "text": "look",
+        "startFrame": 928,
+        "activeFromFrame": 928,
+        "activeToFrame": 937
+      },
+      {
+        "index": 68,
+        "text": "for",
+        "startFrame": 937,
+        "activeFromFrame": 937,
+        "activeToFrame": 944
+      },
+      {
+        "index": 69,
+        "text": "the",
+        "startFrame": 944,
+        "activeFromFrame": 944,
+        "activeToFrame": 949
+      },
+      {
+        "index": 70,
+        "text": "deficiencies",
+        "startFrame": 949,
+        "activeFromFrame": 949,
+        "activeToFrame": 966
+      },
+      {
+        "index": 71,
+        "text": "because",
+        "startFrame": 966,
+        "activeFromFrame": 966,
+        "activeToFrame": 981
+      },
+      {
+        "index": 72,
+        "text": "not",
+        "startFrame": 981,
+        "activeFromFrame": 981,
+        "activeToFrame": 991
+      },
+      {
+        "index": 73,
+        "text": "all",
+        "startFrame": 991,
+        "activeFromFrame": 991,
+        "activeToFrame": 998
+      },
+      {
+        "index": 74,
+        "text": "supplements",
+        "startFrame": 998,
+        "activeFromFrame": 998,
+        "activeToFrame": 1010
+      },
+      {
+        "index": 75,
+        "text": "is",
+        "startFrame": 1010,
+        "activeFromFrame": 1010,
+        "activeToFrame": 1019
+      },
+      {
+        "index": 76,
+        "text": "required",
+        "startFrame": 1019,
+        "activeFromFrame": 1019,
+        "activeToFrame": 1030
+      },
+      {
+        "index": 77,
+        "text": "without",
+        "startFrame": 1030,
+        "activeFromFrame": 1030,
+        "activeToFrame": 1042
+      },
+      {
+        "index": 78,
+        "text": "deficiency.",
+        "startFrame": 1042,
+        "activeFromFrame": 1042,
+        "activeToFrame": 1069
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "And",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 14
+      },
+      {
+        "index": 1,
+        "text": "Nam,",
+        "startFrame": 14,
+        "activeFromFrame": 14,
+        "activeToFrame": 23
+      },
+      {
+        "index": 2,
+        "text": "what",
+        "startFrame": 23,
+        "activeFromFrame": 23,
+        "activeToFrame": 28
+      },
+      {
+        "index": 3,
+        "text": "supplements",
+        "startFrame": 28,
+        "activeFromFrame": 28,
+        "activeToFrame": 41
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "startFrame": 41,
+        "activeFromFrame": 41,
+        "activeToFrame": 50
+      },
+      {
+        "index": 5,
+        "text": "PCOS",
+        "startFrame": 50,
+        "activeFromFrame": 50,
+        "activeToFrame": 64
+      },
+      {
+        "index": 6,
+        "text": "patients",
+        "startFrame": 64,
+        "activeFromFrame": 64,
+        "activeToFrame": 76
+      },
+      {
+        "index": 7,
+        "text": "take?",
+        "startFrame": 76,
+        "activeFromFrame": 76,
+        "activeToFrame": 121
+      },
+      {
+        "index": 8,
+        "text": "Usually,",
+        "startFrame": 121,
+        "activeFromFrame": 121,
+        "activeToFrame": 145
+      },
+      {
+        "index": 9,
+        "text": "supplements",
+        "startFrame": 145,
+        "activeFromFrame": 145,
+        "activeToFrame": 154
+      },
+      {
+        "index": 10,
+        "text": "are",
+        "startFrame": 154,
+        "activeFromFrame": 154,
+        "activeToFrame": 169
+      },
+      {
+        "index": 11,
+        "text": "good",
+        "startFrame": 169,
+        "activeFromFrame": 169,
+        "activeToFrame": 181
+      },
+      {
+        "index": 12,
+        "text": "for",
+        "startFrame": 181,
+        "activeFromFrame": 181,
+        "activeToFrame": 191
+      },
+      {
+        "index": 13,
+        "text": "any",
+        "startFrame": 191,
+        "activeFromFrame": 191,
+        "activeToFrame": 202
+      },
+      {
+        "index": 14,
+        "text": "patient",
+        "startFrame": 202,
+        "activeFromFrame": 202,
+        "activeToFrame": 216
+      },
+      {
+        "index": 15,
+        "text": "with",
+        "startFrame": 216,
+        "activeFromFrame": 216,
+        "activeToFrame": 223
+      },
+      {
+        "index": 16,
+        "text": "PCOS,",
+        "startFrame": 223,
+        "activeFromFrame": 223,
+        "activeToFrame": 248
+      },
+      {
+        "index": 17,
+        "text": "but",
+        "startFrame": 248,
+        "activeFromFrame": 248,
+        "activeToFrame": 253
+      },
+      {
+        "index": 18,
+        "text": "the",
+        "startFrame": 253,
+        "activeFromFrame": 253,
+        "activeToFrame": 257
+      },
+      {
+        "index": 19,
+        "text": "evidence",
+        "startFrame": 257,
+        "activeFromFrame": 257,
+        "activeToFrame": 266
+      },
+      {
+        "index": 20,
+        "text": "is",
+        "startFrame": 266,
+        "activeFromFrame": 266,
+        "activeToFrame": 276
+      },
+      {
+        "index": 21,
+        "text": "very",
+        "startFrame": 276,
+        "activeFromFrame": 276,
+        "activeToFrame": 286
+      },
+      {
+        "index": 22,
+        "text": "much",
+        "startFrame": 286,
+        "activeFromFrame": 286,
+        "activeToFrame": 292
+      },
+      {
+        "index": 23,
+        "text": "limited.",
+        "startFrame": 292,
+        "activeFromFrame": 292,
+        "activeToFrame": 322
+      },
+      {
+        "index": 24,
+        "text": "Only",
+        "startFrame": 322,
+        "activeFromFrame": 322,
+        "activeToFrame": 327
+      },
+      {
+        "index": 25,
+        "text": "few",
+        "startFrame": 327,
+        "activeFromFrame": 327,
+        "activeToFrame": 338
+      },
+      {
+        "index": 26,
+        "text": "drugs",
+        "startFrame": 338,
+        "activeFromFrame": 338,
+        "activeToFrame": 346
+      },
+      {
+        "index": 27,
+        "text": "are",
+        "startFrame": 346,
+        "activeFromFrame": 346,
+        "activeToFrame": 353
+      },
+      {
+        "index": 28,
+        "text": "proved",
+        "startFrame": 353,
+        "activeFromFrame": 353,
+        "activeToFrame": 364
+      },
+      {
+        "index": 29,
+        "text": "to",
+        "startFrame": 364,
+        "activeFromFrame": 364,
+        "activeToFrame": 376
+      },
+      {
+        "index": 30,
+        "text": "address",
+        "startFrame": 376,
+        "activeFromFrame": 376,
+        "activeToFrame": 411
+      },
+      {
+        "index": 31,
+        "text": "this",
+        "startFrame": 411,
+        "activeFromFrame": 411,
+        "activeToFrame": 418
+      },
+      {
+        "index": 32,
+        "text": "pathophysiology",
+        "startFrame": 418,
+        "activeFromFrame": 418,
+        "activeToFrame": 439
+      },
+      {
+        "index": 33,
+        "text": "of",
+        "startFrame": 439,
+        "activeFromFrame": 439,
+        "activeToFrame": 445
+      },
+      {
+        "index": 34,
+        "text": "PCOS",
+        "startFrame": 445,
+        "activeFromFrame": 445,
+        "activeToFrame": 460
+      },
+      {
+        "index": 35,
+        "text": "like",
+        "startFrame": 460,
+        "activeFromFrame": 460,
+        "activeToFrame": 469
+      },
+      {
+        "index": 36,
+        "text": "calcium,",
+        "startFrame": 469,
+        "activeFromFrame": 469,
+        "activeToFrame": 506
+      },
+      {
+        "index": 37,
+        "text": "vitamin",
+        "startFrame": 506,
+        "activeFromFrame": 506,
+        "activeToFrame": 515
+      },
+      {
+        "index": 38,
+        "text": "D,",
+        "startFrame": 515,
+        "activeFromFrame": 515,
+        "activeToFrame": 533
+      },
+      {
+        "index": 39,
+        "text": "omega",
+        "startFrame": 533,
+        "activeFromFrame": 533,
+        "activeToFrame": 539
+      },
+      {
+        "index": 40,
+        "text": "-3",
+        "startFrame": 539,
+        "activeFromFrame": 539,
+        "activeToFrame": 551
+      },
+      {
+        "index": 41,
+        "text": "fatty",
+        "startFrame": 551,
+        "activeFromFrame": 551,
+        "activeToFrame": 562
+      },
+      {
+        "index": 42,
+        "text": "acids,",
+        "startFrame": 562,
+        "activeFromFrame": 562,
+        "activeToFrame": 581
+      },
+      {
+        "index": 43,
+        "text": "myo",
+        "startFrame": 581,
+        "activeFromFrame": 581,
+        "activeToFrame": 587
+      },
+      {
+        "index": 44,
+        "text": "-enositol.",
+        "startFrame": 587,
+        "activeFromFrame": 587,
+        "activeToFrame": 631
+      },
+      {
+        "index": 45,
+        "text": "So,",
+        "startFrame": 631,
+        "activeFromFrame": 631,
+        "activeToFrame": 643
+      },
+      {
+        "index": 46,
+        "text": "what",
+        "startFrame": 643,
+        "activeFromFrame": 643,
+        "activeToFrame": 651
+      },
+      {
+        "index": 47,
+        "text": "I",
+        "startFrame": 651,
+        "activeFromFrame": 651,
+        "activeToFrame": 661
+      },
+      {
+        "index": 48,
+        "text": "suggest",
+        "startFrame": 661,
+        "activeFromFrame": 661,
+        "activeToFrame": 673
+      },
+      {
+        "index": 49,
+        "text": "is,",
+        "startFrame": 673,
+        "activeFromFrame": 673,
+        "activeToFrame": 694
+      },
+      {
+        "index": 50,
+        "text": "do",
+        "startFrame": 694,
+        "activeFromFrame": 694,
+        "activeToFrame": 697
+      },
+      {
+        "index": 51,
+        "text": "not",
+        "startFrame": 697,
+        "activeFromFrame": 697,
+        "activeToFrame": 704
+      },
+      {
+        "index": 52,
+        "text": "take",
+        "startFrame": 704,
+        "activeFromFrame": 704,
+        "activeToFrame": 713
+      },
+      {
+        "index": 53,
+        "text": "over",
+        "startFrame": 713,
+        "activeFromFrame": 713,
+        "activeToFrame": 724
+      },
+      {
+        "index": 54,
+        "text": "-the",
+        "startFrame": 724,
+        "activeFromFrame": 724,
+        "activeToFrame": 730
+      },
+      {
+        "index": 55,
+        "text": "-counter",
+        "startFrame": 730,
+        "activeFromFrame": 730,
+        "activeToFrame": 740
+      },
+      {
+        "index": 56,
+        "text": "supplements.",
+        "startFrame": 740,
+        "activeFromFrame": 740,
+        "activeToFrame": 767
+      },
+      {
+        "index": 57,
+        "text": "always",
+        "startFrame": 767,
+        "activeFromFrame": 767,
+        "activeToFrame": 800
+      },
+      {
+        "index": 58,
+        "text": "consult",
+        "startFrame": 800,
+        "activeFromFrame": 800,
+        "activeToFrame": 817
+      },
+      {
+        "index": 59,
+        "text": "your",
+        "startFrame": 817,
+        "activeFromFrame": 817,
+        "activeToFrame": 825
+      },
+      {
+        "index": 60,
+        "text": "physician",
+        "startFrame": 825,
+        "activeFromFrame": 825,
+        "activeToFrame": 838
+      },
+      {
+        "index": 61,
+        "text": "before",
+        "startFrame": 838,
+        "activeFromFrame": 838,
+        "activeToFrame": 853
+      },
+      {
+        "index": 62,
+        "text": "taking",
+        "startFrame": 853,
+        "activeFromFrame": 853,
+        "activeToFrame": 864
+      },
+      {
+        "index": 63,
+        "text": "any",
+        "startFrame": 864,
+        "activeFromFrame": 864,
+        "activeToFrame": 874
+      },
+      {
+        "index": 64,
+        "text": "supplements",
+        "startFrame": 874,
+        "activeFromFrame": 874,
+        "activeToFrame": 889
+      },
+      {
+        "index": 65,
+        "text": "and",
+        "startFrame": 889,
+        "activeFromFrame": 889,
+        "activeToFrame": 919
+      },
+      {
+        "index": 66,
+        "text": "also",
+        "startFrame": 919,
+        "activeFromFrame": 919,
+        "activeToFrame": 928
+      },
+      {
+        "index": 67,
+        "text": "look",
+        "startFrame": 928,
+        "activeFromFrame": 928,
+        "activeToFrame": 937
+      },
+      {
+        "index": 68,
+        "text": "for",
+        "startFrame": 937,
+        "activeFromFrame": 937,
+        "activeToFrame": 944
+      },
+      {
+        "index": 69,
+        "text": "the",
+        "startFrame": 944,
+        "activeFromFrame": 944,
+        "activeToFrame": 949
+      },
+      {
+        "index": 70,
+        "text": "deficiencies",
+        "startFrame": 949,
+        "activeFromFrame": 949,
+        "activeToFrame": 966
+      },
+      {
+        "index": 71,
+        "text": "because",
+        "startFrame": 966,
+        "activeFromFrame": 966,
+        "activeToFrame": 981
+      },
+      {
+        "index": 72,
+        "text": "not",
+        "startFrame": 981,
+        "activeFromFrame": 981,
+        "activeToFrame": 991
+      },
+      {
+        "index": 73,
+        "text": "all",
+        "startFrame": 991,
+        "activeFromFrame": 991,
+        "activeToFrame": 998
+      },
+      {
+        "index": 74,
+        "text": "supplements",
+        "startFrame": 998,
+        "activeFromFrame": 998,
+        "activeToFrame": 1010
+      },
+      {
+        "index": 75,
+        "text": "is",
+        "startFrame": 1010,
+        "activeFromFrame": 1010,
+        "activeToFrame": 1019
+      },
+      {
+        "index": 76,
+        "text": "required",
+        "startFrame": 1019,
+        "activeFromFrame": 1019,
+        "activeToFrame": 1030
+      },
+      {
+        "index": 77,
+        "text": "without",
+        "startFrame": 1030,
+        "activeFromFrame": 1030,
+        "activeToFrame": 1042
+      },
+      {
+        "index": 78,
+        "text": "deficiency.",
+        "startFrame": 1042,
+        "activeFromFrame": 1042,
+        "activeToFrame": 1069
+      }
+    ]
+  },
+  "visuals": {
+    "style": "brightAiry",
+    "bubbleShape": "roundedSquare",
+    "items": [
+      {
+        "id": "h1",
+        "beat": null,
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 0,
+        "toFrame": 64,
+        "motion": "pushIn",
+        "src": "ai/h1-ebfeb3432b18.png",
+        "fadeFrames": 0,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "cardOpacity": 0.0,
+        "glow": {
+          "color": "#120C08",
+          "opacity": 0.635,
+          "rect": [
+            0,
+            727,
+            1080,
+            1193
+          ]
+        }
+      },
+      {
+        "id": "h2",
+        "beat": null,
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "kind": "video",
+        "fromFrame": 64,
+        "toFrame": 121,
+        "src": "ai/h2-3cf5049cb9c0.mp4",
+        "fadeFrames": 0,
+        "cardOpacity": 0.0
+      },
+      {
+        "id": "v1",
+        "beat": 4,
+        "treatment": "inset",
+        "mode": "graphic",
+        "kind": "graphic",
+        "fromFrame": 469,
+        "toFrame": 622,
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "CALCIUM",
+            "VITAMIN D",
+            "OMEGA-3",
+            "MYO-INOSITOL"
+          ],
+          "listStyle": "numbered",
+          "itemWords": [
+            36,
+            37,
+            39,
+            43
+          ],
+          "ground": "#FAEADB",
+          "groundOpacity": 0.94,
+          "ink": "#3A2416",
+          "accent": "#9E3B16",
+          "text": "#604C40",
+          "texture": "grain",
+          "itemFrames": [
+            475,
+            506,
+            533,
+            581
+          ]
+        },
+        "src": null,
+        "rect": [
+          140,
+          304,
+          940,
+          754
+        ],
+        "fadeFrames": 12
+      },
+      {
+        "id": "v2",
+        "beat": null,
+        "treatment": "doctorBubble",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 631,
+        "toFrame": 767,
+        "motion": "panLeft",
+        "src": "ai/v2-569acc7e4061.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.08,
+          "to": 1.08,
+          "x0": 0.025,
+          "x1": -0.025
+        },
+        "bubble": {
+          "shape": "roundedSquare",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 610,
+            "cy": 1068,
+            "r": 264
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "captionWashes": [
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.682,
+            "fromFrame": 631,
+            "toFrame": 713,
+            "zone": "top",
+            "rect": [
+              0,
+              256,
+              1080,
+              766
+            ]
+          },
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.635,
+            "fromFrame": 713,
+            "toFrame": 767,
+            "zone": "top",
+            "rect": [
+              0,
+              266,
+              1080,
+              756
+            ]
+          }
+        ]
+      },
+      {
+        "id": "v3",
+        "beat": null,
+        "treatment": "doctorBubble",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 919,
+        "toFrame": 1008,
+        "motion": "pushIn",
+        "src": "ai/v3-e04aa1b4a56d.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "roundedSquare",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 610,
+            "cy": 1068,
+            "r": 264
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        }
+      }
+    ]
+  }
+}

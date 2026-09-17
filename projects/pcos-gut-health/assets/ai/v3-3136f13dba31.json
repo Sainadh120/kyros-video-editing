@@ -1,0 +1,55 @@
+{
+  "assetId": "v3-3136f13dba31",
+  "file": "v3-3136f13dba31.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "An Indian woman in her early thirties in a loose navy cotton t-shirt, grey track pants and white running shoes walks briskly along a paved walking track in a leafy Hyderabad public park at sunrise, other morning walkers small and far behind, seen side-on from a wide distance, moving left to right with a steady natural stride and relaxed arm swing. The camera tracks slowly alongside at the same pace. Soft golden morning light through neem and banyan trees. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 1024,
+  "height": 576,
+  "seed": 1256105185,
+  "numFrames": 89,
+  "fps": 24,
+  "input": null,
+  "requestHash": "3136f13dba3175cacc54e6f7578dc43f9e4c16baf0d6a3dd65c3758473022fe7",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "An Indian woman in her early thirties in a loose navy cotton t-shirt, grey track pants and white running shoes walks briskly along a paved walking track in a leafy Hyderabad public park at sunrise, other morning walkers small and far behind, seen side-on from a wide distance, moving left to right with a steady natural stride and relaxed arm swing. The camera tracks slowly alongside at the same pace. Soft golden morning light through neem and banyan trees. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 1024,
+    "height": 576,
+    "seed": 1256105185,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 89,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "v3"
+  ],
+  "sourceBeats": [
+    8
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "inset",
+  "why": "'have regular exercise' — everyday exercise, motion is the point; she stays full-frame",
+  "says": "and have regular exercise,",
+  "createdAt": "2026-09-17T04:40:55",
+  "elapsedSec": 109.29,
+  "costEstimateUsd": 0.075847,
+  "costBasis": "estimate: 109.3s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 3.708008,
+  "outputSize": [
+    1024,
+    576
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

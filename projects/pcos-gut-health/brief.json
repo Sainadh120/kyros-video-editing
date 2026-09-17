@@ -1,0 +1,410 @@
+{
+  "slug": "pcos-gut-health",
+  "clip": "inbox/pcos-gut-health.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "question": {
+    "preset": "ink",
+    "_presetNote": "register.py proposal: last clip ran 'forest'. Opening pictures cover the whole question, so the card gives way to a glow behind the words.",
+    "rows": [
+      {
+        "style": "key",
+        "words": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "lines": [
+          "DOES GUT HEALTH"
+        ],
+        "_wordsNote": "0-1 are the interviewer's 'Ma'am' — inside the question so her answer times from word 8"
+      },
+      {
+        "style": "lead",
+        "words": [
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "_beat": "1  4.3-7.7s  her yes — her face",
+      "lead": [
+        8,
+        9,
+        10
+      ],
+      "key": [
+        14,
+        15,
+        16
+      ],
+      "lines": [
+        "VERY IMPORTANT",
+        "ROLE"
+      ]
+    },
+    {
+      "_beat": "2  7.7-11.0s  three problems — checklist card",
+      "lead": [
+        17
+      ],
+      "key": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "lines": [
+        "INSULIN RESISTANCE",
+        "METABOLIC · HORMONES"
+      ],
+      "skip": true,
+      "_skipWhy": "the checklist card names all three as she says them"
+    },
+    {
+      "_beat": "3  11.0-12.7s",
+      "lead": [
+        24,
+        25,
+        26
+      ],
+      "key": [
+        27,
+        28,
+        29
+      ],
+      "lines": [
+        "GOOD",
+        "GUT HEALTH"
+      ]
+    },
+    {
+      "_beat": "4  12.7-15.5s  her face",
+      "lead": [
+        30,
+        31,
+        32
+      ],
+      "key": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "lines": [
+        "CONTROL",
+        "PCOS SYMPTOMS"
+      ]
+    },
+    {
+      "_beat": "5  15.5-19.3s  her number — the counter card",
+      "lead": [
+        37,
+        38,
+        39
+      ],
+      "key": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "lines": [
+        "25–30 G FIBER",
+        "PER DAY"
+      ],
+      "skip": true,
+      "_skipWhy": "the counter shows 25→30 and the label; the same number twice is noise"
+    },
+    {
+      "_beat": "6  19.3-21.8s  list: vegetables, fruits — tiles",
+      "lead": [
+        48
+      ],
+      "key": [
+        49,
+        50
+      ],
+      "lines": [
+        "VEGETABLES",
+        "FRUITS"
+      ],
+      "skip": true,
+      "_skipWhy": "the list tiles name each as she says it"
+    },
+    {
+      "_beat": "7  21.8-26.3s  list: curd, buttermilk, idli — tiles",
+      "lead": [
+        51
+      ],
+      "key": [
+        52,
+        53
+      ],
+      "lines": [
+        "FERMENTED",
+        "FOODS"
+      ],
+      "skip": true,
+      "_skipWhy": "the list tiles name each as she says it"
+    },
+    {
+      "_beat": "8  26.3-28.6s  exercise — video card on the wall",
+      "lead": [
+        59,
+        60
+      ],
+      "key": [
+        61,
+        62
+      ],
+      "lines": [
+        "REGULAR",
+        "EXERCISE"
+      ]
+    },
+    {
+      "_beat": "9  28.6-30.2s  hydration — video card on the wall",
+      "lead": [],
+      "key": [
+        63,
+        64
+      ],
+      "lines": [
+        "GOOD",
+        "HYDRATION"
+      ]
+    },
+    {
+      "_beat": "10  30.2-34.7s  the close — her face",
+      "lead": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "key": [
+        69,
+        71,
+        72
+      ],
+      "lines": [
+        "IMPROVE",
+        "GUT HEALTH"
+      ]
+    }
+  ],
+  "style": {
+    "_comment": "register.py proposals; Niranjan 2026-09-16: 'do whatever is good for that particular video'.",
+    "typePairing": "warmEditorial",
+    "revealStyle": "maskWipeFast",
+    "leadStyle": "match",
+    "paletteLead": "brick",
+    "textPosition": "top on the bare wall (no burned-in graphics); beats under a wall card drop low onto the dark scrim",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "rotation led by brick; palette.py derives and APCA-checks the rest"
+  },
+  "openFlags": [],
+  "_clipNote": "Source: ~/Movies/VN/1789568004684219.mp4 (4K 50fps, 35.02s). Niranjan 2026-09-16: first of five clips; Kyros cut only until signed off; \"do whatever is good for that particular video\".",
+  "_palette_note": "No palette block: palette.py measured wall #E7C09D / saree #B9BA4A and derives the APCA-checked rotation per zone (white fails on this wall, 1.71:1).",
+  "layout": {
+    "captionScrim": {
+      "enabled": true,
+      "ground": "dark",
+      "opacity": 0.8,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "hd",
+    "style": "naturalLight",
+    "bubbleShape": "circle",
+    "beats": [
+      {
+        "id": "h1",
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "motion": "pushIn",
+        "at": [
+          0.0,
+          1.68
+        ],
+        "prompt": "A bowl of thick fresh homemade curd in a steel katori beside a wooden board of freshly chopped carrots, cucumber and green beans on a light stone kitchen counter in a Hyderabad home, seen from a slight high angle. Vertical 9:16 frame with calm plain wall in the upper third. Soft morning window light, shot on a 50mm lens, candid documentary photograph, true-to-life colour, plain unmarked surfaces.",
+        "status": "approved",
+        "_why": "'does gut health' — open on the foods of her answer, not a blank card",
+        "approvedHash": "1760b95aad5f9337b9c44777d0e295801856d28cd1e46cdca86756a421e7c475"
+      },
+      {
+        "id": "h2",
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "motion": "panLeft",
+        "at": [
+          1.68,
+          4.32
+        ],
+        "prompt": "A woman in her early thirties in a soft cotton kurta sits at a small dining table by a sunlit window in a Hyderabad apartment, eating a simple lunch of rice, dal, cooked vegetables and a bowl of curd from a steel plate, seen from a slight distance at eye level, calm and relaxed. Vertical 9:16 frame with plain warm wall in the upper third. Soft natural daylight, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "'matter in PCOS?' — a real woman and her everyday food",
+        "approvedHash": "50b1916cd8cbcff17552d87eb77cf54611f53a38995ddc88f91e2b41ee9b29d8"
+      },
+      {
+        "id": "v1",
+        "beat": 2,
+        "mode": "graphic",
+        "treatment": "inset",
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "INSULIN RESISTANCE",
+            "METABOLIC",
+            "HORMONES"
+          ]
+        },
+        "status": "approved",
+        "_why": "she names three problems gut health plays into; each ticks in as she says it"
+      },
+      {
+        "id": "v2",
+        "beat": 5,
+        "mode": "graphic",
+        "treatment": "inset",
+        "graphic": {
+          "type": "counter",
+          "from": 25,
+          "value": 30,
+          "label": "GRAMS OF FIBER / DAY"
+        },
+        "status": "approved",
+        "_why": "'25 to 30 grams of fiber per day' — her number, counted up exactly",
+        "_note": "first render: suffix ' G' is dropped by DoctorVideo.tsx when `from` is set (range form); unit moved into the label"
+      },
+      {
+        "id": "l1",
+        "beat": 6,
+        "word": 49,
+        "group": "foods",
+        "label": "VEGETABLES",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A steel basket of fresh vegetables — green beans, carrots, spinach, tomatoes and okra — on a light kitchen counter, seen from a slight high angle, soft morning window light, square composition, realistic documentary photograph, true-to-life colour, plain unmarked surfaces.",
+        "status": "approved",
+        "_why": "'eat vegetables'",
+        "approvedHash": "1e14239cffb4b678cc37e41dc4e88c15b4dcc2715ab0725959a9767d70293a28"
+      },
+      {
+        "id": "l2",
+        "beat": 6,
+        "word": 50,
+        "group": "foods",
+        "label": "FRUITS",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A plate of freshly cut fruit — guava slices, papaya cubes, apple slices and pomegranate seeds — on a wooden table, seen from a slight high angle, soft morning window light, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'fruits'",
+        "approvedHash": "f2b7c906edf58fb829b8c6892d774936b1047c8a6f967553d7bdc4d04364854e"
+      },
+      {
+        "id": "l3",
+        "beat": 7,
+        "word": 55,
+        "group": "foods",
+        "label": "CURD",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A clay pot of thick set homemade curd with a steel spoon lifting a creamy spoonful, on a light kitchen counter, close view, soft morning window light, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'fermented foods like curd'",
+        "approvedHash": "00ca9d560d8136bb5cc2614a2ba44421035ec8d9ad60be28c0bd9d5a50bad7b5"
+      },
+      {
+        "id": "l4",
+        "beat": 7,
+        "word": 56,
+        "group": "foods",
+        "label": "BUTTERMILK",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A tall plain glass of thin white spiced buttermilk garnished with a few curry leaves and chopped coriander, beside a small steel tumbler, on a wooden table, soft daylight, square composition, realistic documentary photograph, true-to-life colour, plain unmarked glass.",
+        "status": "approved",
+        "_why": "'buttermilk'",
+        "approvedHash": "8b6eee7a3d63c4898ed39e1de0039c981c1f4c0d9ed3ffec6423f0831acd97cc"
+      },
+      {
+        "id": "l5",
+        "beat": 7,
+        "word": 57,
+        "group": "foods",
+        "label": "IDLI",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "Three South Indian idlis on a steel plate: round, smooth, flat-topped white steamed rice cakes shaped like small thick discs with a soft spongy surface and no folds or pleats, beside a small bowl of white coconut chutney and a bowl of sambar, on a wooden table, seen from a slight high angle, soft morning light, square composition, realistic documentary food photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'idli' — the fermented food she names; spelled IDLI on the tile",
+        "approvedHash": "46b072e16106af42398964d0ee4fc5f443608d9947740e71d69713ec751602e2",
+        "_rejected": [
+          "l5-d73666947750.png: pleated dumplings (momos), not idli"
+        ]
+      },
+      {
+        "id": "v3",
+        "beat": 8,
+        "mode": "video",
+        "treatment": "inset",
+        "aspect": "16:9",
+        "prompt": "An Indian woman in her early thirties in a loose navy cotton t-shirt, grey track pants and white running shoes walks briskly along a paved walking track in a leafy Hyderabad public park at sunrise, other morning walkers small and far behind, seen side-on from a wide distance, moving left to right with a steady natural stride and relaxed arm swing. The camera tracks slowly alongside at the same pace. Soft golden morning light through neem and banyan trees. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+        "status": "approved",
+        "_why": "'have regular exercise' — everyday exercise, motion is the point; she stays full-frame",
+        "approvedHash": "3136f13dba3175cacc54e6f7578dc43f9e4c16baf0d6a3dd65c3758473022fe7",
+        "_rejected": [
+          "v3-7e87b71d1a0e.mp4: generic Western park and runner — not a real Indian setting"
+        ]
+      },
+      {
+        "id": "v4",
+        "beat": 9,
+        "mode": "video",
+        "treatment": "inset",
+        "aspect": "16:9",
+        "prompt": "Clean water pours from a plain steel jug into a clear drinking glass on a light wooden kitchen table beside a sunlit window. The glass fills steadily, small bubbles rising and light sparkling through the water. The camera holds still at table height, close and slightly low, with the window softly blurred behind. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+        "status": "approved",
+        "_why": "'good hydration' — water, shown literally",
+        "approvedHash": "48807170599168dc2a87d11672f8d87227981ce426d51441f591b91bf6a850a1"
+      }
+    ],
+    "listLayout": "cuts",
+    "_listLayoutWhy": "Niranjan 2026-09-17: the five-food grid felt congested ('suffocating'); keep the images, change the presentation — one food at a time, big, on its word",
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
+  },
+  "_resolved": [
+    "Transcript (34.7s, 76 words) matches the clip: 'Ma'am, does gut health matter in PCOS?' — important for insulin resistance, metabolic and hormone problems; 25–30 g fiber/day; vegetables, fruits, fermented foods (curd, buttermilk, idli); regular exercise, hydration.",
+    "No burned-in graphics; wall above her head clear the whole take.",
+    "Wording: no cure/reverse/guarantee language in her answer. Visuals are foods, walking and water — no medicine, reports or results."
+  ]
+}

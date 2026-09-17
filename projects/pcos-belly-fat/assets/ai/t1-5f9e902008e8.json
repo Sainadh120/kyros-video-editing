@@ -1,0 +1,52 @@
+{
+  "assetId": "t1-5f9e902008e8",
+  "file": "t1-5f9e902008e8.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A close cross-section of the human belly wall showing skin on top and an even soft yellow layer of subcutaneous fat directly beneath it, above the muscle, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 904113394,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "5f9e902008e840314a30e0441e64fda5e73097e80289b274c2ae9daff7404842",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A close cross-section of the human belly wall showing skin on top and an even soft yellow layer of subcutaneous fat directly beneath it, above the muscle, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 904113394,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "t1"
+  ],
+  "sourceBeats": [
+    2
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "listBuild",
+  "why": "'subcutaneous fat'",
+  "says": "subcutaneous fat and visceral fat. Visceral fat is the fat",
+  "createdAt": "2026-09-17T10:32:51",
+  "elapsedSec": 6.27,
+  "costEstimateUsd": 0.001918,
+  "costBasis": "estimate: 6.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

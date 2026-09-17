@@ -1,0 +1,52 @@
+{
+  "assetId": "b1-25bc310b863f",
+  "file": "b1-25bc310b863f.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "An Indian woman in her thirties in a cotton kurta sits quietly by a window in a calm apartment, looking out with a serious, thoughtful expression, soft grey daylight, wide 16:9 frame with her on the right third. Shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 1024,
+  "height": 576,
+  "seed": 893425207,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "25bc310b863f699de46132f31da6cb308d2f6a3ebdfe16bdca2ecdefd71f10d5",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "An Indian woman in her thirties in a cotton kurta sits quietly by a window in a calm apartment, looking out with a serious, thoughtful expression, soft grey daylight, wide 16:9 frame with her on the right third. Shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 1024,
+    "height": 576,
+    "seed": 893425207,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "b1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "inset",
+  "why": "context b-roll (approved 2026-09-17): 'this fat is very dangerous' — a serious, quiet mood; shows nothing she did not say",
+  "says": "And this fat is very dangerous. This is mainly, it",
+  "createdAt": "2026-09-17T10:33:27",
+  "elapsedSec": 6.15,
+  "costEstimateUsd": 0.001883,
+  "costBasis": "estimate: 6.2s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    1024,
+    576
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

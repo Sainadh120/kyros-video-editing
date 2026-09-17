@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-f041ffd6c2e9",
+  "file": "h1-f041ffd6c2e9.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A single plain white unbranded pen-style injector with a grey cap lies on a clean light stone countertop beside a glass of water, warm golden late-afternoon window light, seen from a low side angle with shallow depth of field. Vertical 9:16 frame with calm open wall in the upper third. Shot on a 50mm lens, clean documentary photograph, true-to-life colour, the injector smooth, matte and completely blank.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1866665250,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "f041ffd6c2e9e810bcf662bfe50c3316677ab73f0ccdb84d029a099255835bc2",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A single plain white unbranded pen-style injector with a grey cap lies on a clean light stone countertop beside a glass of water, warm golden late-afternoon window light, seen from a low side angle with shallow depth of field. Vertical 9:16 frame with calm open wall in the upper third. Shot on a 50mm lens, clean documentary photograph, true-to-life colour, the injector smooth, matte and completely blank.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1866665250,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "hookBackdrop",
+  "why": "'the role of GLP-1 medications' — the medicine class itself, shown plain and unbranded",
+  "says": "Doctor, what is the role of GLP -1",
+  "createdAt": "2026-09-17T03:34:55",
+  "elapsedSec": 6.44,
+  "costEstimateUsd": 0.001971,
+  "costBasis": "estimate: 6.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

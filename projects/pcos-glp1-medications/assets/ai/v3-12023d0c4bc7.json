@@ -1,0 +1,55 @@
+{
+  "assetId": "v3-12023d0c4bc7",
+  "file": "v3-12023d0c4bc7.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "An educational 3D medical animation inside the body: small glowing golden insulin molecules drift toward the round surface of a large translucent pink cell and settle onto its receptors, but the cell's channels stay closed and glucose particles keep floating outside it. The camera slowly orbits the cell. Soft studio lighting on a deep aubergine background, clean scientific visualisation style, smooth motion.",
+  "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 6714753,
+  "numFrames": 73,
+  "fps": 24,
+  "input": null,
+  "requestHash": "12023d0c4bc70fb76e5a063da49c35cf6c9d8e6e750decbe025772499e2db68b",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "An educational 3D medical animation inside the body: small glowing golden insulin molecules drift toward the round surface of a large translucent pink cell and settle onto its receptors, but the cell's channels stay closed and glucose particles keep floating outside it. The camera slowly orbits the cell. Soft studio lighting on a deep aubergine background, clean scientific visualisation style, smooth motion.",
+    "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 6714753,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 73,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "v3"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "doctorBubble",
+  "why": "'who have insulin resistance' — the mechanism she names, as a textbook animation",
+  "says": "who have insulin resistance. These",
+  "createdAt": "2026-09-17T10:37:11",
+  "elapsedSec": 154.44,
+  "costEstimateUsd": 0.107184,
+  "costBasis": "estimate: 154.4s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 3.041667,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

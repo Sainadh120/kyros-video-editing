@@ -12,7 +12,7 @@
                                  type, audio, register, delivery, visuals)
     reels.py visuals <slug>      the supporting-visuals plan (brief.visuals)
              [--approve all|v1,v2] [--reject v3]
-             [--generate [--only v1,v2] [--retry]]   through the toolkit on Modal
+             [--generate [--only v1,v2] [--retry]]   on Kyros's own Modal servers
              [--preview]                             contact sheet of what was generated
     reels.py push <slug|all>     back up the clip, AI files, audio and cuts to R2
     reels.py pull <slug|all>     bring them back (fresh clone, another machine)
@@ -345,7 +345,7 @@ def cmd_verify(slug):
 
 def cmd_visuals(slug, args):
     """The supporting-visuals plan, approval and generation. Generation goes
-    through the video toolkit on Modal and never blocks the reel: a visual
+    on Kyros's own Modal servers (infra/modal/) and never blocks the reel: a visual
     that fails is left out and the build ships footage for that beat."""
     import visuals as visuals_engine
     p = PROJECTS / slug

@@ -1,0 +1,302 @@
+{
+  "slug": "pcos-stress",
+  "clip": "inbox/pcos-stress.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "question": {
+    "preset": "clay",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [
+          0,
+          1
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "lines": [
+          "STRESS AFFECT",
+          "PCOS?"
+        ]
+      }
+    ],
+    "card": {
+      "bg": "#1A0D0A",
+      "lead": "#F4E7DC",
+      "key": "#FFA27A",
+      "texture": "vignette",
+      "opacity": 0.985,
+      "_apca": "lead 93.1 / key 64.4",
+      "_why": "Niranjan 2026-09-17 asked for better question colours: ember orange on charred espresso, tied to this reel's colour story"
+    }
+  },
+  "chunks": [
+    {
+      "_beat": "1  4.0-5.2s  payload alone",
+      "lead": [],
+      "key": [
+        6
+      ],
+      "lines": [
+        "YES."
+      ],
+      "keyColor": "#2A1B10"
+    },
+    {
+      "_beat": "2  5.2-7.1s",
+      "lead": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "key": [
+        11,
+        12,
+        13
+      ],
+      "lines": [
+        "VERY IMPORTANT",
+        "ROLE"
+      ],
+      "keyColor": "#8E2A18"
+    },
+    {
+      "_beat": "3  7.1-10.4s",
+      "lead": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "key": [
+        19,
+        20
+      ],
+      "lines": [
+        "HORMONE",
+        "IMBALANCE"
+      ],
+      "keyColor": "#2A1B10"
+    },
+    {
+      "_beat": "4  10.4-12.3s  the chain starts",
+      "lead": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "key": [
+        25,
+        26
+      ],
+      "lines": [
+        "CORTISOL",
+        "LEVEL"
+      ],
+      "keyColor": "#8E2A18"
+    },
+    {
+      "_beat": "5  12.3-15.2s",
+      "lead": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "key": [
+        31,
+        32
+      ],
+      "lines": [
+        "INSULIN",
+        "RESISTANCE"
+      ],
+      "keyColor": "#2A1B10"
+    },
+    {
+      "_beat": "6  15.2-17.2s",
+      "lead": [
+        33,
+        34,
+        35
+      ],
+      "key": [
+        36,
+        37
+      ],
+      "lines": [
+        "BELLY FAT"
+      ],
+      "keyColor": "#8E2A18"
+    },
+    {
+      "_beat": "7  17.2-19.3s",
+      "lead": [
+        38,
+        39,
+        40
+      ],
+      "key": [
+        41
+      ],
+      "lines": [
+        "HORMONES"
+      ],
+      "keyColor": "#2A1B10"
+    },
+    {
+      "_beat": "8  19.3-22.6s",
+      "lead": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "key": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "lines": [
+        "KEEP STRESS",
+        "UNDER CONTROL"
+      ],
+      "keyColor": "#8E2A18"
+    },
+    {
+      "_beat": "9  22.6-24.5s  the close",
+      "lead": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "key": [
+        56,
+        57,
+        58
+      ],
+      "lines": [
+        "GOOD",
+        "HORMONE HEALTH"
+      ],
+      "keyColor": "#2A1B10"
+    }
+  ],
+  "style": {
+    "_comment": "Niranjan 2026-09-17: every reel different in colour, type, animation and grade, all premium. Pinned so the four differ from each other and from pcos-gut-health (warmEditorial/maskWipeFast/ink/brick/dark).",
+    "typePairing": "heritage",
+    "revealStyle": "punchPop",
+    "leadStyle": "match",
+    "paletteLead": "plum",
+    "textPosition": "top on the bare wall",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "ember — espresso with dark-red heat on the chain words, on the matte film grade; keyColor pinned per chunk from palette.py POOL, APCA against measured top wall #DBBEA0: espresso:69, dark red:53, espresso:69, dark red:53, espresso:69, dark red:53, espresso:69, dark red:53, espresso:69",
+    "colourStory": "ember — espresso with dark-red heat on the chain words, on the matte film grade"
+  },
+  "openFlags": [],
+  "_clipNote": "Source ~/Movies/VN/1789568524158035.mp4 (4K 50fps). inbox copy is colour-graded with ffmpeg before prep so the wall is measured post-grade: curves=all='0/0.04 0.5/0.5 1/0.96',eq=saturation=0.88,colorbalance=rm=0.03:gm=0.01:bm=-0.03 (h264_videotoolbox 80M, audio copied).",
+  "grade": {
+    "look": "soft matte film — lifted blacks, rolled highs, sat 0.88, warm mids",
+    "ffmpeg": "curves=all='0/0.04 0.5/0.5 1/0.96',eq=saturation=0.88,colorbalance=rm=0.03:gm=0.01:bm=-0.03"
+  },
+  "layout": {
+    "captionScrim": {
+      "enabled": true,
+      "ground": "dark",
+      "opacity": 0.8,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "hd",
+    "beats": [
+      {
+        "id": "h1",
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "motion": "pushIn",
+        "at": [
+          0.0,
+          1.94
+        ],
+        "prompt": "A woman in her early thirties in a plain cotton kurta sits at a cluttered home desk late in the evening, elbows on the desk and fingertips pressed to her temples, eyes closed, a laptop turned away from camera and papers beside her, lit by a single warm desk lamp. Vertical 9:16 frame, dim plain wall in the upper third. Shot on a 35mm lens, handheld documentary photograph, available light, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "'can stress' — stress shown plainly",
+        "approvedHash": "4891eac55353f37d7d785b41fe994d13f4391b7de5fbc90b1a5a0f06ab25ee19"
+      },
+      {
+        "id": "h2",
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "at": [
+          1.94,
+          4.0
+        ],
+        "prompt": "An Indian woman in her thirties wearing a long-sleeved cotton kurta with a dupatta over her shoulders stands at an apartment window at night, city lights softly blurred outside. She raises one hand and slowly rubs her forehead, eyes closed, then lets out a tired breath and lowers her hand. The camera holds at a medium distance slightly to her side, so her profile and hand are clearly visible. Cool blue night light from the window and a faint warm lamp behind her. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+        "status": "approved",
+        "_why": "'affect PCOS patients?' — the weight of stress, motion is the breath",
+        "approvedHash": "28ef30a8fbef98717d840227913b5fc6f8e3dcffaca5665cce882153ae15387a",
+        "_rejected": [
+          "h2-59fdd0413c36.mp4: low-back top (not modest for the audience) and no forehead rub — the action never happened"
+        ]
+      },
+      {
+        "id": "v1",
+        "beat": 6,
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pullOut",
+        "prompt": "A woman in a soft cotton kurta stands side-on and pinches a little of the loose fabric at her waist between her fingers, looking down at it, seen at mid-body from the side with her face out of frame, warm available window light in a simple bedroom. Vertical 9:16 frame with a plain wall in the upper third. Handheld documentary photograph, natural and modest, true-to-life colour.",
+        "status": "approved",
+        "_why": "'it increases the belly fat' — shown literally, nothing read off the tape",
+        "approvedHash": "39e960c32fb1bb554f51b59babf186284dc9d2b06ce79f2653a2ad28b09201b2",
+        "_rejected": [
+          "v1-6eb611eba9ec.png: tape markings readable — a number she never said"
+        ]
+      },
+      {
+        "id": "v2",
+        "beat": 8,
+        "mode": "video",
+        "treatment": "doctorBubble",
+        "prompt": "An Indian woman in her thirties with long dark hair in a single braid, wearing a soft pastel cotton kurta, sits cross-legged on a yoga mat beside a sunlit window in a calm apartment, eyes closed, hands resting on her knees. She breathes in slowly, her shoulders gently rising, then breathes out and relaxes. The camera holds still at seated eye level at a medium distance. Soft morning light falls across her and the plain wall behind. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+        "status": "approved",
+        "_why": "'keep their stress under control' — a slow breath, motion is the point",
+        "approvedHash": "fc388631eba8f99c069d3f500d54eeda0d5519cf46ebe93ed7924c1a62b4370c",
+        "_rejected": [
+          "v2-4a6888d893b7.mp4: the person read as male"
+        ]
+      }
+    ],
+    "style": "documentary",
+    "bubbleShape": "roundedSquare",
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
+  }
+}

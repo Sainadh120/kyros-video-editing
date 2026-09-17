@@ -1,0 +1,10 @@
+{
+  "clip": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-supplements/inbox/pcos-supplements.mp4",
+  "width": 2160,
+  "height": 3840,
+  "sourceFps": 50.0,
+  "durationSeconds": 35.647,
+  "frames30": 1069,
+  "alignAudio": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-supplements/work/align.wav",
+  "playbackAudio": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-supplements/work/playback.m4a"
+}

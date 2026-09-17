@@ -392,7 +392,8 @@ class TestHDAndLength:
         beats = {b["id"]: b for b in json.loads(p.read_text())["visuals"]["beats"]}
         v2 = beats["v2"]
         assert vz.request_hash(vz.request_for(v2, beats, quality="full")) == v2["approvedHash"]
-        v4 = vz.request_for(beats["v4"], beats, quality="full", seconds=2.0)
+        v4 = vz.request_for(beats["v4"], beats, quality="full", seconds=2.0,
+                            engines={"video": "ltx2"})
         assert v4["numFrames"] == 121 and (v4["width"], v4["height"]) == (768, 1344)
 
     def test_generation_sends_the_beats_length_for_video(self, tmp_path):
@@ -578,9 +579,10 @@ class TestFailure:
 
     def test_a_missing_endpoint_fails_fast_and_names_the_fix(self, tmp_path, monkeypatch):
         monkeypatch.delenv("MODAL_FLUX2_ENDPOINT_URL", raising=False)
-        runner = vz.ToolkitRunner(toolkit_dir=tmp_path / "toolkit")
+        monkeypatch.setattr(vz.modal_client, "ENV_FILE", tmp_path / "missing.env")
+        runner = vz.ModalRunner()
         ok, why = runner.available("flux2")
-        assert not ok and "MODAL_FLUX2_ENDPOINT_URL" in why
+        assert not ok and "MODAL_FLUX2_ENDPOINT_URL" in why and "infra/modal" in why
         p = make_project(tmp_path, [visual("v1", 2)])
         vz.generate(p, runner, log=lambda *a: None)
         assert "MODAL_FLUX2_ENDPOINT_URL" in manifest_of(p)["items"]["v1"]["error"]
@@ -877,25 +879,68 @@ class TestPartnerAndStudio:
 
 
 # ---------------------------------------------------------------------------
-class TestToolkitCommand:
-    def test_images_go_through_the_toolkit_on_modal(self, tmp_path):
+class TestEngines:
+    """Which model serves a visual: its own `engine`, the brief's
+    `visuals.engines`, then the default (video: LTX-2.5 since 2026-09-17)."""
+
+    def test_new_videos_default_to_ltx25_and_images_to_flux(self):
+        assert vz.request_for(visual("v1", 2, mode="video"))["tool"] == "ltx25"
+        assert vz.request_for(visual("v1", 2))["tool"] == "flux2"
+
+    def test_a_visual_can_ask_for_qwen_and_a_brief_can_pin_ltx23(self):
+        assert vz.request_for(dict(visual("v1", 2), engine="qwen_image"))["tool"] == "qwen_image"
+        assert vz.request_for(visual("v1", 2, mode="video"), engines={"video": "ltx2"})["tool"] == "ltx2"
+
+    def test_the_visual_beats_the_brief_and_a_wrong_engine_is_ignored(self):
+        v = dict(visual("v1", 2, mode="video"), engine="ltx25")
+        assert vz.request_for(v, engines={"video": "ltx2"})["tool"] == "ltx25"
+        assert vz.request_for(dict(visual("v1", 2), engine="ltx25"))["tool"] == "flux2"
+
+    def test_the_engine_is_part_of_the_hash_so_old_reels_must_pin_it(self):
+        v = visual("v1", 2, mode="video")
+        assert vz.request_hash(vz.request_for(v)) != \
+            vz.request_hash(vz.request_for(v, engines={"video": "ltx2"}))
+
+    def test_generation_goes_to_the_chosen_engines_server(self, tmp_path):
+        p = make_project(tmp_path, [dict(visual("v1", 2), engine="qwen_image")])
+        runner = FakeRunner()
+        vz.generate(p, runner, log=lambda *a: None)
+        assert [c[0] for c in runner.calls] == ["qwen_image"]
+
+
+class TestModalRequests:
+    """What Kyros sends to its own servers (infra/modal/*_app.py read these keys)."""
+
+    def test_an_image_request_carries_exactly_what_the_server_reads(self):
         req = vz.request_for(visual("v1", 2))
-        argv = vz.toolkit_argv("flux2", req, Path("/abs/out.png"), Path("/tk"))
-        assert argv[:6] == ["uv", "run", "--directory", "/tk", "python", "tools/flux2.py"]
-        assert argv[argv.index("--cloud") + 1] == "modal"
-        assert argv[argv.index("--output") + 1] == "/abs/out.png"
-        assert "--no-open" in argv and "runpod" not in argv
+        body = vz.modal_client.payload_for("flux2", req)
+        assert body["prompt"] == req["prompt"]
+        assert (body["width"], body["height"], body["seed"]) == (req["width"], req["height"], req["seed"])
+        assert "operation" not in body and "image_base64" not in body
+
+    def test_an_image_with_an_input_is_an_edit(self, tmp_path):
+        src = tmp_path / "in.png"
+        src.write_bytes(b"\x89PNG fake")
+        body = vz.modal_client.payload_for("flux2", vz.request_for(visual("v1", 2)), src)
+        assert body["operation"] == "edit" and body["image_base64"]
 
     def test_video_carries_frames_and_a_negative_prompt(self):
         req = vz.request_for(visual("v1", 2, mode="video"))
-        argv = vz.toolkit_argv("ltx2", req, Path("/abs/out.mp4"), Path("/tk"))
-        assert argv[argv.index("--num-frames") + 1] == str(req["numFrames"])
-        assert "--negative-prompt" in argv
-        assert argv[argv.index("--cloud") + 1] == "modal"
+        body = vz.modal_client.payload_for("ltx2", req)
+        assert body["num_frames"] == req["numFrames"] and body["fps"] == req["fps"]
+        assert body["negative_prompt"] == req["negative"]
 
-    def test_the_real_runner_never_falls_back_to_another_provider(self):
-        assert set(vz.TOOLS) == {"flux2", "image_edit", "ltx2"}
+    def test_every_tool_runs_on_our_own_modal_servers(self):
+        assert set(vz.TOOLS) == {"flux2", "image_edit", "ltx2", "ltx25", "qwen_image"}
         assert all(t["provider"] == "modal" for t in vz.TOOLS.values())
+        assert all("toolkit" not in t["app"] for t in vz.TOOLS.values())
+
+    def test_a_base64_result_is_written_and_an_error_is_returned_not_raised(self, tmp_path):
+        out = tmp_path / "o.png"
+        assert vz.modal_client.save_result({"image_base64": "aGVsbG8="}, out) is None
+        assert out.read_bytes() == b"hello"
+        assert vz.modal_client.save_result({"error": "GPU out of memory"}, tmp_path / "x.png") \
+            == "GPU out of memory"
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,59 @@
+{
+  "assetId": "h2-ecfe08331898",
+  "file": "h2-ecfe08331898.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "The woman gently tugs the waistband of her trousers with both hands, adjusting it, then lets go and smooths the kurta fabric down over it. Her face stays out of frame. The camera holds steady at mid-body with a very slow push in. Soft natural daylight from the bedroom window. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 786962343,
+  "numFrames": 65,
+  "fps": 24,
+  "input": {
+    "visual": "98fdf7fdd931fb06e13882a8e91419361d24458b945a65af58c788a00b73b94a"
+  },
+  "requestHash": "ecfe083318981f01002f7113bcdb160fb71e6022ac9d32304b2446d040b70203",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "The woman gently tugs the waistband of her trousers with both hands, adjusting it, then lets go and smooths the kurta fabric down over it. Her face stays out of frame. The camera holds steady at mid-body with a very slow push in. Soft natural daylight from the bedroom window. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 786962343,
+    "steps": null,
+    "guidance": null,
+    "input": {
+      "visual": "98fdf7fdd931fb06e13882a8e91419361d24458b945a65af58c788a00b73b94a"
+    },
+    "numFrames": 65,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "hookBackdrop",
+  "why": "'about belly fat?' — the waistband moment from h1, now moving; no tape, no numbers",
+  "says": "belly fat?",
+  "createdAt": "2026-09-17T04:46:04",
+  "elapsedSec": 98.85,
+  "costEstimateUsd": 0.068599,
+  "costBasis": "estimate: 98.8s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 2.708333,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

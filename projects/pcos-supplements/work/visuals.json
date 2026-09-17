@@ -1,0 +1,122 @@
+{
+  "items": {
+    "h1": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "ebfeb3432b18e6ccaae9f7f76b3cf203b9b23bfd555e80f7cb6cfe304fb4e4a8",
+      "file": "assets/ai/h1-ebfeb3432b18.png",
+      "reused": false,
+      "costEstimateUsd": 0.003043,
+      "elapsedSec": 9.95
+    },
+    "v2": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "569acc7e40619ce98fff0dbdf2025447f889983ef8e011b521ee439e7282f4a1",
+      "file": "assets/ai/v2-569acc7e4061.png",
+      "reused": false,
+      "costEstimateUsd": 0.002796,
+      "elapsedSec": 9.14
+    },
+    "v3": {
+      "status": "complete",
+      "kind": "image",
+      "requestHash": "e04aa1b4a56d67c8abd93d0b405fd7330b51742f6fcc3cee2b0ca6510bc469eb",
+      "file": "assets/ai/v3-e04aa1b4a56d.png",
+      "reused": false,
+      "costEstimateUsd": 0.001922,
+      "elapsedSec": 6.28
+    },
+    "h2": {
+      "status": "complete",
+      "kind": "video",
+      "requestHash": "3cf5049cb9c090242be208dd8e2ae68426f40ff0c98f3020b786e3db704d3c04",
+      "file": "assets/ai/h2-3cf5049cb9c0.mp4",
+      "reused": false,
+      "costEstimateUsd": 0.062364,
+      "elapsedSec": 89.86
+    }
+  },
+  "runs": [
+    {
+      "images": 3,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.00749,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-17T03:34:49"
+    },
+    {
+      "images": 1,
+      "videos": 0,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.002796,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-17T03:36:30"
+    },
+    {
+      "images": 0,
+      "videos": 1,
+      "graphics": 0,
+      "reused": 0,
+      "failed": 0,
+      "skipped": 0,
+      "costUsd": 0.062364,
+      "failedUpperUsd": 0.0,
+      "at": "2026-09-17T04:31:25"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "h1",
+      "requestHash": "ebfeb3432b18e6ccaae9f7f76b3cf203b9b23bfd555e80f7cb6cfe304fb4e4a8",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 9.95,
+      "costUsd": 0.003043,
+      "at": "2026-09-17T03:34:34"
+    },
+    {
+      "id": "v2",
+      "requestHash": "04451df2f59f2d9832a42417c997b67391f3d3ff35372d8fe78b1dc27ba3e5ef",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 8.25,
+      "costUsd": 0.002525,
+      "at": "2026-09-17T03:34:42"
+    },
+    {
+      "id": "v3",
+      "requestHash": "e04aa1b4a56d67c8abd93d0b405fd7330b51742f6fcc3cee2b0ca6510bc469eb",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 6.28,
+      "costUsd": 0.001922,
+      "at": "2026-09-17T03:34:49"
+    },
+    {
+      "id": "v2",
+      "requestHash": "569acc7e40619ce98fff0dbdf2025447f889983ef8e011b521ee439e7282f4a1",
+      "tool": "flux2",
+      "ok": true,
+      "elapsedSec": 9.14,
+      "costUsd": 0.002796,
+      "at": "2026-09-17T03:36:30"
+    },
+    {
+      "id": "h2",
+      "requestHash": "3cf5049cb9c090242be208dd8e2ae68426f40ff0c98f3020b786e3db704d3c04",
+      "tool": "ltx2",
+      "ok": true,
+      "elapsedSec": 89.86,
+      "costUsd": 0.062364,
+      "at": "2026-09-17T04:31:25"
+    }
+  ]
+}

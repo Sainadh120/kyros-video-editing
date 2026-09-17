@@ -283,6 +283,7 @@ type GraphicSpec = {
   value?: number; from?: number; prefix?: string; suffix?: string;
   label?: string; unit?: string; count?: number | number[];
   items?: string[]; itemFrames?: number[];
+  listStyle?: "ticks" | "numbered" | "bars" | "pills";
   ground: string; groundOpacity: number; ink: string; accent: string; text: string;
   texture?: string | null;
 };
@@ -305,7 +306,7 @@ type VisualItem = {
   cardOpacity?: number;
   glow?: { color: string; opacity: number; rect: Rect };
   // listBuild: one item of a spoken list
-  group?: string; label?: string; showLabels?: boolean;
+  group?: string; label?: string; showLabels?: boolean; listLayout?: "grid" | "cuts"; stage?: number[];
   tile?: Rect; index?: number; count?: number;
   settleFrame?: number; tileFrames?: number;
   ground?: string; labelColor?: string; accent?: string; texture?: string | null;
@@ -461,27 +462,112 @@ const GraphicBody: React.FC<{
       </div>
     );
   }
+  return <Checklist g={g} w={w} h={h} local={local} from={from} />;
+};
+
+/**
+ * A spoken list as a motion graphic. Four styles (graphic.listStyle) so the
+ * reels don't share one template; all of them share the same grammar: the
+ * item arrives on her word with a mask wipe, earlier items step back a
+ * little so the eye sits on the one she is saying, and the ornament (ring,
+ * numeral, bar, pill) draws itself rather than popping in.
+ */
+const Checklist: React.FC<{ g: GraphicSpec; w: number; h: number; local: number; from: number }> = ({
+  g, w, h, local, from,
+}) => {
   const items = g.items ?? [];
-  const rowH = Math.min(h / (items.length + 0.6), 150);
+  const n = Math.max(1, items.length);
+  const style = g.listStyle ?? "ticks";
+  const padX = 58;
+  const innerW = w - padX * 2;
+  const rowH = Math.min((h - 70) / n, 170);
+  const ornament = style === "pills" ? 0 : rowH * 0.62;
   const longest = items.reduce((a, b) => (b.length > a.length ? b : a), "");
-  const size = Math.min(rowH * 0.56, fitSize(longest, w - rowH * 1.6, rowH * 0.6));
-  const cs = size * 0.95;
+  const textW = innerW - ornament - (style === "pills" ? 90 : rowH * 0.34);
+  const size = Math.min(rowH * (style === "pills" ? 0.46 : 0.56), fitSize(longest, textW, 96));
+  const ats = items.map((_, i) => (g.itemFrames?.[i] ?? from + 8 + i * 14) - from);
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: rowH * 0.18, alignItems: "flex-start" }}>
+    <div style={{ width: innerW, display: "flex", flexDirection: "column",
+                  alignItems: style === "pills" ? "center" : "stretch",
+                  gap: style === "pills" ? rowH * 0.16 : 0 }}>
       {items.map((txt, i) => {
-        const at = (g.itemFrames?.[i] ?? from + 8 + i * 14) - from;
-        const on = interpolate(local, [at, at + 9], [0, 1], { ...CLAMP, easing: EASE_OUT });
-        const tick = interpolate(local, [at + 4, at + 14], [0, 1], { ...CLAMP, easing: EASE_IN_OUT });
-        return (
-          <div key={i} style={{ display: "flex", alignItems: "center", gap: cs * 0.45, opacity: on,
-                                transform: `translateY(${(1 - on) * 14}px)` }}>
-            <svg width={cs} height={cs} viewBox="0 0 40 40" style={{ flex: "none" }}>
-              <circle cx="20" cy="20" r="18" fill={g.accent} opacity={0.18 + 0.82 * tick} />
-              <path d="M12 20.5 L18 26.5 L29 14" fill="none" stroke={g.ground} strokeWidth="4.2"
+        const at = ats[i];
+        const next = i + 1 < n ? ats[i + 1] : 1e6;   // last item never steps back; interpolate rejects Infinity
+        const on = interpolate(local, [at, at + 10], [0, 1], { ...CLAMP, easing: EASE_OUT });
+        const wipe = interpolate(local, [at + 2, at + 14], [0, 100], { ...CLAMP, easing: EASE_IN_OUT });
+        const draw = interpolate(local, [at, at + 16], [0, 1], { ...CLAMP, easing: EASE_IN_OUT });
+        const settle = interpolate(local, [next, next + 10], [1, 0.62], { ...CLAMP, easing: EASE_OUT });
+        const text = (
+          <div style={{ ...numeralStyle(size, g.ink), clipPath: `inset(-10% ${100 - wipe}% -10% 0)`,
+                        transform: `translateX(${(1 - on) * 18}px)` }}>{txt}</div>
+        );
+
+        if (style === "pills") {
+          const pop = interpolate(local, [at, at + 7, at + 13], [0.86, 1.035, 1], { ...CLAMP, easing: EASE_OUT });
+          return (
+            <div key={i} style={{ opacity: on * settle, transform: `scale(${pop})`,
+                                  display: "flex", alignItems: "center", gap: size * 0.42,
+                                  padding: `${size * 0.26}px ${size * 0.62}px`, borderRadius: 999,
+                                  background: rgba(g.accent, 0.1),
+                                  border: `2px solid ${rgba(g.accent, 0.35 + 0.4 * draw)}` }}>
+              <div style={{ width: size * 0.3, height: size * 0.3, borderRadius: "50%",
+                            background: g.accent, transform: `scale(${draw})` }} />
+              {text}
+            </div>
+          );
+        }
+
+        const rule = i < n - 1 ? (
+          <div style={{ position: "absolute", left: ornament + rowH * 0.34, right: 0, bottom: 0, height: 1.5,
+                        background: rgba(g.ink, 0.16), transformOrigin: "left",
+                        transform: `scaleX(${draw})` }} />
+        ) : null;
+
+        let mark: React.ReactNode;
+        if (style === "numbered") {
+          mark = (
+            <div style={{ width: ornament, fontFamily: LEAD_FAMILY, fontStyle: LEAD_STYLE,
+                          fontSize: ornament * 0.78, lineHeight: 1, color: g.accent,
+                          opacity: on, fontVariantNumeric: "lining-nums tabular-nums",
+                          transform: `translateY(${(1 - on) * 10}px)` }}>
+              {String(i + 1).padStart(2, "0")}
+            </div>
+          );
+        } else if (style === "bars") {
+          mark = (
+            <div style={{ width: ornament, display: "flex", justifyContent: "center" }}>
+              <div style={{ width: 7, height: rowH * 0.58, borderRadius: 4, background: g.accent,
+                            transformOrigin: "top", transform: `scaleY(${draw})` }} />
+            </div>
+          );
+        } else {
+          const R = 17;
+          const C = 2 * Math.PI * R;
+          const tick = interpolate(local, [at + 8, at + 18], [0, 1], { ...CLAMP, easing: EASE_IN_OUT });
+          mark = (
+            <svg width={ornament} height={ornament} viewBox="0 0 40 40" style={{ flex: "none" }}>
+              <circle cx="20" cy="20" r={R} fill={rgba(g.accent, 0.12 * draw)} stroke={g.accent}
+                strokeWidth="2.4" strokeDasharray={C} strokeDashoffset={C * (1 - draw)}
+                transform="rotate(-90 20 20)" />
+              <path d="M13 20.5 L18.2 25.6 L27.5 15" fill="none" stroke={g.accent} strokeWidth="3.4"
                 strokeLinecap="round" strokeLinejoin="round" pathLength={1}
                 strokeDasharray={1} strokeDashoffset={1 - tick} />
             </svg>
-            <div style={numeralStyle(size, g.ink)}>{txt}</div>
+          );
+        }
+
+        const active = style === "bars"
+          ? interpolate(local, [at, at + 8], [0, 1], CLAMP) * interpolate(local, [next, next + 10], [1, 0], CLAMP)
+          : 0;
+        return (
+          <div key={i} style={{ position: "relative", height: rowH, display: "flex", alignItems: "center",
+                                gap: rowH * 0.34, opacity: Math.max(on, 0.0001) * settle,
+                                borderRadius: 18, background: rgba(g.accent, 0.07 * active),
+                                paddingLeft: style === "bars" ? 0 : 0 }}>
+            {mark}
+            {text}
+            {rule}
           </div>
         );
       })}
@@ -509,8 +595,12 @@ const GraphicCard: React.FC<{ it: VisualItem; opacity: number }> = ({ it, opacit
         style={{
           position: "absolute", left: x0, top: y0, width: x1 - x0, height: y1 - y0,
           transform: `translateY(${lift}px)`, borderRadius: full ? 0 : 34,
-          background: full ? undefined : rgba(g.ground, g.groundOpacity),
-          boxShadow: full ? undefined : "0 22px 54px rgba(30,18,8,0.20)",
+          background: full ? undefined
+            : `linear-gradient(160deg, ${rgba(g.ground, Math.min(1, g.groundOpacity))} 0%, ${rgba(g.ground, g.groundOpacity * 0.84)} 100%)`,
+          backdropFilter: full ? undefined : "blur(18px) saturate(1.15)",
+          border: full ? undefined : "1.5px solid rgba(255,255,255,0.55)",
+          boxShadow: full ? undefined
+            : "0 30px 70px rgba(30,18,8,0.22), 0 4px 14px rgba(30,18,8,0.10), inset 0 1px 0 rgba(255,255,255,0.7)",
           display: "flex", alignItems: "center", justifyContent: "center",
         }}
       >
@@ -530,10 +620,88 @@ const GraphicCard: React.FC<{ it: VisualItem; opacity: number }> = ({ it, opacit
  * the end every item is on screen together, labelled. Her bubble stays on
  * throughout (DoctorBubble).
  */
+/**
+ * listLayout "cuts": one item at a time. A large sharp square card over a
+ * blurred, darkened copy of the same picture filling the frame, the label set
+ * big beneath it, and a row of progress dots so the viewer feels the list
+ * building. The next item cross-fades in on its own word. Square tiles are
+ * never stretched to 9:16 — the blur carries the full frame, the card stays
+ * crisp.
+ */
+const ListCuts: React.FC<{ lead: VisualItem; mem: VisualItem[]; opacity: number }> = ({
+  lead, mem, opacity,
+}) => {
+  const frame = useCurrentFrame();
+  const [sx0, sy0, sx1, sy1] = (lead.stage ?? [48, 300, 1032, 1180]) as Rect;
+  const labelH = 150;
+  const card = Math.min(sx1 - sx0 - 40, sy1 - sy0 - labelH - 30, 900);
+  const cx = (sx0 + sx1) / 2;
+  const cardTop = sy0 + (sy1 - sy0 - card - labelH) / 2;
+  const XF = 7;
+  const shown = mem.filter((m, i) => {
+    const next = mem[i + 1];
+    return frame >= m.fromFrame && (!next || frame < next.fromFrame + XF);
+  });
+  const current = mem.filter((m) => frame >= m.fromFrame).length - 1;
+  return (
+    <AbsoluteFill style={{ opacity, backgroundColor: lead.ground }}>
+      {shown.map((m) => {
+        const i = mem.indexOf(m);
+        const next = mem[i + 1];
+        const inT = interpolate(frame, [m.fromFrame, m.fromFrame + XF], [0, 1], { ...CLAMP, easing: EASE_OUT });
+        const outT = next ? interpolate(frame, [next.fromFrame, next.fromFrame + XF], [1, 0], CLAMP) : 1;
+        const o = inT * outT;
+        const pop = interpolate(frame, [m.fromFrame, m.fromFrame + 12], [0.94, 1], { ...CLAMP, easing: EASE_OUT });
+        const drift = interpolate(frame, [m.fromFrame, m.fromFrame + 60], [1.0, 1.04], CLAMP);
+        const labelIn = interpolate(frame, [m.fromFrame + 3, m.fromFrame + 12], [0, 1], { ...CLAMP, easing: EASE_OUT });
+        return (
+          <AbsoluteFill key={m.id} style={{ opacity: o }}>
+            <Sequence from={m.fromFrame} durationInFrames={Math.max(1, m.toFrame - m.fromFrame)} layout="none">
+              <AbsoluteFill style={{ overflow: "hidden" }}>
+                <div style={{ width: 1080, height: 1920, transform: "scale(1.18)",
+                              filter: "blur(38px) brightness(0.5) saturate(1.1)" }}>
+                  <Picture it={{ ...m, kenBurns: undefined }} w={1080} h={1920} />
+                </div>
+              </AbsoluteFill>
+              <AbsoluteFill style={{ background: "radial-gradient(90% 60% at 50% 40%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%)" }} />
+              <div style={{ position: "absolute", left: cx - card / 2, top: cardTop, width: card, height: card,
+                            borderRadius: 36, overflow: "hidden", transform: `scale(${pop})`,
+                            boxShadow: "0 40px 90px rgba(0,0,0,0.45), 0 0 0 2px rgba(255,255,255,0.18)" }}>
+                <div style={{ width: card, height: card, transform: `scale(${drift})` }}>
+                  <Picture it={{ ...m, kenBurns: undefined }} w={card} h={card} />
+                </div>
+              </div>
+            </Sequence>
+            {m.label ? (
+              <div style={{ position: "absolute", left: sx0, width: sx1 - sx0, top: cardTop + card + 34,
+                            display: "flex", justifyContent: "center", opacity: labelIn,
+                            transform: `translateY(${(1 - labelIn) * 16}px)` }}>
+                <div style={{ ...numeralStyle(Math.min(96, fitSize(m.label, sx1 - sx0, 96)), "#FFF6E8"),
+                              textShadow: "0 4px 24px rgba(0,0,0,0.45)" }}>{m.label}</div>
+              </div>
+            ) : null}
+          </AbsoluteFill>
+        );
+      })}
+      <div style={{ position: "absolute", left: sx0, width: sx1 - sx0, top: cardTop - 46,
+                    display: "flex", justifyContent: "center", gap: 14 }}>
+        {mem.map((m, i) => (
+          <div key={m.id} style={{ height: 8, borderRadius: 4,
+                                   width: i === current ? 44 : 8,
+                                   background: i <= current ? (lead.accent ?? "#FFB01F") : "rgba(255,255,255,0.35)" }} />
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const ListBuild: React.FC<{ lead: VisualItem; opacity: number }> = ({ lead, opacity }) => {
   const frame = useCurrentFrame();
   const mem = VITEMS.filter((i) => i.group === lead.group)
     .sort((a, b) => (a.index ?? 0) - (b.index ?? 0));
+  if (lead.listLayout === "cuts") {
+    return <ListCuts lead={lead} mem={mem} opacity={opacity} />;
+  }
   return (
     <AbsoluteFill style={{ opacity }}>
       <AbsoluteFill style={{ backgroundColor: lead.ground }} />
@@ -633,9 +801,11 @@ const SupportingVisuals: React.FC = () => {
         }
         return (
           <AbsoluteFill key={it.id} style={{ opacity: o, overflow: "hidden" }}>
-            <Sequence from={it.fromFrame} durationInFrames={dur} layout="none">
-              <Picture it={it} w={1080} h={1920} />
-            </Sequence>
+            <AbsoluteFill style={{ transform: `scale(${interpolate(frame, [it.fromFrame, it.fromFrame + it.fadeFrames * 2], [1.06, 1], { ...CLAMP, easing: EASE_OUT })})` }}>
+              <Sequence from={it.fromFrame} durationInFrames={dur} layout="none">
+                <Picture it={it} w={1080} h={1920} />
+              </Sequence>
+            </AbsoluteFill>
           </AbsoluteFill>
         );
       })}
@@ -656,49 +826,55 @@ const DoctorBubble: React.FC = () => {
     return null;
   }
   const B = it.bubble;
-  const pIn = interpolate(frame, [it.fromFrame, it.fromFrame + B.shrinkFrames], [0, 1],
-    { ...CLAMP, easing: EASE_IN_OUT });
-  const pOut = interpolate(frame, [it.toFrame - B.shrinkFrames, it.toFrame], [1, 0],
-    { ...CLAMP, easing: EASE_IN_OUT });
+  // She stays full-frame underneath while the picture fades in (Footage keeps
+  // drawing), so the only motion is a cross-fade — then her circle pops into
+  // the corner once the picture has landed, and leaves before it fades out.
+  // The old version morphed a clip-mask from the whole frame down to the
+  // corner, which read as sliding arches and ghosted edges.
+  const fade = it.fadeFrames ?? 12;
+  const pop = 11;
+  const pIn = interpolate(frame, [it.fromFrame + Math.round(fade * 0.6), it.fromFrame + Math.round(fade * 0.6) + pop],
+    [0, 1], { ...CLAMP, easing: Easing.out(Easing.back(1.4)) });
+  const pOut = interpolate(frame, [it.toFrame - fade - pop + 2, it.toFrame - fade + 2], [1, 0],
+    { ...CLAMP, easing: Easing.in(Easing.cubic) });
   const p = Math.min(pIn, pOut);
+  if (p <= 0) {
+    return null;
+  }
   const [bx0, by0, bx1, by1] = B.rect;
-  const rb = (bx1 - bx0) / 2;
+  const bw = bx1 - bx0;
+  const bh = by1 - by0;
   const { cx, cy, r } = B.face;
-  const sEnd = rb / r;
-  const s = 1 + (sEnd - 1) * p;
-  const tx = ((bx0 + bx1) / 2 - cx * sEnd) * p;
-  const ty = ((by0 + by1) / 2 - cy * sEnd) * p;
-  const cover = Math.hypot(Math.max(cx, 1080 - cx), Math.max(cy, 1920 - cy));
-  const R = cover + (r - cover) * p;
-  const clip = B.shape === "circle"
-    ? `circle(${R}px at ${cx}px ${cy}px)`
-    : `inset(${Math.max(0, cy - R)}px ${Math.max(0, 1080 - cx - R)}px ${Math.max(0, 1920 - cy - R)}px ${Math.max(0, cx - R)}px round ${(B.radius / sEnd) * p}px)`;
+  const sEnd = bw / 2 / r;
+  const tx = bw / 2 - cx * sEnd;
+  const ty = bh / 2 - cy * sEnd;
+  const radius = B.shape === "circle" ? "50%" : B.radius;
   return (
     <AbsoluteFill>
       <div
         style={{
-          position: "absolute", left: 0, top: 0, width: 1080, height: 1920,
-          transformOrigin: "0 0", transform: `translate(${tx}px, ${ty}px) scale(${s})`,
-          clipPath: clip, WebkitClipPath: clip,
+          position: "absolute", left: bx0, top: by0, width: bw, height: bh,
+          borderRadius: radius, overflow: "hidden",
+          opacity: Math.min(1, p * 1.4), transform: `scale(${0.72 + 0.28 * p})`,
+          boxShadow: `0 0 0 ${B.ringWidth}px ${B.ring}, 0 22px 50px rgba(0,0,0,0.38)`,
         }}
       >
-        <OffthreadVideo
-          src={staticFile(data.meta.videoSrc)}
-          muted
+        <div
           style={{
-            position: "absolute", top: L.video.offsetY, left: 0,
-            width: L.video.renderWidth, height: L.video.renderHeight, objectFit: "cover",
+            position: "absolute", left: 0, top: 0, width: 1080, height: 1920,
+            transformOrigin: "0 0", transform: `translate(${tx}px, ${ty}px) scale(${sEnd})`,
           }}
-        />
+        >
+          <OffthreadVideo
+            src={staticFile(data.meta.videoSrc)}
+            muted
+            style={{
+              position: "absolute", top: L.video.offsetY, left: 0,
+              width: L.video.renderWidth, height: L.video.renderHeight, objectFit: "cover",
+            }}
+          />
+        </div>
       </div>
-      <div
-        style={{
-          position: "absolute", left: bx0, top: by0, width: bx1 - bx0, height: by1 - by0,
-          borderRadius: B.shape === "circle" ? "50%" : B.radius,
-          boxShadow: `0 0 0 ${B.ringWidth}px ${B.ring}, 0 18px 44px rgba(0,0,0,0.35)`,
-          opacity: interpolate(p, [0.6, 1], [0, 1], CLAMP),
-        }}
-      />
     </AbsoluteFill>
   );
 };
@@ -726,9 +902,12 @@ const CaptionWash: React.FC = () => {
         <div
           key={`${it.id}-${i}`}
           style={{
-            position: "absolute", left: x0, top: y0, width: x1 - x0, height: y1 - y0,
+            position: "absolute",
             opacity: own * visualOpacity(it, frame) * w.opacity,
-            background: `radial-gradient(ellipse 72% 50% at 50% 50%, ${w.color} 0%, ${w.color} 58%, ${rgba(w.color, 0)} 100%)`,
+            // Wide and heavily feathered so it reads as light falling behind
+            // the words, not a blob: full width, fading out top and bottom.
+            left: 0, width: 1080, top: y0 - (y1 - y0) * 0.45, height: (y1 - y0) * 1.9,
+            background: `linear-gradient(to bottom, ${rgba(w.color, 0)} 0%, ${rgba(w.color, 0.72)} 26%, ${w.color} 42%, ${w.color} 58%, ${rgba(w.color, 0.72)} 74%, ${rgba(w.color, 0)} 100%)`,
           }}
         />,
       );
@@ -1031,11 +1210,36 @@ const KeyLineUnitStagger: React.FC<RevealProps & {
 }> = ({ text, size, fromFrame, color, shadow, unit, staggerFrames, durFrames, displacementPx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const parts = unit === "word" ? text.split(" ") : Array.from(text);
   const base = keyBaseStyle(size, color);
+  if (unit === "char") {
+    // Chars wrapped individually let a line break fall mid-word ("TWO TYPE / S"
+    // on pcos-belly-fat). Each word is an unbreakable group of chars.
+    let k = 0;
+    return (
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: size * 0.22 }}>
+        {text.split(" ").map((word, wi) => (
+          <span key={wi} style={{ display: "inline-flex", whiteSpace: "nowrap" }}>
+            {Array.from(word).map((ch) => {
+              const i = k++;
+              const reveal = spring({ frame: frame - (fromFrame + i * staggerFrames), fps,
+                config: M.soft, durationInFrames: durFrames });
+              return (
+                <span key={i} style={{ ...base, display: "inline-block", whiteSpace: "pre",
+                  textShadow: STROKE ? STROKE.shadow : shadow, opacity: reveal,
+                  transform: `translateY(${interpolate(reveal, [0, 1], [displacementPx, 0])}px)` }}>
+                  {ch}
+                </span>
+              );
+            })}
+          </span>
+        ))}
+      </div>
+    );
+  }
+  const parts = text.split(" ");
   return (
     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center",
-                  columnGap: unit === "word" ? size * 0.22 : 0 }}>
+                  columnGap: size * 0.22 }}>
       {parts.map((p, i) => {
         // spring() is a pure function (not a hook), so calling it per item in
         // a loop of fixed length (the string does not change frame to frame)
@@ -1055,7 +1259,7 @@ const KeyLineUnitStagger: React.FC<RevealProps & {
               transform: `translateY(${interpolate(reveal, [0, 1], [displacementPx, 0])}px)`,
             }}
           >
-            {unit === "char" && p === " " ? " " : p}
+            {p}
           </span>
         );
       })}
@@ -1227,37 +1431,36 @@ const AnimatedLogo: React.FC<{ brand: Brand }> = ({ brand }) => {
 const DoctorPlate: React.FC = () => {
   const frame = useCurrentFrame();
   const D = L.doctorPlate;
-  const reveal = useSoft(FIX.plateFromFrame, M.chunkInFrames);
-  const out = interpolate(
-    frame,
-    [FIX.plateFromFrame + D.holdFrames,
-     FIX.plateFromFrame + D.holdFrames + M.chunkOutFrames],
-    [1, 0],
-    { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
-  );
-
-  if (frame < FIX.plateFromFrame || out <= 0) {
+  const a = FIX.plateFromFrame;
+  const IN = 16;
+  const OUT = 12;
+  const z = a + D.holdFrames;
+  if (frame < a || frame > z + OUT) {
     return null;
   }
-
+  const inP = interpolate(frame, [a, a + IN], [0, 1], { ...CLAMP, easing: Easing.out(Easing.cubic) });
+  const outP = interpolate(frame, [z, z + OUT], [0, 1], { ...CLAMP, easing: Easing.in(Easing.cubic) });
   const k = D.targetPillWidth / D.pillWidth;
-
+  const w = D.fileWidth * k;
+  // Reveal left to right as it slides in; hide right to left as it leaves.
+  const rightClip = (1 - inP) * 100;
+  const leftShift = outP * 100;
+  const clip = `inset(-20% ${Math.max(rightClip, leftShift)}% -20% 0% round 999px)`;
   return (
     <div
       style={{
         position: "absolute",
         left: D.left - D.pillX * k,
         top: D.top - D.pillY * k,
-        width: D.fileWidth * k,
+        width: w,
         height: D.fileHeight * k,
-        opacity: reveal * out,
-        transform: `translateX(${interpolate(reveal, [0, 1], [-26, 0])}px)`,
+        opacity: Math.min(1, inP * 1.6) * (1 - outP * 0.6),
+        transform: `translateX(${(1 - inP) * -34 - outP * 22}px)`,
+        clipPath: clip, WebkitClipPath: clip,
+        filter: "drop-shadow(0 10px 22px rgba(0,0,0,0.28))",
       }}
     >
-      <Img
-        src={staticFile(D.src)}
-        style={{ width: "100%", height: "100%", display: "block" }}
-      />
+      <Img src={staticFile(D.src)} style={{ width: "100%", height: "100%", display: "block" }} />
     </div>
   );
 };
@@ -1574,9 +1777,8 @@ const Footage: React.FC = () => {
   }
   // While she is in the bubble, DoctorBubble draws her and the frame is the
   // picture's. Never true on a clip without supporting visuals.
-  if (activeAt(frame, (i) => !!i.bubble)) {
-    return null;
-  }
+  // Keep drawing her under a full-frame picture: the picture's own fade is
+  // the transition, so she must still be there while it is part-transparent.
   // Scale about the frame centre, then shift up by exactly the height the
   // scale created at the bottom edge — the frame stays covered top and bottom
   // while her head rises into the wall that used to sit above it.

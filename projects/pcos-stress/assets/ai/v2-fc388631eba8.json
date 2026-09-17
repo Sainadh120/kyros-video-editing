@@ -1,0 +1,55 @@
+{
+  "assetId": "v2-fc388631eba8",
+  "file": "v2-fc388631eba8.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "An Indian woman in her thirties with long dark hair in a single braid, wearing a soft pastel cotton kurta, sits cross-legged on a yoga mat beside a sunlit window in a calm apartment, eyes closed, hands resting on her knees. She breathes in slowly, her shoulders gently rising, then breathes out and relaxes. The camera holds still at seated eye level at a medium distance. Soft morning light falls across her and the plain wall behind. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 434210846,
+  "numFrames": 89,
+  "fps": 24,
+  "input": null,
+  "requestHash": "fc388631eba8f99c069d3f500d54eeda0d5519cf46ebe93ed7924c1a62b4370c",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "An Indian woman in her thirties with long dark hair in a single braid, wearing a soft pastel cotton kurta, sits cross-legged on a yoga mat beside a sunlit window in a calm apartment, eyes closed, hands resting on her knees. She breathes in slowly, her shoulders gently rising, then breathes out and relaxes. The camera holds still at seated eye level at a medium distance. Soft morning light falls across her and the plain wall behind. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 434210846,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 89,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    8
+  ],
+  "slug": "pcos-stress",
+  "treatment": "doctorBubble",
+  "why": "'keep their stress under control' — a slow breath, motion is the point",
+  "says": "So, any woman should always keep their stress under control",
+  "createdAt": "2026-09-17T04:44:25",
+  "elapsedSec": 112.68,
+  "costEstimateUsd": 0.078203,
+  "costBasis": "estimate: 112.7s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 3.708333,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

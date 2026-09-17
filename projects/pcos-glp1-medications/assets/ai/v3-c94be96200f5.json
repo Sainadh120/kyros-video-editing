@@ -1,0 +1,55 @@
+{
+  "assetId": "v3-c94be96200f5",
+  "file": "v3-c94be96200f5.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "An educational 3D medical animation filling the whole frame edge to edge: a large round translucent pink cell floats in a deep aubergine space. Small glowing golden insulin molecules drift toward it and touch its surface, but the cell's small doorways stay shut and tiny white glucose particles keep floating outside. The camera slowly pushes in toward the cell. Soft studio lighting, clean scientific visualisation style, smooth continuous motion.",
+  "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 7,
+  "numFrames": 73,
+  "fps": 24,
+  "input": null,
+  "requestHash": "c94be96200f5db53808f579cc9868d16518733c95d79bbafadb5940ebe5a100f",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "An educational 3D medical animation filling the whole frame edge to edge: a large round translucent pink cell floats in a deep aubergine space. Small glowing golden insulin molecules drift toward it and touch its surface, but the cell's small doorways stay shut and tiny white glucose particles keep floating outside. The camera slowly pushes in toward the cell. Soft studio lighting, clean scientific visualisation style, smooth continuous motion.",
+    "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 7,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 73,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "v3"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "doctorBubble",
+  "why": "'who have insulin resistance' — the mechanism she names, as a textbook animation",
+  "says": "who have insulin resistance. These",
+  "createdAt": "2026-09-17T10:41:33",
+  "elapsedSec": 113.02,
+  "costEstimateUsd": 0.078438,
+  "costBasis": "estimate: 113.0s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 3.041667,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

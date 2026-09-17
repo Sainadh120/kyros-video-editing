@@ -1,0 +1,55 @@
+{
+  "assetId": "v4-488071705991",
+  "file": "v4-488071705991.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "Clean water pours from a plain steel jug into a clear drinking glass on a light wooden kitchen table beside a sunlit window. The glass fills steadily, small bubbles rising and light sparkling through the water. The camera holds still at table height, close and slightly low, with the window softly blurred behind. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 1024,
+  "height": 576,
+  "seed": 1767044201,
+  "numFrames": 49,
+  "fps": 24,
+  "input": null,
+  "requestHash": "48807170599168dc2a87d11672f8d87227981ce426d51441f591b91bf6a850a1",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "Clean water pours from a plain steel jug into a clear drinking glass on a light wooden kitchen table beside a sunlit window. The glass fills steadily, small bubbles rising and light sparkling through the water. The camera holds still at table height, close and slightly low, with the window softly blurred behind. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 1024,
+    "height": 576,
+    "seed": 1767044201,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 49,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "v4"
+  ],
+  "sourceBeats": [
+    9
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "inset",
+  "why": "'good hydration' — water, shown literally",
+  "says": "good hydration,",
+  "createdAt": "2026-09-17T04:27:47",
+  "elapsedSec": 150.65,
+  "costEstimateUsd": 0.104552,
+  "costBasis": "estimate: 150.7s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 2.041667,
+  "outputSize": [
+    1024,
+    576
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

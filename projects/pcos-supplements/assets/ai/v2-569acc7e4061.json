@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-569acc7e4061",
+  "file": "v2-569acc7e4061.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "An Indian woman in her early thirties in a simple cotton salwar kurta stands in a bright neighbourhood pharmacy in Hyderabad, her hand paused in front of a softly out-of-focus shelf of plain white bottles, seen side-on at a medium distance, thoughtful expression in soft profile. Vertical 9:16 frame, calm plain ceiling area in the upper third. Bright even light, shot on a 35mm lens with shallow depth of field so the shelf is a soft blur, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 285522175,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "569acc7e40619ce98fff0dbdf2025447f889983ef8e011b521ee439e7282f4a1",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "An Indian woman in her early thirties in a simple cotton salwar kurta stands in a bright neighbourhood pharmacy in Hyderabad, her hand paused in front of a softly out-of-focus shelf of plain white bottles, seen side-on at a medium distance, thoughtful expression in soft profile. Vertical 9:16 frame, calm plain ceiling area in the upper third. Bright even light, shot on a 35mm lens with shallow depth of field so the shelf is a soft blur, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 285522175,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-supplements",
+  "treatment": "doctorBubble",
+  "why": "'do not take over-the-counter supplements' — the moment she is warning about, shown as hesitation",
+  "says": "So, what I suggest is, do not take over -the -counter supplements.",
+  "createdAt": "2026-09-17T03:36:30",
+  "elapsedSec": 9.14,
+  "costEstimateUsd": 0.002796,
+  "costBasis": "estimate: 9.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

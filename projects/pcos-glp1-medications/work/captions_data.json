@@ -1,0 +1,2117 @@
+{
+  "zoom": null,
+  "meta": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1109,
+    "videoFrames": 1019,
+    "videoSrc": "video.mp4",
+    "audioSrc": "audio.m4a",
+    "slug": "pcos-glp1-medications",
+    "style": {
+      "_comment": "Niranjan 2026-09-17: every reel different in colour, type, animation and grade, all premium. Pinned so the four differ from each other and from pcos-gut-health (warmEditorial/maskWipeFast/ink/brick/dark).",
+      "typePairing": "modernCalm",
+      "revealStyle": "wordStagger",
+      "leadStyle": "neutral",
+      "paletteLead": "indigo",
+      "textPosition": "top on the bare wall",
+      "payloadTreatment": "stacked caps, no stroke",
+      "accent": "plum & espresso \u2014 deep jewel tones on the rich-contrast grade; keyColor pinned per chunk from palette.py POOL, APCA against measured top wall #EEC89F: plum:75, espresso:75, plum:75, dark red:60, plum:75, espresso:75, plum:75",
+      "colourStory": "plum & espresso \u2014 deep jewel tones on the rich-contrast grade"
+    },
+    "frameFormula": "frame = round(seconds * 30)"
+  },
+  "theme": {
+    "palette": {
+      "scene": {
+        "wall": "#EEC89F",
+        "wallShadow": "#C09C74"
+      },
+      "onLight": {
+        "lead": "#604C40",
+        "key": "#3A2416",
+        "keyAlt": "#9E3B16",
+        "muted": "#5A4636"
+      },
+      "onDark": {
+        "scrim": "#120C08",
+        "lead": "#FFF6E8",
+        "key": "#F4CE87",
+        "keyAlt": "#E8A33C",
+        "muted": "#C9B39A"
+      },
+      "bottomText": {
+        "lead": "#FDF4E1",
+        "key": "#F5EAD2",
+        "keyAlt": "#8A5A2A"
+      }
+    },
+    "type": {
+      "lead": {
+        "fontFamily": "Newsreader",
+        "weight": 500,
+        "lineHeight": 1.2,
+        "letterSpacing": -0.2,
+        "questionSize": 78,
+        "answerSize": 70,
+        "bottomAnswerSize": 44,
+        "googleFontsModule": "Newsreader",
+        "style": "italic",
+        "weights": [
+          500,
+          600
+        ]
+      },
+      "key": {
+        "fontFamily": "SairaCondensed",
+        "weight": 800,
+        "lineHeight": 0.94,
+        "letterSpacing": -0.5,
+        "advanceEm": 0.47,
+        "minSize": 96,
+        "maxSizeOneLine": 240,
+        "maxSizeMultiLine": 178,
+        "questionBonus": 26,
+        "bottomMinSize": 70,
+        "bottomMaxOneLine": 140,
+        "bottomMaxMultiLine": 108,
+        "googleFontsModule": "SairaCondensed",
+        "style": "normal",
+        "weights": [
+          800
+        ]
+      },
+      "ui": {
+        "fontFamily": "DMSans",
+        "weight": 500,
+        "nameSize": 30,
+        "metaSize": 24,
+        "ctaSize": 34
+      },
+      "stroke": {
+        "color": null,
+        "keyEm": 0.105,
+        "leadEm": 0.075,
+        "shadow": "0 8px 26px rgba(0,0,0,0.40)"
+      }
+    },
+    "motion": {
+      "soft": {
+        "mass": 0.5,
+        "damping": 22,
+        "stiffness": 200
+      },
+      "punch": {
+        "mass": 0.5,
+        "damping": 13,
+        "stiffness": 210
+      },
+      "wordFrames": 6,
+      "chunkInFrames": 10,
+      "chunkOutFrames": 7,
+      "wipeFrames": 13,
+      "scrimFrames": 11,
+      "closeFrames": 17,
+      "maskRevealFrames": 17,
+      "ruleDrawFrames": 14,
+      "entranceFrames": 7,
+      "sectionFrames": 14,
+      "pullQuoteFrames": 18
+    }
+  },
+  "layout": {
+    "topZone": {
+      "top": 268,
+      "height": 486,
+      "paddingX": 70,
+      "align": "center"
+    },
+    "bottomZone": {
+      "top": 1150,
+      "height": 430,
+      "paddingX": 84,
+      "align": "center"
+    },
+    "captionScrim": {
+      "enabled": false,
+      "color": "#120C08",
+      "opacity": 0.8,
+      "top": 900,
+      "ground": "dark",
+      "feather": "auto"
+    },
+    "logo": {
+      "width": 258,
+      "right": 38,
+      "y": 778,
+      "stingSeconds": 1.07,
+      "loop": true,
+      "opacity": 0.95
+    },
+    "doctorPlate": {
+      "src": "doctor-plate.png",
+      "targetPillWidth": 780,
+      "left": 70,
+      "top": 1386,
+      "holdFrames": 40,
+      "appearFrame": 143,
+      "_why": "introduce her as the answer starts (4.64s), clear of the pen bubble at 6.3s",
+      "fileWidth": 2172,
+      "fileHeight": 724,
+      "pillX": 120,
+      "pillY": 51,
+      "pillWidth": 1910,
+      "pillHeight": 601
+    },
+    "video": {
+      "renderWidth": 1080,
+      "renderHeight": 1920,
+      "offsetY": 0
+    },
+    "safeArea": {
+      "topPct": 15,
+      "bottomPct": 15
+    }
+  },
+  "compliance": {
+    "doctor": {
+      "id": "bharani-bellam",
+      "name": "Dr. Bharani Bellam",
+      "title": "Senior Endocrinologist",
+      "plate": "plate.png",
+      "defaultPartner": "aster-ramesh",
+      "_note": "Registration details are handled at consultation, not shown on screen \u2014 Niranjan's decision. Nothing here needs to render.",
+      "platePath": "/Users/niranjan/IdeaProjects/kyros-video-editing/brand/doctors/bharani-bellam/plate.png"
+    },
+    "openFlags": [
+      "Compliance to confirm with Niranjan: she promotes a prescription drug class ('many advantages', 'one must use these injections for many benefits'). Captioned faithfully; CONSULT YOUR DOCTOR and IDEAL PATIENT carry the conditions."
+    ]
+  },
+  "fixtures": {
+    "plateFromFrame": 143,
+    "logoFromFrame": 163,
+    "logoHideWindows": [
+      [
+        294,
+        381
+      ],
+      [
+        416,
+        608
+      ]
+    ]
+  },
+  "brands": {
+    "kyros": {
+      "label": "Kyros Clinic",
+      "logo": {
+        "enabled": true
+      },
+      "outro": {
+        "kind": "clip",
+        "src": "outro.mp4",
+        "durationSeconds": 3.0,
+        "enterFrame": 1019,
+        "durationInFrames": 90
+      },
+      "durationInFrames": 1109
+    },
+    "partner": {
+      "label": "Aster Ramesh Hospitals",
+      "logo": {
+        "enabled": false
+      },
+      "outro": {
+        "kind": "logo-card",
+        "src": "partner-logo.png",
+        "durationSeconds": 1.0,
+        "background": "#FFFFFF",
+        "logoWidth": 760,
+        "enterFrame": 1019,
+        "durationInFrames": 30
+      },
+      "durationInFrames": 1049
+    }
+  },
+  "phases": [
+    {
+      "id": "question",
+      "kind": "hook",
+      "card": {
+        "bg": "#23101E",
+        "opacity": 0.985,
+        "lead": "#F6EEE6",
+        "key": "#E8C68A",
+        "texture": "vignette",
+        "_apca": "lead 96.5 / key 73.8",
+        "_why": "Niranjan 2026-09-17 asked for better question colours: champagne gold on aubergine, tied to this reel's colour story",
+        "dark": true
+      },
+      "scrimOpacity": 0.985,
+      "exitFrame": 128,
+      "exitDurationInFrames": 11,
+      "rows": [
+        {
+          "style": "lead",
+          "words": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "appearFrame": 0,
+          "text": "Doctor, what is the role of"
+        },
+        {
+          "style": "key",
+          "words": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "lines": [
+            "GLP-1 MEDICATIONS",
+            "IN PCOS?"
+          ],
+          "appearFrame": 44,
+          "text": "GLP -1 medications in PCOS?",
+          "size": 117
+        }
+      ]
+    },
+    {
+      "id": "answer",
+      "kind": "captions",
+      "fromFrame": 139,
+      "toFrame": 1019,
+      "chunks": [
+        {
+          "id": "chunk-1",
+          "zone": "top",
+          "leadWords": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "leadText": "weight loss injections have",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            19,
+            20
+          ],
+          "keyLines": [
+            "MANY",
+            "ADVANTAGES"
+          ],
+          "keySize": 178,
+          "keyColor": "#361327",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 165,
+          "toFrame": 250,
+          "keyFromFrame": 200,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        },
+        {
+          "id": "chunk-2",
+          "zone": "top",
+          "leadWords": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "leadText": "especially in a woman with PCOS",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            29,
+            30
+          ],
+          "keyLines": [
+            "INSULIN",
+            "RESISTANCE"
+          ],
+          "keySize": 178,
+          "keyColor": "#2A1B10",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 250,
+          "toFrame": 368,
+          "keyFromFrame": 320,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        },
+        {
+          "id": "chunk-3",
+          "zone": "top",
+          "leadWords": [
+            31,
+            32,
+            33
+          ],
+          "leadText": "These weight loss",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            34
+          ],
+          "keyLines": [
+            "INJECTIONS"
+          ],
+          "keySize": 200,
+          "keyColor": "#361327",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 368,
+          "toFrame": 416,
+          "keyFromFrame": 392,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        },
+        {
+          "id": "chunk-5",
+          "zone": "top",
+          "leadWords": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "leadText": "So thereby it address almost",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "keyLines": [
+            "MAJORITY OF",
+            "PCOS MECHANISMS"
+          ],
+          "keySize": 133,
+          "keyColor": "#8E2A18",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 596,
+          "toFrame": 758,
+          "keyFromFrame": 647,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        },
+        {
+          "id": "chunk-6",
+          "zone": "top",
+          "leadWords": [
+            58
+          ],
+          "leadText": "So",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            59,
+            60,
+            61
+          ],
+          "keyLines": [
+            "CONSULT",
+            "YOUR DOCTOR"
+          ],
+          "keySize": 178,
+          "keyColor": "#361327",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 758,
+          "toFrame": 802,
+          "keyFromFrame": 765,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        },
+        {
+          "id": "chunk-7",
+          "zone": "top",
+          "leadWords": [
+            62,
+            63,
+            64
+          ],
+          "leadText": "If you're an",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            65,
+            66
+          ],
+          "keyLines": [
+            "IDEAL",
+            "PATIENT"
+          ],
+          "keySize": 178,
+          "keyColor": "#2A1B10",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 802,
+          "toFrame": 874,
+          "keyFromFrame": 814,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        },
+        {
+          "id": "chunk-8",
+          "zone": "top",
+          "leadWords": [
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "leadText": "one must use these injections",
+          "leadSize": 70,
+          "leadColor": "#382B1D",
+          "leadDark": true,
+          "keyWords": [
+            76,
+            77,
+            78
+          ],
+          "keyLines": [
+            "FOR MANY",
+            "BENEFITS"
+          ],
+          "keySize": 178,
+          "keyColor": "#361327",
+          "keyDark": true,
+          "tone": "key",
+          "fromFrame": 874,
+          "toFrame": 977,
+          "keyFromFrame": 922,
+          "listIndex": null,
+          "listTotal": null,
+          "reveal": "wordStagger"
+        }
+      ]
+    }
+  ],
+  "words": {
+    "question": [
+      {
+        "index": 0,
+        "text": "Doctor,",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 23
+      },
+      {
+        "index": 1,
+        "text": "what",
+        "startFrame": 23,
+        "activeFromFrame": 23,
+        "activeToFrame": 25
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "startFrame": 25,
+        "activeFromFrame": 25,
+        "activeToFrame": 31
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "startFrame": 31,
+        "activeFromFrame": 31,
+        "activeToFrame": 33
+      },
+      {
+        "index": 4,
+        "text": "role",
+        "startFrame": 33,
+        "activeFromFrame": 33,
+        "activeToFrame": 38
+      },
+      {
+        "index": 5,
+        "text": "of",
+        "startFrame": 38,
+        "activeFromFrame": 38,
+        "activeToFrame": 44
+      },
+      {
+        "index": 6,
+        "text": "GLP",
+        "startFrame": 44,
+        "activeFromFrame": 44,
+        "activeToFrame": 60
+      },
+      {
+        "index": 7,
+        "text": "-1",
+        "startFrame": 60,
+        "activeFromFrame": 60,
+        "activeToFrame": 70
+      },
+      {
+        "index": 8,
+        "text": "medications",
+        "startFrame": 70,
+        "activeFromFrame": 70,
+        "activeToFrame": 83
+      },
+      {
+        "index": 9,
+        "text": "in",
+        "startFrame": 83,
+        "activeFromFrame": 83,
+        "activeToFrame": 94
+      },
+      {
+        "index": 10,
+        "text": "PCOS?",
+        "startFrame": 94,
+        "activeFromFrame": 94,
+        "activeToFrame": 139
+      },
+      {
+        "index": 11,
+        "text": "As",
+        "startFrame": 139,
+        "activeFromFrame": 139,
+        "activeToFrame": 148
+      },
+      {
+        "index": 12,
+        "text": "you",
+        "startFrame": 148,
+        "activeFromFrame": 148,
+        "activeToFrame": 153
+      },
+      {
+        "index": 13,
+        "text": "know,",
+        "startFrame": 153,
+        "activeFromFrame": 153,
+        "activeToFrame": 165
+      },
+      {
+        "index": 14,
+        "text": "the",
+        "startFrame": 165,
+        "activeFromFrame": 165,
+        "activeToFrame": 165
+      },
+      {
+        "index": 15,
+        "text": "weight",
+        "startFrame": 165,
+        "activeFromFrame": 165,
+        "activeToFrame": 169
+      },
+      {
+        "index": 16,
+        "text": "loss",
+        "startFrame": 169,
+        "activeFromFrame": 169,
+        "activeToFrame": 175
+      },
+      {
+        "index": 17,
+        "text": "injections",
+        "startFrame": 175,
+        "activeFromFrame": 175,
+        "activeToFrame": 185
+      },
+      {
+        "index": 18,
+        "text": "have",
+        "startFrame": 185,
+        "activeFromFrame": 185,
+        "activeToFrame": 200
+      },
+      {
+        "index": 19,
+        "text": "many",
+        "startFrame": 200,
+        "activeFromFrame": 200,
+        "activeToFrame": 224
+      },
+      {
+        "index": 20,
+        "text": "advantages,",
+        "startFrame": 224,
+        "activeFromFrame": 224,
+        "activeToFrame": 250
+      },
+      {
+        "index": 21,
+        "text": "especially",
+        "startFrame": 250,
+        "activeFromFrame": 250,
+        "activeToFrame": 260
+      },
+      {
+        "index": 22,
+        "text": "in",
+        "startFrame": 260,
+        "activeFromFrame": 260,
+        "activeToFrame": 274
+      },
+      {
+        "index": 23,
+        "text": "a",
+        "startFrame": 274,
+        "activeFromFrame": 274,
+        "activeToFrame": 277
+      },
+      {
+        "index": 24,
+        "text": "woman",
+        "startFrame": 277,
+        "activeFromFrame": 277,
+        "activeToFrame": 283
+      },
+      {
+        "index": 25,
+        "text": "with",
+        "startFrame": 283,
+        "activeFromFrame": 283,
+        "activeToFrame": 292
+      },
+      {
+        "index": 26,
+        "text": "PCOS",
+        "startFrame": 292,
+        "activeFromFrame": 292,
+        "activeToFrame": 305
+      },
+      {
+        "index": 27,
+        "text": "who",
+        "startFrame": 305,
+        "activeFromFrame": 305,
+        "activeToFrame": 313
+      },
+      {
+        "index": 28,
+        "text": "have",
+        "startFrame": 313,
+        "activeFromFrame": 313,
+        "activeToFrame": 320
+      },
+      {
+        "index": 29,
+        "text": "insulin",
+        "startFrame": 320,
+        "activeFromFrame": 320,
+        "activeToFrame": 331
+      },
+      {
+        "index": 30,
+        "text": "resistance.",
+        "startFrame": 331,
+        "activeFromFrame": 331,
+        "activeToFrame": 368
+      },
+      {
+        "index": 31,
+        "text": "These",
+        "startFrame": 368,
+        "activeFromFrame": 368,
+        "activeToFrame": 380
+      },
+      {
+        "index": 32,
+        "text": "weight",
+        "startFrame": 380,
+        "activeFromFrame": 380,
+        "activeToFrame": 387
+      },
+      {
+        "index": 33,
+        "text": "loss",
+        "startFrame": 387,
+        "activeFromFrame": 387,
+        "activeToFrame": 392
+      },
+      {
+        "index": 34,
+        "text": "injections,",
+        "startFrame": 392,
+        "activeFromFrame": 392,
+        "activeToFrame": 416
+      },
+      {
+        "index": 35,
+        "text": "they",
+        "startFrame": 416,
+        "activeFromFrame": 416,
+        "activeToFrame": 416
+      },
+      {
+        "index": 36,
+        "text": "reduce",
+        "startFrame": 416,
+        "activeFromFrame": 416,
+        "activeToFrame": 427
+      },
+      {
+        "index": 37,
+        "text": "the",
+        "startFrame": 427,
+        "activeFromFrame": 427,
+        "activeToFrame": 433
+      },
+      {
+        "index": 38,
+        "text": "appetite,",
+        "startFrame": 433,
+        "activeFromFrame": 433,
+        "activeToFrame": 457
+      },
+      {
+        "index": 39,
+        "text": "delays",
+        "startFrame": 457,
+        "activeFromFrame": 457,
+        "activeToFrame": 467
+      },
+      {
+        "index": 40,
+        "text": "gastric",
+        "startFrame": 467,
+        "activeFromFrame": 467,
+        "activeToFrame": 484
+      },
+      {
+        "index": 41,
+        "text": "emptying,",
+        "startFrame": 484,
+        "activeFromFrame": 484,
+        "activeToFrame": 502
+      },
+      {
+        "index": 42,
+        "text": "decreases",
+        "startFrame": 502,
+        "activeFromFrame": 502,
+        "activeToFrame": 515
+      },
+      {
+        "index": 43,
+        "text": "inflammation,",
+        "startFrame": 515,
+        "activeFromFrame": 515,
+        "activeToFrame": 545
+      },
+      {
+        "index": 44,
+        "text": "reduces",
+        "startFrame": 545,
+        "activeFromFrame": 545,
+        "activeToFrame": 556
+      },
+      {
+        "index": 45,
+        "text": "visceral",
+        "startFrame": 556,
+        "activeFromFrame": 556,
+        "activeToFrame": 572
+      },
+      {
+        "index": 46,
+        "text": "fat.",
+        "startFrame": 572,
+        "activeFromFrame": 572,
+        "activeToFrame": 596
+      },
+      {
+        "index": 47,
+        "text": "So",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 596
+      },
+      {
+        "index": 48,
+        "text": "thereby",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 610
+      },
+      {
+        "index": 49,
+        "text": "it",
+        "startFrame": 610,
+        "activeFromFrame": 610,
+        "activeToFrame": 619
+      },
+      {
+        "index": 50,
+        "text": "address",
+        "startFrame": 619,
+        "activeFromFrame": 619,
+        "activeToFrame": 630
+      },
+      {
+        "index": 51,
+        "text": "almost",
+        "startFrame": 630,
+        "activeFromFrame": 630,
+        "activeToFrame": 647
+      },
+      {
+        "index": 52,
+        "text": "majority",
+        "startFrame": 647,
+        "activeFromFrame": 647,
+        "activeToFrame": 666
+      },
+      {
+        "index": 53,
+        "text": "of",
+        "startFrame": 666,
+        "activeFromFrame": 666,
+        "activeToFrame": 676
+      },
+      {
+        "index": 54,
+        "text": "pathophysiological",
+        "startFrame": 676,
+        "activeFromFrame": 676,
+        "activeToFrame": 699
+      },
+      {
+        "index": 55,
+        "text": "mechanisms",
+        "startFrame": 699,
+        "activeFromFrame": 699,
+        "activeToFrame": 720
+      },
+      {
+        "index": 56,
+        "text": "of",
+        "startFrame": 720,
+        "activeFromFrame": 720,
+        "activeToFrame": 728
+      },
+      {
+        "index": 57,
+        "text": "PCOS.",
+        "startFrame": 728,
+        "activeFromFrame": 728,
+        "activeToFrame": 758
+      },
+      {
+        "index": 58,
+        "text": "So",
+        "startFrame": 758,
+        "activeFromFrame": 758,
+        "activeToFrame": 765
+      },
+      {
+        "index": 59,
+        "text": "consult",
+        "startFrame": 765,
+        "activeFromFrame": 765,
+        "activeToFrame": 776
+      },
+      {
+        "index": 60,
+        "text": "your",
+        "startFrame": 776,
+        "activeFromFrame": 776,
+        "activeToFrame": 785
+      },
+      {
+        "index": 61,
+        "text": "doctor.",
+        "startFrame": 785,
+        "activeFromFrame": 785,
+        "activeToFrame": 802
+      },
+      {
+        "index": 62,
+        "text": "If",
+        "startFrame": 802,
+        "activeFromFrame": 802,
+        "activeToFrame": 805
+      },
+      {
+        "index": 63,
+        "text": "you're",
+        "startFrame": 805,
+        "activeFromFrame": 805,
+        "activeToFrame": 812
+      },
+      {
+        "index": 64,
+        "text": "an",
+        "startFrame": 812,
+        "activeFromFrame": 812,
+        "activeToFrame": 814
+      },
+      {
+        "index": 65,
+        "text": "ideal",
+        "startFrame": 814,
+        "activeFromFrame": 814,
+        "activeToFrame": 827
+      },
+      {
+        "index": 66,
+        "text": "patient",
+        "startFrame": 827,
+        "activeFromFrame": 827,
+        "activeToFrame": 836
+      },
+      {
+        "index": 67,
+        "text": "for",
+        "startFrame": 836,
+        "activeFromFrame": 836,
+        "activeToFrame": 847
+      },
+      {
+        "index": 68,
+        "text": "weight",
+        "startFrame": 847,
+        "activeFromFrame": 847,
+        "activeToFrame": 853
+      },
+      {
+        "index": 69,
+        "text": "loss",
+        "startFrame": 853,
+        "activeFromFrame": 853,
+        "activeToFrame": 859
+      },
+      {
+        "index": 70,
+        "text": "injections,",
+        "startFrame": 859,
+        "activeFromFrame": 859,
+        "activeToFrame": 874
+      },
+      {
+        "index": 71,
+        "text": "one",
+        "startFrame": 874,
+        "activeFromFrame": 874,
+        "activeToFrame": 883
+      },
+      {
+        "index": 72,
+        "text": "must",
+        "startFrame": 883,
+        "activeFromFrame": 883,
+        "activeToFrame": 890
+      },
+      {
+        "index": 73,
+        "text": "use",
+        "startFrame": 890,
+        "activeFromFrame": 890,
+        "activeToFrame": 902
+      },
+      {
+        "index": 74,
+        "text": "these",
+        "startFrame": 902,
+        "activeFromFrame": 902,
+        "activeToFrame": 909
+      },
+      {
+        "index": 75,
+        "text": "injections",
+        "startFrame": 909,
+        "activeFromFrame": 909,
+        "activeToFrame": 922
+      },
+      {
+        "index": 76,
+        "text": "for",
+        "startFrame": 922,
+        "activeFromFrame": 922,
+        "activeToFrame": 931
+      },
+      {
+        "index": 77,
+        "text": "many",
+        "startFrame": 931,
+        "activeFromFrame": 931,
+        "activeToFrame": 943
+      },
+      {
+        "index": 78,
+        "text": "benefits",
+        "startFrame": 943,
+        "activeFromFrame": 943,
+        "activeToFrame": 956
+      },
+      {
+        "index": 79,
+        "text": "in",
+        "startFrame": 956,
+        "activeFromFrame": 956,
+        "activeToFrame": 965
+      },
+      {
+        "index": 80,
+        "text": "any",
+        "startFrame": 965,
+        "activeFromFrame": 965,
+        "activeToFrame": 973
+      },
+      {
+        "index": 81,
+        "text": "patient",
+        "startFrame": 973,
+        "activeFromFrame": 973,
+        "activeToFrame": 982
+      },
+      {
+        "index": 82,
+        "text": "with",
+        "startFrame": 982,
+        "activeFromFrame": 982,
+        "activeToFrame": 988
+      },
+      {
+        "index": 83,
+        "text": "PCOS.",
+        "startFrame": 988,
+        "activeFromFrame": 988,
+        "activeToFrame": 1013
+      }
+    ],
+    "answer": [
+      {
+        "index": 0,
+        "text": "Doctor,",
+        "startFrame": 0,
+        "activeFromFrame": 0,
+        "activeToFrame": 23
+      },
+      {
+        "index": 1,
+        "text": "what",
+        "startFrame": 23,
+        "activeFromFrame": 23,
+        "activeToFrame": 25
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "startFrame": 25,
+        "activeFromFrame": 25,
+        "activeToFrame": 31
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "startFrame": 31,
+        "activeFromFrame": 31,
+        "activeToFrame": 33
+      },
+      {
+        "index": 4,
+        "text": "role",
+        "startFrame": 33,
+        "activeFromFrame": 33,
+        "activeToFrame": 38
+      },
+      {
+        "index": 5,
+        "text": "of",
+        "startFrame": 38,
+        "activeFromFrame": 38,
+        "activeToFrame": 44
+      },
+      {
+        "index": 6,
+        "text": "GLP",
+        "startFrame": 44,
+        "activeFromFrame": 44,
+        "activeToFrame": 60
+      },
+      {
+        "index": 7,
+        "text": "-1",
+        "startFrame": 60,
+        "activeFromFrame": 60,
+        "activeToFrame": 70
+      },
+      {
+        "index": 8,
+        "text": "medications",
+        "startFrame": 70,
+        "activeFromFrame": 70,
+        "activeToFrame": 83
+      },
+      {
+        "index": 9,
+        "text": "in",
+        "startFrame": 83,
+        "activeFromFrame": 83,
+        "activeToFrame": 94
+      },
+      {
+        "index": 10,
+        "text": "PCOS?",
+        "startFrame": 94,
+        "activeFromFrame": 94,
+        "activeToFrame": 139
+      },
+      {
+        "index": 11,
+        "text": "As",
+        "startFrame": 139,
+        "activeFromFrame": 139,
+        "activeToFrame": 148
+      },
+      {
+        "index": 12,
+        "text": "you",
+        "startFrame": 148,
+        "activeFromFrame": 148,
+        "activeToFrame": 153
+      },
+      {
+        "index": 13,
+        "text": "know,",
+        "startFrame": 153,
+        "activeFromFrame": 153,
+        "activeToFrame": 165
+      },
+      {
+        "index": 14,
+        "text": "the",
+        "startFrame": 165,
+        "activeFromFrame": 165,
+        "activeToFrame": 165
+      },
+      {
+        "index": 15,
+        "text": "weight",
+        "startFrame": 165,
+        "activeFromFrame": 165,
+        "activeToFrame": 169
+      },
+      {
+        "index": 16,
+        "text": "loss",
+        "startFrame": 169,
+        "activeFromFrame": 169,
+        "activeToFrame": 175
+      },
+      {
+        "index": 17,
+        "text": "injections",
+        "startFrame": 175,
+        "activeFromFrame": 175,
+        "activeToFrame": 185
+      },
+      {
+        "index": 18,
+        "text": "have",
+        "startFrame": 185,
+        "activeFromFrame": 185,
+        "activeToFrame": 200
+      },
+      {
+        "index": 19,
+        "text": "many",
+        "startFrame": 200,
+        "activeFromFrame": 200,
+        "activeToFrame": 224
+      },
+      {
+        "index": 20,
+        "text": "advantages,",
+        "startFrame": 224,
+        "activeFromFrame": 224,
+        "activeToFrame": 250
+      },
+      {
+        "index": 21,
+        "text": "especially",
+        "startFrame": 250,
+        "activeFromFrame": 250,
+        "activeToFrame": 260
+      },
+      {
+        "index": 22,
+        "text": "in",
+        "startFrame": 260,
+        "activeFromFrame": 260,
+        "activeToFrame": 274
+      },
+      {
+        "index": 23,
+        "text": "a",
+        "startFrame": 274,
+        "activeFromFrame": 274,
+        "activeToFrame": 277
+      },
+      {
+        "index": 24,
+        "text": "woman",
+        "startFrame": 277,
+        "activeFromFrame": 277,
+        "activeToFrame": 283
+      },
+      {
+        "index": 25,
+        "text": "with",
+        "startFrame": 283,
+        "activeFromFrame": 283,
+        "activeToFrame": 292
+      },
+      {
+        "index": 26,
+        "text": "PCOS",
+        "startFrame": 292,
+        "activeFromFrame": 292,
+        "activeToFrame": 305
+      },
+      {
+        "index": 27,
+        "text": "who",
+        "startFrame": 305,
+        "activeFromFrame": 305,
+        "activeToFrame": 313
+      },
+      {
+        "index": 28,
+        "text": "have",
+        "startFrame": 313,
+        "activeFromFrame": 313,
+        "activeToFrame": 320
+      },
+      {
+        "index": 29,
+        "text": "insulin",
+        "startFrame": 320,
+        "activeFromFrame": 320,
+        "activeToFrame": 331
+      },
+      {
+        "index": 30,
+        "text": "resistance.",
+        "startFrame": 331,
+        "activeFromFrame": 331,
+        "activeToFrame": 368
+      },
+      {
+        "index": 31,
+        "text": "These",
+        "startFrame": 368,
+        "activeFromFrame": 368,
+        "activeToFrame": 380
+      },
+      {
+        "index": 32,
+        "text": "weight",
+        "startFrame": 380,
+        "activeFromFrame": 380,
+        "activeToFrame": 387
+      },
+      {
+        "index": 33,
+        "text": "loss",
+        "startFrame": 387,
+        "activeFromFrame": 387,
+        "activeToFrame": 392
+      },
+      {
+        "index": 34,
+        "text": "injections,",
+        "startFrame": 392,
+        "activeFromFrame": 392,
+        "activeToFrame": 416
+      },
+      {
+        "index": 35,
+        "text": "they",
+        "startFrame": 416,
+        "activeFromFrame": 416,
+        "activeToFrame": 416
+      },
+      {
+        "index": 36,
+        "text": "reduce",
+        "startFrame": 416,
+        "activeFromFrame": 416,
+        "activeToFrame": 427
+      },
+      {
+        "index": 37,
+        "text": "the",
+        "startFrame": 427,
+        "activeFromFrame": 427,
+        "activeToFrame": 433
+      },
+      {
+        "index": 38,
+        "text": "appetite,",
+        "startFrame": 433,
+        "activeFromFrame": 433,
+        "activeToFrame": 457
+      },
+      {
+        "index": 39,
+        "text": "delays",
+        "startFrame": 457,
+        "activeFromFrame": 457,
+        "activeToFrame": 467
+      },
+      {
+        "index": 40,
+        "text": "gastric",
+        "startFrame": 467,
+        "activeFromFrame": 467,
+        "activeToFrame": 484
+      },
+      {
+        "index": 41,
+        "text": "emptying,",
+        "startFrame": 484,
+        "activeFromFrame": 484,
+        "activeToFrame": 502
+      },
+      {
+        "index": 42,
+        "text": "decreases",
+        "startFrame": 502,
+        "activeFromFrame": 502,
+        "activeToFrame": 515
+      },
+      {
+        "index": 43,
+        "text": "inflammation,",
+        "startFrame": 515,
+        "activeFromFrame": 515,
+        "activeToFrame": 545
+      },
+      {
+        "index": 44,
+        "text": "reduces",
+        "startFrame": 545,
+        "activeFromFrame": 545,
+        "activeToFrame": 556
+      },
+      {
+        "index": 45,
+        "text": "visceral",
+        "startFrame": 556,
+        "activeFromFrame": 556,
+        "activeToFrame": 572
+      },
+      {
+        "index": 46,
+        "text": "fat.",
+        "startFrame": 572,
+        "activeFromFrame": 572,
+        "activeToFrame": 596
+      },
+      {
+        "index": 47,
+        "text": "So",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 596
+      },
+      {
+        "index": 48,
+        "text": "thereby",
+        "startFrame": 596,
+        "activeFromFrame": 596,
+        "activeToFrame": 610
+      },
+      {
+        "index": 49,
+        "text": "it",
+        "startFrame": 610,
+        "activeFromFrame": 610,
+        "activeToFrame": 619
+      },
+      {
+        "index": 50,
+        "text": "address",
+        "startFrame": 619,
+        "activeFromFrame": 619,
+        "activeToFrame": 630
+      },
+      {
+        "index": 51,
+        "text": "almost",
+        "startFrame": 630,
+        "activeFromFrame": 630,
+        "activeToFrame": 647
+      },
+      {
+        "index": 52,
+        "text": "majority",
+        "startFrame": 647,
+        "activeFromFrame": 647,
+        "activeToFrame": 666
+      },
+      {
+        "index": 53,
+        "text": "of",
+        "startFrame": 666,
+        "activeFromFrame": 666,
+        "activeToFrame": 676
+      },
+      {
+        "index": 54,
+        "text": "pathophysiological",
+        "startFrame": 676,
+        "activeFromFrame": 676,
+        "activeToFrame": 699
+      },
+      {
+        "index": 55,
+        "text": "mechanisms",
+        "startFrame": 699,
+        "activeFromFrame": 699,
+        "activeToFrame": 720
+      },
+      {
+        "index": 56,
+        "text": "of",
+        "startFrame": 720,
+        "activeFromFrame": 720,
+        "activeToFrame": 728
+      },
+      {
+        "index": 57,
+        "text": "PCOS.",
+        "startFrame": 728,
+        "activeFromFrame": 728,
+        "activeToFrame": 758
+      },
+      {
+        "index": 58,
+        "text": "So",
+        "startFrame": 758,
+        "activeFromFrame": 758,
+        "activeToFrame": 765
+      },
+      {
+        "index": 59,
+        "text": "consult",
+        "startFrame": 765,
+        "activeFromFrame": 765,
+        "activeToFrame": 776
+      },
+      {
+        "index": 60,
+        "text": "your",
+        "startFrame": 776,
+        "activeFromFrame": 776,
+        "activeToFrame": 785
+      },
+      {
+        "index": 61,
+        "text": "doctor.",
+        "startFrame": 785,
+        "activeFromFrame": 785,
+        "activeToFrame": 802
+      },
+      {
+        "index": 62,
+        "text": "If",
+        "startFrame": 802,
+        "activeFromFrame": 802,
+        "activeToFrame": 805
+      },
+      {
+        "index": 63,
+        "text": "you're",
+        "startFrame": 805,
+        "activeFromFrame": 805,
+        "activeToFrame": 812
+      },
+      {
+        "index": 64,
+        "text": "an",
+        "startFrame": 812,
+        "activeFromFrame": 812,
+        "activeToFrame": 814
+      },
+      {
+        "index": 65,
+        "text": "ideal",
+        "startFrame": 814,
+        "activeFromFrame": 814,
+        "activeToFrame": 827
+      },
+      {
+        "index": 66,
+        "text": "patient",
+        "startFrame": 827,
+        "activeFromFrame": 827,
+        "activeToFrame": 836
+      },
+      {
+        "index": 67,
+        "text": "for",
+        "startFrame": 836,
+        "activeFromFrame": 836,
+        "activeToFrame": 847
+      },
+      {
+        "index": 68,
+        "text": "weight",
+        "startFrame": 847,
+        "activeFromFrame": 847,
+        "activeToFrame": 853
+      },
+      {
+        "index": 69,
+        "text": "loss",
+        "startFrame": 853,
+        "activeFromFrame": 853,
+        "activeToFrame": 859
+      },
+      {
+        "index": 70,
+        "text": "injections,",
+        "startFrame": 859,
+        "activeFromFrame": 859,
+        "activeToFrame": 874
+      },
+      {
+        "index": 71,
+        "text": "one",
+        "startFrame": 874,
+        "activeFromFrame": 874,
+        "activeToFrame": 883
+      },
+      {
+        "index": 72,
+        "text": "must",
+        "startFrame": 883,
+        "activeFromFrame": 883,
+        "activeToFrame": 890
+      },
+      {
+        "index": 73,
+        "text": "use",
+        "startFrame": 890,
+        "activeFromFrame": 890,
+        "activeToFrame": 902
+      },
+      {
+        "index": 74,
+        "text": "these",
+        "startFrame": 902,
+        "activeFromFrame": 902,
+        "activeToFrame": 909
+      },
+      {
+        "index": 75,
+        "text": "injections",
+        "startFrame": 909,
+        "activeFromFrame": 909,
+        "activeToFrame": 922
+      },
+      {
+        "index": 76,
+        "text": "for",
+        "startFrame": 922,
+        "activeFromFrame": 922,
+        "activeToFrame": 931
+      },
+      {
+        "index": 77,
+        "text": "many",
+        "startFrame": 931,
+        "activeFromFrame": 931,
+        "activeToFrame": 943
+      },
+      {
+        "index": 78,
+        "text": "benefits",
+        "startFrame": 943,
+        "activeFromFrame": 943,
+        "activeToFrame": 956
+      },
+      {
+        "index": 79,
+        "text": "in",
+        "startFrame": 956,
+        "activeFromFrame": 956,
+        "activeToFrame": 965
+      },
+      {
+        "index": 80,
+        "text": "any",
+        "startFrame": 965,
+        "activeFromFrame": 965,
+        "activeToFrame": 973
+      },
+      {
+        "index": 81,
+        "text": "patient",
+        "startFrame": 973,
+        "activeFromFrame": 973,
+        "activeToFrame": 982
+      },
+      {
+        "index": 82,
+        "text": "with",
+        "startFrame": 982,
+        "activeFromFrame": 982,
+        "activeToFrame": 988
+      },
+      {
+        "index": 83,
+        "text": "PCOS.",
+        "startFrame": 988,
+        "activeFromFrame": 988,
+        "activeToFrame": 1013
+      }
+    ]
+  },
+  "visuals": {
+    "style": "goldenHour",
+    "bubbleShape": "circle",
+    "items": [
+      {
+        "id": "h1",
+        "beat": null,
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 0,
+        "toFrame": 70,
+        "motion": "pushIn",
+        "src": "ai/h1-bf2c7e0b7567.png",
+        "fadeFrames": 0,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "cardOpacity": 0.0,
+        "glow": {
+          "color": "#120C08",
+          "opacity": 0.635,
+          "rect": [
+            0,
+            687,
+            1080,
+            1233
+          ]
+        }
+      },
+      {
+        "id": "h2",
+        "beat": null,
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "kind": "video",
+        "fromFrame": 70,
+        "toFrame": 139,
+        "src": "ai/h2-9a6f95631de2.mp4",
+        "fadeFrames": 0,
+        "cardOpacity": 0.0
+      },
+      {
+        "id": "v2",
+        "beat": null,
+        "treatment": "doctorBubble",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 189,
+        "toFrame": 249,
+        "motion": "pushIn",
+        "src": "ai/v2-46d003408438.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 590,
+            "cy": 1058,
+            "r": 268
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "captionWashes": [
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.4,
+            "fromFrame": 189,
+            "toFrame": 249,
+            "zone": "top",
+            "rect": [
+              0,
+              179,
+              1080,
+              843
+            ]
+          }
+        ]
+      },
+      {
+        "id": "v3",
+        "beat": null,
+        "treatment": "doctorBubble",
+        "mode": "video",
+        "kind": "video",
+        "fromFrame": 294,
+        "toFrame": 369,
+        "src": "ai/v3-c94be96200f5.mp4",
+        "fadeFrames": 12,
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 590,
+            "cy": 1058,
+            "r": 268
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "captionWashes": [
+          {
+            "color": "#FAF1E4",
+            "opacity": 0.729,
+            "fromFrame": 294,
+            "toFrame": 368,
+            "zone": "top",
+            "rect": [
+              0,
+              179,
+              1080,
+              843
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1",
+        "beat": 4,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 416,
+        "toFrame": 596,
+        "group": "effects",
+        "label": "REDUCES APPETITE",
+        "word": 36,
+        "src": "ai/l1-910e30509194.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 590,
+            "cy": 1058,
+            "r": 268
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          48,
+          300,
+          703,
+          876
+        ],
+        "stage": [
+          48,
+          300,
+          1032,
+          1168
+        ],
+        "tile": [
+          48,
+          300,
+          533,
+          727
+        ],
+        "index": 0,
+        "count": 4,
+        "settleFrame": 457,
+        "tileFrames": 10,
+        "ground": "#23101E",
+        "labelColor": "#F6EEE6",
+        "accent": "#E8C68A",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l2",
+        "beat": 4,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 457,
+        "toFrame": 596,
+        "group": "effects",
+        "label": "DELAYS GASTRIC EMPTYING",
+        "word": 39,
+        "src": "ai/l2-4cf8260f40fa.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 590,
+            "cy": 1058,
+            "r": 268
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          377,
+          300,
+          1032,
+          876
+        ],
+        "stage": [
+          48,
+          300,
+          1032,
+          1168
+        ],
+        "tile": [
+          547,
+          300,
+          1032,
+          727
+        ],
+        "index": 1,
+        "count": 4,
+        "settleFrame": 502,
+        "tileFrames": 10,
+        "ground": "#23101E",
+        "labelColor": "#F6EEE6",
+        "accent": "#E8C68A",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l3",
+        "beat": 4,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 502,
+        "toFrame": 596,
+        "group": "effects",
+        "label": "DECREASES INFLAMMATION",
+        "word": 42,
+        "src": "ai/l3-9020ce3f9820.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 590,
+            "cy": 1058,
+            "r": 268
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          48,
+          592,
+          703,
+          1168
+        ],
+        "stage": [
+          48,
+          300,
+          1032,
+          1168
+        ],
+        "tile": [
+          48,
+          741,
+          533,
+          1168
+        ],
+        "index": 2,
+        "count": 4,
+        "settleFrame": 545,
+        "tileFrames": 10,
+        "ground": "#23101E",
+        "labelColor": "#F6EEE6",
+        "accent": "#E8C68A",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      },
+      {
+        "id": "l4",
+        "beat": 4,
+        "treatment": "listBuild",
+        "mode": "image",
+        "kind": "image",
+        "fromFrame": 545,
+        "toFrame": 596,
+        "group": "effects",
+        "label": "REDUCES VISCERAL FAT",
+        "word": 44,
+        "src": "ai/l4-59efbc460d76.png",
+        "fadeFrames": 12,
+        "kenBurns": {
+          "from": 1.0,
+          "to": 1.07,
+          "x0": 0.0,
+          "x1": 0.0
+        },
+        "bubble": {
+          "shape": "circle",
+          "corner": "lower-left",
+          "rect": [
+            56,
+            1196,
+            396,
+            1536
+          ],
+          "face": {
+            "cx": 590,
+            "cy": 1058,
+            "r": 268
+          },
+          "ring": "#FAF1E4",
+          "ringWidth": 6,
+          "radius": 64,
+          "shrinkFrames": 14
+        },
+        "rect": [
+          377,
+          592,
+          1032,
+          1168
+        ],
+        "stage": [
+          48,
+          300,
+          1032,
+          1168
+        ],
+        "tile": [
+          547,
+          741,
+          1032,
+          1168
+        ],
+        "index": 3,
+        "count": 4,
+        "settleFrame": 566,
+        "tileFrames": 10,
+        "ground": "#23101E",
+        "labelColor": "#F6EEE6",
+        "accent": "#E8C68A",
+        "texture": "vignette",
+        "showLabels": true,
+        "listLayout": "cuts"
+      }
+    ]
+  }
+}

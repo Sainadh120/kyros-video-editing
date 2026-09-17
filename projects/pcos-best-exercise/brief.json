@@ -342,7 +342,11 @@
         "_why": "'for mental stability, to reduce stress' — a real, quiet moment of the meditation she then names",
         "approvedHash": "c37fc2c68290ed068dea2b63ad9c65b1ce6aeb12f0b0c79dbc22bd0df6ce233b"
       }
-    ]
+    ],
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
   },
   "openFlags": [],
   "_resolved": [

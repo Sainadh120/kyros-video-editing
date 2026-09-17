@@ -1,0 +1,22 @@
+{
+  "fps": 30,
+  "sampleFps": 10,
+  "regions": {
+    "top": {
+      "bandPx": [
+        230,
+        1728
+      ],
+      "occupied": [],
+      "occupiedSeconds": []
+    },
+    "bottom": {
+      "bandPx": [
+        2112,
+        3302
+      ],
+      "occupied": [],
+      "occupiedSeconds": []
+    }
+  }
+}

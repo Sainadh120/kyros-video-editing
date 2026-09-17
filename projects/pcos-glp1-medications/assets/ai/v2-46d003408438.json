@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-46d003408438",
+  "file": "v2-46d003408438.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Close view of an Indian woman's hands in the sleeves of a soft cotton kurta holding a thick white prefilled injection pen horizontally, the pen about the length of her palm and as thick as a marker, with a grey cap at one end and a round push button at the other, resting over a sunlit wooden dining table. Vertical 9:16 frame, her face out of frame, plain warm wall in the upper third. Warm golden late-afternoon light, shot on a 50mm lens with shallow depth of field, documentary photograph, true-to-life colour, the pen smooth, matte and completely blank.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1174111597,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "46d003408438b5a4013d48dfde959f8e5c0b79c03f119efe5e930eb841eac739",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Close view of an Indian woman's hands in the sleeves of a soft cotton kurta holding a thick white prefilled injection pen horizontally, the pen about the length of her palm and as thick as a marker, with a grey cap at one end and a round push button at the other, resting over a sunlit wooden dining table. Vertical 9:16 frame, her face out of frame, plain warm wall in the upper third. Warm golden late-afternoon light, shot on a 50mm lens with shallow depth of field, documentary photograph, true-to-life colour, the pen smooth, matte and completely blank.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1174111597,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "doctorBubble",
+  "why": "'weight loss injections have many advantages' — the medicine she is talking about, held, never injected",
+  "says": "the weight loss injections have many advantages,",
+  "createdAt": "2026-09-17T10:34:08",
+  "elapsedSec": 12.34,
+  "costEstimateUsd": 0.003777,
+  "costBasis": "estimate: 12.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

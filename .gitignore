@@ -24,3 +24,8 @@ studio/public/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Model server endpoint URLs (account-specific)
+infra/modal/.env
+.deploylogs/
+bakeoff/

@@ -1,0 +1,55 @@
+{
+  "assetId": "h2-7c91673e3e90",
+  "file": "h2-7c91673e3e90.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "A woman's hands wrap a soft cloth measuring tape around her waist over a cotton kurta and gently pull it snug, seen side-on at mid-body with her face out of frame. The camera holds close and steady as the tape settles. Soft natural daylight from a window. The tape is seen edge-on so no markings are readable. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 117944391,
+  "numFrames": 65,
+  "fps": 24,
+  "input": null,
+  "requestHash": "7c91673e3e9095c9648263899095c01bfa44380e98415e3f184735485500e437",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "A woman's hands wrap a soft cloth measuring tape around her waist over a cotton kurta and gently pull it snug, seen side-on at mid-body with her face out of frame. The camera holds close and steady as the tape settles. Soft natural daylight from a window. The tape is seen edge-on so no markings are readable. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 117944391,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 65,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "hookBackdrop",
+  "why": "'about belly fat?' — the act of measuring, never a number",
+  "says": "belly fat?",
+  "createdAt": "2026-09-17T04:38:01",
+  "elapsedSec": 95.31,
+  "costEstimateUsd": 0.066144,
+  "costBasis": "estimate: 95.3s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 2.708333,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

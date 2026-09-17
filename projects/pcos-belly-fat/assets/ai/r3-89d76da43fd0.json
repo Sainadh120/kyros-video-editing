@@ -1,0 +1,52 @@
+{
+  "assetId": "r3-89d76da43fd0",
+  "file": "r3-89d76da43fd0.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Close-up of a fingertip with a single small drop of blood after a finger-prick, a gloved hand holding a plain white blank test strip beside it, soft warm light, softly blurred background, square composition, realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1586588460,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "89d76da43fd0de3b529c809a89447a85856b3315c65d9549b67f1dc061684333",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Close-up of a fingertip with a single small drop of blood after a finger-prick, a gloved hand holding a plain white blank test strip beside it, soft warm light, softly blurred background, square composition, realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1586588460,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "r3"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "listBuild",
+  "why": "'diabetes' — the act of checking, never a reading",
+  "says": "it is responsible for all the heart stroke, cardiac problems, diabetes, etc.",
+  "createdAt": "2026-09-17T10:33:21",
+  "elapsedSec": 8.4,
+  "costEstimateUsd": 0.002571,
+  "costBasis": "estimate: 8.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

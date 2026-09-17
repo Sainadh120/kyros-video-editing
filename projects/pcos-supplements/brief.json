@@ -1,0 +1,344 @@
+{
+  "slug": "pcos-supplements",
+  "clip": "inbox/pcos-supplements.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "question": {
+    "preset": "plum",
+    "rows": [
+      {
+        "style": "key",
+        "words": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lines": [
+          "WHAT SUPPLEMENTS"
+        ],
+        "_wordsNote": "0-1 are the interviewer's 'Ma'am' (heard as 'And Nam')"
+      },
+      {
+        "style": "lead",
+        "words": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "card": {
+      "bg": "#0E2A2F",
+      "lead": "#EAF4F1",
+      "key": "#8FE3D1",
+      "texture": "vignette",
+      "opacity": 0.985,
+      "_apca": "lead 95.9 / key 77.0",
+      "_why": "Niranjan 2026-09-17 asked for better question colours: sea-glass mint on deep sea teal, tied to this reel's colour story"
+    }
+  },
+  "chunks": [
+    {
+      "_beat": "1  4.0-8.3s",
+      "lead": [
+        8,
+        9,
+        10
+      ],
+      "key": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "lines": [
+        "GOOD FOR ANY",
+        "PCOS PATIENT"
+      ],
+      "keyColor": "#0E3A38"
+    },
+    {
+      "_beat": "2  8.3-10.7s",
+      "lead": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "key": [
+        21,
+        22,
+        23
+      ],
+      "lines": [
+        "VERY",
+        "LIMITED"
+      ],
+      "keyColor": "#28285C"
+    },
+    {
+      "_beat": "3  10.7-15.3s",
+      "lead": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "key": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "lines": [
+        "ADDRESS THE",
+        "PATHOPHYSIOLOGY"
+      ],
+      "keyColor": "#0E3A38"
+    },
+    {
+      "_beat": "4  15.3-21.0s  her list — checklist card",
+      "lead": [
+        35
+      ],
+      "key": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "lines": [
+        "CALCIUM · VITAMIN D",
+        "OMEGA-3 · MYO-INOSITOL"
+      ],
+      "skip": true,
+      "_skipWhy": "the checklist card names all four as she says them"
+    },
+    {
+      "_beat": "5  21.0-23.8s",
+      "lead": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "key": [
+        50,
+        51,
+        52
+      ],
+      "lines": [
+        "DO NOT TAKE"
+      ],
+      "keyColor": "#103D2C"
+    },
+    {
+      "_beat": "6  23.8-25.6s",
+      "lead": [],
+      "key": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "lines": [
+        "OVER-THE-COUNTER",
+        "SUPPLEMENTS"
+      ],
+      "keyColor": "#0E3A38"
+    },
+    {
+      "_beat": "7  25.6-30.6s",
+      "lead": [
+        57
+      ],
+      "key": [
+        58,
+        59,
+        60
+      ],
+      "lines": [
+        "CONSULT YOUR",
+        "PHYSICIAN"
+      ],
+      "keyColor": "#28285C"
+    },
+    {
+      "_beat": "8  30.6-32.2s",
+      "lead": [
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "key": [
+        70
+      ],
+      "lines": [
+        "DEFICIENCIES"
+      ],
+      "keyColor": "#0E3A38"
+    },
+    {
+      "_beat": "9  32.2-35.2s  the close",
+      "lead": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "key": [
+        76,
+        77,
+        78
+      ],
+      "lines": [
+        "REQUIRED WITHOUT",
+        "DEFICIENCY"
+      ],
+      "keyColor": "#103D2C"
+    }
+  ],
+  "style": {
+    "_comment": "Niranjan 2026-09-17: every reel different in colour, type, animation and grade, all premium. Pinned so the four differ from each other and from pcos-gut-health (warmEditorial/maskWipeFast/ink/brick/dark).",
+    "typePairing": "quietPremium",
+    "revealStyle": "blurIn",
+    "leadStyle": "tint",
+    "paletteLead": "deep teal",
+    "textPosition": "top on the bare wall",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "teal & indigo — cool, clinical, to match the cool grade; keyColor pinned per chunk from palette.py POOL, APCA against measured top wall #E4C4A8: deep teal:67, indigo:69, deep teal:67, forest:67, deep teal:67, indigo:69, deep teal:67, forest:67",
+    "colourStory": "teal & indigo — cool, clinical, to match the cool grade"
+  },
+  "openFlags": [],
+  "_clipNote": "Source ~/Movies/VN/1789568719740657.mp4 (4K 50fps). inbox copy is colour-graded with ffmpeg before prep so the wall is measured post-grade: eq=contrast=1.06:saturation=0.92:gamma=0.98,colorbalance=rs=-0.03:bs=0.04:rh=-0.02:bh=0.03 (h264_videotoolbox 80M, audio copied).",
+  "grade": {
+    "look": "clean cool clinical — eq contrast 1.06, sat 0.92, gamma 0.98; colorbalance shadows/highs toward blue",
+    "ffmpeg": "eq=contrast=1.06:saturation=0.92:gamma=0.98,colorbalance=rs=-0.03:bs=0.04:rh=-0.02:bh=0.03"
+  },
+  "layout": {
+    "captionScrim": {
+      "enabled": true,
+      "ground": "light",
+      "opacity": 0.8,
+      "feather": "auto"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "hd",
+    "beats": [
+      {
+        "id": "h1",
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "motion": "pushIn",
+        "at": [
+          0.0,
+          2.14
+        ],
+        "prompt": "A small clear glass dish holding a few plain amber softgel capsules and plain white round tablets on a light marble kitchen counter beside a glass of water, seen from a slight high angle, bright airy morning window light. Vertical 9:16 frame with calm open space in the upper third. Shot on a 50mm lens, shallow depth of field, clean documentary photograph, true-to-life colour, every surface smooth and blank.",
+        "status": "approved",
+        "_why": "'what supplements' — open on the thing the question asks about",
+        "approvedHash": "ebfeb3432b18e6ccaae9f7f76b3cf203b9b23bfd555e80f7cb6cfe304fb4e4a8"
+      },
+      {
+        "id": "h2",
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "at": [
+          2.14,
+          4.02
+        ],
+        "prompt": "A woman in her early thirties in a soft cotton kurta stands at a bright kitchen counter and tips a single plain amber softgel capsule from a small plain white jar into her open palm, then pauses and looks at it. The camera holds at a medium distance at counter height with a slow gentle push in. Soft bright morning window light from the left. Realistic, natural motion, true-to-life colour, the jar smooth, matte and completely blank.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+        "status": "approved",
+        "_why": "'can PCOS patients take?' — the act of taking one, not a result",
+        "approvedHash": "3cf5049cb9c090242be208dd8e2ae68426f40ff0c98f3020b786e3db704d3c04"
+      },
+      {
+        "id": "v1",
+        "beat": 4,
+        "mode": "graphic",
+        "treatment": "inset",
+        "graphic": {
+          "type": "checklist",
+          "items": [
+            "CALCIUM",
+            "VITAMIN D",
+            "OMEGA-3",
+            "MYO-INOSITOL"
+          ],
+          "listStyle": "numbered",
+          "itemWords": [
+            36,
+            37,
+            39,
+            43
+          ]
+        },
+        "status": "approved",
+        "_why": "she names four; each ticks in on its word"
+      },
+      {
+        "id": "v2",
+        "at": [
+          21.04,
+          25.56
+        ],
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "panLeft",
+        "prompt": "An Indian woman in her early thirties in a simple cotton salwar kurta stands in a bright neighbourhood pharmacy in Hyderabad, her hand paused in front of a softly out-of-focus shelf of plain white bottles, seen side-on at a medium distance, thoughtful expression in soft profile. Vertical 9:16 frame, calm plain ceiling area in the upper third. Bright even light, shot on a 35mm lens with shallow depth of field so the shelf is a soft blur, candid documentary photograph, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "'do not take over-the-counter supplements' — the moment she is warning about, shown as hesitation",
+        "approvedHash": "569acc7e40619ce98fff0dbdf2025447f889983ef8e011b521ee439e7282f4a1",
+        "_rejected": [
+          "v2-04451df2f59f.png: woman did not read as Indian; small tags on the shelves"
+        ]
+      },
+      {
+        "id": "v3",
+        "at": [
+          30.62,
+          33.6
+        ],
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pushIn",
+        "prompt": "A gloved hand holds up a single bare transparent glass blood sample tube with a red cap against a softly blurred bright laboratory window, the tube smooth and completely unprinted, bright airy light. Vertical 9:16 frame with calm open space in the upper third. Realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'look for the deficiencies' — testing is the act, never a result",
+        "approvedHash": "e04aa1b4a56d67c8abd93d0b405fd7330b51742f6fcc3cee2b0ca6510bc469eb"
+      }
+    ],
+    "style": "brightAiry",
+    "bubbleShape": "roundedSquare",
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
+  },
+  "_transcriptNote": "faster-whisper heard 'And Nam' (Ma'am) and 'myo-enositol' (myo-inositol); lines use the correct spelling."
+}

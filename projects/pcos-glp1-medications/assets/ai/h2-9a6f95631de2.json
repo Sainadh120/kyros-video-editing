@@ -1,0 +1,55 @@
+{
+  "assetId": "h2-9a6f95631de2",
+  "file": "h2-9a6f95631de2.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "A woman in her early thirties in a soft cotton kurta walks slowly into a sunlit apartment dining area and sits down at a small wooden table set with a simple, balanced home-cooked lunch on a steel plate. The camera holds at a medium-wide distance at seated eye level and pushes in gently as she settles. Warm golden late-afternoon window light from the left. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 537169340,
+  "numFrames": 73,
+  "fps": 24,
+  "input": null,
+  "requestHash": "9a6f95631de2ac16ab7d1c2355fa2924ecf598235917ad07481ce90fe2160dd3",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "A woman in her early thirties in a soft cotton kurta walks slowly into a sunlit apartment dining area and sits down at a small wooden table set with a simple, balanced home-cooked lunch on a steel plate. The camera holds at a medium-wide distance at seated eye level and pushes in gently as she settles. Warm golden late-afternoon window light from the left. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 537169340,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 73,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "hookBackdrop",
+  "why": "'in PCOS' — the everyday life the question is about; no weight, no result shown",
+  "says": "medications in PCOS?",
+  "createdAt": "2026-09-17T04:33:02",
+  "elapsedSec": 96.87,
+  "costEstimateUsd": 0.067226,
+  "costBasis": "estimate: 96.9s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 3.041667,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

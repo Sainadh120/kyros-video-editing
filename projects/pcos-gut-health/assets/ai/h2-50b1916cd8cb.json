@@ -1,0 +1,52 @@
+{
+  "assetId": "h2-50b1916cd8cb",
+  "file": "h2-50b1916cd8cb.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her early thirties in a soft cotton kurta sits at a small dining table by a sunlit window in a Hyderabad apartment, eating a simple lunch of rice, dal, cooked vegetables and a bowl of curd from a steel plate, seen from a slight distance at eye level, calm and relaxed. Vertical 9:16 frame with plain warm wall in the upper third. Soft natural daylight, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1647801274,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "50b1916cd8cbcff17552d87eb77cf54611f53a38995ddc88f91e2b41ee9b29d8",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her early thirties in a soft cotton kurta sits at a small dining table by a sunlit window in a Hyderabad apartment, eating a simple lunch of rice, dal, cooked vegetables and a bowl of curd from a steel plate, seen from a slight distance at eye level, calm and relaxed. Vertical 9:16 frame with plain warm wall in the upper third. Soft natural daylight, shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1647801274,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "hookBackdrop",
+  "why": "'matter in PCOS?' — a real woman and her everyday food",
+  "says": "matter in PCOS?",
+  "createdAt": "2026-09-17T03:33:42",
+  "elapsedSec": 11.87,
+  "costEstimateUsd": 0.003633,
+  "costBasis": "estimate: 11.9s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

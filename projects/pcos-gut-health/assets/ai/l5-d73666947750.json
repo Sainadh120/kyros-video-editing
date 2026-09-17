@@ -1,0 +1,52 @@
+{
+  "assetId": "l5-d73666947750",
+  "file": "l5-d73666947750.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Three soft white steamed idlis on a steel plate with a small bowl of coconut chutney and a bowl of sambar, South Indian breakfast on a wooden table, seen from a slight high angle, soft morning light, square composition, realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 804539909,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "d7366694775081c3d0a65c1e4eec0a78d95b9c2fcaf083e1f2f0270b3a6adaf7",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Three soft white steamed idlis on a steel plate with a small bowl of coconut chutney and a bowl of sambar, South Indian breakfast on a wooden table, seen from a slight high angle, soft morning light, square composition, realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 804539909,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l5"
+  ],
+  "sourceBeats": [
+    7
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "listBuild",
+  "why": "'idli' — the fermented food she names; spelled IDLI on the tile",
+  "says": "eat fermented foods like curd, buttermilk, idly etc",
+  "createdAt": "2026-09-17T03:34:17",
+  "elapsedSec": 6.02,
+  "costEstimateUsd": 0.001843,
+  "costBasis": "estimate: 6.0s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

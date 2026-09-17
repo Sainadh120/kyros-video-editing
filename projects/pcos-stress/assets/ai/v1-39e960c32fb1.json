@@ -1,0 +1,52 @@
+{
+  "assetId": "v1-39e960c32fb1",
+  "file": "v1-39e960c32fb1.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in a soft cotton kurta stands side-on and pinches a little of the loose fabric at her waist between her fingers, looking down at it, seen at mid-body from the side with her face out of frame, warm available window light in a simple bedroom. Vertical 9:16 frame with a plain wall in the upper third. Handheld documentary photograph, natural and modest, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 339715341,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "39e960c32fb1bb554f51b59babf186284dc9d2b06ce79f2653a2ad28b09201b2",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in a soft cotton kurta stands side-on and pinches a little of the loose fabric at her waist between her fingers, looking down at it, seen at mid-body from the side with her face out of frame, warm available window light in a simple bedroom. Vertical 9:16 frame with a plain wall in the upper third. Handheld documentary photograph, natural and modest, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 339715341,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v1"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-stress",
+  "treatment": "doctorBubble",
+  "why": "'it increases the belly fat' — shown literally, nothing read off the tape",
+  "says": "It increases the belly fat.",
+  "createdAt": "2026-09-17T03:36:51",
+  "elapsedSec": 11.38,
+  "costEstimateUsd": 0.003482,
+  "costBasis": "estimate: 11.4s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

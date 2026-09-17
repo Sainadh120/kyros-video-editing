@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-62bc2832998d",
+  "file": "h1-62bc2832998d.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A slim woman of average build in her early thirties, clearly not pregnant, in a loose cotton kurta and trousers stands side-on in front of a full-length mirror in a bright bedroom, both hands smoothing the fabric flat at her waist, looking at her reflection with a slightly concerned expression, her face softly out of focus. Vertical 9:16 frame with a calm plain wall in the upper third. Soft natural daylight, shot on a 50mm lens, candid documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1004920558,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "62bc2832998de13a5e245abdd411e54017325a48a44a43b721d32cb656860d4d",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A slim woman of average build in her early thirties, clearly not pregnant, in a loose cotton kurta and trousers stands side-on in front of a full-length mirror in a bright bedroom, both hands smoothing the fabric flat at her waist, looking at her reflection with a slightly concerned expression, her face softly out of focus. Vertical 9:16 frame with a calm plain wall in the upper third. Soft natural daylight, shot on a 50mm lens, candid documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1004920558,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "hookBackdrop",
+  "why": "'why should women with PCOS care' — the concern, modestly",
+  "says": "Doctor, why should women with PCOS care about",
+  "createdAt": "2026-09-17T03:37:03",
+  "elapsedSec": 11.97,
+  "costEstimateUsd": 0.003664,
+  "costBasis": "estimate: 12.0s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

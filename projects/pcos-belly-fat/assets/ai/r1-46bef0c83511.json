@@ -1,0 +1,52 @@
+{
+  "assetId": "r1-46bef0c83511",
+  "file": "r1-46bef0c83511.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A coronary artery on the surface of a human heart, cut open to show a buildup of yellow plaque narrowing the vessel, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 935755920,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "46bef0c83511ec5409a52719da8a8ac8625aa82106831da9f3a0f93a1aa7005d",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A coronary artery on the surface of a human heart, cut open to show a buildup of yellow plaque narrowing the vessel, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 935755920,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "r1"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "listBuild",
+  "why": "'heart stroke'",
+  "says": "it is responsible for all the heart stroke, cardiac problems, diabetes, etc.",
+  "createdAt": "2026-09-17T10:33:05",
+  "elapsedSec": 6.85,
+  "costEstimateUsd": 0.002097,
+  "costBasis": "estimate: 6.9s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

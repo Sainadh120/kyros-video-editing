@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-4891eac55353",
+  "file": "h1-4891eac55353.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A woman in her early thirties in a plain cotton kurta sits at a cluttered home desk late in the evening, elbows on the desk and fingertips pressed to her temples, eyes closed, a laptop turned away from camera and papers beside her, lit by a single warm desk lamp. Vertical 9:16 frame, dim plain wall in the upper third. Shot on a 35mm lens, handheld documentary photograph, available light, natural skin texture, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 561730704,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "4891eac55353f37d7d785b41fe994d13f4391b7de5fbc90b1a5a0f06ab25ee19",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A woman in her early thirties in a plain cotton kurta sits at a cluttered home desk late in the evening, elbows on the desk and fingertips pressed to her temples, eyes closed, a laptop turned away from camera and papers beside her, lit by a single warm desk lamp. Vertical 9:16 frame, dim plain wall in the upper third. Shot on a 35mm lens, handheld documentary photograph, available light, natural skin texture, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 561730704,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-stress",
+  "treatment": "hookBackdrop",
+  "why": "'can stress' — stress shown plainly",
+  "says": "Doctor, can stress affect",
+  "createdAt": "2026-09-17T03:35:02",
+  "elapsedSec": 6.34,
+  "costEstimateUsd": 0.00194,
+  "costBasis": "estimate: 6.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

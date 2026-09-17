@@ -1,0 +1,378 @@
+{
+  "slug": "pcos-glp1-medications",
+  "clip": "inbox/pcos-glp1-medications.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "question": {
+    "preset": "teal",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "lines": [
+          "GLP-1 MEDICATIONS",
+          "IN PCOS?"
+        ]
+      }
+    ],
+    "card": {
+      "bg": "#23101E",
+      "lead": "#F6EEE6",
+      "key": "#E8C68A",
+      "texture": "vignette",
+      "opacity": 0.985,
+      "_apca": "lead 96.5 / key 73.8",
+      "_why": "Niranjan 2026-09-17 asked for better question colours: champagne gold on aubergine, tied to this reel's colour story"
+    }
+  },
+  "chunks": [
+    {
+      "_beat": "1  5.5-8.3s",
+      "lead": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "key": [
+        19,
+        20
+      ],
+      "lines": [
+        "MANY",
+        "ADVANTAGES"
+      ],
+      "keyColor": "#361327"
+    },
+    {
+      "_beat": "2  8.3-12.3s",
+      "lead": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "key": [
+        29,
+        30
+      ],
+      "lines": [
+        "INSULIN",
+        "RESISTANCE"
+      ],
+      "keyColor": "#2A1B10"
+    },
+    {
+      "_beat": "3  12.3-13.9s",
+      "lead": [
+        31,
+        32,
+        33
+      ],
+      "key": [
+        34
+      ],
+      "lines": [
+        "INJECTIONS"
+      ],
+      "keyColor": "#361327"
+    },
+    {
+      "_beat": "4  13.9-19.9s  her four effects — checklist card",
+      "lead": [
+        35
+      ],
+      "key": [
+        36,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "lines": [
+        "APPETITE · DIGESTION",
+        "INFLAMMATION · FAT"
+      ],
+      "skip": true,
+      "_skipWhy": "the checklist card names all four as she says them"
+    },
+    {
+      "_beat": "5  19.9-25.3s",
+      "lead": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "key": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "lines": [
+        "MAJORITY OF",
+        "PCOS MECHANISMS"
+      ],
+      "keyColor": "#8E2A18"
+    },
+    {
+      "_beat": "6  25.3-26.7s",
+      "lead": [
+        58
+      ],
+      "key": [
+        59,
+        60,
+        61
+      ],
+      "lines": [
+        "CONSULT",
+        "YOUR DOCTOR"
+      ],
+      "keyColor": "#361327"
+    },
+    {
+      "_beat": "7  26.7-29.1s",
+      "lead": [
+        62,
+        63,
+        64
+      ],
+      "key": [
+        65,
+        66
+      ],
+      "lines": [
+        "IDEAL",
+        "PATIENT"
+      ],
+      "keyColor": "#2A1B10"
+    },
+    {
+      "_beat": "8  29.1-33.4s  the close",
+      "lead": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "key": [
+        76,
+        77,
+        78
+      ],
+      "lines": [
+        "FOR MANY",
+        "BENEFITS"
+      ],
+      "keyColor": "#361327"
+    }
+  ],
+  "style": {
+    "_comment": "Niranjan 2026-09-17: every reel different in colour, type, animation and grade, all premium. Pinned so the four differ from each other and from pcos-gut-health (warmEditorial/maskWipeFast/ink/brick/dark).",
+    "typePairing": "modernCalm",
+    "revealStyle": "wordStagger",
+    "leadStyle": "neutral",
+    "paletteLead": "indigo",
+    "textPosition": "top on the bare wall",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "plum & espresso — deep jewel tones on the rich-contrast grade; keyColor pinned per chunk from palette.py POOL, APCA against measured top wall #EEC89F: plum:75, espresso:75, plum:75, dark red:60, plum:75, espresso:75, plum:75",
+    "colourStory": "plum & espresso — deep jewel tones on the rich-contrast grade"
+  },
+  "openFlags": [
+    "Compliance to confirm with Niranjan: she promotes a prescription drug class ('many advantages', 'one must use these injections for many benefits'). Captioned faithfully; CONSULT YOUR DOCTOR and IDEAL PATIENT carry the conditions."
+  ],
+  "_clipNote": "Source ~/Movies/VN/1789567343230464.mp4 (4K 50fps). inbox copy is colour-graded with ffmpeg before prep so the wall is measured post-grade: eq=contrast=1.12:saturation=1.08:gamma=0.96,colorbalance=rs=0.02:bs=-0.02 (h264_videotoolbox 80M, audio copied).",
+  "grade": {
+    "look": "rich contrast — eq contrast 1.12, sat 1.08, gamma 0.96, slight warm",
+    "ffmpeg": "eq=contrast=1.12:saturation=1.08:gamma=0.96,colorbalance=rs=0.02:bs=-0.02",
+    "_rejected": [
+      "vignette=PI/5 darkened the upper wall: overlay scan read the whole top as a burned-in graphic and the wall dropped to #B99B7C"
+    ]
+  },
+  "layout": {
+    "captionScrim": {
+      "enabled": false,
+      "ground": "dark",
+      "opacity": 0.8,
+      "feather": "auto"
+    },
+    "doctorPlate": {
+      "appearFrame": 143,
+      "holdFrames": 40,
+      "_why": "introduce her as the answer starts (4.64s), clear of the pen bubble at 6.3s"
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "hd",
+    "beats": [
+      {
+        "id": "h1",
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "motion": "pushIn",
+        "at": [
+          0.0,
+          2.32
+        ],
+        "prompt": "A thick white prefilled injection pen, the size of a large marker, with a rounded grey cap at one end and a chunky round push button at the other, lying on a clean light stone countertop beside a glass of water, warm golden late-afternoon window light, low side angle with shallow depth of field. Vertical 9:16 frame with calm open wall in the upper third. Shot on a 50mm lens, clean documentary photograph, true-to-life colour, the pen smooth, matte and completely blank.",
+        "status": "approved",
+        "_why": "'the role of GLP-1 medications' — the medicine class itself, shown plain and unbranded",
+        "approvedHash": "bf2c7e0b7567379818d3ddd9adb013c550ba6072cc142c4e60c38abaec8c2bf1",
+        "_rejected": [
+          "h1-f041ffd6c2e9.png: read as a white marker, not an injector pen"
+        ]
+      },
+      {
+        "id": "h2",
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "at": [
+          2.32,
+          4.64
+        ],
+        "prompt": "A woman in her early thirties in a soft cotton kurta walks slowly into a sunlit apartment dining area and sits down at a small wooden table set with a simple, balanced home-cooked lunch on a steel plate. The camera holds at a medium-wide distance at seated eye level and pushes in gently as she settles. Warm golden late-afternoon window light from the left. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+        "status": "approved",
+        "_why": "'in PCOS' — the everyday life the question is about; no weight, no result shown",
+        "approvedHash": "9a6f95631de2ac16ab7d1c2355fa2924ecf598235917ad07481ce90fe2160dd3"
+      },
+      {
+        "id": "v2",
+        "at": [
+          6.3,
+          8.3
+        ],
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pushIn",
+        "prompt": "Close view of an Indian woman's hands in the sleeves of a soft cotton kurta holding a thick white prefilled injection pen horizontally, the pen about the length of her palm and as thick as a marker, with a grey cap at one end and a round push button at the other, resting over a sunlit wooden dining table. Vertical 9:16 frame, her face out of frame, plain warm wall in the upper third. Warm golden late-afternoon light, shot on a 50mm lens with shallow depth of field, documentary photograph, true-to-life colour, the pen smooth, matte and completely blank.",
+        "status": "approved",
+        "_why": "'weight loss injections have many advantages' — the medicine she is talking about, held, never injected",
+        "approvedHash": "46d003408438b5a4013d48dfde959f8e5c0b79c03f119efe5e930eb841eac739",
+        "_rejected": [
+          "v2-529c89791fc7.png: the pen reads as a phone"
+        ],
+        "_atWhy": "starts 0.8s later so the doctor plate introduces her as she begins answering (it had been pushed to 20.3s)"
+      },
+      {
+        "id": "v3",
+        "at": [
+          9.8,
+          12.3
+        ],
+        "mode": "video",
+        "treatment": "doctorBubble",
+        "prompt": "An educational 3D medical animation filling the whole frame edge to edge: a large round translucent pink cell floats in a deep aubergine space. Small glowing golden insulin molecules drift toward it and touch its surface, but the cell's small doorways stay shut and tiny white glucose particles keep floating outside. The camera slowly pushes in toward the cell. Soft studio lighting, clean scientific visualisation style, smooth continuous motion.",
+        "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+        "status": "approved",
+        "_why": "'who have insulin resistance' — the mechanism she names, as a textbook animation",
+        "approvedHash": "c94be96200f5db53808f579cc9868d16518733c95d79bbafadb5940ebe5a100f",
+        "_rejected": [
+          "v3-12023d0c4bc7.mp4: grey border band along the frame edge"
+        ],
+        "seed": 7
+      },
+      {
+        "id": "l1",
+        "beat": 4,
+        "word": 36,
+        "group": "effects",
+        "label": "REDUCES APPETITE",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "An Indian woman in a cotton kurta at a home dining table sets her spoon down on a steel plate with a modest, half-finished portion of rice, dal and vegetables, satisfied and relaxed, seen at mid-body with her face softly out of frame, warm daylight, square composition, candid documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'they reduce the appetite'",
+        "approvedHash": "910e30509194ef22a40f97c2f720fc3f5546985e115d164c7d7f32397101334e"
+      },
+      {
+        "id": "l2",
+        "beat": 4,
+        "word": 39,
+        "group": "effects",
+        "label": "DELAYS GASTRIC EMPTYING",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A translucent human stomach seen from the front, softly lit from within, holding a gently churning mass of food with only a thin stream passing slowly into the small intestine below, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+        "status": "approved",
+        "_why": "'delays gastric emptying'",
+        "approvedHash": "4cf8260f40fa6f7889c976a04e23b8ab831f9827a9f20376ad90d808a2ac8333"
+      },
+      {
+        "id": "l3",
+        "beat": 4,
+        "word": 42,
+        "group": "effects",
+        "label": "DECREASES INFLAMMATION",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "The inside of a smooth healthy blood vessel with calm red blood cells flowing through it and a few small immune cells glowing a soft cool blue along its wall, square composition, clean educational medical 3D render, soft studio lighting on a plain deep aubergine background, anatomically accurate, clearly a textbook illustration.",
+        "status": "approved",
+        "_why": "'decreases inflammation'",
+        "approvedHash": "9020ce3f982049e85bf74312978c859a8331cb43985e52ddb96a9055cab2aa5a"
+      },
+      {
+        "id": "l4",
+        "beat": 4,
+        "word": 44,
+        "group": "effects",
+        "label": "REDUCES VISCERAL FAT",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A textbook 3D medical cutaway of the lower abdomen only, framed from just below the ribs to the hips with no chest visible: the front wall removed to reveal pink intestines, with soft lumpy yellow visceral fat tucked between and around the intestine loops and behind them, liver edge in natural dark red at the top, square composition, clean educational render, soft studio lighting on a plain deep aubergine background, clearly an anatomical illustration.",
+        "status": "approved",
+        "_why": "'reduces visceral fat' — what visceral fat is, not a before/after",
+        "approvedHash": "59efbc460d760b001e3edeb1ffa09020c24f0f3244f9152877bc36be36ce988c",
+        "_rejected": [
+          "l4-d05dfe40efc9.png: torso cropped to show bare breasts (not for this audience); fat drawn as a yellow liver"
+        ]
+      }
+    ],
+    "style": "goldenHour",
+    "bubbleShape": "circle",
+    "listLayout": "cuts",
+    "_listLayoutWhy": "2x2 grid read as congested with long labels — same presentation Niranjan chose for gut health on 2026-09-17",
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
+  }
+}

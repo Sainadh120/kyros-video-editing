@@ -255,5 +255,5 @@ What still needs a read, because it's about wording rather than facts — see
 - `references/visuals.md` — supporting visuals: when, which rung, treatments,
   prompts, safety, Modal, cost, cache, failure
 - `Reels/README.md` — the commands, and what's shared vs per-clip
-- `Reels/docs/VISUALS.md` — toolkit + Modal setup, environment, storage
+- `Reels/docs/VISUALS.md` — our Modal servers (infra/modal), setup, environment, storage
 - `Reels/docs/MEDIA.md` — where media lives (R2 via rclone), push / pull

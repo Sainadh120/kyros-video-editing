@@ -1,0 +1,398 @@
+{
+  "slug": "pcos-belly-fat",
+  "clip": "inbox/pcos-belly-fat.mp4",
+  "doctor": "bharani-bellam",
+  "partner": null,
+  "question": {
+    "preset": "bone",
+    "rows": [
+      {
+        "style": "lead",
+        "words": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "style": "key",
+        "words": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "lines": [
+          "CARE ABOUT",
+          "BELLY FAT?"
+        ]
+      }
+    ],
+    "card": {
+      "bg": "#F3EDE2",
+      "lead": "#4A5A4C",
+      "key": "#1F4D3A",
+      "texture": "grain",
+      "opacity": 0.995,
+      "_apca": "lead 75.2 / key 81.8",
+      "_why": "Niranjan 2026-09-17 asked for better question colours: deep forest on warm ivory, tied to this reel's colour story"
+    }
+  },
+  "chunks": [
+    {
+      "_beat": "1  5.1-7.0s",
+      "lead": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "key": [
+        14,
+        15
+      ],
+      "lines": [
+        "TWO TYPES"
+      ],
+      "keyColor": "#103D2C"
+    },
+    {
+      "_beat": "2  7.0-9.9s",
+      "lead": [],
+      "key": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "lines": [
+        "SUBCUTANEOUS",
+        "& VISCERAL FAT"
+      ],
+      "keyColor": "#9E3B16",
+      "skip": true,
+      "_skipWhy": "the two illustration tiles name both types as she says them"
+    },
+    {
+      "_beat": "3  9.9-11.9s",
+      "lead": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "key": [
+        31
+      ],
+      "lines": [
+        "BELLY"
+      ],
+      "keyColor": "#103D2C"
+    },
+    {
+      "_beat": "4  11.9-15.2s",
+      "lead": [
+        33,
+        34
+      ],
+      "key": [
+        35,
+        37,
+        38
+      ],
+      "lines": [
+        "ORGANS",
+        "SPLEEN · LIVER"
+      ],
+      "keyColor": "#3A2416"
+    },
+    {
+      "_beat": "5  15.2-18.1s",
+      "lead": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "key": [
+        44,
+        45
+      ],
+      "lines": [
+        "VERY",
+        "DANGEROUS"
+      ],
+      "keyColor": "#103D2C"
+    },
+    {
+      "_beat": "6  18.1-24.1s  her list — checklist card",
+      "lead": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "key": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "lines": [
+        "HEART STROKE · CARDIAC",
+        "DIABETES"
+      ],
+      "skip": true,
+      "_skipWhy": "the checklist card names all three as she says them"
+    },
+    {
+      "_beat": "7  24.1-27.3s",
+      "lead": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "key": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "lines": [
+        "MUST ADDRESS",
+        "THIS FAT"
+      ],
+      "keyColor": "#9E3B16"
+    },
+    {
+      "_beat": "8  27.3-30.0s  the close",
+      "lead": [
+        70,
+        71,
+        72
+      ],
+      "key": [
+        73,
+        74
+      ],
+      "lines": [
+        "OTHER",
+        "TREATMENTS"
+      ],
+      "keyColor": "#103D2C"
+    }
+  ],
+  "style": {
+    "_comment": "Niranjan 2026-09-17: every reel different in colour, type, animation and grade, all premium. Pinned so the four differ from each other and from pcos-gut-health (warmEditorial/maskWipeFast/ink/brick/dark).",
+    "typePairing": "classicPress",
+    "revealStyle": "charCascade",
+    "leadStyle": "tint",
+    "paletteLead": "rust",
+    "textPosition": "top on the bare wall",
+    "payloadTreatment": "stacked caps, no stroke",
+    "accent": "forest & rust — botanical green with a warm rust accent, on the airy grade; keyColor pinned per chunk from palette.py POOL, APCA against measured top wall #EEC9A6: forest:70, rust:55, forest:70, deep chocolate:74, forest:70, rust:55, forest:70",
+    "colourStory": "forest & rust — botanical green with a warm rust accent, on the airy grade"
+  },
+  "openFlags": [],
+  "_clipNote": "Source ~/Movies/VN/1789567598585410.mp4 (4K 50fps). inbox copy is colour-graded with ffmpeg before prep so the wall is measured post-grade: eq=contrast=1.03:brightness=0.02:saturation=0.95,colorbalance=gm=-0.02:bm=0.02:rh=0.02,curves=all='0/0.02 1/1' (h264_videotoolbox 80M, audio copied).",
+  "grade": {
+    "look": "airy — brightness +0.02, sat 0.95, faint teal shadows / rose highs",
+    "ffmpeg": "eq=contrast=1.03:brightness=0.02:saturation=0.95,colorbalance=gm=-0.02:bm=0.02:rh=0.02,curves=all='0/0.02 1/1'"
+  },
+  "layout": {
+    "captionScrim": {
+      "enabled": true,
+      "ground": "light",
+      "opacity": 0.8,
+      "feather": "auto"
+    },
+    "doctorPlate": {
+      "appearFrame": 154,
+      "holdFrames": 45,
+      "top": 1386,
+      "_why": "measure_hide_windows flags the low-left slot for the whole take — her hands moving, not a graphic. Pinned low (like every shipped reel) as her answer starts, and out before the image list at f211. First pin set only appearFrame and the solver moved the plate to the top, over the TWO TYPES caption and into the list (Niranjan flagged it 2026-09-17)."
+    }
+  },
+  "theme": {
+    "type": {
+      "stroke": {
+        "color": null
+      }
+    }
+  },
+  "visuals": {
+    "enabled": true,
+    "quality": "hd",
+    "beats": [
+      {
+        "id": "h1",
+        "treatment": "hookBackdrop",
+        "mode": "image",
+        "motion": "pushIn",
+        "at": [
+          0.0,
+          2.86
+        ],
+        "prompt": "An Indian woman of average build in her early thirties, in a cotton kurta over fitted trousers, stands beside her bed and tugs at the waistband button of her trousers that feels a little tight, seen from the side at mid-body with her face out of frame, soft natural daylight from a bedroom window. Vertical 9:16 frame with a calm plain wall in the upper third. Shot on a 50mm lens, candid documentary photograph, modest framing, true-to-life colour.",
+        "status": "approved",
+        "_why": "'why should women with PCOS care about belly fat' — the everyday moment, modestly, no body close-up",
+        "approvedHash": "98fdf7fdd931fb06e13882a8e91419361d24458b945a65af58c788a00b73b94a",
+        "_rejected": [
+          "h1-07ced7632041.png: hands cradling the stomach read as pregnancy — misleading",
+          "h1-62bc2832998d.png: mirror reflection is a different woman in a different pose — uncanny"
+        ]
+      },
+      {
+        "id": "h2",
+        "treatment": "hookBackdrop",
+        "mode": "video",
+        "at": [
+          2.86,
+          5.12
+        ],
+        "prompt": "The woman gently tugs the waistband of her trousers with both hands, adjusting it, then lets go and smooths the kurta fabric down over it. Her face stays out of frame. The camera holds steady at mid-body with a very slow push in. Soft natural daylight from the bedroom window. Realistic, natural motion, true-to-life colour.",
+        "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+        "status": "approved",
+        "_why": "'about belly fat?' — the waistband moment from h1, now moving; no tape, no numbers",
+        "approvedHash": "ecfe083318981f01002f7113bcdb160fb71e6022ac9d32304b2446d040b70203",
+        "_rejected": [
+          "h2-7c91673e3e90.mp4: printed tape markings readable full-frame — digits she never said"
+        ],
+        "input": {
+          "visual": "h1"
+        }
+      },
+      {
+        "id": "v2",
+        "beat": 4,
+        "mode": "image",
+        "treatment": "doctorBubble",
+        "motion": "pushIn",
+        "prompt": "Medical textbook 3D illustration of the human abdomen in a clean side cross-section: a thin even yellow layer of fat just under the skin, and larger soft yellow fat deposits packed deep inside around the liver, stomach and intestines, organs in natural muted pinks and reds, soft studio lighting on a plain dark teal background. Vertical 9:16 frame with calm empty space in the upper third. Scientifically accurate anatomy, clearly an educational illustration.",
+        "status": "approved",
+        "_why": "'fat around the organs like spleen, liver' — visceral fat is the point and cannot be shown any other way; drop after two failed tries (pcos-blood-tests lesson)",
+        "approvedHash": "70c423249d51f9d6be17ff50e43c9061c1246b743cee91b3ab9416307da3e203"
+      },
+      {
+        "id": "t1",
+        "beat": 2,
+        "word": 16,
+        "group": "types",
+        "label": "SUBCUTANEOUS FAT",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A textbook 3D medical cross-section block of the belly wall, cut straight through and seen from the side like a layered slice: a thin pale skin layer on top, a thick soft yellow layer of subcutaneous fat beneath it, then a band of red muscle below, square composition, clean educational render, soft studio lighting on a plain deep teal background, clearly an anatomical illustration.",
+        "status": "approved",
+        "_why": "'subcutaneous fat'",
+        "approvedHash": "99b68fba130b06b7f921fc95d92c206c4a1d1a8680cc37b78486031bdbd47f06",
+        "_rejected": [
+          "t1-5f9e902008e8.png: a yellow band painted on skin, not a cross-section"
+        ]
+      },
+      {
+        "id": "t2",
+        "beat": 2,
+        "word": 19,
+        "group": "types",
+        "label": "VISCERAL FAT",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A cross-section deep inside the human abdomen showing soft yellow visceral fat wrapped around the intestines and liver, beneath the muscle wall, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+        "status": "approved",
+        "_why": "'visceral fat'",
+        "approvedHash": "3a19f0f7db418686d1ed78ffeb745c48b604be465700b4a34b4ee53ece99b114"
+      },
+      {
+        "id": "r1",
+        "beat": 6,
+        "word": 55,
+        "group": "risks",
+        "label": "HEART STROKE",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A textbook 3D medical illustration of a single coronary blood vessel shown as a long tube cut lengthwise, its inner wall lined with a thick yellow plaque buildup that narrows the channel, a few red blood cells squeezing through the narrow gap, square composition, clean educational render, soft studio lighting on a plain deep teal background, clearly an anatomical illustration.",
+        "status": "approved",
+        "_why": "'heart stroke'",
+        "approvedHash": "036e215fc9d1b183a08c55928f12d797ea63f1a157e337028c152e727a473be8",
+        "_rejected": [
+          "r1-46bef0c83511.png: plaque drawn inside a heart chamber — wrong anatomy"
+        ]
+      },
+      {
+        "id": "r2",
+        "beat": 6,
+        "word": 57,
+        "group": "risks",
+        "label": "CARDIAC PROBLEMS",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "A whole human heart with its main blood vessels, rendered in deep natural reds, slightly turned to show the chambers, square composition, clean educational medical 3D render, soft studio lighting on a plain deep teal background, anatomically accurate, clearly a textbook illustration.",
+        "status": "approved",
+        "_why": "'cardiac problems'",
+        "approvedHash": "9d41505a345dd97a5f3bd0ce39241fda107af92b0406dc3ddf529a9941d76b39"
+      },
+      {
+        "id": "r3",
+        "beat": 6,
+        "word": 59,
+        "group": "risks",
+        "label": "DIABETES",
+        "mode": "image",
+        "treatment": "listBuild",
+        "prompt": "Close-up of a fingertip with a single small drop of blood after a finger-prick, a gloved hand holding a plain white blank test strip beside it, soft warm light, softly blurred background, square composition, realistic documentary photograph, true-to-life colour.",
+        "status": "approved",
+        "_why": "'diabetes' — the act of checking, never a reading",
+        "approvedHash": "89d76da43fd0de3b529c809a89447a85856b3315c65d9549b67f1dc061684333"
+      },
+      {
+        "id": "b1",
+        "at": [
+          15.2,
+          18.1
+        ],
+        "mode": "image",
+        "treatment": "inset",
+        "aspect": "16:9",
+        "motion": "panLeft",
+        "prompt": "An Indian woman in her thirties in a cotton kurta sits quietly by a window in a calm apartment, looking out with a serious, thoughtful expression, soft grey daylight, wide 16:9 frame with her on the right third. Shot on a 50mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "context b-roll (approved 2026-09-17): 'this fat is very dangerous' — a serious, quiet mood; shows nothing she did not say",
+        "approvedHash": "25bc310b863f699de46132f31da6cb308d2f6a3ebdfe16bdca2ecdefd71f10d5"
+      },
+      {
+        "id": "b2",
+        "at": [
+          24.1,
+          27.3
+        ],
+        "mode": "image",
+        "treatment": "inset",
+        "aspect": "16:9",
+        "prompt": "An Indian woman in her thirties in a cotton kurta and trousers sits on the front step of her home in soft early-morning light, bending forward to tie the laces of her white walking shoes, potted plants beside the door, nobody else in view. Wide 16:9 frame with her on the left third. Shot on a 35mm lens, candid documentary photograph, natural skin texture, true-to-life colour.",
+        "status": "approved",
+        "_why": "context b-roll (approved 2026-09-17): 'must address this fat' — a quiet start to the day; no result, no number",
+        "approvedHash": "f532fb7f7f5ddbd3929c59fbade71014b07a4f11139abe687491cef5f058d565",
+        "_rejected": [
+          "b2-3d9b910b5f54.mp4: leg kicks up at an unnatural angle mid-clip; a second figure in the doorway — switched to a still"
+        ],
+        "motion": "pushIn"
+      }
+    ],
+    "style": "naturalLight",
+    "bubbleShape": "circle",
+    "listLayout": "grid",
+    "engines": {
+      "video": "ltx2"
+    },
+    "_enginesWhy": "Pinned 2026-09-17 when the video default moved to LTX-2.5: this reel's videos were generated on LTX-2.3, and the engine is part of every request hash."
+  },
+  "_transcriptNote": "a stray 'You' at 30.00s is left out of every chunk."
+}

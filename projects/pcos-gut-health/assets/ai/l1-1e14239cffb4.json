@@ -1,0 +1,52 @@
+{
+  "assetId": "l1-1e14239cffb4",
+  "file": "l1-1e14239cffb4.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A steel basket of fresh vegetables — green beans, carrots, spinach, tomatoes and okra — on a light kitchen counter, seen from a slight high angle, soft morning window light, square composition, realistic documentary photograph, true-to-life colour, plain unmarked surfaces.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 806491484,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "1e14239cffb4b678cc37e41dc4e88c15b4dcc2715ab0725959a9767d70293a28",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A steel basket of fresh vegetables — green beans, carrots, spinach, tomatoes and okra — on a light kitchen counter, seen from a slight high angle, soft morning window light, square composition, realistic documentary photograph, true-to-life colour, plain unmarked surfaces.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 806491484,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "l1"
+  ],
+  "sourceBeats": [
+    6
+  ],
+  "slug": "pcos-gut-health",
+  "treatment": "listBuild",
+  "why": "'eat vegetables'",
+  "says": "eat vegetables, fruits,",
+  "createdAt": "2026-09-17T03:33:51",
+  "elapsedSec": 9.71,
+  "costEstimateUsd": 0.002971,
+  "costBasis": "estimate: 9.7s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

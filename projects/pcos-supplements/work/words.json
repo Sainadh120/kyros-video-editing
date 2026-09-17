@@ -1,0 +1,638 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "And",
+      "start": 0.0,
+      "end": 0.46,
+      "score": 0.6616958975791931,
+      "startFrame": 0,
+      "endFrame": 14
+    },
+    {
+      "word": "Nam,",
+      "start": 0.46,
+      "end": 0.6,
+      "score": 0.6283228993415833,
+      "startFrame": 14,
+      "endFrame": 18
+    },
+    {
+      "word": "what",
+      "start": 0.78,
+      "end": 0.94,
+      "score": 0.9008492231369019,
+      "startFrame": 23,
+      "endFrame": 28
+    },
+    {
+      "word": "supplements",
+      "start": 0.94,
+      "end": 1.36,
+      "score": 0.994914174079895,
+      "startFrame": 28,
+      "endFrame": 41
+    },
+    {
+      "word": "can",
+      "start": 1.36,
+      "end": 1.66,
+      "score": 0.9953403472900391,
+      "startFrame": 41,
+      "endFrame": 50
+    },
+    {
+      "word": "PCOS",
+      "start": 1.66,
+      "end": 2.14,
+      "score": 0.9775193631649017,
+      "startFrame": 50,
+      "endFrame": 64
+    },
+    {
+      "word": "patients",
+      "start": 2.14,
+      "end": 2.54,
+      "score": 0.9881560802459717,
+      "startFrame": 64,
+      "endFrame": 76
+    },
+    {
+      "word": "take?",
+      "start": 2.54,
+      "end": 2.9,
+      "score": 0.9965258240699768,
+      "startFrame": 76,
+      "endFrame": 87
+    },
+    {
+      "word": "Usually,",
+      "start": 4.02,
+      "end": 4.42,
+      "score": 0.977820873260498,
+      "startFrame": 121,
+      "endFrame": 133
+    },
+    {
+      "word": "supplements",
+      "start": 4.84,
+      "end": 5.14,
+      "score": 0.9893441200256348,
+      "startFrame": 145,
+      "endFrame": 154
+    },
+    {
+      "word": "are",
+      "start": 5.14,
+      "end": 5.64,
+      "score": 0.9906643629074097,
+      "startFrame": 154,
+      "endFrame": 169
+    },
+    {
+      "word": "good",
+      "start": 5.64,
+      "end": 6.04,
+      "score": 0.9929775595664978,
+      "startFrame": 169,
+      "endFrame": 181
+    },
+    {
+      "word": "for",
+      "start": 6.04,
+      "end": 6.36,
+      "score": 0.9962485432624817,
+      "startFrame": 181,
+      "endFrame": 191
+    },
+    {
+      "word": "any",
+      "start": 6.36,
+      "end": 6.74,
+      "score": 0.9946452379226685,
+      "startFrame": 191,
+      "endFrame": 202
+    },
+    {
+      "word": "patient",
+      "start": 6.74,
+      "end": 7.2,
+      "score": 0.9236392378807068,
+      "startFrame": 202,
+      "endFrame": 216
+    },
+    {
+      "word": "with",
+      "start": 7.2,
+      "end": 7.44,
+      "score": 0.9960014224052429,
+      "startFrame": 216,
+      "endFrame": 223
+    },
+    {
+      "word": "PCOS,",
+      "start": 7.44,
+      "end": 7.96,
+      "score": 0.9893831312656403,
+      "startFrame": 223,
+      "endFrame": 239
+    },
+    {
+      "word": "but",
+      "start": 8.28,
+      "end": 8.44,
+      "score": 0.9844089150428772,
+      "startFrame": 248,
+      "endFrame": 253
+    },
+    {
+      "word": "the",
+      "start": 8.44,
+      "end": 8.58,
+      "score": 0.9856956601142883,
+      "startFrame": 253,
+      "endFrame": 257
+    },
+    {
+      "word": "evidence",
+      "start": 8.58,
+      "end": 8.88,
+      "score": 0.9957903027534485,
+      "startFrame": 257,
+      "endFrame": 266
+    },
+    {
+      "word": "is",
+      "start": 8.88,
+      "end": 9.2,
+      "score": 0.9976397752761841,
+      "startFrame": 266,
+      "endFrame": 276
+    },
+    {
+      "word": "very",
+      "start": 9.2,
+      "end": 9.52,
+      "score": 0.992291271686554,
+      "startFrame": 276,
+      "endFrame": 286
+    },
+    {
+      "word": "much",
+      "start": 9.52,
+      "end": 9.72,
+      "score": 0.9806961417198181,
+      "startFrame": 286,
+      "endFrame": 292
+    },
+    {
+      "word": "limited.",
+      "start": 9.72,
+      "end": 10.18,
+      "score": 0.9992726445198059,
+      "startFrame": 292,
+      "endFrame": 305
+    },
+    {
+      "word": "Only",
+      "start": 10.74,
+      "end": 10.9,
+      "score": 0.9876244068145752,
+      "startFrame": 322,
+      "endFrame": 327
+    },
+    {
+      "word": "few",
+      "start": 10.9,
+      "end": 11.26,
+      "score": 0.9182073473930359,
+      "startFrame": 327,
+      "endFrame": 338
+    },
+    {
+      "word": "drugs",
+      "start": 11.26,
+      "end": 11.54,
+      "score": 0.6090298891067505,
+      "startFrame": 338,
+      "endFrame": 346
+    },
+    {
+      "word": "are",
+      "start": 11.54,
+      "end": 11.76,
+      "score": 0.6446004509925842,
+      "startFrame": 346,
+      "endFrame": 353
+    },
+    {
+      "word": "proved",
+      "start": 11.76,
+      "end": 12.14,
+      "score": 0.9116328954696655,
+      "startFrame": 353,
+      "endFrame": 364
+    },
+    {
+      "word": "to",
+      "start": 12.14,
+      "end": 12.54,
+      "score": 0.9916451573371887,
+      "startFrame": 364,
+      "endFrame": 376
+    },
+    {
+      "word": "address",
+      "start": 12.54,
+      "end": 13.7,
+      "score": 0.9706361293792725,
+      "startFrame": 376,
+      "endFrame": 411
+    },
+    {
+      "word": "this",
+      "start": 13.7,
+      "end": 13.92,
+      "score": 0.8055126070976257,
+      "startFrame": 411,
+      "endFrame": 418
+    },
+    {
+      "word": "pathophysiology",
+      "start": 13.92,
+      "end": 14.64,
+      "score": 0.9877429803212484,
+      "startFrame": 418,
+      "endFrame": 439
+    },
+    {
+      "word": "of",
+      "start": 14.64,
+      "end": 14.84,
+      "score": 0.9959201812744141,
+      "startFrame": 439,
+      "endFrame": 445
+    },
+    {
+      "word": "PCOS",
+      "start": 14.84,
+      "end": 15.34,
+      "score": 0.9927667379379272,
+      "startFrame": 445,
+      "endFrame": 460
+    },
+    {
+      "word": "like",
+      "start": 15.34,
+      "end": 15.64,
+      "score": 0.711884617805481,
+      "startFrame": 460,
+      "endFrame": 469
+    },
+    {
+      "word": "calcium,",
+      "start": 15.64,
+      "end": 16.22,
+      "score": 0.6903586983680725,
+      "startFrame": 469,
+      "endFrame": 487
+    },
+    {
+      "word": "vitamin",
+      "start": 16.88,
+      "end": 17.18,
+      "score": 0.9329560399055481,
+      "startFrame": 506,
+      "endFrame": 515
+    },
+    {
+      "word": "D,",
+      "start": 17.18,
+      "end": 17.56,
+      "score": 0.9871246814727783,
+      "startFrame": 515,
+      "endFrame": 527
+    },
+    {
+      "word": "omega",
+      "start": 17.76,
+      "end": 17.98,
+      "score": 0.8214253783226013,
+      "startFrame": 533,
+      "endFrame": 539
+    },
+    {
+      "word": "-3",
+      "start": 17.98,
+      "end": 18.38,
+      "score": 0.7353440672159195,
+      "startFrame": 539,
+      "endFrame": 551
+    },
+    {
+      "word": "fatty",
+      "start": 18.38,
+      "end": 18.72,
+      "score": 0.9297122955322266,
+      "startFrame": 551,
+      "endFrame": 562
+    },
+    {
+      "word": "acids,",
+      "start": 18.72,
+      "end": 19.0,
+      "score": 0.8914888501167297,
+      "startFrame": 562,
+      "endFrame": 570
+    },
+    {
+      "word": "myo",
+      "start": 19.38,
+      "end": 19.58,
+      "score": 0.73382568359375,
+      "startFrame": 581,
+      "endFrame": 587
+    },
+    {
+      "word": "-enositol.",
+      "start": 19.58,
+      "end": 20.24,
+      "score": 0.7619180232286453,
+      "startFrame": 587,
+      "endFrame": 607
+    },
+    {
+      "word": "So,",
+      "start": 21.04,
+      "end": 21.22,
+      "score": 0.9795721173286438,
+      "startFrame": 631,
+      "endFrame": 637
+    },
+    {
+      "word": "what",
+      "start": 21.42,
+      "end": 21.7,
+      "score": 0.9912693500518799,
+      "startFrame": 643,
+      "endFrame": 651
+    },
+    {
+      "word": "I",
+      "start": 21.7,
+      "end": 22.02,
+      "score": 0.9961885809898376,
+      "startFrame": 651,
+      "endFrame": 661
+    },
+    {
+      "word": "suggest",
+      "start": 22.02,
+      "end": 22.42,
+      "score": 0.9821680784225464,
+      "startFrame": 661,
+      "endFrame": 673
+    },
+    {
+      "word": "is,",
+      "start": 22.42,
+      "end": 22.82,
+      "score": 0.9782298803329468,
+      "startFrame": 673,
+      "endFrame": 685
+    },
+    {
+      "word": "do",
+      "start": 23.14,
+      "end": 23.24,
+      "score": 0.9838617444038391,
+      "startFrame": 694,
+      "endFrame": 697
+    },
+    {
+      "word": "not",
+      "start": 23.24,
+      "end": 23.48,
+      "score": 0.9953727126121521,
+      "startFrame": 697,
+      "endFrame": 704
+    },
+    {
+      "word": "take",
+      "start": 23.48,
+      "end": 23.76,
+      "score": 0.9981460571289062,
+      "startFrame": 704,
+      "endFrame": 713
+    },
+    {
+      "word": "over",
+      "start": 23.76,
+      "end": 24.14,
+      "score": 0.9868070483207703,
+      "startFrame": 713,
+      "endFrame": 724
+    },
+    {
+      "word": "-the",
+      "start": 24.14,
+      "end": 24.34,
+      "score": 0.7960366010665894,
+      "startFrame": 724,
+      "endFrame": 730
+    },
+    {
+      "word": "-counter",
+      "start": 24.34,
+      "end": 24.68,
+      "score": 0.9868733882904053,
+      "startFrame": 730,
+      "endFrame": 740
+    },
+    {
+      "word": "supplements.",
+      "start": 24.68,
+      "end": 25.56,
+      "score": 0.9980460405349731,
+      "startFrame": 740,
+      "endFrame": 767
+    },
+    {
+      "word": "always",
+      "start": 25.56,
+      "end": 26.66,
+      "score": 0.2406548708677292,
+      "startFrame": 767,
+      "endFrame": 800
+    },
+    {
+      "word": "consult",
+      "start": 26.66,
+      "end": 27.24,
+      "score": 0.9977807402610779,
+      "startFrame": 800,
+      "endFrame": 817
+    },
+    {
+      "word": "your",
+      "start": 27.24,
+      "end": 27.5,
+      "score": 0.9899266958236694,
+      "startFrame": 817,
+      "endFrame": 825
+    },
+    {
+      "word": "physician",
+      "start": 27.5,
+      "end": 27.94,
+      "score": 0.9951574206352234,
+      "startFrame": 825,
+      "endFrame": 838
+    },
+    {
+      "word": "before",
+      "start": 27.94,
+      "end": 28.42,
+      "score": 0.9953553676605225,
+      "startFrame": 838,
+      "endFrame": 853
+    },
+    {
+      "word": "taking",
+      "start": 28.42,
+      "end": 28.8,
+      "score": 0.9966269731521606,
+      "startFrame": 853,
+      "endFrame": 864
+    },
+    {
+      "word": "any",
+      "start": 28.8,
+      "end": 29.14,
+      "score": 0.9977388381958008,
+      "startFrame": 864,
+      "endFrame": 874
+    },
+    {
+      "word": "supplements",
+      "start": 29.14,
+      "end": 29.62,
+      "score": 0.9787488579750061,
+      "startFrame": 874,
+      "endFrame": 889
+    },
+    {
+      "word": "and",
+      "start": 29.62,
+      "end": 30.62,
+      "score": 0.7283954620361328,
+      "startFrame": 889,
+      "endFrame": 919
+    },
+    {
+      "word": "also",
+      "start": 30.62,
+      "end": 30.94,
+      "score": 0.9944100975990295,
+      "startFrame": 919,
+      "endFrame": 928
+    },
+    {
+      "word": "look",
+      "start": 30.94,
+      "end": 31.22,
+      "score": 0.9776334166526794,
+      "startFrame": 928,
+      "endFrame": 937
+    },
+    {
+      "word": "for",
+      "start": 31.22,
+      "end": 31.46,
+      "score": 0.904063880443573,
+      "startFrame": 937,
+      "endFrame": 944
+    },
+    {
+      "word": "the",
+      "start": 31.46,
+      "end": 31.64,
+      "score": 0.9588078260421753,
+      "startFrame": 944,
+      "endFrame": 949
+    },
+    {
+      "word": "deficiencies",
+      "start": 31.64,
+      "end": 32.2,
+      "score": 0.9882175326347351,
+      "startFrame": 949,
+      "endFrame": 966
+    },
+    {
+      "word": "because",
+      "start": 32.2,
+      "end": 32.7,
+      "score": 0.8982757925987244,
+      "startFrame": 966,
+      "endFrame": 981
+    },
+    {
+      "word": "not",
+      "start": 32.7,
+      "end": 33.02,
+      "score": 0.9896554946899414,
+      "startFrame": 981,
+      "endFrame": 991
+    },
+    {
+      "word": "all",
+      "start": 33.02,
+      "end": 33.28,
+      "score": 0.9985730648040771,
+      "startFrame": 991,
+      "endFrame": 998
+    },
+    {
+      "word": "supplements",
+      "start": 33.28,
+      "end": 33.66,
+      "score": 0.9322564005851746,
+      "startFrame": 998,
+      "endFrame": 1010
+    },
+    {
+      "word": "is",
+      "start": 33.66,
+      "end": 33.96,
+      "score": 0.6675002574920654,
+      "startFrame": 1010,
+      "endFrame": 1019
+    },
+    {
+      "word": "required",
+      "start": 33.96,
+      "end": 34.32,
+      "score": 0.9988775849342346,
+      "startFrame": 1019,
+      "endFrame": 1030
+    },
+    {
+      "word": "without",
+      "start": 34.32,
+      "end": 34.72,
+      "score": 0.9976195693016052,
+      "startFrame": 1030,
+      "endFrame": 1042
+    },
+    {
+      "word": "deficiency.",
+      "start": 34.72,
+      "end": 35.22,
+      "score": 0.9707278609275818,
+      "startFrame": 1042,
+      "endFrame": 1057
+    }
+  ]
+}

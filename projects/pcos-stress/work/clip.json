@@ -1,0 +1,10 @@
+{
+  "clip": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-stress/inbox/pcos-stress.mp4",
+  "width": 2160,
+  "height": 3840,
+  "sourceFps": 50.0,
+  "durationSeconds": 24.746,
+  "frames30": 742,
+  "alignAudio": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-stress/work/align.wav",
+  "playbackAudio": "/Users/niranjan/IdeaProjects/kyros-video-editing/projects/pcos-stress/work/playback.m4a"
+}

@@ -15,7 +15,7 @@ kyros-doctor-reels skill, references/visuals.md.
 The doctor is the reel. A visual shows what she is saying on that beat, as
 realistically as possible, and it is a hazard like any burned-in graphic: it
 has a window and a rectangle, and the captions, plate, mark and doctor bubble
-answer to it. Generation runs through the claude-code-video-toolkit on Modal
+answer to it. Generation runs on Kyros's own Modal servers (infra/modal/)
 and only ever produces files; Remotion only ever plays them.
 
 Everything here is opt-in. A brief without an enabled `visuals` block never
@@ -31,8 +31,11 @@ import subprocess
 import sys
 import tempfile
 import time
+
 from datetime import datetime
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import modal_client  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FPS = 30
@@ -48,29 +51,62 @@ def ms(m):
 
 
 # ---- engines --------------------------------------------------------------
-# One entry per toolkit tool. The GPU is the one the toolkit's Modal app
-# actually requests (docker/modal-*/app.py) — the toolkit's own cost table
-# lists image_edit on an A10G, but the app asks for an A100-80GB — and the
-# rate is Modal's published per-second price for it.
+# One entry per model server. The GPU is the one the Modal app actually
+# requests (infra/modal/*_app.py) and the rate is Modal's published
+# per-second price for it. `model` is part of every request hash — change it
+# and every cached asset for that tool regenerates.
 TOOLS = {
-    "flux2": {"script": "tools/flux2.py", "app": "docker/modal-flux2/app.py",
+    "flux2": {"app": "infra/modal/flux2_app.py",
               "model": "black-forest-labs/FLUX.2-klein-4B", "label": "FLUX.2",
               "provider": "modal", "gpu": "A10G", "usdPerSec": 0.000306,
               "endpointEnv": "MODAL_FLUX2_ENDPOINT_URL", "kind": "image",
               "ext": "png", "typicalSec": (6, 45), "timeout": 900},
-    "image_edit": {"script": "tools/image_edit.py", "app": "docker/modal-image-edit/app.py",
+    "image_edit": {"app": "infra/modal/image_edit_app.py (not yet moved in)",
                    "model": "Qwen/Qwen-Image-Edit-2511", "label": "Qwen image edit",
                    "provider": "modal", "gpu": "A100-80GB", "usdPerSec": 0.000694,
                    "endpointEnv": "MODAL_IMAGE_EDIT_ENDPOINT_URL", "kind": "image",
                    "ext": "png", "typicalSec": (20, 420), "timeout": 1200},
-    "ltx2": {"script": "tools/ltx2.py", "app": "docker/modal-ltx2/app.py",
+    "ltx2": {"app": "infra/modal/ltx2_app.py",
              "model": "Lightricks/LTX-2.3-22B", "label": "LTX-2",
              "provider": "modal", "gpu": "A100-80GB", "usdPerSec": 0.000694,
              "endpointEnv": "MODAL_LTX2_ENDPOINT_URL", "kind": "video",
              "ext": "mp4", "typicalSec": (90, 360), "timeout": 1500},
+    # Challengers promoted 2026-09-17 after the side-by-side (bakeoff/2026-09-17):
+    # LTX-2.5 was ~30-40% cheaper warm at level quality -> the video default;
+    # Qwen-Image won on food and anatomy at ~15-30x FLUX's cost -> opt-in per visual.
+    "ltx25": {"app": "infra/modal/ltx25_app.py",
+              "model": "Lightricks/LTX-2.5-22B-distilled", "label": "LTX-2.5",
+              "provider": "modal", "gpu": "A100-80GB", "usdPerSec": 0.000694,
+              "endpointEnv": "MODAL_LTX25_ENDPOINT_URL", "kind": "video",
+              "ext": "mp4", "typicalSec": (60, 360), "timeout": 1500},
+    "qwen_image": {"app": "infra/modal/qwen_image_app.py",
+                   "model": "Qwen/Qwen-Image-2512", "label": "Qwen-Image",
+                   "provider": "modal", "gpu": "A100-80GB", "usdPerSec": 0.000694,
+                   "endpointEnv": "MODAL_QWEN_IMAGE_ENDPOINT_URL", "kind": "image",
+                   "ext": "png", "typicalSec": (80, 200), "timeout": 1200},
 }
 PRICE_SOURCE = "modal.com/pricing, 2026-09-11"
-MODE_TOOL = {"image": "flux2", "imageEdit": "image_edit", "video": "ltx2"}
+MODE_TOOL = {"image": "flux2", "imageEdit": "image_edit", "video": "ltx25"}
+# Which engines can serve each mode. A visual may pick one with `engine`; a
+# brief may set `visuals.engines: {mode: engine}`; otherwise MODE_TOOL decides.
+# The engine is part of the request hash, so reels made before a default
+# changed pin the engine they were generated with (visuals.engines) and keep
+# every cached asset.
+MODE_ENGINES = {"image": ("flux2", "qwen_image"), "imageEdit": ("image_edit",),
+                "video": ("ltx2", "ltx25")}
+
+
+def tool_for(v, engines=None):
+    """The engine a visual runs on: its own `engine`, then the brief's, then the default."""
+    mode = v.get("mode", "image")
+    for pick in (v.get("engine"), (engines or {}).get(mode)):
+        if pick in MODE_ENGINES.get(mode, ()):
+            return pick
+    return MODE_TOOL[mode]
+
+
+def engines_of(brief):
+    return ((brief or {}).get("visuals") or {}).get("engines") or {}
 MODES = ("graphic", "image", "imageEdit", "video")
 
 # ---- treatments and their budgets ------------------------------------------
@@ -298,10 +334,11 @@ def request_of(v, brief, project, siblings=None, words=None):
         or (words[-1]["endFrame"] + 30 if words else 0)
     secs = seconds_for(v, specs, words, vf) if v.get("mode") == "video" else None
     sib = siblings if siblings is not None else {b["id"]: b for b in beats_of(brief)}
-    return request_for(v, sib, project, quality_of(brief), secs)
+    return request_for(v, sib, project, quality_of(brief), secs, engines_of(brief))
 
 
-def request_for(v, siblings=None, project=None, quality=DEFAULT_QUALITY, seconds=None):
+def request_for(v, siblings=None, project=None, quality=DEFAULT_QUALITY, seconds=None,
+                engines=None):
     """Everything that determines the pixels, and nothing that doesn't. Beat,
     timing, treatment position and camera move are composition — they never
     change the request, so they never regenerate. (An HD video's length is
@@ -309,7 +346,7 @@ def request_for(v, siblings=None, project=None, quality=DEFAULT_QUALITY, seconds
     mode = v.get("mode", "image")
     if mode == "graphic":
         return None
-    tool = MODE_TOOL[mode]
+    tool = tool_for(v, engines)
     T = TOOLS[tool]
     w, h = gen_size(mode, v.get("treatment", "doctorBubble"), v.get("aspect"), quality)
     prompt = (v.get("prompt") or "").strip()
@@ -317,7 +354,7 @@ def request_for(v, siblings=None, project=None, quality=DEFAULT_QUALITY, seconds
            "negative": None, "width": w, "height": h,
            "seed": v["seed"] if v.get("seed") is not None else default_seed(prompt),
            "steps": v.get("steps"), "guidance": v.get("guidance"), "input": None}
-    if tool == "ltx2":
+    if tool in ("ltx2", "ltx25"):
         req["negative"] = (v.get("negative") or LTX_NEGATIVE).strip()
         if QUALITY[quality]["matchLength"]:
             req["numFrames"] = ltx_frames((v.get("seconds") or seconds or 5.0)
@@ -331,7 +368,8 @@ def request_for(v, siblings=None, project=None, quality=DEFAULT_QUALITY, seconds
     inp = v.get("input") or {}
     if inp.get("visual"):
         other = (siblings or {}).get(inp["visual"])
-        req["input"] = {"visual": request_hash(request_for(other, siblings, project, quality))
+        req["input"] = {"visual": request_hash(request_for(other, siblings, project, quality,
+                                                           engines=engines))
                         if other else inp["visual"]}
     elif inp.get("path"):
         p = Path(project or ".") / inp["path"]
@@ -445,6 +483,8 @@ def lint_graphic(g, said):
             out.append("a checklist holds 1–4 items")
         if any(len(str(i).split()) > 3 for i in items):
             out.append("checklist items are 1–3 words")
+        if g.get("listStyle") not in (None,) + LIST_STYLES:
+            out.append(f"listStyle must be one of {', '.join(LIST_STYLES)}")
     if g["type"] in ("counter", "ring") and not isinstance(g.get("value"), (int, float)):
         out.append(f"a {g['type']} needs a numeric value")
     if g["type"] == "frequency" and g.get("count") is None:
@@ -945,101 +985,32 @@ def find_cached(project, h, ext):
     return None, None
 
 
-def toolkit_commit(toolkit_dir):
+def infra_commit():
+    """The repo commit the servers were deployed from — recorded per asset."""
     try:
-        return subprocess.run(["git", "-C", str(toolkit_dir), "rev-parse", "--short", "HEAD"],
+        return subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--short", "HEAD"],
                               capture_output=True, text=True, timeout=10).stdout.strip() or None
     except Exception:
         return None
 
 
-def toolkit_argv(tool, req, out_path, toolkit_dir, input_path=None):
-    """The toolkit command for one request — always Modal, never another provider."""
-    T = TOOLS[tool]
-    argv = ["uv", "run", "--directory", str(toolkit_dir), "python", T["script"]]
-    if tool == "flux2":
-        argv += ["--prompt", req["prompt"], "--width", str(req["width"]),
-                 "--height", str(req["height"]), "--seed", str(req["seed"])]
-        if req.get("steps"):
-            argv += ["--steps", str(req["steps"])]
-        if req.get("guidance"):
-            argv += ["--guidance", str(req["guidance"])]
-        if input_path:
-            argv += ["--input", str(input_path)]
-    elif tool == "image_edit":
-        argv += ["--input", str(input_path), "--prompt", req["prompt"], "--seed", str(req["seed"])]
-        if req.get("negative"):
-            argv += ["--negative", req["negative"]]
-    elif tool == "ltx2":
-        argv += ["--prompt", req["prompt"], "--width", str(req["width"]),
-                 "--height", str(req["height"]), "--num-frames", str(req["numFrames"]),
-                 "--fps", str(req["fps"]), "--seed", str(req["seed"]),
-                 "--quality", req.get("quality", "standard"),
-                 "--negative-prompt", req["negative"]]
-        if req.get("steps"):
-            argv += ["--steps", str(req["steps"])]
-        if input_path:
-            argv += ["--input", str(input_path)]
-    return argv + ["--output", str(out_path), "--no-open", "--cloud", "modal",
-                   "--progress", "json"]
-
-
-def _read_env_file(p):
-    env = {}
-    if p.exists():
-        for line in p.read_text().splitlines():
-            line = line.strip()
-            if line and not line.startswith("#") and "=" in line:
-                k, v = line.split("=", 1)
-                env[k.strip()] = v.strip().strip('"').strip("'")
-    return env
-
-
-class ToolkitRunner:
-    """Runs one request through claude-code-video-toolkit on Modal."""
-
-    def __init__(self, toolkit_dir=None):
-        self.dir = Path(toolkit_dir or os.environ.get("KYROS_TOOLKIT_DIR")
-                        or ROOT.parent / "claude-code-video-toolkit")
+class ModalRunner:
+    """Runs one request against Kyros's own Modal server for that tool."""
 
     def available(self, tool):
         T = TOOLS[tool]
         key = T["endpointEnv"]
-        if not (os.environ.get(key) or _read_env_file(self.dir / ".env").get(key)):
-            return False, (f"{key} is not set. In the toolkit ({self.dir}) run "
-                           f"`uv run modal deploy {T['app']}` and put the printed URL in "
-                           f"its .env as {key}=… (or run /setup there).")
-        if not (self.dir / T["script"]).exists():
-            return False, f"the toolkit is not at {self.dir} — clone it there or set KYROS_TOOLKIT_DIR"
-        if not shutil.which("uv"):
-            return False, "uv is not installed (brew install uv)"
+        if not modal_client.endpoint(key):
+            return False, (f"{key} is not set. Deploy the server with "
+                           f"`modal deploy {T['app']}` and put the printed URL in "
+                           f"infra/modal/.env as {key}=…")
         return True, ""
 
     def run(self, tool, request, out_path, input_path=None):
-        argv = toolkit_argv(tool, request, out_path, self.dir, input_path)
-        t0 = time.time()
-        try:
-            p = subprocess.run(argv, capture_output=True, text=True, timeout=TOOLS[tool]["timeout"])
-        except subprocess.TimeoutExpired:
-            return {"ok": False, "elapsedSec": time.time() - t0,
-                    "error": f"timed out after {TOOLS[tool]['timeout']}s"}
-        elapsed = time.time() - t0
-        out = Path(out_path)
-        ok = p.returncode == 0 and out.exists() and out.stat().st_size > 0
-        err = None
-        if not ok:
-            msgs = []
-            for line in (p.stderr or "").splitlines():
-                try:
-                    rec = json.loads(line)
-                    if rec.get("stage") == "error":
-                        msgs.append(rec.get("msg", ""))
-                except ValueError:
-                    pass
-            tail = [l for l in ((p.stdout or "") + "\n" + (p.stderr or "")).splitlines() if l.strip()]
-            err = (msgs[-1] if msgs else " | ".join(tail[-3:]) or
-                   f"exit {p.returncode}, no output file")
-        return {"ok": ok, "elapsedSec": elapsed, "error": err}
+        T = TOOLS[tool]
+        res = modal_client.generate(tool, request, out_path, T["endpointEnv"],
+                                    T["timeout"], input_path=input_path)
+        return {"ok": res["ok"], "elapsedSec": res["elapsedSec"], "error": res["error"]}
 
 
 def _cost(tool, elapsed):
@@ -1059,7 +1030,7 @@ def generate(project, runner=None, only=None, retry=False, log=print):
     """Generate every approved, missing asset. Returns a summary. Failures are
     recorded and never raise — the reel builds without that visual."""
     project = Path(project)
-    runner = runner or ToolkitRunner()
+    runner = runner or ModalRunner()
     brief = load_brief(project)
     beats = beats_of(brief)
     siblings = {b["id"]: b for b in beats}
@@ -1069,7 +1040,7 @@ def generate(project, runner=None, only=None, retry=False, log=print):
          "skipped": 0, "costUsd": 0.0, "failedUpperUsd": 0.0}
     m.setdefault("ledger", [])
     out_dir = ai_dir(project)
-    commit = toolkit_commit(getattr(runner, "dir", "")) if getattr(runner, "dir", None) else None
+    commit = infra_commit()
 
     for v in _order(beats):
         vid = v["id"]
@@ -1207,7 +1178,7 @@ def generate(project, runner=None, only=None, retry=False, log=print):
                 "elapsedSec": round(elapsed, 2), "costEstimateUsd": cost, "costBasis": basis,
                 "durationSec": info.get("durationSec") if T["kind"] == "video" else None,
                 "outputSize": [info.get("width"), info.get("height")],
-                "toolkitCommit": commit, "status": "complete"}
+                "infraCommit": commit, "status": "complete"}
         target.with_suffix(".json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
         m["items"][vid] = {"status": "complete", "kind": T["kind"], "requestHash": h,
                            "file": f"assets/ai/{target.name}", "reused": False,
@@ -1351,16 +1322,41 @@ def _zone_box(layout, zone):
     return (0, z["top"], WIDTH, z["top"] + z["height"])
 
 
-def _item_frames(g, said_words, a, b):
-    """Checklist ticks land as she names each item."""
+LIST_STYLES = ("ticks", "numbered", "bars", "pills")   # graphic.listStyle; rotate between reels
+
+
+def _item_frames(g, said_words, a, b, words=None):
+    """Checklist ticks land as she names each item.
+
+    `graphic.itemWords` (one transcript word index per item) pins the moment
+    outright. Otherwise the first word of each label is matched loosely —
+    letters only, either one a prefix of the other, 3+ letters — because
+    whisper splits and respells: 'reduce' for REDUCES, 'myo' + '-enositol'
+    for MYO-INOSITOL. The strict 5-letter match missed both on
+    pcos-glp1-medications / pcos-supplements and the fallback frames landed
+    out of order. A word said just before the card opens still counts."""
     items = g.get("items") or []
-    frames = []
-    for i, label in enumerate(items):
-        key = str(label).split()[0].lower()[:5]
-        hit = next((w["startFrame"] for w in said_words
-                    if w["word"].lower().strip(",.?").startswith(key)
-                    and w["startFrame"] >= (frames[-1] if frames else a)), None)
-        frames.append(hit if hit is not None else a + FADE_FRAMES + i * ms(450))
+    pinned = g.get("itemWords")
+    if words and isinstance(pinned, list) and len(pinned) == len(items):
+        frames = [words[i]["startFrame"] for i in pinned]
+    else:
+        def norm(t):
+            return re.sub(r"[^a-z]", "", str(t).lower())
+        lead_in = ms(900)
+        frames = []
+        for i, label in enumerate(items):
+            key = norm(str(label).split()[0])
+            floor = frames[-1] + 1 if frames else a - lead_in
+            hit = None
+            for w in (words or said_words):
+                wn = norm(w["word"])
+                if w["startFrame"] < floor or w["startFrame"] >= b or len(wn) < 3 or len(key) < 3:
+                    continue
+                if key.startswith(wn) or wn.startswith(key):
+                    hit = w["startFrame"]
+                    break
+            prev = frames[-1] if frames else a
+            frames.append(hit if hit is not None else max(prev + ms(450), a + FADE_FRAMES + i * ms(450)))
     return [min(max(x, a + FADE_FRAMES // 2), b - FADE_FRAMES) for x in frames]
 
 
@@ -1418,7 +1414,7 @@ def finish_for_build(vplan, *, brief, chunks, layout, M, card, palette, logo, lo
                 g.update(ground=card["bg"], groundOpacity=1.0, ink=card["key"],
                          accent=card["key"], text=card["lead"], texture=card.get("texture"))
             if g.get("type") == "checklist":
-                g["itemFrames"] = _item_frames(g, said, a, b)
+                g["itemFrames"] = _item_frames(g, said, a, b, words)
             it["graphic"] = g
 
         if it["treatment"] in ("doctorBubble", "listBuild"):
@@ -1477,7 +1473,12 @@ def finish_for_build(vplan, *, brief, chunks, layout, M, card, palette, logo, lo
                       tile=list(tiles[k]), index=k, count=len(mem),
                       settleFrame=max(a + 6, settle), tileFrames=LIST_TILE_FRAMES,
                       ground=card["bg"], labelColor=card["lead"], accent=card["key"],
-                      texture=card.get("texture"), showLabels=bool(it.get("label")))
+                      texture=card.get("texture"), showLabels=bool(it.get("label")),
+                      # "grid" (default): items settle into tiles and hold together.
+                      # "cuts": one item at a time, big, on its own word — for lists
+                      # whose items arrive too close together to share a grid
+                      # (pcos-gut-health: five foods in 6s read as congested).
+                      listLayout=it.get("listLayout") or vis.get("listLayout") or "grid")
 
         if it["treatment"] in FULL_FRAME:
             if it["kind"] == "graphic":
@@ -1705,7 +1706,7 @@ def plan_text(project):
             if probs:
                 body.append("PROBLEM: " + "; ".join(probs))
         else:
-            tool = MODE_TOOL[mode]
+            tool = tool_for(v, engines_of(brief))
             T = TOOLS[tool]
             findings = lint_prompt(v.get("prompt"))
             kind = {"image": "AI IMAGE", "imageEdit": "AI IMAGE EDIT", "video": "AI VIDEO"}[mode]
@@ -1806,7 +1807,7 @@ def summary_text(project):
         f"Reused cached assets: {reused}",
         f"Failed: {failed}",
         f"Estimated GPU generation cost: ${spent:.4f}  (estimate — wall-clock × Modal's "
-        f"per-second GPU rate; real charges: `uv run modal billing report` in the toolkit)",
+        f"per-second GPU rate; real charges: `modal billing report`)",
     ]
     if wasted:
         lines.append(f"Failed calls: up to ${wasted:.4f} more (upper bound — mostly time "

@@ -1,0 +1,52 @@
+{
+  "assetId": "t1-99b68fba130b",
+  "file": "t1-99b68fba130b.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A textbook 3D medical cross-section block of the belly wall, cut straight through and seen from the side like a layered slice: a thin pale skin layer on top, a thick soft yellow layer of subcutaneous fat beneath it, then a band of red muscle below, square composition, clean educational render, soft studio lighting on a plain deep teal background, clearly an anatomical illustration.",
+  "negative": null,
+  "width": 768,
+  "height": 768,
+  "seed": 1014478166,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "99b68fba130b06b7f921fc95d92c206c4a1d1a8680cc37b78486031bdbd47f06",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A textbook 3D medical cross-section block of the belly wall, cut straight through and seen from the side like a layered slice: a thin pale skin layer on top, a thick soft yellow layer of subcutaneous fat beneath it, then a band of red muscle below, square composition, clean educational render, soft studio lighting on a plain deep teal background, clearly an anatomical illustration.",
+    "negative": null,
+    "width": 768,
+    "height": 768,
+    "seed": 1014478166,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "t1"
+  ],
+  "sourceBeats": [
+    2
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "listBuild",
+  "why": "'subcutaneous fat'",
+  "says": "subcutaneous fat and visceral fat. Visceral fat is the fat",
+  "createdAt": "2026-09-17T10:34:19",
+  "elapsedSec": 5.09,
+  "costEstimateUsd": 0.001559,
+  "costBasis": "estimate: 5.1s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    768,
+    768
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

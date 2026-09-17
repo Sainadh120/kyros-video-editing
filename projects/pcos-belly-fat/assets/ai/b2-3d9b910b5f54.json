@@ -1,0 +1,55 @@
+{
+  "assetId": "b2-3d9b910b5f54",
+  "file": "b2-3d9b910b5f54.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "An Indian woman in her thirties in a cotton kurta sits on a low stool at her front door in soft morning light and ties the laces of her walking shoes, then stands up ready to head out. The camera holds at a medium-wide distance at seated eye level. Warm natural light, realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+  "width": 1024,
+  "height": 576,
+  "seed": 792228661,
+  "numFrames": 89,
+  "fps": 24,
+  "input": null,
+  "requestHash": "3d9b910b5f54ccff3ca11d95ce73a67c6d74722cd384ed9cdf25b9a166c1a276",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "An Indian woman in her thirties in a cotton kurta sits on a low stool at her front door in soft morning light and ties the laces of her walking shoes, then stands up ready to head out. The camera holds at a medium-wide distance at seated eye level. Warm natural light, realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted anatomy, extra fingers, blurry, low quality, text, watermark, logo, cartoon",
+    "width": 1024,
+    "height": 576,
+    "seed": 792228661,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 89,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "b2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "inset",
+  "why": "context b-roll (approved 2026-09-17): 'must address this fat' — a quiet start to the day; no result, no number",
+  "says": "any women with PCOS must address this fat before",
+  "createdAt": "2026-09-17T10:39:18",
+  "elapsedSec": 126.35,
+  "costEstimateUsd": 0.087685,
+  "costBasis": "estimate: 126.3s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 3.708333,
+  "outputSize": [
+    1024,
+    576
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

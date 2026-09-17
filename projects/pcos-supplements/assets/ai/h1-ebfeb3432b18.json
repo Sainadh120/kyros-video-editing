@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-ebfeb3432b18",
+  "file": "h1-ebfeb3432b18.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A small clear glass dish holding a few plain amber softgel capsules and plain white round tablets on a light marble kitchen counter beside a glass of water, seen from a slight high angle, bright airy morning window light. Vertical 9:16 frame with calm open space in the upper third. Shot on a 50mm lens, shallow depth of field, clean documentary photograph, true-to-life colour, every surface smooth and blank.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1148819691,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "ebfeb3432b18e6ccaae9f7f76b3cf203b9b23bfd555e80f7cb6cfe304fb4e4a8",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A small clear glass dish holding a few plain amber softgel capsules and plain white round tablets on a light marble kitchen counter beside a glass of water, seen from a slight high angle, bright airy morning window light. Vertical 9:16 frame with calm open space in the upper third. Shot on a 50mm lens, shallow depth of field, clean documentary photograph, true-to-life colour, every surface smooth and blank.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1148819691,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-supplements",
+  "treatment": "hookBackdrop",
+  "why": "'what supplements' — open on the thing the question asks about",
+  "says": "And Nam, what supplements can PCOS",
+  "createdAt": "2026-09-17T03:34:34",
+  "elapsedSec": 9.95,
+  "costEstimateUsd": 0.003043,
+  "costBasis": "estimate: 9.9s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

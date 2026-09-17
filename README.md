@@ -134,7 +134,7 @@ python3 scripts/reels.py visuals <slug> --approve all   # then --generate, then 
 She shrinks into a corner bubble while a picture fills the frame and pops
 back after, or a card sits on the bare wall above her head while she stays
 full-frame. Every visual is placed against the same hazards as the captions.
-Generation runs on Modal through the video toolkit, is cached, and never
+Generation runs on our own Modal servers (`infra/modal/`), is cached, and never
 blocks the reel — a visual that fails is left out. No `visuals` block, no
 change. Setup and details: `docs/VISUALS.md`.
 

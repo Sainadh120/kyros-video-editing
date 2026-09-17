@@ -1,0 +1,52 @@
+{
+  "assetId": "v2-70c423249d51",
+  "file": "v2-70c423249d51.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "Medical textbook 3D illustration of the human abdomen in a clean side cross-section: a thin even yellow layer of fat just under the skin, and larger soft yellow fat deposits packed deep inside around the liver, stomach and intestines, organs in natural muted pinks and reds, soft studio lighting on a plain dark teal background. Vertical 9:16 frame with calm empty space in the upper third. Scientifically accurate anatomy, clearly an educational illustration.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1745684462,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "70c423249d51f9d6be17ff50e43c9061c1246b743cee91b3ab9416307da3e203",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "Medical textbook 3D illustration of the human abdomen in a clean side cross-section: a thin even yellow layer of fat just under the skin, and larger soft yellow fat deposits packed deep inside around the liver, stomach and intestines, organs in natural muted pinks and reds, soft studio lighting on a plain dark teal background. Vertical 9:16 frame with calm empty space in the upper third. Scientifically accurate anatomy, clearly an educational illustration.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1745684462,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v2"
+  ],
+  "sourceBeats": [
+    4
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "doctorBubble",
+  "why": "'fat around the organs like spleen, liver' — visceral fat is the point and cannot be shown any other way; drop after two failed tries (pcos-blood-tests lesson)",
+  "says": "around the organs like spleen, liver, etc.",
+  "createdAt": "2026-09-17T03:35:30",
+  "elapsedSec": 7.03,
+  "costEstimateUsd": 0.002152,
+  "costBasis": "estimate: 7.0s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

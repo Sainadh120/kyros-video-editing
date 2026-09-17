@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-98fdf7fdd931",
+  "file": "h1-98fdf7fdd931.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "An Indian woman of average build in her early thirties, in a cotton kurta over fitted trousers, stands beside her bed and tugs at the waistband button of her trousers that feels a little tight, seen from the side at mid-body with her face out of frame, soft natural daylight from a bedroom window. Vertical 9:16 frame with a calm plain wall in the upper third. Shot on a 50mm lens, candid documentary photograph, modest framing, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1763154659,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "98fdf7fdd931fb06e13882a8e91419361d24458b945a65af58c788a00b73b94a",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "An Indian woman of average build in her early thirties, in a cotton kurta over fitted trousers, stands beside her bed and tugs at the waistband button of her trousers that feels a little tight, seen from the side at mid-body with her face out of frame, soft natural daylight from a bedroom window. Vertical 9:16 frame with a calm plain wall in the upper third. Shot on a 50mm lens, candid documentary photograph, modest framing, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1763154659,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-belly-fat",
+  "treatment": "hookBackdrop",
+  "why": "'why should women with PCOS care about belly fat' — the everyday moment, modestly, no body close-up",
+  "says": "Doctor, why should women with PCOS care about",
+  "createdAt": "2026-09-17T03:37:31",
+  "elapsedSec": 10.33,
+  "costEstimateUsd": 0.003161,
+  "costBasis": "estimate: 10.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

@@ -1,0 +1,52 @@
+{
+  "assetId": "h1-bf2c7e0b7567",
+  "file": "h1-bf2c7e0b7567.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A thick white prefilled injection pen, the size of a large marker, with a rounded grey cap at one end and a chunky round push button at the other, lying on a clean light stone countertop beside a glass of water, warm golden late-afternoon window light, low side angle with shallow depth of field. Vertical 9:16 frame with calm open wall in the upper third. Shot on a 50mm lens, clean documentary photograph, true-to-life colour, the pen smooth, matte and completely blank.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 1362236936,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "bf2c7e0b7567379818d3ddd9adb013c550ba6072cc142c4e60c38abaec8c2bf1",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A thick white prefilled injection pen, the size of a large marker, with a rounded grey cap at one end and a chunky round push button at the other, lying on a clean light stone countertop beside a glass of water, warm golden late-afternoon window light, low side angle with shallow depth of field. Vertical 9:16 frame with calm open wall in the upper third. Shot on a 50mm lens, clean documentary photograph, true-to-life colour, the pen smooth, matte and completely blank.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 1362236936,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "h1"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-glp1-medications",
+  "treatment": "hookBackdrop",
+  "why": "'the role of GLP-1 medications' — the medicine class itself, shown plain and unbranded",
+  "says": "Doctor, what is the role of GLP -1",
+  "createdAt": "2026-09-17T03:36:39",
+  "elapsedSec": 8.68,
+  "costEstimateUsd": 0.002657,
+  "costBasis": "estimate: 8.7s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

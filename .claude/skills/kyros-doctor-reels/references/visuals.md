@@ -337,6 +337,7 @@ always has.
 | `motion` | `pushIn` (default), `pullOut`, `panLeft`, `panRight`, `none` | stills only; composition, not generation — changing it never regenerates |
 | `input` | `{"visual": "v2"}` or `{"path": "assets/ref/x.jpg"}` | image-to-video / edit source |
 | `seed` | int | change it to get a different take of the same prompt |
+| `engine` | `flux2` (default), `qwen_image` · `ltx25` (default), `ltx2` | which model serves it. Use `qwen_image` for **food and anatomy** stills — it won both in the 2026-09-17 side-by-side (real idli texture, textbook tissue layers) — but it costs ~$0.06 and ~85s per image against FLUX's ~$0.003 and ~10s, and it followed a "face out of frame" instruction worse, so people shots stay on FLUX. A brief can set `visuals.engines: {"image": …, "video": …}` for every visual; a visual's own `engine` wins |
 | `status` | `proposed`, `approved`, `rejected` | `approve` stamps `approvedHash`; editing the prompt afterwards needs approval again |
 
 ## Workflow
@@ -365,17 +366,24 @@ Reject and re-prompt anything that fails; the old file is kept.
 
 ## Modal, cost, cache, failure
 
-- Generation runs through the toolkit at `../claude-code-video-toolkit`
-  (override with `KYROS_TOOLKIT_DIR`), always `--cloud modal`. Endpoints come
-  from the toolkit's `.env`: `MODAL_FLUX2_ENDPOINT_URL`,
-  `MODAL_IMAGE_EDIT_ENDPOINT_URL`, `MODAL_LTX2_ENDPOINT_URL`. A missing one
+- Generation runs on Kyros's own Modal servers in `infra/modal/` (owned in this
+  repo since 2026-09-17, model revisions pinned), called by
+  `scripts/modal_client.py`. Endpoints come from `infra/modal/.env`
+  (gitignored): `MODAL_FLUX2_ENDPOINT_URL`, `MODAL_LTX2_ENDPOINT_URL`
+  (`MODAL_IMAGE_EDIT_ENDPOINT_URL` once that server moves in). A missing one
   fails that visual fast and names the variable. There is no fallback to
   another provider.
+- Engines (2026-09-17 side-by-side, `bakeoff/2026-09-17/results.json`): video
+  defaults to **LTX-2.5** distilled + Gemma 4 — ~30–40% cheaper warm than
+  LTX-2.3 (~$0.05 vs ~$0.076 a clip) at level quality, but a ~6 min cold
+  start. Reels generated before the switch pin `visuals.engines.video: ltx2`
+  so their cached clips stay valid — never remove that pin. Images default to
+  FLUX.2; `engine: qwen_image` per visual for food and anatomy.
 - Cost is an **estimate**: seconds the call took × Modal's published
   per-second rate for the GPU that app runs on (A10G $0.000306/s for FLUX.2;
   A100-80GB $0.000694/s for LTX-2 and image edit). Cold starts are included,
   so the first call of a session costs more. Real charges:
-  `uv run modal billing report --for today --json` in the toolkit.
+  `modal billing report --for today --json`.
 - Assets live in `projects/<slug>/assets/ai/<id>-<hash12>.<ext>` with a JSON
   sidecar (model, prompt, seed, beat, why, cost, time). The hash covers only
   what changes pixels — model, prompt, negative, size, frames, seed, input.

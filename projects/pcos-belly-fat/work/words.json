@@ -1,0 +1,614 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Doctor,",
+      "start": 0.0,
+      "end": 0.34,
+      "score": 0.6685414910316467,
+      "startFrame": 0,
+      "endFrame": 10
+    },
+    {
+      "word": "why",
+      "start": 0.86,
+      "end": 0.94,
+      "score": 0.8703481554985046,
+      "startFrame": 26,
+      "endFrame": 28
+    },
+    {
+      "word": "should",
+      "start": 0.94,
+      "end": 1.12,
+      "score": 0.9863916635513306,
+      "startFrame": 28,
+      "endFrame": 34
+    },
+    {
+      "word": "women",
+      "start": 1.12,
+      "end": 1.34,
+      "score": 0.973583996295929,
+      "startFrame": 34,
+      "endFrame": 40
+    },
+    {
+      "word": "with",
+      "start": 1.34,
+      "end": 1.64,
+      "score": 0.994134247303009,
+      "startFrame": 40,
+      "endFrame": 49
+    },
+    {
+      "word": "PCOS",
+      "start": 1.64,
+      "end": 2.26,
+      "score": 0.9785577654838562,
+      "startFrame": 49,
+      "endFrame": 68
+    },
+    {
+      "word": "care",
+      "start": 2.26,
+      "end": 2.54,
+      "score": 0.9826448559761047,
+      "startFrame": 68,
+      "endFrame": 76
+    },
+    {
+      "word": "about",
+      "start": 2.54,
+      "end": 2.86,
+      "score": 0.990275502204895,
+      "startFrame": 76,
+      "endFrame": 86
+    },
+    {
+      "word": "belly",
+      "start": 2.86,
+      "end": 3.08,
+      "score": 0.8782063722610474,
+      "startFrame": 86,
+      "endFrame": 92
+    },
+    {
+      "word": "fat?",
+      "start": 3.08,
+      "end": 3.44,
+      "score": 0.9945594668388367,
+      "startFrame": 92,
+      "endFrame": 103
+    },
+    {
+      "word": "So",
+      "start": 5.12,
+      "end": 5.24,
+      "score": 0.7159722447395325,
+      "startFrame": 154,
+      "endFrame": 157
+    },
+    {
+      "word": "fat",
+      "start": 5.24,
+      "end": 5.66,
+      "score": 0.6897411942481995,
+      "startFrame": 157,
+      "endFrame": 170
+    },
+    {
+      "word": "is",
+      "start": 5.66,
+      "end": 5.92,
+      "score": 0.9899040460586548,
+      "startFrame": 170,
+      "endFrame": 178
+    },
+    {
+      "word": "of",
+      "start": 5.92,
+      "end": 6.06,
+      "score": 0.9704605937004089,
+      "startFrame": 178,
+      "endFrame": 182
+    },
+    {
+      "word": "two",
+      "start": 6.06,
+      "end": 6.26,
+      "score": 0.8902496695518494,
+      "startFrame": 182,
+      "endFrame": 188
+    },
+    {
+      "word": "types,",
+      "start": 6.26,
+      "end": 6.68,
+      "score": 0.9888262748718262,
+      "startFrame": 188,
+      "endFrame": 200
+    },
+    {
+      "word": "subcutaneous",
+      "start": 7.04,
+      "end": 7.56,
+      "score": 0.7745581765969595,
+      "startFrame": 211,
+      "endFrame": 227
+    },
+    {
+      "word": "fat",
+      "start": 7.56,
+      "end": 7.82,
+      "score": 0.9869634509086609,
+      "startFrame": 227,
+      "endFrame": 235
+    },
+    {
+      "word": "and",
+      "start": 7.82,
+      "end": 8.04,
+      "score": 0.9746390581130981,
+      "startFrame": 235,
+      "endFrame": 241
+    },
+    {
+      "word": "visceral",
+      "start": 8.04,
+      "end": 8.32,
+      "score": 0.9392783045768738,
+      "startFrame": 241,
+      "endFrame": 250
+    },
+    {
+      "word": "fat.",
+      "start": 8.32,
+      "end": 8.64,
+      "score": 0.9980248212814331,
+      "startFrame": 250,
+      "endFrame": 259
+    },
+    {
+      "word": "Visceral",
+      "start": 8.88,
+      "end": 9.08,
+      "score": 0.8177769382794698,
+      "startFrame": 266,
+      "endFrame": 272
+    },
+    {
+      "word": "fat",
+      "start": 9.08,
+      "end": 9.34,
+      "score": 0.9851673245429993,
+      "startFrame": 272,
+      "endFrame": 280
+    },
+    {
+      "word": "is",
+      "start": 9.34,
+      "end": 9.56,
+      "score": 0.993901252746582,
+      "startFrame": 280,
+      "endFrame": 287
+    },
+    {
+      "word": "the",
+      "start": 9.56,
+      "end": 9.7,
+      "score": 0.8968839645385742,
+      "startFrame": 287,
+      "endFrame": 291
+    },
+    {
+      "word": "fat",
+      "start": 9.7,
+      "end": 9.88,
+      "score": 0.9979031085968018,
+      "startFrame": 291,
+      "endFrame": 296
+    },
+    {
+      "word": "that",
+      "start": 9.88,
+      "end": 10.06,
+      "score": 0.9734349846839905,
+      "startFrame": 296,
+      "endFrame": 302
+    },
+    {
+      "word": "is",
+      "start": 10.06,
+      "end": 10.2,
+      "score": 0.9949794411659241,
+      "startFrame": 302,
+      "endFrame": 306
+    },
+    {
+      "word": "present",
+      "start": 10.2,
+      "end": 10.48,
+      "score": 0.9956979751586914,
+      "startFrame": 306,
+      "endFrame": 314
+    },
+    {
+      "word": "in",
+      "start": 10.48,
+      "end": 10.74,
+      "score": 0.9954394698143005,
+      "startFrame": 314,
+      "endFrame": 322
+    },
+    {
+      "word": "our",
+      "start": 10.74,
+      "end": 10.94,
+      "score": 0.9635837078094482,
+      "startFrame": 322,
+      "endFrame": 328
+    },
+    {
+      "word": "belly",
+      "start": 10.94,
+      "end": 11.3,
+      "score": 0.9993020296096802,
+      "startFrame": 328,
+      "endFrame": 339
+    },
+    {
+      "word": "and",
+      "start": 11.3,
+      "end": 11.94,
+      "score": 0.871986985206604,
+      "startFrame": 339,
+      "endFrame": 358
+    },
+    {
+      "word": "around",
+      "start": 11.94,
+      "end": 12.32,
+      "score": 0.9960858821868896,
+      "startFrame": 358,
+      "endFrame": 370
+    },
+    {
+      "word": "the",
+      "start": 12.32,
+      "end": 12.5,
+      "score": 0.9597871899604797,
+      "startFrame": 370,
+      "endFrame": 375
+    },
+    {
+      "word": "organs",
+      "start": 12.5,
+      "end": 12.88,
+      "score": 0.9917722344398499,
+      "startFrame": 375,
+      "endFrame": 386
+    },
+    {
+      "word": "like",
+      "start": 12.88,
+      "end": 13.16,
+      "score": 0.9006985425949097,
+      "startFrame": 386,
+      "endFrame": 395
+    },
+    {
+      "word": "spleen,",
+      "start": 13.16,
+      "end": 13.68,
+      "score": 0.9850591123104095,
+      "startFrame": 395,
+      "endFrame": 410
+    },
+    {
+      "word": "liver,",
+      "start": 13.88,
+      "end": 14.2,
+      "score": 0.9843347668647766,
+      "startFrame": 416,
+      "endFrame": 426
+    },
+    {
+      "word": "etc.",
+      "start": 14.36,
+      "end": 14.66,
+      "score": 0.9639788866043091,
+      "startFrame": 431,
+      "endFrame": 440
+    },
+    {
+      "word": "And",
+      "start": 15.2,
+      "end": 15.34,
+      "score": 0.8032070994377136,
+      "startFrame": 456,
+      "endFrame": 460
+    },
+    {
+      "word": "this",
+      "start": 15.34,
+      "end": 15.64,
+      "score": 0.9935537576675415,
+      "startFrame": 460,
+      "endFrame": 469
+    },
+    {
+      "word": "fat",
+      "start": 15.64,
+      "end": 15.9,
+      "score": 0.9983208775520325,
+      "startFrame": 469,
+      "endFrame": 477
+    },
+    {
+      "word": "is",
+      "start": 15.9,
+      "end": 16.08,
+      "score": 0.998330295085907,
+      "startFrame": 477,
+      "endFrame": 482
+    },
+    {
+      "word": "very",
+      "start": 16.08,
+      "end": 16.36,
+      "score": 0.9936488270759583,
+      "startFrame": 482,
+      "endFrame": 491
+    },
+    {
+      "word": "dangerous.",
+      "start": 16.36,
+      "end": 16.82,
+      "score": 0.9993417859077454,
+      "startFrame": 491,
+      "endFrame": 505
+    },
+    {
+      "word": "This",
+      "start": 17.16,
+      "end": 17.18,
+      "score": 0.8753594160079956,
+      "startFrame": 515,
+      "endFrame": 515
+    },
+    {
+      "word": "is",
+      "start": 17.18,
+      "end": 17.36,
+      "score": 0.982203483581543,
+      "startFrame": 515,
+      "endFrame": 521
+    },
+    {
+      "word": "mainly,",
+      "start": 17.36,
+      "end": 17.7,
+      "score": 0.9671956896781921,
+      "startFrame": 521,
+      "endFrame": 531
+    },
+    {
+      "word": "it",
+      "start": 18.06,
+      "end": 18.3,
+      "score": 0.9761919975280762,
+      "startFrame": 542,
+      "endFrame": 549
+    },
+    {
+      "word": "is",
+      "start": 18.3,
+      "end": 18.46,
+      "score": 0.9953078627586365,
+      "startFrame": 549,
+      "endFrame": 554
+    },
+    {
+      "word": "responsible",
+      "start": 18.46,
+      "end": 18.88,
+      "score": 0.9972322583198547,
+      "startFrame": 554,
+      "endFrame": 566
+    },
+    {
+      "word": "for",
+      "start": 18.88,
+      "end": 19.38,
+      "score": 0.9981216788291931,
+      "startFrame": 566,
+      "endFrame": 581
+    },
+    {
+      "word": "all",
+      "start": 19.38,
+      "end": 19.74,
+      "score": 0.9959638118743896,
+      "startFrame": 581,
+      "endFrame": 592
+    },
+    {
+      "word": "the",
+      "start": 19.74,
+      "end": 20.02,
+      "score": 0.9917377829551697,
+      "startFrame": 592,
+      "endFrame": 601
+    },
+    {
+      "word": "heart",
+      "start": 20.02,
+      "end": 20.92,
+      "score": 0.9761638045310974,
+      "startFrame": 601,
+      "endFrame": 628
+    },
+    {
+      "word": "stroke,",
+      "start": 20.92,
+      "end": 21.26,
+      "score": 0.8595938682556152,
+      "startFrame": 628,
+      "endFrame": 638
+    },
+    {
+      "word": "cardiac",
+      "start": 21.4,
+      "end": 21.82,
+      "score": 0.9898305535316467,
+      "startFrame": 642,
+      "endFrame": 655
+    },
+    {
+      "word": "problems,",
+      "start": 21.82,
+      "end": 22.42,
+      "score": 0.9867329001426697,
+      "startFrame": 655,
+      "endFrame": 673
+    },
+    {
+      "word": "diabetes,",
+      "start": 22.86,
+      "end": 23.12,
+      "score": 0.8553022742271423,
+      "startFrame": 686,
+      "endFrame": 694
+    },
+    {
+      "word": "etc.",
+      "start": 23.12,
+      "end": 23.6,
+      "score": 0.9923100471496582,
+      "startFrame": 694,
+      "endFrame": 708
+    },
+    {
+      "word": "So",
+      "start": 24.08,
+      "end": 24.32,
+      "score": 0.977659285068512,
+      "startFrame": 722,
+      "endFrame": 730
+    },
+    {
+      "word": "any",
+      "start": 24.32,
+      "end": 24.68,
+      "score": 0.8647813200950623,
+      "startFrame": 730,
+      "endFrame": 740
+    },
+    {
+      "word": "women",
+      "start": 24.68,
+      "end": 25.0,
+      "score": 0.6301248073577881,
+      "startFrame": 740,
+      "endFrame": 750
+    },
+    {
+      "word": "with",
+      "start": 25.0,
+      "end": 25.22,
+      "score": 0.9914241433143616,
+      "startFrame": 750,
+      "endFrame": 757
+    },
+    {
+      "word": "PCOS",
+      "start": 25.22,
+      "end": 25.64,
+      "score": 0.9960810840129852,
+      "startFrame": 757,
+      "endFrame": 769
+    },
+    {
+      "word": "must",
+      "start": 25.64,
+      "end": 26.1,
+      "score": 0.9745060801506042,
+      "startFrame": 769,
+      "endFrame": 783
+    },
+    {
+      "word": "address",
+      "start": 26.1,
+      "end": 26.6,
+      "score": 0.9946604371070862,
+      "startFrame": 783,
+      "endFrame": 798
+    },
+    {
+      "word": "this",
+      "start": 26.6,
+      "end": 26.86,
+      "score": 0.9964897036552429,
+      "startFrame": 798,
+      "endFrame": 806
+    },
+    {
+      "word": "fat",
+      "start": 26.86,
+      "end": 27.28,
+      "score": 0.991759717464447,
+      "startFrame": 806,
+      "endFrame": 818
+    },
+    {
+      "word": "before",
+      "start": 27.28,
+      "end": 28.08,
+      "score": 0.9816068410873413,
+      "startFrame": 818,
+      "endFrame": 842
+    },
+    {
+      "word": "proceeding",
+      "start": 28.08,
+      "end": 28.6,
+      "score": 0.9984943866729736,
+      "startFrame": 842,
+      "endFrame": 858
+    },
+    {
+      "word": "to",
+      "start": 28.6,
+      "end": 28.88,
+      "score": 0.9957858920097351,
+      "startFrame": 858,
+      "endFrame": 866
+    },
+    {
+      "word": "other",
+      "start": 28.88,
+      "end": 29.12,
+      "score": 0.9975066781044006,
+      "startFrame": 866,
+      "endFrame": 874
+    },
+    {
+      "word": "treatments.",
+      "start": 29.12,
+      "end": 29.56,
+      "score": 0.993539035320282,
+      "startFrame": 874,
+      "endFrame": 887
+    },
+    {
+      "word": "You",
+      "start": 30.0,
+      "end": 30.02,
+      "score": 0.016859930008649826,
+      "startFrame": 900,
+      "endFrame": 901
+    }
+  ]
+}

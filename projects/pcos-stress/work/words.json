@@ -1,0 +1,478 @@
+{
+  "backend": "faster-whisper",
+  "fps": 30,
+  "words": [
+    {
+      "word": "Doctor,",
+      "start": 0.0,
+      "end": 0.72,
+      "score": 0.38563576340675354,
+      "startFrame": 0,
+      "endFrame": 22
+    },
+    {
+      "word": "can",
+      "start": 1.14,
+      "end": 1.24,
+      "score": 0.9472706317901611,
+      "startFrame": 34,
+      "endFrame": 37
+    },
+    {
+      "word": "stress",
+      "start": 1.24,
+      "end": 1.56,
+      "score": 0.8883339762687683,
+      "startFrame": 37,
+      "endFrame": 47
+    },
+    {
+      "word": "affect",
+      "start": 1.56,
+      "end": 1.94,
+      "score": 0.9310418367385864,
+      "startFrame": 47,
+      "endFrame": 58
+    },
+    {
+      "word": "PCOS",
+      "start": 1.94,
+      "end": 2.52,
+      "score": 0.9607552886009216,
+      "startFrame": 58,
+      "endFrame": 76
+    },
+    {
+      "word": "patients?",
+      "start": 2.52,
+      "end": 2.9,
+      "score": 0.9954208731651306,
+      "startFrame": 76,
+      "endFrame": 87
+    },
+    {
+      "word": "Yes.",
+      "start": 4.0,
+      "end": 4.24,
+      "score": 0.9718598127365112,
+      "startFrame": 120,
+      "endFrame": 127
+    },
+    {
+      "word": "Stress",
+      "start": 5.2,
+      "end": 5.2,
+      "score": 0.9921116828918457,
+      "startFrame": 156,
+      "endFrame": 156
+    },
+    {
+      "word": "again",
+      "start": 5.2,
+      "end": 5.66,
+      "score": 0.9326635003089905,
+      "startFrame": 156,
+      "endFrame": 170
+    },
+    {
+      "word": "plays",
+      "start": 5.66,
+      "end": 5.92,
+      "score": 0.9592510461807251,
+      "startFrame": 170,
+      "endFrame": 178
+    },
+    {
+      "word": "a",
+      "start": 5.92,
+      "end": 6.12,
+      "score": 0.9784281849861145,
+      "startFrame": 178,
+      "endFrame": 184
+    },
+    {
+      "word": "very",
+      "start": 6.12,
+      "end": 6.32,
+      "score": 0.9899168610572815,
+      "startFrame": 184,
+      "endFrame": 190
+    },
+    {
+      "word": "important",
+      "start": 6.32,
+      "end": 6.7,
+      "score": 0.9946316480636597,
+      "startFrame": 190,
+      "endFrame": 201
+    },
+    {
+      "word": "role",
+      "start": 6.7,
+      "end": 7.06,
+      "score": 0.9973336458206177,
+      "startFrame": 201,
+      "endFrame": 212
+    },
+    {
+      "word": "in",
+      "start": 7.06,
+      "end": 7.32,
+      "score": 0.986179769039154,
+      "startFrame": 212,
+      "endFrame": 220
+    },
+    {
+      "word": "any",
+      "start": 7.32,
+      "end": 7.6,
+      "score": 0.9926754832267761,
+      "startFrame": 220,
+      "endFrame": 228
+    },
+    {
+      "word": "woman",
+      "start": 7.6,
+      "end": 7.92,
+      "score": 0.6331241726875305,
+      "startFrame": 228,
+      "endFrame": 238
+    },
+    {
+      "word": "who",
+      "start": 7.92,
+      "end": 8.26,
+      "score": 0.972235918045044,
+      "startFrame": 238,
+      "endFrame": 248
+    },
+    {
+      "word": "have",
+      "start": 8.26,
+      "end": 8.5,
+      "score": 0.5440455079078674,
+      "startFrame": 248,
+      "endFrame": 255
+    },
+    {
+      "word": "hormone",
+      "start": 8.5,
+      "end": 8.98,
+      "score": 0.8771249651908875,
+      "startFrame": 255,
+      "endFrame": 269
+    },
+    {
+      "word": "imbalance.",
+      "start": 8.98,
+      "end": 9.48,
+      "score": 0.9580082893371582,
+      "startFrame": 269,
+      "endFrame": 284
+    },
+    {
+      "word": "Stress",
+      "start": 10.44,
+      "end": 10.54,
+      "score": 0.9967995882034302,
+      "startFrame": 313,
+      "endFrame": 316
+    },
+    {
+      "word": "will",
+      "start": 10.54,
+      "end": 10.82,
+      "score": 0.9883499145507812,
+      "startFrame": 316,
+      "endFrame": 325
+    },
+    {
+      "word": "increase",
+      "start": 10.82,
+      "end": 11.12,
+      "score": 0.9893061518669128,
+      "startFrame": 325,
+      "endFrame": 334
+    },
+    {
+      "word": "the",
+      "start": 11.12,
+      "end": 11.7,
+      "score": 0.7334808707237244,
+      "startFrame": 334,
+      "endFrame": 351
+    },
+    {
+      "word": "cortisol",
+      "start": 11.7,
+      "end": 11.7,
+      "score": 0.993111252784729,
+      "startFrame": 351,
+      "endFrame": 351
+    },
+    {
+      "word": "level.",
+      "start": 11.7,
+      "end": 11.98,
+      "score": 0.9778539538383484,
+      "startFrame": 351,
+      "endFrame": 359
+    },
+    {
+      "word": "Cortisol",
+      "start": 12.34,
+      "end": 12.68,
+      "score": 0.9785175025463104,
+      "startFrame": 370,
+      "endFrame": 380
+    },
+    {
+      "word": "itself",
+      "start": 12.68,
+      "end": 13.12,
+      "score": 0.9045925736427307,
+      "startFrame": 380,
+      "endFrame": 394
+    },
+    {
+      "word": "worsens",
+      "start": 13.12,
+      "end": 13.62,
+      "score": 0.9583990275859833,
+      "startFrame": 394,
+      "endFrame": 409
+    },
+    {
+      "word": "the",
+      "start": 13.62,
+      "end": 13.86,
+      "score": 0.8738642930984497,
+      "startFrame": 409,
+      "endFrame": 416
+    },
+    {
+      "word": "insulin",
+      "start": 13.86,
+      "end": 14.2,
+      "score": 0.9994889497756958,
+      "startFrame": 416,
+      "endFrame": 426
+    },
+    {
+      "word": "resistance.",
+      "start": 14.2,
+      "end": 14.62,
+      "score": 0.9936860203742981,
+      "startFrame": 426,
+      "endFrame": 439
+    },
+    {
+      "word": "It",
+      "start": 15.22,
+      "end": 15.48,
+      "score": 0.9886507987976074,
+      "startFrame": 457,
+      "endFrame": 464
+    },
+    {
+      "word": "increases",
+      "start": 15.48,
+      "end": 15.9,
+      "score": 0.9908507466316223,
+      "startFrame": 464,
+      "endFrame": 477
+    },
+    {
+      "word": "the",
+      "start": 15.9,
+      "end": 16.18,
+      "score": 0.9751144051551819,
+      "startFrame": 477,
+      "endFrame": 485
+    },
+    {
+      "word": "belly",
+      "start": 16.18,
+      "end": 16.44,
+      "score": 0.9927846193313599,
+      "startFrame": 485,
+      "endFrame": 493
+    },
+    {
+      "word": "fat.",
+      "start": 16.44,
+      "end": 16.82,
+      "score": 0.9953587651252747,
+      "startFrame": 493,
+      "endFrame": 505
+    },
+    {
+      "word": "It",
+      "start": 17.22,
+      "end": 17.42,
+      "score": 0.9859785437583923,
+      "startFrame": 517,
+      "endFrame": 523
+    },
+    {
+      "word": "worsens",
+      "start": 17.42,
+      "end": 18.16,
+      "score": 0.993597000837326,
+      "startFrame": 523,
+      "endFrame": 545
+    },
+    {
+      "word": "the",
+      "start": 18.16,
+      "end": 18.36,
+      "score": 0.9971850514411926,
+      "startFrame": 545,
+      "endFrame": 551
+    },
+    {
+      "word": "hormones.",
+      "start": 18.36,
+      "end": 18.76,
+      "score": 0.9852729439735413,
+      "startFrame": 551,
+      "endFrame": 563
+    },
+    {
+      "word": "So,",
+      "start": 19.32,
+      "end": 19.36,
+      "score": 0.9853319525718689,
+      "startFrame": 580,
+      "endFrame": 581
+    },
+    {
+      "word": "any",
+      "start": 19.42,
+      "end": 19.68,
+      "score": 0.9968414306640625,
+      "startFrame": 583,
+      "endFrame": 590
+    },
+    {
+      "word": "woman",
+      "start": 19.68,
+      "end": 19.98,
+      "score": 0.8838833570480347,
+      "startFrame": 590,
+      "endFrame": 599
+    },
+    {
+      "word": "should",
+      "start": 19.98,
+      "end": 20.24,
+      "score": 0.9971312284469604,
+      "startFrame": 599,
+      "endFrame": 607
+    },
+    {
+      "word": "always",
+      "start": 20.24,
+      "end": 20.82,
+      "score": 0.9826542735099792,
+      "startFrame": 607,
+      "endFrame": 625
+    },
+    {
+      "word": "keep",
+      "start": 20.82,
+      "end": 21.4,
+      "score": 0.996160626411438,
+      "startFrame": 625,
+      "endFrame": 642
+    },
+    {
+      "word": "their",
+      "start": 21.4,
+      "end": 21.6,
+      "score": 0.9155709743499756,
+      "startFrame": 642,
+      "endFrame": 648
+    },
+    {
+      "word": "stress",
+      "start": 21.6,
+      "end": 21.9,
+      "score": 0.9990077614784241,
+      "startFrame": 648,
+      "endFrame": 657
+    },
+    {
+      "word": "under",
+      "start": 21.9,
+      "end": 22.2,
+      "score": 0.9978353381156921,
+      "startFrame": 657,
+      "endFrame": 666
+    },
+    {
+      "word": "control",
+      "start": 22.2,
+      "end": 22.6,
+      "score": 0.9981054067611694,
+      "startFrame": 666,
+      "endFrame": 678
+    },
+    {
+      "word": "in",
+      "start": 22.6,
+      "end": 22.84,
+      "score": 0.9194589853286743,
+      "startFrame": 678,
+      "endFrame": 685
+    },
+    {
+      "word": "order",
+      "start": 22.84,
+      "end": 22.98,
+      "score": 0.9876480102539062,
+      "startFrame": 685,
+      "endFrame": 689
+    },
+    {
+      "word": "to",
+      "start": 22.98,
+      "end": 23.26,
+      "score": 0.9975672960281372,
+      "startFrame": 689,
+      "endFrame": 698
+    },
+    {
+      "word": "have",
+      "start": 23.26,
+      "end": 23.5,
+      "score": 0.9980000853538513,
+      "startFrame": 698,
+      "endFrame": 705
+    },
+    {
+      "word": "good",
+      "start": 23.5,
+      "end": 23.8,
+      "score": 0.986428439617157,
+      "startFrame": 705,
+      "endFrame": 714
+    },
+    {
+      "word": "hormone",
+      "start": 23.8,
+      "end": 24.22,
+      "score": 0.9819685816764832,
+      "startFrame": 714,
+      "endFrame": 727
+    },
+    {
+      "word": "health.",
+      "start": 24.22,
+      "end": 24.54,
+      "score": 0.9906830787658691,
+      "startFrame": 727,
+      "endFrame": 736
+    }
+  ]
+}

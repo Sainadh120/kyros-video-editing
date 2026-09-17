@@ -1,0 +1,55 @@
+{
+  "assetId": "h2-28ef30a8fbef",
+  "file": "h2-28ef30a8fbef.mp4",
+  "type": "video",
+  "provider": "modal",
+  "tool": "ltx2",
+  "model": "Lightricks/LTX-2.3-22B",
+  "gpu": "A100-80GB",
+  "prompt": "An Indian woman in her thirties wearing a long-sleeved cotton kurta with a dupatta over her shoulders stands at an apartment window at night, city lights softly blurred outside. She raises one hand and slowly rubs her forehead, eyes closed, then lets out a tired breath and lowers her hand. The camera holds at a medium distance slightly to her side, so her profile and hand are clearly visible. Cool blue night light from the window and a faint warm lamp behind her. Realistic, natural motion, true-to-life colour.",
+  "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+  "width": 576,
+  "height": 1024,
+  "seed": 1468517329,
+  "numFrames": 65,
+  "fps": 24,
+  "input": null,
+  "requestHash": "28ef30a8fbef98717d840227913b5fc6f8e3dcffaca5665cce882153ae15387a",
+  "request": {
+    "tool": "ltx2",
+    "model": "Lightricks/LTX-2.3-22B",
+    "mode": "video",
+    "prompt": "An Indian woman in her thirties wearing a long-sleeved cotton kurta with a dupatta over her shoulders stands at an apartment window at night, city lights softly blurred outside. She raises one hand and slowly rubs her forehead, eyes closed, then lets out a tired breath and lowers her hand. The camera holds at a medium distance slightly to her side, so her profile and hand are clearly visible. Cool blue night light from the window and a faint warm lamp behind her. Realistic, natural motion, true-to-life colour.",
+    "negative": "flickering, jitter, warping, distorted limbs, extra fingers, blurry, low quality, text, watermark, logo, label, cartoon",
+    "width": 576,
+    "height": 1024,
+    "seed": 1468517329,
+    "steps": null,
+    "guidance": null,
+    "input": null,
+    "numFrames": 65,
+    "fps": 24,
+    "quality": "standard"
+  },
+  "visualIds": [
+    "h2"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-stress",
+  "treatment": "hookBackdrop",
+  "why": "'affect PCOS patients?' — the weight of stress, motion is the breath",
+  "says": "PCOS patients?",
+  "createdAt": "2026-09-17T04:42:32",
+  "elapsedSec": 96.45,
+  "costEstimateUsd": 0.066936,
+  "costBasis": "estimate: 96.5s wall-clock × $0.000694/s (A100-80GB, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": 2.708333,
+  "outputSize": [
+    576,
+    1024
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}

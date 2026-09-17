@@ -1,0 +1,52 @@
+{
+  "assetId": "v3-e04aa1b4a56d",
+  "file": "v3-e04aa1b4a56d.png",
+  "type": "image",
+  "provider": "modal",
+  "tool": "flux2",
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "gpu": "A10G",
+  "prompt": "A gloved hand holds up a single bare transparent glass blood sample tube with a red cap against a softly blurred bright laboratory window, the tube smooth and completely unprinted, bright airy light. Vertical 9:16 frame with calm open space in the upper third. Realistic documentary photograph, true-to-life colour.",
+  "negative": null,
+  "width": 720,
+  "height": 1280,
+  "seed": 619538322,
+  "numFrames": null,
+  "fps": null,
+  "input": null,
+  "requestHash": "e04aa1b4a56d67c8abd93d0b405fd7330b51742f6fcc3cee2b0ca6510bc469eb",
+  "request": {
+    "tool": "flux2",
+    "model": "black-forest-labs/FLUX.2-klein-4B",
+    "mode": "image",
+    "prompt": "A gloved hand holds up a single bare transparent glass blood sample tube with a red cap against a softly blurred bright laboratory window, the tube smooth and completely unprinted, bright airy light. Vertical 9:16 frame with calm open space in the upper third. Realistic documentary photograph, true-to-life colour.",
+    "negative": null,
+    "width": 720,
+    "height": 1280,
+    "seed": 619538322,
+    "steps": null,
+    "guidance": null,
+    "input": null
+  },
+  "visualIds": [
+    "v3"
+  ],
+  "sourceBeats": [
+    null
+  ],
+  "slug": "pcos-supplements",
+  "treatment": "doctorBubble",
+  "why": "'look for the deficiencies' — testing is the act, never a result",
+  "says": "also look for the deficiencies because not all supplements",
+  "createdAt": "2026-09-17T03:34:49",
+  "elapsedSec": 6.28,
+  "costEstimateUsd": 0.001922,
+  "costBasis": "estimate: 6.3s wall-clock × $0.000306/s (A10G, modal.com/pricing, 2026-09-11); includes cold start and transfer, excludes region multipliers",
+  "durationSec": null,
+  "outputSize": [
+    720,
+    1280
+  ],
+  "toolkitCommit": "225c80a",
+  "status": "complete"
+}
